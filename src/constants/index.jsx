@@ -438,7 +438,7 @@ export const navItems = [
   { name: "Contact Us", href: "/contactus" },
 ];
 
-
+const gaisURL = "https://www.gais2024.com/"
 export const footerItems = [
  
   {
@@ -454,11 +454,11 @@ export const footerItems = [
   {
     title: "AI Summit",
     items: [
-      { text: "GAIS", link: "" },
-      { text: "Conferences", link: "" },
-      { text: "Award Ceremony", link: "" },
-      { text: "Investors Meet", link: "" },
-      { text: "Tickets", link: "" },
+      { text: "GAIS", link: `${gaisURL}` },
+      { text: "Conferences", link: `${gaisURL}/conference`} ,
+      { text: "Award Ceremony", link:  `${gaisURL}/award`},
+      { text: "Investors Meet", link:`${gaisURL}/meet`},
+      { text: "Tickets", link: `${gaisURL}/ticket` },
     ],
   },
   {
