@@ -40,7 +40,7 @@ const Experinces = () => {
             <div className="md:w-2/3 md:flex flex-wrap justify-start items-center">
               <ul className="list-decimal pt-5">
                 {experinces.subHead2List.map((list, index) => (
-                  <li className="md:text-lg" key={index}>
+                  <li className="text-lg" key={index}>
                     {list.list}
                   </li>
                 ))}
