@@ -67,11 +67,7 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                        <div className="flex space-x-6 m-5">
-                            <Link to='/ticket' className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
-                                Get Tickets
-                            </Link>
-                        </div>
+
                     </div>
                 )}
             </div>
