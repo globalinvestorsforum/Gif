@@ -5,19 +5,19 @@ export const contactus = [
     name: "Attend",
     desc: "To request an invitation to attend a GIF Summit event, please send a request to us    ",
     buttonName: "Request Invite",
-    link: "",
+    link: "mailto:info@global-investors-forum.com",
   },
   {
     name: "Press",
     desc: "For all press inquiries, please email our PR team here",
     buttonName: "Email PR team",
-    link: "",
+    link: "mailto:info@global-investors-forum.com",
   },
   {
     name: "Partnership & Sponsorship Enquiries",
     desc: "To know more on the sponsorship packages please write to our team ",
     buttonName: "Send a Request",
-    link: "",
+    link: "#contactform",
   },
 ];
 

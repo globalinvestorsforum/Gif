@@ -1,7 +1,6 @@
 import React from 'react'
 import { contactus } from '../../constants'
 import { FaArrowDown } from "react-icons/fa";
-import { Link } from 'react-router-dom'
 
 const Types = () => {
   return (
@@ -18,14 +17,14 @@ const Types = () => {
           >
             <h3 className="text-2xl font-bold w-72">{item.name}</h3>
             <p className="md:w-96 text-lg">{item.desc}</p>
-              <Link
-                to={item.link}
+              <a
+                href={item.link}
                 className=" w-52  md:w-64 mt-5 flex justify-center items-center border border-black p-2   hover:text-white hover:bg-black"
               >
                 <span className="flex justify-center gap-3 items-center ">
                   {item.buttonName} <FaArrowDown />
                 </span>
-              </Link>
+              </a>
           </div>
         ))}
         <div></div>
