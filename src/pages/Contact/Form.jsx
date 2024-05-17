@@ -73,7 +73,7 @@ export default function Form() {
   };
 
   return (
-    <div className="flex w-full items-center justify-center bg-cover #contactform"
+    <div className="flex w-full items-center justify-center bg-cover " id="contactform"
     style={{
         backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FContact%2Fcontact.jpg?alt=media&token=618919c0-8990-4294-83e2-f2c65e389251)`,
       }}>
