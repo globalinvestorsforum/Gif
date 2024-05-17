@@ -9,7 +9,7 @@ const Experinces = () => {
         <h1 className="text-2xl md:text-5xl text-blue-950 font-bold tracking-wide ">
           {experinces.heading}
         </h1>
-        <p className="text-lg md:text-xl pt-5">{experinces.disc}</p>
+        <p className="md:text-lg pt-5">{experinces.disc}</p>
         <div className="pt-10">
           <h1 className="text-blue-950 text-xl  md:text-2xl font-bold">
             {experinces.subheading1}
@@ -40,7 +40,7 @@ const Experinces = () => {
             <div className="md:w-2/3 md:flex flex-wrap justify-start items-center">
               <ul className="list-decimal pt-5">
                 {experinces.subHead2List.map((list, index) => (
-                  <li className="text-lg" key={index}>
+                  <li className="md:text-lg" key={index}>
                     {list.list}
                   </li>
                 ))}
@@ -49,7 +49,7 @@ const Experinces = () => {
           </div>
         </div>
         <div className="py-10">
-            <p className="text-lg">{experinces.lastpara}</p>
+            <p className="md:text-lg">{experinces.lastpara}</p>
         </div>
       </div>
     </section>

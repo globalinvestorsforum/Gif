@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className='lg:w-2/5'>
                     <img src={whoweare.hero.imgURL} alt="" />
                 </div >
-                <div className='lg:w-3/5 flex items-center  text-lg justify-center'>
+                <div className='lg:w-3/5 flex items-center  md:text-lg justify-center'>
                     <div>
                     {para.map((para, index) => (
                         <p className='pt-5' key={index}>{para.p}</p>
