@@ -151,16 +151,16 @@ export const whatweproduce = {
         "Global Artificial Intelligence Summit (GAIS) is the world's largest iconic platform that brings together the all leading AI businesses, Innovators, Consultancies, most desirable startups, several government agencies, investors, decision makers, technologists, academia, thought leaders and several associations - to stimulate the industry growth, change the investment landscape and share the practically proven innovative ideas. GAIS will have participants from 55+ countries that represents a wide range of industries includes food and agriculture, energy and manufacturing, financial services, healthcare, and transportation and logistics that offers an exclusive opportunity to directly hear from the senior leaders and C-suite speakers about industry leading solutions and interact with them in person.",
       objectivelist: [
         {
-          content: "Spark a Global AI Revolution.",
+          content: "Accelerates AI innovation and adoption."
         },
         {
-          content: "Shape the Future of AI Responsible Development.",
+          content: "Influences AI governance and regulations.",
         },
         {
-          content: "Connect the World's Leading Minds in AI.",
+          content: "Drives economic growth through AI-driven industries.",
         },
         {
-          content: "Empower Individuals and Businesses through AI.",
+          content: "Catalyzes AI-driven economic growth and transformation.",
         },
         {
           content: "Catalyze a Sustainable Future with AI",
@@ -465,7 +465,7 @@ export const footerItems = [
     title: "Links",
     items: [
       { text: "Blog", link: "#" },
-      { text: "Press", link: "#" },
+      { text: "Press", link: "mailto:info@global-investors-forum.com" },
       { text: "Careers", link: "#" },
     ],
   },
