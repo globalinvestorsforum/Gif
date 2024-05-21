@@ -29,7 +29,7 @@ const ContactCard = () => {
               </p>
             </Reveal>
           </div>
-          <RevealRight width="">
+          <Reveal width="">
             <div className="md:text-end pt-3 md:pt-10 md:pe-20 text-center">
               <Link
                 to={"/contactus"}
@@ -38,7 +38,7 @@ const ContactCard = () => {
                 CONTACT US
               </Link>
             </div>
-          </RevealRight>
+          </Reveal>
         </div>
       </div>
     </section>
