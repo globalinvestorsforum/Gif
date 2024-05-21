@@ -14,12 +14,12 @@ const Numbers = () => {
           <div className="p-5 pt-20 md:text-center ">
             <div className="md:flex flex-wrap    w-full ">
               <div className="md:w-1/2  font-bold md:text-6xl text-4xl ">
-                {counterOn && <CountUp start={0} end={45} duration={2} />}%
+                {counterOn && <span><CountUp start={0} end={45} duration={2} />%</span>}
                 <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                 <p className="text-xl  md:text-2xl md:pt-4">C-SUITE ATTENDANCE.</p>
               </div>
               <div className="md:w-1/2 pt-10 md:p-0 font-bold md:text-6xl text-4xl">
-                {counterOn && <CountUp start={0} end={90} duration={2} />}+
+                {counterOn && <span><CountUp start={0} end={90} duration={2} />+</span>}
                 <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                 <p className="text-xl  md:text-2xl  md:pt-4">
                 CITIES WITH GLOBAL PRESENCE.
@@ -35,7 +35,7 @@ const Numbers = () => {
                 </p>
               </div>
               <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-6xl text-4xl">
-                {counterOn && <CountUp start={0} end={40} duration={3} />}+
+                {counterOn && <span><CountUp start={0} end={40} duration={3} />+</span>}
                 <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                 <p className="text-xl  md:text-2xl md:pt-4">
                   INDUSTRIES BEING FACILITATED.
