@@ -13,6 +13,8 @@ import {
   Membership,
   WhoWeAre,
   Contact,
+  Terms,
+  Privacy
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -26,6 +28,8 @@ const router = createBrowserRouter(
       <Route path="/membership" element={<Membership />} />
       <Route path="/whoweare" element={<WhoWeAre />} />
       <Route path="/contactus" element={<Contact />} />
+      <Route path="/terms" element={<Terms/>} />
+      <Route path="/privacy" element={<Privacy/>} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )
