@@ -18,14 +18,11 @@ export default function Form() {
     if (!email.trim()) {
       errors.email = "Email is required";
     }
-    if (!job.trim()) {
-      errors.job = "Job title is required";
+    if (!designation.trim()) {
+      errors.designation = "Designation is required";
     }
-    if (!company.trim()) {
-      errors.company = "Company name is required";
-    }
-    if (!city.trim()) {
-      errors.city = "City name is required";
+    if (!organization.trim()) {
+      errors.organization = "Organization name is required";
     }
     setErrors(errors);
     return Object.keys(errors).length === 0;
@@ -44,9 +41,9 @@ export default function Form() {
     const templateParams = {
       name: name,
       email: email,
-      job: job,
-      company: company,
-      city: city,
+      designation: designation,
+      organization: organization,
+      message: message,
     };
 
     try {
@@ -64,11 +61,10 @@ export default function Form() {
     } finally {
       setName("");
       setEmail("");
-      setJob("");
-      setCompany("");
-      setCity("");
+      setDesignation("");
+      setOrganization("");
+      setMessage("");
       setIsSubmitting(false);
-      setCaptchaKey(Date.now());
     }
   };
 
