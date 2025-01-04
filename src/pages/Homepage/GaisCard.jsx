@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Reveal } from "../../utils/Reveal";
 import { RevealLeft } from "../../utils/RevealLeft";
 
@@ -24,12 +25,12 @@ const GaisCard = () => {
 
         <div className="pt-10  ">
           <RevealLeft width="">
-            <a
-              href="http://gais2024.com/"
+            <Link
+              to={"/gais"}
               className="border border-blue-950 bg-transparent p-3 text-blue-950 font-bold hover:bg-neutral-600"
             >
               EXPLORE MORE
-            </a>
+            </Link>
           </RevealLeft>
         </div>
       </div>
