@@ -14,7 +14,14 @@ import {
   WhoWeAre,
   Contact,
   Terms,
-  Privacy
+  Privacy,
+  Award,
+  Gais,
+  Meet,
+  Ticket,
+  Conference,
+  // NotFound,
+  Carrier
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -30,6 +37,14 @@ const router = createBrowserRouter(
       <Route path="/contactus" element={<Contact />} />
       <Route path="/terms" element={<Terms/>} />
       <Route path="/privacy" element={<Privacy/>} />
+      <Route path="/gais" element={<Gais />} />
+      <Route path="/gais/award" element={<Award />} />
+      <Route path="/gais/contact" element={<Contact />} />
+      <Route path="/gais/meet" element={<Meet />} />
+      <Route path="/gais/ticket" element={<Ticket />} />
+      <Route path="/gais/conference" element={<Conference />} />
+      <Route path="/gais/carrier" element={<Carrier />} />
+
       <Route path="*" element={<NotFound />} />
     </Route>
   )
