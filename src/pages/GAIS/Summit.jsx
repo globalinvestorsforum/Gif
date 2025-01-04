@@ -60,7 +60,7 @@ const Summit = () => {
             </RevealLeft>
             <div className="md:text-7xl text-6xl  md:px-12 py-5">
               <Reveal>
-                <Link to={"/conference"}>
+                <Link to={"/gais/conference"}>
                   <FaArrowAltCircleRight className="fill-black" />
                 </Link>
               </Reveal>
@@ -108,7 +108,7 @@ const Summit = () => {
             <div className="flex">
               <div className="md:text-7xl text-6xl md:px-12 p-5 ">
                 <Reveal>
-                  <Link to={"/award"}>
+                  <Link to={"/gais/award"}>
                     <FaArrowAltCircleRight className="fill-black" />
                   </Link>
                 </Reveal>
@@ -155,7 +155,7 @@ const Summit = () => {
             </RevealLeft>
             <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
               <Reveal>
-                <Link to={"/meet"}>
+                <Link to={"/gais/meet"}>
                   <FaArrowAltCircleRight className="fill-black" />
                 </Link>
               </Reveal>
