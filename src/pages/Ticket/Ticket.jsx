@@ -1,10 +1,14 @@
 import React from "react";
 import MyForm from "./MyForm";
+import TicketPage from "./TicketPage";
 import { Reveal } from "../../utils/Reveal";
 
 const Ticket = () => {
   return (
     <div className="bg-gradient-to-r text-center from-orange-500 to-purple-600 h-full w-full min-h-[500px]">
+      
+      <TicketPage/>
+      
       <Reveal width="">
         <div className="md:text-5xl text-2xl pt-10 font-bold">
           Get Notified When Registration is Open!
