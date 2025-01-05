@@ -20,6 +20,7 @@ import {
   Meet,
   Ticket,
   Conference,
+  Registration,
   // NotFound,
   Carrier
 } from "./pages/index";
@@ -44,6 +45,7 @@ const router = createBrowserRouter(
       <Route path="/gais/ticket" element={<Ticket />} />
       <Route path="/gais/conference" element={<Conference />} />
       <Route path="/gais/carrier" element={<Carrier />} />
+      <Route path="/gais/Registration" element={<Registration />} />
 
       <Route path="*" element={<NotFound />} />
     </Route>
