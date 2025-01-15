@@ -12,6 +12,7 @@ const Hero = () => {
         />
       </div>
       <div className="w-full lg:w-1/2 md:p-20 px-4 py-5">
+        <Reveal>
         <div className=" ">
           <h1 className="text-3xl md:text-5xl text-blue-950 font-extrabold animate-slidein [--slidein-delay:300ms]  opacity-1">
             {heading}
@@ -26,6 +27,7 @@ const Hero = () => {
             {p2}
           </p>
         </div>
+        </Reveal>
       </div>
     </section>
   );

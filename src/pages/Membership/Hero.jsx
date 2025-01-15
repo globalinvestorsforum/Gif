@@ -15,6 +15,7 @@ const Hero = () => {
       <div className="flex-wrap md:flex ">
         <div className="md:w-3/5 flex justify-center items-center ">
           <div className="md:w-full lg:px-52 p-10 ">
+            <Reveal>
             <h1 className="text-3xl  md:text-5xl font-extrabold text-white animate-slidein [--slidein-delay:300ms]  opacity-1 ">
               {heading}
             </h1>
@@ -24,6 +25,7 @@ const Hero = () => {
             <p className="text-lg pt-5 md:w-[80%] animate-slidein [--slidein-delay:500ms]  opacity-1 ">
               {smallheading}
             </p>
+            </Reveal>
           </div>
         </div>
         <div className="md:w-2/5">
