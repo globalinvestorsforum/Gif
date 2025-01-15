@@ -1,137 +1,424 @@
-import { React, useRef, useEffect } from "react";
-import { benefitListAwardPage, selectionListAwardPage } from "../../constants";
-import { Link } from "react-router-dom";
-import {motion} from 'framer-motion'
-import { Reveal } from "../../utils/Reveal";
-import { RevealLeft } from "../../utils/RevealLeft";
 
+
+import React, { useRef, useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Faq from './Faq';
+import AIIntegrationAward from '../../assets/AwardPage/AIIntegrationAward.jpg'
+import BestUseAward from "../../assets/AwardPage/BestUseAward.jpg";
+import InnovativeAward from "../../assets/AwardPage/InnovativeAward.jpg";
+import EcosystemAward from "../../assets/AwardPage/EcosystemAward.jpg";
+import BannerLayout2 from "../../assets/AwardPage/BannerLayout2.jpg";
+import RecognitionPointer from "../../assets/AwardPage/RecognitionPointer.png";
+import InnovationPointer from "../../assets/AwardPage/InnovationPointer.png";
+import EthicalPointer from "../../assets/AwardPage/EthicalPointer.png";
+import CollaborationPointer from "../../assets/AwardPage/CollaborationPointer.png";
+import AwardLogo from "../../assets/AwardPage/Award.png";
+import industry from "../../assets/AwardPage/industry.jpg";
+import boostReason from "../../assets/AwardPage/Boost.jpg";
+import inspireReason from "../../assets/AwardPage/Inspire.jpeg";
+import { Link } from "react-router-dom";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Award = () => {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Title animation
+      gsap.utils.toArray(".title").forEach((title) => {
+        gsap.fromTo(
+          title,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1.5,
+            stagger: 0.2,
+
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: ".title",
+              start: "top 90%",
+              toggleActions: "play none none none",
+              // markers: true,
+            },
+          }
+        );
+      });
+
+      // Goal items animation
+      gsap.utils.toArray(".goal").forEach((goal) => {
+        gsap.fromTo(
+          goal,
+          { opacity: 0, x: -50 },
+          {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: goal,
+              start: "top 90%",
+              toggleActions: "play none none none",
+              // markers: true,
+            },
+          }
+        );
+      });
+
+      // Reasons to apply animation
+      gsap.utils.toArray(".reason").forEach((reason) => {
+        gsap.fromTo(
+          reason,
+          { opacity: 0, scale: 0.8 },
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+            stagger: 0.2,
+            ease: "back.out(1.7)",
+            scrollTrigger: {
+              trigger: reason,
+              start: "top 90%",
+              toggleActions: "play none none none",
+              // markers: true,
+            },
+          }
+        );
+      });
+
+      // Award cards animation
+      gsap.utils.toArray(".award-card").forEach((card) => {
+        gsap.fromTo(
+          card,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 80%",
+              toggleActions: "play none none none",
+              // markers: true,
+            },
+          }
+        );
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+
+  const aiSummitData = {
+    title: "Honoring the Excellence within AI Ecosystem",
+    summitDetails: {
+      description: `Artificial Intelligence is reshaping our world at breathtaking speed. From life-saving medical breakthroughs to smart manufacturing, from personalized education to sustainable agriculture-AI isn't just transforming industries, it's redefining human potential. This technological renaissance has sparked innovations that were once confined to science fiction: autonomous systems that enhance human decision-making, algorithms that predict and prevent diseases, and solutions that tackle climate change head-on. `,
+      goals: [
+        {
+          title: "Inspire Innovation",
+          imgSrc: InnovationPointer,
+          description:
+            "Highlight groundbreaking AI solutions that are pushing the boundaries of what is possible.",
+        },
+        {
+          title: "Recognize Excellence",
+          imgSrc: RecognitionPointer,
+          description:
+            "Celebrate the dedication and hard work of the individuals and teams behind these remarkable achievements.",
+        },
+        {
+          title: "Foster Collaboration",
+          imgSrc: CollaborationPointer,
+          description:
+            "Create a platform for industry leaders to connect, share knowledge, and drive collective progress.",
+        },
+        {
+          title: "Promote Ethical AI",
+          imgSrc: EthicalPointer,
+          description:
+            "Recognize organizations committed to responsible and ethical AI development.",
+        },
+      ],
+    },
+    reasonsToApply: [
+      {
+        imgSrc: "https://kuber.ventures/wp-content/uploads/2024/09/1.jpg",
+        title: "Celebrate and Acknowledge Team Effort",
+        description:
+          "Show appreciation for the relentless efforts of your team, recognizing their hard work to innovate with AI.",
+      },
+      {
+        imgSrc: inspireReason,
+        title: "Inspire and Motivate",
+        description:
+          "Enhance team morale and attract top talent by showcasing your dedication to transformative innovation.",
+      },
+      {
+        imgSrc: boostReason,
+        title: "Boost Credibility and Brand Value",
+        description:
+          "Demonstrate your commitment to cutting-edge technology, solidifying your brand’s reputation as a leader in AI integration.",
+      },
+
+      {
+        imgSrc:
+          "https://media.licdn.com/dms/image/v2/D5612AQFMgZi_18IQDA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1659632275469?e=1738195200&v=beta&t=m7Bb6ODSLm6pZYOA6Y-0c1IupKqfB1JtVtG9zu7oXPY",
+        title: "Get Recognition at the World's Largest AI Gathering",
+        description:
+          "Be recognized as an AI innovator and stand shoulder-to-shoulder with industry leaders as a finalist at the world's premier AI event.",
+      },
+      {
+        imgSrc:
+          "https://naiknaik.com/wp-content/uploads/2023/11/pexels-eduardo-romero-3649407-1024x683.jpg",
+        title: "Global Promotion Package",
+        description:
+          "Winners receive extensive media exposure, an award logo, and a prestigious trophy to showcase your success.",
+      },
+    ],
+    awards: [
+      {
+        title: "The AI Integration Excellence Award",
+        description:
+          "In the symphony of digital transformation, some companies conduct their AI integration with unprecedented mastery. This award celebrates those virtuosos who have not just adopted AI—they've transformed it into their competitive edge. We're seeking the bold innovators who have woven AI into their organizational DNA, creating a tapestry of efficiency, innovation, and market leadership. Your story could be the next chapter in the evolution of AI excellence.",
+        imgSrc: AIIntegrationAward,
+        btn1: "Find Details",
+        btn2: "Nominate Now",
+        link1: '/gais/award/Ai-Integration-Award',
+        link2: '/gais/award/Ai-Integration-Form',
+      },
+      {
+        title: "Best Use of AI in Industry Award",
+        description:
+          "Every industry has its pioneers—those who dare to reimagine the possible. This award shines a spotlight on the organizations that have orchestrated AI's transformative power to revolutionize their sector. We're searching for the game-changers who haven't just implemented AI but have unleashed its full potential to create ripples of innovation across their industry. Share with us how you're writing the future of your sector.",
+        imgSrc: BestUseAward,
+        btn1: "Share your Impact",
+        btn2: "",
+      },
+      {
+        title: "The Innovative AI-Powered Startup Award",
+        description:
+          "This award salutes the bold and brilliant minds of the AI startup ecosystem. We are looking for young companies that have successfully incorporated AI into their business model while bringing fresh, innovative solutions to the market. This is your stage to shine. Nominate your company or startup today and let the world witness your AI-powered excellence.",
+        imgSrc: InnovativeAward,
+        btn1: "Showcase your Vision",
+        btn2: "",
+      },
+
+      {
+        title: "The AI-Ecosystem Accelerator Award",
+        description:
+          "The AI-Ecosystem Accelerator Award recognizes organizations that excel in fostering and nurturing the growth of AI ecosystems. This award honors entities that provide comprehensive support, resources, and mentorship to AI startups and innovators, driving innovation and economic development in the field of artificial intelligence.",
+        imgSrc: EcosystemAward,
+        btn1: "Accelerate Together",
+        btn2: "",
+      },
+    ],
+  };
+
+  const gradients = [
+    "from-purple-500 via-pink-500 to-red-500",
+    "from-red-500 to-orange-400",
+    "from-pink-500 via-purple-500 to-indigo-500",
+    "from-orange-500 to-red-500",
+  ];
+
+  const { title, summitDetails, reasonsToApply, awards } = aiSummitData;
 
   return (
-    <section>
-      <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800  md:py-20 py-10">
-        <div  className="md:flex flex-wrap">
-          <motion.div
-           initial={{
-            opacity: 0,
-            x: -40,
-          }}
-          whileInView={{
-            opacity: 1,
-            x: 0, // Slide in to its original position
-            transition: {
-              duration: 1 // Animation duration
-            }
-          }}
-          viewport={{ once: true }}
-          
-          className="md:px-10 px-5 pt-10 md:w-2/5 trig">
-            <h1
-              id="heading"
-              className="text-4xl md:text-5xl text-wrap lg:text-6xl md:max-w-2xl max-w-40  font-bold text-neutral-300 text-start mb-3 tracking-wide  "
-            >
-              GAIS AWARD CEREMONY
+    <div ref={containerRef} className="text-black">
+      <section className="lg:px-12 bg-white flex flex-col md:flex-col">
+        <div
+          className=" flex justify-start items-top bg-cover bg-center  "
+          // style={{
+          //   backgroundImage:
+          //     "url('https://media.licdn.com/dms/image/v2/C4D12AQHRdpT3XD12CQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1649787353589?e=1738195200&v=beta&t=QZQxCP6MyIA_UiT9Dpv9z4GcvWlmQTaNoXQInZWMbNs')",
+          // }}
+        >
+          <div className=" ">
+            <h1 className="title w-[325px] lg:w-[500px] ml-6 title uppercase pt-24 pb-8 text-5xl lg:text-7xl font-Antonio font-semibold text-transparent bg-gradient-to-r from-purple-400 via-red-400  to-red-400 bg-clip-text ">
+              {title}
             </h1>
-            <h3 id="desc" className=" text-xl font-bold  md:text-2xl py-8 ">
-              Welcome to the pinnacle of AI excellence - The Innovative AI
-              Powered Startup Award Ceremony!
-            </h3>
-            <p id="compo" className="md:text-lg text-base ">
-              In the heart of the Germany, where innovation converges with
-              technology, we proudly announce the launch of "The Innovative AI
-              Powered Startup Award." This prestigious ceremony is a tribute to
-              the trailblazing startups that have seamlessly integrated
-              artificial intelligence into their business operations, propelling
-              industries into the future with their groundbreaking solutions.
-            </p>
-          </motion.div>
-          <motion.div 
-            initial={{
-              x:40
-              
-            }}
-            whileInView={{
-              x: 0, // Slide in to its original position
-              transition: {
-                duration: 1 // Animation duration
-              }
-            }}
-            viewport={{ once: true }}
-          className="md:w-3/5 flex justify-center items-center md:pt-0 pt-14">
-            <div className=" md:h-[650px] md:w-[600px] w-full">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
-                alt=""
-              />
-            </div>
-          </motion.div>
+          </div>
         </div>
 
-        <div className="md:px-10 px-5  w-full">
-          <Reveal>
-          <h2 className="text-2xl font-bold pt-8">
-            Benefits of Participating:
-          </h2>
-          </Reveal>
-          <div className="md:px-20 ps-10 ">
-            <ul className="list-disc ">
-              {benefitListAwardPage.map((list, index) => (
-                <li className="pt-4 md:text-lg text-base">
-                   <Reveal>
-                  <span className="font-bold">{list.head}</span>: {list.desc}
-                  </Reveal>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <div className="md:px-10 px-5 pt-10">
-        <Reveal>
-          <h2 className="font-bold text-2xl">Opportunity to Register:</h2>
-        </Reveal>
-        <Reveal>
-          <p className="py-5 md:text-lg text-base">
-            Are you ready to be recognized as a trailblazer in the AI landscape?
-            Seize the opportunity by registering for "The Innovative AI-Powered
-            Startup Award" ceremony. To qualify, your startup must meet the
-            following criteria:
+        <div className="  px-6 pb-12">
+          <p className="goal text-black text-base lg:text-lg font-Archivo mb-6 ">
+            {summitDetails.description}
           </p>
-          </Reveal>
-        </div>
-        <div className="py-5 md:px-10 px-5">
-          <Reveal>
-          <h2 className="font-bold text-2xl">Selection Criteria:</h2>
-          </Reveal>
-          <div className="md:px-20 ps-10 ">
-            <ul className="list-decimal ">
-              {selectionListAwardPage.map((list, index) => (
-                <li className="pt-4 md:text-lg text-base">
-                   <Reveal>
-                  <span className="font-bold">{list.head}</span>: {list.desc}
-                  </Reveal>
-                </li>
-              ))}
-            </ul>
+          <h3 className="reason text-xl font-bold mb-4">Why It Matters</h3>
+          <p className="goal text-black  text-base lg:text-lg font-Archivo mb-6 ">
+            In this era of rapid transformation, recognizing AI excellence
+            becomes crucial. It's not just about celebrating success – it's
+            about illuminating the path forward. Awards create benchmarks for
+            innovation, foster knowledge exchange, and build bridges between
+            visionaries and investors. They inspire the next wave of pioneers
+            while showcasing responsible AI implementation that benefits
+            humanity.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 justify-between text-black text-sm lg:text-lg font-Archivo">
+            {summitDetails.goals.map((goal, index) => (
+              <div key={index} className="award-card max-w-[400px] p-6 pl-0 ">
+                <div className="flex flex-row items-center justify-left h-20">
+                  <img className="w-1/6 " src={goal.imgSrc} alt="" />
+                </div>
+                <h3 className="font-bold pb-1"> {goal.title}</h3>
+                <p className="leading-tight">{goal.description}</p>
+              </div>
+            ))}
           </div>
         </div>
-        <Reveal>
-        <div className="px-10 font-bold text-lg py-5">
-          Don't miss this chance to be at the forefront of AI innovation.
-          Register now and position your startup among the visionaries shaping
-          the future of technology.
+      </section>
+
+      <section className="flex flex-col lg:flex-row-reverse lg:justify-between">
+        <div className="hidden lg:block  lg:w-1/3 ">
+          <img
+            className="w-full lg:h-full object-cover object-center"
+            src={BannerLayout2}
+            alt="BannarLayout2"
+          />
         </div>
-        </Reveal>
-        <RevealLeft>
-        <Link
-          to={"mailto: info@global-investors-forum.com"}
-          className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600  md:w-44 sm:w-40 py-3 px-3 font-semibold"
-        >
-          REGISTER NOW
-        </Link>
-        </RevealLeft>
-      </div>
-    </section>
+        <div className="p-6 bg-white lg:px-16 flex-1">
+          <h2 className="reason w-[170px] lg:w-[350px] title uppercase lg:pt-4 pb-8 text-2xl lg:text-5xl font-Antonio font-semibold text-black">
+            The World's Largest AI Awards Initiative
+          </h2>
+          <p className="goal text-black text-base lg:text-lg font-Archivo mb-6 ">
+            Understanding the transformative power of AI and the need to
+            celebrate excellence in its implementation, we've created something
+            unprecedented – the{" "}
+            <span className="font-bold">
+              world's largest platform celebrating AI innovation.
+            </span>{" "}
+            Our awards transcend traditional boundaries, uniting pioneers from
+            six continents who are pushing the frontiers of artificial
+            intelligence. Whether you're a startup in Singapore, an enterprise
+            in Estonia, or a pioneer in Peru, these awards offer an
+            unprecedented global stage to showcase your AI innovations to the
+            world. This initiative spans multiple categories, recognizing
+            achievement across various sectors, scales, and applications of AI
+            technology. From groundbreaking startups to industry titans, we
+            recognize those who aren't just adopting AI – they're
+            revolutionizing its possibilities.{" "}
+          </p>
+          <p className="goal text-black text-base lg:text-lg font-Archivo mb-6 ">
+            Our unmatched scope spans every sector, every scale, and every
+            corner of the globe. We've assembled the most comprehensive
+            categories in the AI ecosystem, evaluated by leading global experts.
+            This isn't just an awards program – it's a global movement
+            celebrating excellence in artificial intelligence. Join us in
+            honoring those who dare to reshape tomorrow. Your innovation
+            deserves to be seen, celebrated, and amplified on the world stage.{" "}
+          </p>
+        </div>
+      </section>
+
+      <section className="p-6 sm:p-12 bg-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:px-20">
+          {/* Card for the Heading */}
+          <div className="flex flex-col md:flex-row justify-center items-center  ">
+            <div className="flex h-full reason p-4  items-center bg-black/100 backdrop:blur-md shadow-lg rounded-md">
+              <h2 className="text-center px-12 text-2xl sm:text-4xl md:text-5xl uppercase font-Antonio font-bold text-transparent bg-gradient-to-r from-purple-400 via-red-400 to-red-400 bg-clip-text my-4">
+                5 Reasons Why You Should Apply
+              </h2>
+            </div>
+          </div>
+
+          {/* Cards for Reasons */}
+          {reasonsToApply.map((reason, index) => (
+            <div key={index} className="flex justify-center">
+              <div className="reason p-4 max-md:max-w-[320px] bg-black/100 backdrop:blur-md shadow-lg rounded-md">
+                <img
+                  src={reason.imgSrc}
+                  className="w-full h-40 sm:h-48 object-cover rounded-md"
+                  alt={reason.title}
+                />
+
+                <h3 className="text-lg leading-none xl:text-xl font-bold mt-4 mb-2 font-Archivo text-transparent bg-gradient-to-r from-teal-400 via-yellow-400 to-red-400 bg-clip-text">
+                  {reason.title}
+                </h3>
+                <p className="text-white font-Archivo leading-tight text-sm">
+                  {reason.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="px-6 py-8 bg-gray-100 lg:px-32">
+        <h2 className="text-center text-2xl sm:text-4xl md:text-5xl uppercase font-Antonio font-bold text-black mb-8">
+          Our Featured Awards
+        </h2>
+        <div className="space-y-8">
+          {awards.map((award, index) => (
+            <div
+              key={index}
+              className={`award-card flex flex-col ${
+                index % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"
+              } items-center gap:6 md:gap-16 p-6 sm:p-12 rounded-md shadow-md`}
+            >
+              {
+                award.imgSrc ? (
+                  <img
+                    src={award.imgSrc}
+                    alt={award.title}
+                    className="w-52 object-contain rounded-md mb-4 lg:mb-0 "
+                  />
+                ) : (
+                  "Award Image"
+                )
+                
+              }
+
+              <div className=" text-center md:text-left lg:ml-6">
+                <h3 className="text-xl lg:text-3xl font-Archivo font-bold text-transparent bg-gradient-to-r from-blue-600 via-red-500 to-yellow-600 bg-clip-text mb-4">
+                  {award.title}
+                </h3>
+                <p className="font-Archivo text-center md:text-left text-gray-600 text-base xl:text-xl mb-4 ">
+                  {award.description}
+                </p>
+                <div className="flex flex-row justify-center md:justify-start gap-4 lg:justify-start">
+                  <Link
+                    to={
+                      award.link1
+                        ? award.link1
+                        : "mailto:info@global-investors-forum.com"
+                    }
+                    className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 px-4 rounded text-sm uppercase md:font-Archivo font-bold flex items-center"
+                    target={award.link1 ? "_self" : "_blank"}
+                    rel={award.link1 ? "" : "noopener noreferrer"}
+                  >
+                    <span>{award.btn1}</span>
+                  </Link>
+                  {award.btn2 && (
+                    <Link
+                    to={
+                      award.link2
+                        ? award.link2
+                        : "info@global-investors-forum.com"
+                    }
+                    className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 px-4 rounded text-sm uppercase md:font-Archivo font-bold flex items-center"
+                    target={award.link2 ? "_self" : "_blank"}
+                    rel={award.link2 ? "" : "noopener noreferrer"}
+                  >
+                    <span>{award.btn2}</span>
+                  </Link>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+          <Faq/>
+
+    </div>
   );
 };
 

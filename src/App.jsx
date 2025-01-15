@@ -16,13 +16,15 @@ import {
   Terms,
   Privacy,
   Award,
+  AiIntegrationPage,
+  AiIntegrationForm,
   Gais,
   Meet,
   Ticket,
   Conference,
   Registration,
   // NotFound,
-  Carrier
+  Carrier,
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -40,6 +42,8 @@ const router = createBrowserRouter(
       <Route path="/privacy" element={<Privacy/>} />
       <Route path="/gais" element={<Gais />} />
       <Route path="/gais/award" element={<Award />} />
+      <Route path="/gais/award/Ai-Integration-Award" element={<AiIntegrationPage />} />
+      <Route path="/gais/award/Ai-Integration-Form" element={<AiIntegrationForm />} />
       <Route path="/gais/contact" element={<Contact />} />
       <Route path="/gais/meet" element={<Meet />} />
       <Route path="/gais/ticket" element={<Ticket />} />

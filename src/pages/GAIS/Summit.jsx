@@ -100,6 +100,7 @@ const Summit = () => {
                 operations, offering groundbreaking solutions.
                 <strong>
                   {" "}
+                  
                   Don't miss your chance to witness innovation at its peak –
                   join us!
                 </strong>
