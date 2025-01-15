@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className="min-h-screen bg-white text-neutral-800">
       <div className="md:p-20 p-5 pt-10 md:pt:0">
-        <h1 className="text-3xl md:text-5xl font-bold text-blue-950 animate-slidein [--slidein-delay:300ms]  opacity-0 ">
+        <h1 className="text-3xl md:text-5xl font-bold text-blue-950 animate-slidein [--slidein-delay:300ms]  opacity-1 ">
           {whoweare.hero.heading}
         </h1>
-        <h3 className="text-lg md:text-xl pt-5 text-blue-950 animate-slidein [--slidein-delay:400ms]  opacity-0 ">
+        <h3 className="text-lg md:text-xl pt-5 text-blue-950 animate-slidein [--slidein-delay:400ms]  opacity-1 ">
           {whoweare.hero.subheading}
         </h3>
         <div className="md:p-5 flex-wrap md:flex">
@@ -20,7 +20,7 @@ const Hero = () => {
             <div>
               {para.map((para, index) => (
                 <p
-                  className="pt-5 animate-slidein [--slidein-delay:500ms]  opacity-0"
+                  className="pt-5 animate-slidein [--slidein-delay:500ms]  opacity-1"
                   key={index}
                 >
                   {para.p}

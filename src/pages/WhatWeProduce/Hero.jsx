@@ -13,16 +13,16 @@ const Hero = () => {
       </div>
       <div className="w-full lg:w-1/2 md:p-20 px-4 py-5">
         <div className=" ">
-          <h1 className="text-3xl md:text-5xl text-blue-950 font-extrabold animate-slidein [--slidein-delay:300ms]  opacity-0">
+          <h1 className="text-3xl md:text-5xl text-blue-950 font-extrabold animate-slidein [--slidein-delay:300ms]  opacity-1">
             {heading}
           </h1>
-          <h2 className="text-xl  md:text-2xl pt-2 md:w-96 p-1 text-blue-950 animate-slidein [--slidein-delay:350ms]  opacity-0">
+          <h2 className="text-xl  md:text-2xl pt-2 md:w-96 p-1 text-blue-950 animate-slidein [--slidein-delay:350ms]  opacity-1">
             {smallheading}
           </h2>
-          <p className="pt-4 md:text-lg animate-slidein [--slidein-delay:400ms]  opacity-0">
+          <p className="pt-4 md:text-lg animate-slidein [--slidein-delay:400ms]  opacity-1">
             {p1}
           </p>
-          <p className="pt-6 md:text-lg animate-slidein [--slidein-delay:450ms]  opacity-0">
+          <p className="pt-6 md:text-lg animate-slidein [--slidein-delay:450ms]  opacity-1">
             {p2}
           </p>
         </div>

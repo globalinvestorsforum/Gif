@@ -15,13 +15,13 @@ const Hero = () => {
       <div className="flex-wrap md:flex ">
         <div className="md:w-3/5 flex justify-center items-center ">
           <div className="md:w-full lg:px-52 p-10 ">
-            <h1 className="text-3xl  md:text-5xl font-extrabold text-white animate-slidein [--slidein-delay:300ms]  opacity-0 ">
+            <h1 className="text-3xl  md:text-5xl font-extrabold text-white animate-slidein [--slidein-delay:300ms]  opacity-1 ">
               {heading}
             </h1>
-            <h2 className="text-xl md:text-2xl pt-5 w-56 md:w-44  font-bold text-white animate-slidein [--slidein-delay:400ms]  opacity-0 ">
+            <h2 className="text-xl md:text-2xl pt-5 w-56 md:w-44  font-bold text-white animate-slidein [--slidein-delay:400ms]  opacity-1 ">
               {subheading}
             </h2>
-            <p className="text-lg pt-5 md:w-[80%] animate-slidein [--slidein-delay:500ms]  opacity-0 ">
+            <p className="text-lg pt-5 md:w-[80%] animate-slidein [--slidein-delay:500ms]  opacity-1 ">
               {smallheading}
             </p>
           </div>
