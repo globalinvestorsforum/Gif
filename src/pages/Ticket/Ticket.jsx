@@ -183,7 +183,7 @@ const TicketSection = () => {
 
 
   return (
-    <section ref={containerRef} className=" py-12 text-white bg-gradient-to-r from-purple-800 to-pink-800" 
+    <section ref={containerRef} className=" py-12 px-4 lg:px-12 text-white bg-gradient-to-r from-purple-800 to-pink-800" 
         
     // style = {{
     //   backgroundImage: `url("https://i.redd.it/503sbcw0wn001.jpg")`,
