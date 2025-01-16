@@ -1,8 +1,10 @@
 import React from "react";
+import { Reveal } from "../../utils/Reveal";
 const Hero = () => {
   return (
     <div className="hero w-full h-screen bg-no-repeat bg-cover  border-b border-neutral-800  ">
       <div className="max-w-7xl mx-auto pt-20 px-6 ">
+        <Reveal>
         <div className="flex flex-col items-center mt-6 lg:m-20  animate-slidein opacity-1 [--slidein-delay:300ms]">
           <h1 className=" text-3xl md:text-5xl  lg:text-7xl text-center tracking-wide ">
             Global AI Summit (
@@ -20,6 +22,7 @@ const Hero = () => {
             of artificial intelligence.
           </p>
         </div>
+        </Reveal>
       </div>
       </div>
   );
