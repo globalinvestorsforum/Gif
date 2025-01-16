@@ -344,7 +344,7 @@ const AiIntegrationForm = () => {
                   placeholder="Select country"
                   value={formData.country}
                   onChange={handleChange}
-                  required
+                  
                 />
               </div>
               <div>
@@ -354,7 +354,6 @@ const AiIntegrationForm = () => {
                   placeholder="Enter founder name"
                   value={formData.founder}
                   onChange={handleChange}
-                  required
                 />
               </div>
               <div>
@@ -365,7 +364,6 @@ const AiIntegrationForm = () => {
                   placeholder="Enter number of employees"
                   value={formData.employees}
                   onChange={handleChange}
-                  required
                 />
               </div>
             </div>
@@ -376,7 +374,6 @@ const AiIntegrationForm = () => {
                 placeholder="Provide a brief overview of your company"
                 value={formData.description}
                 onChange={handleChange}
-                required
               />
             </div>
           </div>

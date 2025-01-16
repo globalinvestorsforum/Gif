@@ -1,4 +1,5 @@
 import React from 'react'
+import { Reveal } from "../../utils/Reveal";
 
 function Hero() {
   return (
@@ -11,7 +12,8 @@ function Hero() {
     >
       <div className="absolute w-full h-full ">
         <div className="w-full md:max-w-4xl lg:max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
-          <div className="flex flex-col items-start pt-6 ">
+         <Reveal>
+         <div className="flex flex-col items-start pt-6 ">
             <h2 className="text-2xl px-3  md:text-4xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-1 ">
               DON'T LEFT BEHIND IN YOUR BUSINESS WHEN THE ENTIRE WORLD
               IMPLEMENTING AI IN THEIR OPERATIONS. JOIN US TO LEARN THE
@@ -28,6 +30,7 @@ function Hero() {
               World's largest AI summit in true sense.
             </p>
           </div>
+         </Reveal>
         </div>
       </div>
     </div>

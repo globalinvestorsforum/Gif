@@ -15,18 +15,20 @@ const Meet = () => {
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_background.png?alt=media&token=ff5896d7-bd83-49b0-9854-dc8dd126ca45') `,
           }}
         >
-          <div className="flex flex-col justify-end items-end pt-10 text-end mx-2">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl md:max-w-2xl max-w-52 right-0 font-bold text-blue-950  mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
+          <Reveal>
+          <div className="flex flex-col justify-start items-start pt-10 text-start mx-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl md:max-w-2xl max-w-52 right-0 font-bold text-blue-950  mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-1">
               GLOBAL INVESTORS MEET
             </h1>
-            <p className="lg:text-4xl md:text-3xl md:mt-7 mt-5 text-xl  text-blue-950 md:w-1/2 animate-slidein [--slidein-delay:400ms]  opacity-0">
+            <p className="lg:text-4xl md:text-3xl md:mt-7 mt-5 text-xl  text-blue-950 md:w-1/2 animate-slidein [--slidein-delay:400ms]  opacity-1">
               WHERE AI INNOVATION MEETS INVESTMENT POWERHOUSE
             </p>
-            <p className="lg:text-3xl md:text-3xl text-lg md:mt-7 mt-5 md:max-w-3xl max-w-56 font-semibold  text-white animate-slidein [--slidein-delay:500ms]  opacity-0">
+            <p className="lg:text-3xl md:text-3xl text-lg md:mt-7 mt-5 md:max-w-3xl max-w-56 font-semibold  text-white animate-slidein [--slidein-delay:500ms]  opacity-1">
               BE AMONG THE FIRST TO DISCOVER THE NEXT BIG AI-POWERED REVOLUTION
               BEFORE IT EXPLODES ONTO THE SCENE.
             </p>
           </div>
+          </Reveal>
         </div>
       </section>
       <section>
