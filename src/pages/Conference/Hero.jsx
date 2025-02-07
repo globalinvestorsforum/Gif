@@ -1,9 +1,14 @@
 import React from "react";
 import { Reveal } from "../../utils/Reveal";
+import conferenceHeroBanner from '../../assets/conferenceHeroBanner.jpg'
 const Hero = () => {
   return (
-    <div className="hero w-full h-screen bg-no-repeat bg-cover  border-b border-neutral-800  ">
-      <div className="max-w-7xl mx-auto pt-20 px-6 ">
+    <div className="hero w-full h-screen bg-no-repeat bg-cover md:bg-top bg-center  border-b border-neutral-800  "
+    
+    style={{
+      backgroundImage: `url(${conferenceHeroBanner})`,
+    }}>
+      <div className="bg-transparent max-w-7xl mx-auto pt-20 px-6 ">
         <Reveal>
         <div className="flex flex-col items-center mt-6 lg:m-20  animate-slidein opacity-1 [--slidein-delay:300ms]">
           <h1 className=" text-3xl md:text-5xl  lg:text-7xl text-center tracking-wide ">
