@@ -16,6 +16,7 @@ import CollaborationPointer from "../../assets/AwardPage/CollaborationPointer.pn
 import AwardLogo from "../../assets/AwardPage/Award.png";
 import industry from "../../assets/AwardPage/industry.jpg";
 import boostReason from "../../assets/AwardPage/Boost.jpg";
+import gathering from "../../assets/AwardPage/gathering.jpg";
 import inspireReason from "../../assets/AwardPage/Inspire.jpeg";
 import { Link } from "react-router-dom";
 
@@ -167,8 +168,7 @@ const Award = () => {
       },
 
       {
-        imgSrc:
-          "https://media.licdn.com/dms/image/v2/D5612AQFMgZi_18IQDA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1659632275469?e=1738195200&v=beta&t=m7Bb6ODSLm6pZYOA6Y-0c1IupKqfB1JtVtG9zu7oXPY",
+        imgSrc: gathering,
         title: "Get Recognition at the World's Largest AI Gathering",
         description:
           "Be recognized as an AI innovator and stand shoulder-to-shoulder with industry leaders as a finalist at the world's premier AI event.",

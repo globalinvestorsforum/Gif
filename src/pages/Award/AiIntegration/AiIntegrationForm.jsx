@@ -245,7 +245,7 @@ const AiIntegrationForm = () => {
 
   return (
     <div className="flex justify-center bg-white">
-      <div className="min-h-screen font-['Aptos'] text-black lg:w-1/2 text-base bg-gray-50 p-8">
+      <div className="min-h-screen text-black lg:w-3/4 text-base bg-gray-50 p-8">
       {/* Header Card */}
       <Card className="mb-8 overflow-hidden">
         <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 -m-6 p-8 text-white">
