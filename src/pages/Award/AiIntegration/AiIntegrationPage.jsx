@@ -4,6 +4,7 @@ import PaidNominationOpen from "../../../assets/AllAwardPages/PaidNominationOpen
 import NominationDeadline from "../../../assets/AllAwardPages/NominationDeadline.png";
 import ShortlistAnnounced from "../../../assets/AllAwardPages/ShortlistAnnounced.png";
 import WinnersAnnouncement from "../../../assets/AllAwardPages/WinnersAnnouncement.png";
+import Winning from "../../../assets/AllAwardPages/Winning.jpg";
 import AwardLogo from "../../../assets/AwardPage/Award.png";
 import AIIntegrationFormBannar from "../../../assets/AllAwardPages/AIIntegrationFormBannar.jpg";
 import AIIntegrationAward from "../../../assets/AwardPage/AIIntegrationAward.jpg";
@@ -313,6 +314,7 @@ const AiIntegrationPage = () => {
     winning: {
       description:
         "Should your nomination be selected as a winner, you will receive:",
+      imgSrc : Winning,
       benefits: [
         {
           title: "Award Announcement",
@@ -431,7 +433,7 @@ const AiIntegrationPage = () => {
             <div className="slide-header hidden lg:block absolute  lg:left-[2%]  ">
               <div className="flex justify-center flex-1 p-10 ">
                 <div
-                  className={`relative border-2 border-spacing-1 flex items-end pb-4 w-56 h-44 bg-gradient-to-r from-[#c80065]  to-[#01004e] text-left `}
+                  className={`relative border-2 border-spacing-1 flex items-end pb-4 w-60 h-44 bg-gradient-to-r from-[#c80065]  to-[#01004e] text-left `}
                 >
                   <p className="pl-4 mr-4 pb-2 text-2xl leading-none font-spartan uppercase  text-white font-bold">
                     The <br />
@@ -697,7 +699,7 @@ const AiIntegrationPage = () => {
         </div>
         <img
           className="slide-image lg:w-1/3 object-cover object-right border-yellow-500 border-l-8 sm:hidden lg:block"
-          src="https://media.licdn.com/dms/image/v2/C4D12AQHRdpT3XD12CQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1649787353589?e=1738195200&v=beta&t=QZQxCP6MyIA_UiT9Dpv9z4GcvWlmQTaNoXQInZWMbNs"
+          src={winning.imgSrc}
           alt="cover-image"
         />
       </section>
