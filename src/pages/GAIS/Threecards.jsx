@@ -11,7 +11,7 @@ const Threecards = () => {
           <div className="lg:w-1/3  pt-5">
             <div className="flex-wrap">
               <Reveal>
-                <h1 className="md:px-10 px-5 md:pb-3 md:py-0 py-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
+                <h1 className="md:px-10 px-5 md:pb-3 md:py-0 py-3 text-3xl md:text-4xl lg:text-4xl uppercase font-bold ">
                   Workshops
                 </h1>
               </Reveal>
@@ -47,7 +47,7 @@ const Threecards = () => {
             </div>
 
             <Reveal>
-              <h1 className="md:px-5 text-3xl md:text-4xl lg:text-4xl px-5 md:pb-3 md:py-0 py-3  font-bold ">
+              <h1 className="md:px-5 text-3xl md:text-4xl lg:text-4xl px-5 md:pb-3 md:py-0 py-3 uppercase font-bold ">
                 Startup pitches
               </h1>
             </Reveal>
@@ -64,7 +64,7 @@ const Threecards = () => {
 
           <div className="lg:w-1/3  pt-5">
             <Reveal>
-              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-3  font-bold ">
+              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-3 uppercase font-bold ">
                 Innovative AI solutions
               </h1>
             </Reveal>

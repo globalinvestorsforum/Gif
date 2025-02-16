@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="bg-transparent max-w-7xl mx-auto pt-20 px-6 ">
         <Reveal>
         <div className="flex flex-col items-center mt-6 lg:m-20  animate-slidein opacity-1 [--slidein-delay:300ms]">
-          <h1 className=" text-3xl md:text-5xl  lg:text-7xl text-center tracking-wide ">
+          <h1 className=" text-3xl md:text-5xl uppercase lg:text-7xl text-center tracking-wide ">
             Global AI Summit (
             <span className="bg-gradient-to-r from-orange-500 to-purple-600 text-transparent bg-clip-text ">
               GAIS
