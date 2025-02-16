@@ -23,10 +23,10 @@ const Navbar = () => {
                     </div>
 
                     {/* Navigation links on the right */}
-                    <div className="hidden lg:flex items-center justify-between w-1/2">
-                        <ul className="flex space-x-12 uppercase">
+                    <div className="hidden lg:flex flex-row items-center justify-between w-3/5 mr-12">
+                        <ul className="flex flex-row uppercase">
                             {gaisNavItems.map((item, index) => (
-                                <li key={index}>
+                                <li key={index} className='mx-4 '>
                                     <NavLink
                                      to={item.href}  
                                      className={({ isActive }) =>
@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <li className="bg-neutral-900 py-1 text-base" key={index}>
                                     <NavLink 
                                     className={({ isActive }) =>
-                                       `font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                       ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
                                      }
                                      to={item.href}>
                                         {item.name}

@@ -20,6 +20,7 @@ export default {
       },
       fontFamily: {
         'Archivo': ["Archivo"],
+        'Inter': ["Inter"],
         'Antonio': ["Antonio"],
         'Roboto': ["Roboto"],
         'Aptos': ['Aptos', 'sans-serif'],

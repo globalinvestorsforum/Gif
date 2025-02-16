@@ -23,9 +23,11 @@ import {
   Ticket,
   Conference,
   Registration,
+  Company,
   // NotFound,
   Carrier,
   BestUseOfAiForm,
+  Speakers,
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -48,6 +50,8 @@ const router = createBrowserRouter(
       <Route path="/gais/award/BestUseOfAi-Form" element={<BestUseOfAiForm />} />
       <Route path="/gais/contact" element={<Contact />} />
       <Route path="/gais/meet" element={<Meet />} />
+      <Route path="/gais/companies" element={<Company />} />
+      <Route path="/gais/speakers" element={<Speakers />} />
       <Route path="/gais/ticket" element={<Ticket />} />
       <Route path="/gais/conference" element={<Conference />} />
       <Route path="/gais/carrier" element={<Carrier />} />

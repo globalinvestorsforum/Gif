@@ -443,6 +443,8 @@ export const gaisNavItems = [
   { name: "Conferences", href: "/gais/conference", current: false },
   { name: "Award Ceremony", href: "/gais/award", current: false },
   { name: "Global Investors Meet", href: "/gais/meet", current: false },
+  { name: "Participating Companies", href: "/gais/companies", current: false },
+  { name: "Featured Speaker", href: "/gais/speakers", current: false },
 ];
 
 // const gaisURL = "https://www.gais2024.com/"
@@ -466,6 +468,8 @@ export const footerItems = [
       { text: "Award Ceremony", link:  `/gais/award`},
       { text: "Investors Meet", link:`/gais/meet`},
       { text: "Tickets", link: `/gais/ticket` },
+      // { text: "Participating Companies", link: `/gais/companies` },
+      // { text: "Featured Speaker", link: `/gais/speakers` },
     ],
   },
   {
