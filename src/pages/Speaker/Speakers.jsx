@@ -100,7 +100,7 @@ function Speakers() {
           </button>
         </div>
         <img
-          className="header-image"
+          className="header-image h-full object-cover"
           src={FeaturedSpeakers}
           alt=""
         />
