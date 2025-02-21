@@ -24,6 +24,7 @@ import JulioPernia from '../assets/AllAttendees/AttendeeImage/Julio-Pernia.png';
 import DiegoTorres from '../assets/AllAttendees/AttendeeImage/Diego-Torres.png';
 import NazarenoMarioCiccarello from '../assets/AllAttendees/AttendeeImage/Nazareno-Mario-Ciccarello.png';
 import MaximilianHauser from '../assets/AllAttendees/AttendeeImage/Maximilian-Hauser.png';
+import AndreasAnijalg from '../assets/AllAttendees/AttendeeImage/Andreas-Anijalg.jpg';
 
 // Company Images
 
@@ -55,6 +56,7 @@ import Mediktor from '../assets/AllAttendees/Company-logo/Mediktor.png';
 import PurpleGaze from '../assets/AllAttendees/Company-logo/PurpleGaze.png';
 import RefactAI from '../assets/AllAttendees/Company-logo/RefactAI.png';
 import TUPL from '../assets/AllAttendees/Company-logo/TUPL.jpeg';
+import Roofit from '../assets/AllAttendees/Company-logo/Roofit.Solar.png';
 
 
 
@@ -185,6 +187,14 @@ export const AttendeesData = [
     location: "N/A",
     personImage: HichamElHafed || defaultPersonImage,
     companyImage: Procys || defaultCompanyImage
+  },
+  {
+    name: "Andreas Anijalg",
+    position: "CEO",
+    company: "Roofit.Solar",
+    location: "N/A",
+    personImage: AndreasAnijalg || defaultPersonImage,
+    companyImage: Roofit || defaultCompanyImage
   },
   {
     name: "Neuvo Buric",
