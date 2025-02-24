@@ -9,6 +9,7 @@ export { default as Privacy } from './Privacy/Privacy.jsx';
 
 export { default as Gais } from './GAIS/Gais.jsx';
 export { default as Conference } from './Conference/index.jsx';
+export { default as HealthcareSummit } from './Conference/Ai-Summits/Ai-Healthcare-Summit/HealthcareSummit';
 export { default as Company } from './Company/Company.jsx';
 export { default as Speakers } from './Speaker/Speakers.jsx';
 export { default as Award } from './Award/Award.jsx';
@@ -16,9 +17,9 @@ export { default as AiIntegrationPage } from './Award/AiIntegration/AiIntegratio
 export { default as AiIntegrationForm } from './Award/AiIntegration/AiIntegrationForm.jsx';
 export { default as BestUseOfAiForm } from './Award/BestUseOfAi/BestUseOfAiForm.jsx';
 
-
 export { default as Meet } from './Meet/Meet.jsx';
 export { default as Ticket } from './Ticket/Ticket.jsx';
+export { default as TicketRegistration } from './Ticket/TicketRegistration.jsx';
 export { default as NotFound } from './NotFound/NotFound.jsx';
 export { default as Carrier } from './Carrier/Carrier.jsx';
 export { default as Registration } from './Registration/RegistrationPage.jsx';

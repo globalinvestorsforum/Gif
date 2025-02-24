@@ -956,6 +956,7 @@ export const cards = [
       " Harnessing AI for Improved Health Services and disrupting the Status Quo",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FHealthcare%201.jpg?alt=media&token=cb9a8087-1265-4917-b0eb-da969738dc88",
+    eventLink : "/gais/conference/ai-healthcare-summit",
   },
   {
     title: "The AI Pharmaceutical Summit",
