@@ -8,11 +8,11 @@ gsap.registerPlugin(ScrollTrigger);
 const TicketSection = () => {
   const tickets = [
     {
-      title: "One-Day Pass",
-      price: "€730 + VAT",
-      originalPrice: "€900",
-      discount: "Save €170 off the late price, with 18.89% Discount.",
-      link:"https://rzp.io/l/xcuXXJF",
+      title: "Standard Pass",
+      price: "€1460 + VAT",
+      originalPrice: "€3650",
+      discount: "Save €2190 off the late price, with 60% Discount.",
+      // link:"https://rzp.io/l/xcuXXJF",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
@@ -20,15 +20,15 @@ const TicketSection = () => {
       ],
     },
     {
-      title: "Standard Pass",
+      title: "Track Pass",
       price: "€1140 + VAT",
       originalPrice: "€3000",
       discount: "Save €1860 off the late price, with a 62% Discount.",
-      link:"https://rzp.io/l/j4sDHOHp",
+      // link:"https://rzp.io/l/j4sDHOHp",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
-        "Access to all Scheduled session, including networking events and lunch on both days.",
+        "Access to 5 Scheduled session, including networking events and lunch on both days.",
       ],
     },
     {
@@ -36,7 +36,7 @@ const TicketSection = () => {
       price: "€2999 + VAT",
       originalPrice: "€5999",
       discount: "Save €3000 off the late price, with a 50% Discount.",
-      link:"https://rzp.io/rzp/jbdMC56",
+      // link:"https://rzp.io/rzp/jbdMC56",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
@@ -51,7 +51,7 @@ const TicketSection = () => {
       price: "€1899 + VAT",
       originalPrice: "€3899",
       discount: "Save €2000 off the late price, with a 51% Discount.",
-      link:"https://rzp.io/rzp/ee1lOiRlh",
+      // link:"https://rzp.io/rzp/ee1lOiRlh",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
@@ -254,11 +254,11 @@ const TicketSection = () => {
                 {ticket.originalPrice}
               </p>
               <p className=" text-sm mt-2">{ticket.discount}</p>
-              <a href={ticket.link}>
-              <button className="bg-gradient-to-r from-orange-500 to-purple-500 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-500 duration-300 self-center">
+              {/* <a href={ticket.link}> */}
+              <Link to={"/gais/TicketRegistration"} className="bg-gradient-to-r from-orange-500 to-purple-500 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-500 duration-300 self-center">
                 {ticket.buttonText}
-              </button>
-              </a>
+              </Link>
+              {/* </a> */}
               <button
                 className=" font-semibold text-sm mt-2 self-center"
                 onClick={() =>

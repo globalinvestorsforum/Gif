@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Navigation links on the right */}
-                    <div className="hidden lg:flex flex-row items-center justify-between w-3/5 mr-12">
+                    <div className="hidden lg:flex flex-row items-center justify-between w-4/5 xl:w-3/5 mx-6 ">
                         <ul className="flex flex-row uppercase">
                             {gaisNavItems.map((item, index) => (
                                 <li key={index} className='mx-4 '>
