@@ -81,7 +81,7 @@ const TicketSection = () => {
   ];
 
   const timelineEvents = [
-    { label: "Early Bird", date: "2025-03-30" },
+    { label: "Early Bird", date: "2025-06-15" },
     { label: "Regular", date: "" },
     { label: "Late Price", date: "" },
   ];
@@ -227,7 +227,7 @@ const TicketSection = () => {
                 event.isActive ? "text-yellow-400":"text-white"
               }`}>
                {/* {event.date} */}
-               30th March
+               15th June
             </p>
             :""
             }

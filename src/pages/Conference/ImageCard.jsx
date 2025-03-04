@@ -7,8 +7,9 @@ const ImageCard = ({ image, title, desc, eventLink }) => {
   const navigate = useNavigate();
 
   const handleClick = ()=>{
-    // eventLink ?  navigate(eventLink) : "" 
+    eventLink ?  navigate(eventLink) : "" 
   }
+  
   return (
     <Reveal >
       

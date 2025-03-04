@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home'
 import WhyJoin from './WhyJoin'
 import WhyJoin2 from './WhyJoin2'
+import Register from './Register'
 
 function HealthcareSummit() {
   return (
@@ -9,6 +10,7 @@ function HealthcareSummit() {
         <Home/>
         <WhyJoin/>
         <WhyJoin2/>
+        <Register/>
     </div>
   )
 }

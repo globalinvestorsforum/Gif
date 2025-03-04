@@ -303,12 +303,12 @@ const AiIntegrationPage = () => {
       {
         imgSrc: ShortlistAnnounced,
         event: "Shortlist Announced",
-        date: "15th May, 2025",
+        date: "15th June, 2025",
       },
       {
         imgSrc: WinnersAnnouncement,
         event: "Winners Announcement",
-        date: "1st july, 2025",
+        date: "9th October, 2025",
       },
     ],
     winning: {
