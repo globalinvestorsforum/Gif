@@ -7,6 +7,7 @@ import Audience from './Audience'
 import Introduction from './Introduction'
 import AwardAgenda from './AwardAgenda'
 import AllAgendas from './AllAgendas'
+import Gsap from './Gsap'
 
 function HealthcareSummit() {
   return (
@@ -19,6 +20,7 @@ function HealthcareSummit() {
         <AwardAgenda/>
         {/* <AllAgendas/> */}
         <Register/>
+        {/* <Gsap/> */}
     </div>
   )
 }
