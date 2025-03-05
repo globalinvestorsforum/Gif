@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{useEffect, useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
 import HealthcareAgenda from '../../../../assets/HealthcareSummit/AwardAgenda/HealthcareAgenda.jpg'
 import HealthcareAward from '../../../../assets/HealthcareSummit/AwardAgenda/HealthcareAward.jpg'
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 function AwardAgenda() {
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
 
   const handleAgendaClick = () => {
     navigate('/gais/conference/ai-healthcare-summit/all-agendas') // Corrected navigation syntax
@@ -12,10 +16,98 @@ function AwardAgenda() {
     navigate('/gais/award') // Corrected navigation syntax
   }
 
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      /** ✨ Title Fade-in & Slide-up */
+      gsap.utils.toArray(".fade-slide").forEach((title) => {
+        gsap.fromTo(
+          title,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1.5,
+            stagger: 0.2,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: title,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🎯 Goals Slide-in from Left */
+      gsap.utils.toArray(".slide-left").forEach((goal) => {
+        gsap.fromTo(
+          goal,
+          { opacity: 0, x: -30 },
+          {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: goal,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🔥 Reasons Scale-in Effect */
+      gsap.utils.toArray(".scale-in").forEach((reason) => {
+        gsap.fromTo(
+          reason,
+          { opacity: 0, scale: 0.8 },
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+            stagger: 0.2,
+            ease: "back.out(1.7)",
+            scrollTrigger: {
+              trigger: reason,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🏆 Award Cards Slide-up */
+      gsap.utils.toArray(".slide-up").forEach((card) => {
+        gsap.fromTo(
+          card,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 80%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
   return (
-    <div className='p-8 bg-white'>
-        <div className='flex flex-col md:flex-row gap-8 justify-center items-center  '>
-      <div className='relative bg-gradient-to-r from-teal-600 to-blue-600 overflow-hidden p-4 max-w-sm rounded-lg '>
+    <div ref={containerRef} className='p-8 bg-white'>
+        <div className='slide-left flex flex-col md:flex-row gap-8 justify-center items-center  '>
+      <div className=' relative bg-gradient-to-r from-teal-600 to-blue-600 overflow-hidden p-4 max-w-sm rounded-lg '>
         {/* Image Section */}
         <div>
           <img 
@@ -55,7 +147,7 @@ function AwardAgenda() {
 
 
 
-      <div className='relative group bg-white hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white overflow-hidden  max-w-sm rounded-lg '>
+      <div className='slide-left relative group bg-white hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white overflow-hidden  max-w-sm rounded-lg '>
         
         {/* Content Section */}
         <div className="mt-4 p-4 ">

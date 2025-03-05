@@ -1,6 +1,11 @@
-import React, { useState } from 'react';
-import HealthcareAgenda from '../../../../assets/HealthcareSummit/AwardAgenda/HealthcareAgenda.jpg'
+import React, { useState, useEffect, useRef } from 'react';
+import AllAgendaLayout from '../../../../assets/HealthcareSummit/AwardAgenda/AllAgendaLayout.jpg'
 import { useNavigate } from "react-router-dom";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const AllAgendas = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -68,28 +73,138 @@ const AllAgendas = () => {
     }
   ];
 
+
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      /** ✨ Title Fade-in & Slide-up */
+      gsap.utils.toArray(".fade-slide").forEach((title) => {
+        gsap.fromTo(
+          title,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.4,
+            stagger: 0.2,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: title,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🎯 Goals Slide-in from Left */
+      gsap.utils.toArray(".slide-left").forEach((goal) => {
+        gsap.fromTo(
+          goal,
+          { opacity: 0, x: -30 },
+          {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: goal,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      gsap.utils.toArray(".slide-right").forEach((goal) => {
+        gsap.fromTo(
+          goal,
+          { opacity: 0, x: 30 },
+          {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: goal,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🔥 Reasons Scale-in Effect */
+      gsap.utils.toArray(".scale-in").forEach((reason) => {
+        gsap.fromTo(
+          reason,
+          { opacity: 0, scale: 0.8 },
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+            stagger: 0.2,
+            ease: "back.out(1.7)",
+            scrollTrigger: {
+              trigger: reason,
+              start: "top 90%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+      /** 🏆 Award Cards Slide-up */
+      gsap.utils.toArray(".slide-up").forEach((card) => {
+        gsap.fromTo(
+          card,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 80%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
+      });
+
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+
   const navigate = useNavigate();
   const handleClick =()=>{
-    navigate('/gais/TicketRegistration')
+    navigate('/gais/ticket')
   }
+
   return (
-    <div className="min-h-screen bg-white text-black leading-tight">
+    <div ref={containerRef} className="min-h-screen bg-white text-black leading-tight">
       
       {/* Hero Section */}
       <div className='flex flex-col md:flex-row '>
-        <div className='flex-1'>
-            <img className='w-full h-full object-cover ' src={HealthcareAgenda} alt="AllAgendaLayout" />
+        <div className='slide-left flex-1 '>
+            <img className='w-full h-full object-cover object-left-bottom' src={AllAgendaLayout} alt="AllAgendaLayout" />
         </div>
-        <div className="flex-1 relative overflow-hidden">
+        <div className="slide-right flex-1 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r  from-teal-600 to-blue-600 mix-blend-multiply"></div>
         <div className="container mx-auto px-4 py-20 text-center relative z-10">
-          <h1 className="text-3xl md:text-4xl mx-8 md:mx-12 text-start  font-extrabold pb-4 text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-200">
+          <h1 className="slide-right text-3xl md:text-4xl mx-8 md:mx-12 text-start uppercase font-extrabold pb-4 text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-200">
           Navigating the Future of Care: Illuminating Pathways with AI
           </h1>
-          <p className="text-sm  max-w-xl mx-8 md:mx-12 text-start text-blue-100 mb-8">
+          <p className="slide-right text-sm  max-w-xl mx-8 md:mx-12 text-start text-blue-100 mb-8">
           The AI Healthcare Summit isn't just an event; it's a pivotal convergence of minds dedicated to reshaping the landscape of patient care. In an era defined by rapid technological advancement, we've curated a series of thematic explorations and actionable agendas designed to unpack the transformative power of artificial intelligence.  Our carefully curated agenda features thought-provoking keynotes, dynamic panel discussions, and interactive workshops, all designed to empower healthcare professionals with the knowledge and tools to harness AI's full potential. Let's embark on this journey together, paving the way for a healthier, smarter future.          </p>
-          <div className="flex flex-wrap justify-start mx-8 md:mx-12 gap-4">
-            <button onClick={handleClick} className="bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+          <div className=" flex flex-wrap justify-start mx-8 md:mx-12 gap-4">
+            <button onClick={handleClick} className="slide-left bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
               Register Now
             </button>
             {/* <button className="bg-transparent hover:bg-white/10 text-white font-bold py-3 px-6 rounded-full border-2 border-white/70 shadow-lg transition duration-300 transform hover:scale-105">
@@ -103,8 +218,8 @@ const AllAgendas = () => {
       {/* Main Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent uppercase font-bold mb-4">Conference Themes and Agenda</h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          <h2 className="slide-up text-3xl md:text-4xl bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent uppercase font-bold mb-4">Conference Themes and Agenda</h2>
+          <p className="slide-up text-lg text-gray-700 max-w-3xl mx-auto">
             Join us for groundbreaking discussions, workshops, and networking opportunities
             at the forefront of healthcare innovation.
           </p>
@@ -115,7 +230,7 @@ const AllAgendas = () => {
           {themes.map((theme) => (
             <div 
               key={theme.id}
-              className={`relative bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-xl p-6 shadow-xl backdrop-blur-sm transition-all duration-300 cursor-pointer ${
+              className={`scale-in relative bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-xl p-6 shadow-xl backdrop-blur-sm transition-all duration-300 cursor-pointer ${
                 activeCard === theme.id ? 'scale-105 ring-2 ring-teal-300' : 'hover:scale-105'
               }`}
               onClick={() => setActiveCard(activeCard === theme.id ? null : theme.id)}
@@ -156,7 +271,7 @@ const AllAgendas = () => {
         </div> */}
 
         {/* CTA Section */}
-        <div className="mt-24 bg-gradient-to-r from-teal-500/20 to-blue-600/20 rounded-2xl p-8 md:p-12 text-center ">
+        <div className="slide-up mt-24 bg-gradient-to-r from-teal-500/20 to-blue-600/20 rounded-2xl p-8 md:p-12 text-center ">
           <h2 className="text-3xl md:text-4xl font-bold uppercase mb-4">Join Us at The AI Healthcare Summit</h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
             October 9, 2025 • Berlin, Germany • In-Person Event

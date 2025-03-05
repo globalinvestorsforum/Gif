@@ -10,8 +10,8 @@ import AIIntegrationFormBannar from "../../../assets/AllAwardPages/AIIntegration
 import AIIntegrationAward from "../../../assets/AwardPage/AIIntegrationAward.jpg";
 import Elegibility from "../../../assets/AllAwardPages/ElegibilityNobg.png";
 import Showcase from "../../../assets/AllAwardPages/Showcase.png";
-import gsap from "gsap";
 import { Link } from "react-router-dom";
+import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
