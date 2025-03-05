@@ -30,6 +30,7 @@ import {
   BestUseOfAiForm,
   Speakers,
   TicketRegistration,
+  AllAgendas,
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -61,6 +62,7 @@ const router = createBrowserRouter(
       <Route path="/gais/conference" element={<Conference />} />
       
       <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} />
+      <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
 
 
 

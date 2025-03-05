@@ -10,6 +10,7 @@ export { default as Privacy } from './Privacy/Privacy.jsx';
 export { default as Gais } from './GAIS/Gais.jsx';
 export { default as Conference } from './Conference/index.jsx';
 export { default as HealthcareSummit } from './Conference/Ai-Summits/Ai-Healthcare-Summit/HealthcareSummit';
+export { default as AllAgendas } from './Conference/Ai-Summits/Ai-Healthcare-Summit/AllAgendas.jsx';
 export { default as Company } from './Company/Company.jsx';
 export { default as Speakers } from './Speaker/Speakers.jsx';
 export { default as Award } from './Award/Award.jsx';
