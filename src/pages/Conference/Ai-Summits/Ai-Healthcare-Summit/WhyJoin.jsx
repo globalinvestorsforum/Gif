@@ -57,10 +57,10 @@ const WhyJoin = () => {
   ];
 
   return (
-    <div className="py-8 px-6 bg-gray-50">
+    <div className="py-8 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-4xl lg:text-6xl uppercase font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-4">
+          <h2 className="text-3xl lg:text-4xl uppercase font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-4">
             Why Join the AI-Healthcare Summit
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-green-600 mx-auto rounded-full"></div>
@@ -91,12 +91,12 @@ const WhyJoin = () => {
                   alt={reason.title}
                   className="relative w-full h-48 object-cover brightness-90 group-hover:brightness-100 transition-all duration-300"
                 />
-                <div className="absolute -bottom-6 right-6 w-16 h-16 bg-white rounded-2xl shadow-xl flex items-center justify-center transform group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-500">
-                  <Icon className="w-8 h-8" color={reason.iconColor} strokeWidth={1.5} />
+                <div className="absolute -bottom-4 right-6 w-12 h-12 bg-white rounded-xl shadow-xl flex items-center justify-center transform group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-500">
+                  <Icon className="w-6 h-6" color={reason.iconColor} strokeWidth={1.5} />
                 </div>
 
-                {/* <div className="absolute left-32 -bottom-2 h-4 w-4 bg-transparent border-white border-l-8 border-b-8 rounded-es-2xl"></div>
-                <div className="absolute left-4 -bottom-2 h-4 w-4 bg-transparent border-white border-r-8 border-b-8 rounded-ee-2xl"></div> */}
+                <div className="absolute right-4 -bottom-2 h-4 w-4 bg-transparent border-white border-l-8 border-b-8 rounded-es-2xl"></div>
+                <div className="absolute right-16 -bottom-2 h-4 w-4 bg-transparent border-white border-r-8 border-b-8 rounded-ee-2xl"></div>
                 
 
                 {/* Number badge */}

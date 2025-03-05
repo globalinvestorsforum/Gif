@@ -71,7 +71,7 @@ const KeyReasonsCards = () => {
                 />
                 
                 {/* Gradient overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${reason.gradientClass} opacity-50 group-hover:opacity-40 transition-opacity duration-500`} />
+                {/* <div className={`absolute inset-0 bg-gradient-to-br ${reason.gradientClass} opacity-50 group-hover:opacity-40 transition-opacity duration-500`} /> */}
                 
                 {/* Icon box */}
                 <div className="absolute -bottom-6 right-6 w-16 h-16 bg-white rounded-2xl shadow-xl flex items-center justify-center transform group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-500">
