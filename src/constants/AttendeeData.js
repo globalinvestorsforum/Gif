@@ -59,6 +59,13 @@ import TUPL from '../assets/AllAttendees/Company-logo/TUPL.jpeg';
 import Roofit from '../assets/AllAttendees/Company-logo/Roofit.Solar.png';
 
 
+import EternalRobotics from '../assets/AllAttendees/Company-logo/EternalRobotics.png';
+import DeepInSight from '../assets/AllAttendees/Company-logo/DeepInSight.png';
+import DaVinciWearables from '../assets/AllAttendees/Company-logo/DaVinciWearables.png';
+import IESG from '../assets/AllAttendees/Company-logo/IESG.png';
+import Edgematics from '../assets/AllAttendees/Company-logo/Edgematics.png';
+import CircularSAS from '../assets/AllAttendees/Company-logo/CircularSAS.png';
+import IndikaAI from '../assets/AllAttendees/Company-logo/IndikaAI.png';
 
 
 
@@ -69,214 +76,298 @@ import defaultCompanyImage from '../assets/AllAttendees/Company-logo/default-per
 
 export const AttendeesData = [
   {
+    id: 1,
     name: "Alexis Crowell",
     position: "CMO",
     company: "Axelera AI",
-    location: "N/A",
-    personImage: AlexisCrowell || defaultPersonImage,
-    companyImage: AxeleraAI || defaultCompanyImage,
+    role: "Speaker",
+    personImage: AlexisCrowell,
+    companyImage: AxeleraAI,
   },
   {
+    id: 2,
     name: "Naresh Prajapati",
     position: "CEO",
     company: "Azilen Technologies",
-    location: "N/A",
-    personImage: NareshPrajapati || defaultPersonImage,
-    companyImage: Azilen || defaultCompanyImage
+    role: "Speaker",
+    personImage: NareshPrajapati,
+    companyImage: Azilen,
   },
   {
+    id: 3,
     name: "Cristian Pascul",
     position: "CEO",
     company: "Mediktor",
-    location: "N/A",
-    personImage: CristianPascul || defaultPersonImage,
-    companyImage: Mediktor || defaultCompanyImage
+    role: "Speaker",
+    personImage: CristianPascul,
+    companyImage: Mediktor,
   },
   {
+    id: 4,
     name: "Naama Manova-Twito",
     position: "Co-Founder",
     company: "MarkeTeam.ai",
-    location: "N/A",
-    personImage: NaamaManovaTwito || defaultPersonImage,
-    companyImage: MarkeTeamAirbg || defaultCompanyImage
+    role: "Speaker",
+    personImage: NaamaManovaTwito,
+    companyImage: MarkeTeamAirbg,
   },
   {
+    id: 5,
     name: "Pablo Tapia",
     position: "CTO",
     company: "TUPL",
-    location: "N/A",
-    personImage: PabloTapia || defaultPersonImage,
-    companyImage: TUPL || defaultCompanyImage
+    role: "Speaker",
+    personImage: PabloTapia,
+    companyImage: TUPL,
   },
   {
+    id: 6,
     name: "Dennis Tan",
     position: "Co-founder",
     company: "Dashmote",
-    location: "N/A",
-    personImage: DennisTan || defaultPersonImage,
-    companyImage: Dashmote || defaultCompanyImage
+    role: "Speaker",
+    personImage: DennisTan,
+    companyImage: Dashmote,
   },
   {
+    id: 7,
     name: "Geeta Sham",
     position: "Managing Director",
     company: "CamCom",
-    location: "N/A",
-    personImage: GeetaSham || defaultPersonImage,
-    companyImage: CamCom || defaultCompanyImage
+    role: "Speaker",
+    personImage: GeetaSham,
+    companyImage: CamCom,
   },
   {
+    id: 8,
     name: "Marco Van der Werf",
     position: "CEO",
     company: "Bit",
-    location: "N/A",
-    personImage: MarcoVanDerWerf || defaultPersonImage,
-    companyImage: Bit || defaultCompanyImage
+    role: "Speaker",
+    personImage: MarcoVanDerWerf,
+    companyImage: Bit,
   },
   {
+    id: 9,
     name: "Stefan Schwarz",
-    position: "N/A",
+    position: "VP",
     company: "Flytxt",
-    location: "N/A",
-    personImage: StefanSchwarz || defaultPersonImage,
-    companyImage: Flytxt || defaultCompanyImage
+    role: "Speaker",
+    personImage: StefanSchwarz,
+    companyImage: Flytxt,
   },
   {
+    id: 10,
     name: "Maria J. Alonso",
     position: "CEO",
     company: "Qaleon",
-    location: "N/A",
-    personImage: MariaJAlonso || defaultPersonImage,
-    companyImage: Qaleon || defaultCompanyImage
+    role: "Speaker",
+    personImage: MariaJAlonso,
+    companyImage: Qaleon,
   },
   {
+    id: 11,
     name: "Julio Pernia",
     position: "CEO",
     company: "Bdeo",
-    location: "N/A",
-    personImage: JulioPernia || defaultPersonImage,
-    companyImage: Bdeo || defaultCompanyImage
+    role: "Speaker",
+    personImage: JulioPernia,
+    companyImage: Bdeo,
   },
   {
+    id: 12,
     name: "Deepesh Trivedi",
     position: "CEO",
     company: "UIB",
-    location: "N/A",
-    personImage: DeepeshTrivedi || defaultPersonImage,
-    companyImage: UIB || defaultCompanyImage
+    role: "Speaker",
+    personImage: DeepeshTrivedi,
+    companyImage: UIB,
   },
   {
+    id: 13,
     name: "Alexander Gunkel",
     position: "Founder",
     company: "Space4Good",
-    location: "N/A",
-    personImage: AlexanderGunkel || defaultPersonImage,
-    companyImage: Space4Good || defaultCompanyImage
+    role: "Speaker",
+    personImage: AlexanderGunkel,
+    companyImage: Space4Good,
   },
   {
+    id: 14,
     name: "Maria Cayuela",
     position: "CEO",
     company: "BioSmartData",
-    location: "N/A",
-    personImage: MariaCayuela || defaultPersonImage,
-    companyImage: BioSmart || defaultCompanyImage
+    role: "Speaker",
+    personImage: MariaCayuela,
+    companyImage: BioSmart,
   },
   {
+    id: 15,
     name: "Hicham El Hafed",
     position: "Director",
     company: "Procys",
-    location: "N/A",
-    personImage: HichamElHafed || defaultPersonImage,
-    companyImage: Procys || defaultCompanyImage
+    role: "Speaker",
+    personImage: HichamElHafed,
+    companyImage: Procys,
   },
   {
+    id: 16,
     name: "Andreas Anijalg",
     position: "CEO",
     company: "Roofit.Solar",
-    location: "N/A",
-    personImage: AndreasAnijalg || defaultPersonImage,
-    companyImage: Roofit || defaultCompanyImage
+    role: "Speaker",
+    personImage: AndreasAnijalg,
+    companyImage: Roofit,
   },
   {
+    id: 17,
     name: "Neuvo Buric",
     position: "Co-Founder",
     company: "Daidream",
-    location: "N/A",
-    personImage: NevioBuric || defaultPersonImage,
-    companyImage: Daidream || defaultCompanyImage
+    role: "Speaker",
+    personImage: NevioBuric,
+    companyImage: Daidream,
   },
   {
+    id: 18,
     name: "Diego Torres",
     position: "Founder",
     company: "Jada AI",
-    location: "N/A",
-    personImage: DiegoTorres || defaultPersonImage,
-    companyImage: JadaAI || defaultCompanyImage
+    role: "Speaker",
+    personImage: DiegoTorres,
+    companyImage: JadaAI,
   },
   {
+    id: 19,
     name: "Nazareno Mario Ciccarello",
     position: "COO",
     company: "Soource",
-    location: "N/A",
-    personImage: NazarenoMarioCiccarello || defaultPersonImage,
-    companyImage: Soource || defaultCompanyImage
+    role: "Speaker",
+    personImage: NazarenoMarioCiccarello,
+    companyImage: Soource,
   },
   {
+    id: 20,
     name: "Dr. Maximilian Hauser",
     position: "N/A",
     company: "Purple Gaze",
-    location: "N/A",
-    personImage: MaximilianHauser || defaultPersonImage,
-    companyImage: PurpleGaze || defaultCompanyImage
+    role: "Speaker",
+    personImage: MaximilianHauser,
+    companyImage: PurpleGaze,
   },
   {
+    id: 21,
     name: "Nick Frolov",
     position: "Head of Product- AI Software Development Agent",
     company: "Refact.ai",
-    location: "N/A",
-    personImage: NickFrolov || defaultPersonImage,
-    companyImage: RefactAI || defaultCompanyImage
+    role: "Speaker",
+    personImage: NickFrolov,
+    companyImage: RefactAI,
   },
   {
+    id: 22,
     name: "Sagi Lahav",
     position: "CTO & Co-founder",
     company: "Chronom",
-    location: "N/A",
-    personImage: SagiLahav || defaultPersonImage,
-    companyImage: Chronom || defaultCompanyImage
+    role: "Speaker",
+    personImage: SagiLahav,
+    companyImage: Chronom,
   },
   {
+    id: 23,
     name: "Anna Mae Yu Lamentio",
     position: "Founder",
     company: "NightOwlGpt",
-    location: "N/A",
-    personImage: AnnaMaeYuLamentillo || defaultPersonImage,
-    companyImage: NightOwl || defaultCompanyImage
+    role: "Speaker",
+    personImage: AnnaMaeYuLamentillo,
+    companyImage: NightOwl,
   },
   {
+    id: 24,
     name: "Álvaro Sáez Tonda",
     position: "CEO",
     company: "Hechicher IA",
-    location: "N/A",
-    personImage: AlvaroSaezTonda || defaultPersonImage,
-    companyImage: Hechiceria || defaultCompanyImage
+    role: "Speaker",
+    personImage: AlvaroSaezTonda,
+    companyImage: Hechiceria,
   },
-  // {
-  //   name: "Rafael Bodego",
-  //   position: "Founder",
-  //   company: "Borg AI",
-  //   location: "N/A",
-  //   personImage: RafaelBodego || defaultPersonImage,
-  //   companyImage: BorgAi || defaultCompanyImage
-  // },
   {
+    id: 25,
     name: "Samuel Hazak",
     position: "Co-founder",
     company: "Equanimity AI",
-    location: "N/A",
-    personImage: SamuelHazak || defaultPersonImage,
-    companyImage: Equanimity || defaultCompanyImage
-  }
+    role: "Speaker",
+    personImage: SamuelHazak,
+    companyImage: Equanimity,
+  },
+
+//Participant 
+{
+  id: 26,
+  name: "Participant 1",
+  position: "N/A",
+  company: "Eternal Robotics",
+  role: "Participant",
+  // personImage: EternalRoboticsPerson,
+  companyImage: EternalRobotics,
+},
+{
+  id: 27,
+  name: "Participant 2",
+  position: "N/A",
+  company: "DEEP IN SIGHT",
+  role: "Participant",
+  // personImage: DeepInSightPerson,
+  companyImage: DeepInSight,
+},
+{
+  id: 28,
+  name: "Participant 3",
+  position: "N/A",
+  company: "DaVinci Wearables",
+  role: "Participant",
+  // personImage: DaVinciWearablesPerson,
+  companyImage: DaVinciWearables,
+},
+{
+  id: 29,
+  name: "Participant 4",
+  position: "N/A",
+  company: "i-ESG",
+  role: "Participant",
+  // personImage: IESGPerson,
+  companyImage: IESG,
+},
+{
+  id: 30,
+  name: "Participant 5",
+  position: "N/A",
+  company: "Edgematics Group",
+  role: "Participant",
+  // personImage: EdgematicsPerson,
+  companyImage: Edgematics,
+},
+{
+  id: 31,
+  name: "Participant 6",
+  position: "N/A",
+  company: "Circular SAS",
+  role: "Participant",
+  // personImage: CircularSASPerson,
+  companyImage: CircularSAS,
+},
+{
+  id: 32,
+  name: "Participant 7",
+  position: "N/A",
+  company: "Indika AI",
+  role: "Participant",
+  // personImage: IndikaAIPerson,
+  companyImage: IndikaAI,
+}
+
 ];
+
 
 
 

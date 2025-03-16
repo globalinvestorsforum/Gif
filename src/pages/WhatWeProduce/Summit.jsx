@@ -4,7 +4,7 @@ import { whatweproduce } from "../../constants/index.jsx";
 import { Reveal } from "../../utils/Reveal.jsx";
 const Summit = () => {
   const summitcard = whatweproduce.summitcards;
-  console.log(summitcard);
+  // console.log(summitcard);
 
   return (
     <section className="min-h-screen">

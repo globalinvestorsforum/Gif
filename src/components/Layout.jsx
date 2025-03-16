@@ -28,7 +28,7 @@ const Layout = () => {
   const location = useLocation();
 
   // Check if the current route starts with `/gais`
-  const isGaisRoute = location.pathname.startsWith("/gais");
+  const isGaisRoute = location.pathname.startsWith("/gais") || location.pathname === "/";
 
   return (
     <>
