@@ -431,7 +431,7 @@ export const homepage = {
 };
 
 export const navItems = [
-  { name: "Home", href: "/" },
+  { name: "Home", href: "/home" },
   { name: "Who We Are", href: "/whoweare" },
   { name: "What We Produce", href: "/whatweproduce" },
   { name: "GIF Membership", href: "/membership" },
@@ -439,7 +439,7 @@ export const navItems = [
 ];
 
 export const gaisNavItems = [
-  { name: "GAIS", href: "/gais", current: true },
+  { name: "GAIS", href: "/", current: true },
   { name: "Conferences", href: "/gais/conference", current: false },
   { name: "Award Ceremony", href: "/gais/award", current: false },
   { name: "Global Investors Meet", href: "/gais/meet", current: false },
@@ -450,26 +450,27 @@ export const gaisNavItems = [
 // const gaisURL = "https://www.gais2024.com/"
 export const footerItems = [
  
-  {
-    title: "Company",
-    items: [
-      { text: "Homepage", link: "/" },
-      { text: "Who we are", link: "/whoweare" },
-      { text: "What we produce", link: "/whatweproduce" },
-      { text: "GIF Membership", link: "/membership" },
-      { text: "Contact Us", link: "/contactus" },
-    ],
-  },
+  
   {
     title: "AI Summit",
     items: [
-      { text: "GAIS", link: "/gais" },
+      { text: "GAIS", link: "/" },
       { text: "Conferences", link: `/gais/conference`} ,
       { text: "Award Ceremony", link:  `/gais/award`},
       { text: "Investors Meet", link:`/gais/meet`},
       { text: "Tickets", link: `/gais/ticket` },
       // { text: "Participating Companies", link: `/gais/companies` },
       // { text: "Featured Speaker", link: `/gais/speakers` },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      { text: "Homepage", link: "/home" },
+      { text: "Who we are", link: "/whoweare" },
+      { text: "What we produce", link: "/whatweproduce" },
+      { text: "GIF Membership", link: "/membership" },
+      { text: "Contact Us", link: "/contactus" },
     ],
   },
   {

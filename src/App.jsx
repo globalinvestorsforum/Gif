@@ -39,14 +39,8 @@ import Layout from "./components/Layout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Homepage />} />
-      <Route path="/whatweproduce" element={<WhatWeProduce />} />
-      <Route path="/membership" element={<Membership />} />
-      <Route path="/whoweare" element={<WhoWeAre />} />
-      <Route path="/contactus" element={<Contact />} />
-      <Route path="/terms" element={<Terms/>} />
-      <Route path="/privacy" element={<Privacy/>} />
-      <Route path="/gais" element={<Gais />} />
+      
+      <Route path="/" element={<Gais />} />
       <Route path="/gais/award" element={<Award />} />
       <Route path="/gais/award/Ai-Integration-Award" element={<AiIntegrationPage />} />
       <Route path="/gais/award/Ai-Integration-Form" element={<AiIntegrationForm />} />
@@ -64,7 +58,13 @@ const router = createBrowserRouter(
       <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} />
       <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
 
-
+      <Route path="/home" element={<Homepage />} />
+      <Route path="/whatweproduce" element={<WhatWeProduce />} />
+      <Route path="/membership" element={<Membership />} />
+      <Route path="/whoweare" element={<WhoWeAre />} />
+      <Route path="/contactus" element={<Contact />} />
+      <Route path="/terms" element={<Terms/>} />
+      <Route path="/privacy" element={<Privacy/>} />
 
       <Route path="*" element={<NotFound />} />
     </Route>
