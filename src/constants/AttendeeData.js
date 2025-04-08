@@ -26,6 +26,30 @@ import NazarenoMarioCiccarello from '../assets/AllAttendees/AttendeeImage/Nazare
 import MaximilianHauser from '../assets/AllAttendees/AttendeeImage/Maximilian-Hauser.png';
 import AndreasAnijalg from '../assets/AllAttendees/AttendeeImage/Andreas-Anijalg.jpg';
 
+import HardikDave from '../assets/AllAttendees/AttendeeImage/HardikDave.jpeg';
+import PKristenKople from '../assets/AllAttendees/AttendeeImage/PKristenKople.png';
+import VishalBatvia from '../assets/AllAttendees/AttendeeImage/VishalBatvia.jpeg';
+import LaurentBsalis from '../assets/AllAttendees/AttendeeImage/LaurentBsalis.png';
+import RezaRezaei from '../assets/AllAttendees/AttendeeImage/RezaRezaei.jpeg';
+import VedantAhluwalia from '../assets/AllAttendees/AttendeeImage/VedantAhluwalia.jpeg';
+import LucasOh from '../assets/AllAttendees/AttendeeImage/LucasOh.png';
+import RohanMalhotra from '../assets/AllAttendees/AttendeeImage/RohanMalhotra.jpeg';
+import HensonTsai from '../assets/AllAttendees/AttendeeImage/HensonTsai.jpg';
+import ChristyFernandezCull from '../assets/AllAttendees/AttendeeImage/ChristyFernandezCull.jpg';
+import SameerMaskey from '../assets/AllAttendees/AttendeeImage/SameerMaskey.png';
+import JongwoongKim from '../assets/AllAttendees/AttendeeImage/JongwoongKim.png';
+import JasonKim from '../assets/AllAttendees/AttendeeImage/JasonKim.png';
+import AbhishekSharma from '../assets/AllAttendees/AttendeeImage/AbhishekSharma.png';
+import SrikarReddy from '../assets/AllAttendees/AttendeeImage/SrikarReddy.png';
+import VineetDwivedi from '../assets/AllAttendees/AttendeeImage/VineetDwivedi.png';
+import LizaAleksandrova from '../assets/AllAttendees/AttendeeImage/LizaAleksandrova.png';
+import SherazAhmedKhateeb from '../assets/AllAttendees/AttendeeImage/SherazAhmedKhateeb.png';
+import NiladriDutta from '../assets/AllAttendees/AttendeeImage/NiladriDutta.png';
+import LimTaoCheng from '../assets/AllAttendees/AttendeeImage/LimTaoCheng.png';
+import MuhammadOwaisKhan from '../assets/AllAttendees/AttendeeImage/MuhammadOwaisKhan.jpg';
+
+
+
 // Company Images
 
 import AxeleraAI from '../assets/AllAttendees/Company-logo/Axelera-Logo-Black.png';
@@ -66,6 +90,21 @@ import IESG from '../assets/AllAttendees/Company-logo/IESG.png';
 import Edgematics from '../assets/AllAttendees/Company-logo/Edgematics.png';
 import CircularSAS from '../assets/AllAttendees/Company-logo/CircularSAS.png';
 import IndikaAI from '../assets/AllAttendees/Company-logo/IndikaAI.png';
+
+import Roadzen from '../assets/AllAttendees/Company-logo/Roadzen.png';
+import DatavivTechnologies from '../assets/AllAttendees/Company-logo/DatavivTechnologies.png';
+import MOBILETECH from '../assets/AllAttendees/Company-logo/MOBILETECH.png';
+import MODy from '../assets/AllAttendees/Company-logo/MODy.png';
+import VisionBox from '../assets/AllAttendees/Company-logo/VisionBox.png';
+import Intellectera from '../assets/AllAttendees/Company-logo/Intellectera.png';
+import ARGenie from '../assets/AllAttendees/Company-logo/ARGenie.png';
+import GoAccelovate from '../assets/AllAttendees/Company-logo/GoAccelovate.png';
+import WiseAI from '../assets/AllAttendees/Company-logo/WiseAI.jpeg';
+import SleekFlow from '../assets/AllAttendees/Company-logo/SleekFlow.png';
+import Fusemachines from '../assets/AllAttendees/Company-logo/Fusemachines.png';
+import TARDIDTechnologies from '../assets/AllAttendees/Company-logo/TARDIDTechnologies.jpeg';
+import LaunchXLabs from '../assets/AllAttendees/Company-logo/LaunchXLabs.png';
+import WordWorksAI from '../assets/AllAttendees/Company-logo/WordWorksAI.png';
 
 
 
@@ -249,7 +288,7 @@ export const AttendeesData = [
   {
     id: 20,
     name: "Dr. Maximilian Hauser",
-    position: "N/A",
+    position: "Neural Data Scientist",
     company: "Purple Gaze",
     role: "Speaker",
     personImage: MaximilianHauser,
@@ -258,7 +297,7 @@ export const AttendeesData = [
   {
     id: 21,
     name: "Nick Frolov",
-    position: "Head of Product- AI Software Development Agent",
+    position: "Head of Product",
     company: "Refact.ai",
     role: "Speaker",
     personImage: NickFrolov,
@@ -304,67 +343,206 @@ export const AttendeesData = [
 //Participant 
 {
   id: 26,
-  name: "Participant 1",
-  position: "N/A",
+  name: "Srikar Reddy",
+  position: "CEO",
   company: "Eternal Robotics",
   role: "Participant",
-  // personImage: EternalRoboticsPerson,
+  personImage: SrikarReddy,
   companyImage: EternalRobotics,
 },
 {
   id: 27,
-  name: "Participant 2",
-  position: "N/A",
+  name: "Lucas Oh",
+  position: "CEO",
   company: "DEEP IN SIGHT",
   role: "Participant",
-  // personImage: DeepInSightPerson,
+  personImage: LucasOh,
   companyImage: DeepInSight,
 },
 {
   id: 28,
-  name: "Participant 3",
-  position: "N/A",
+  name: "Christy Fernandez - Cull",
+  position: "CEO",
   company: "DaVinci Wearables",
   role: "Participant",
-  // personImage: DaVinciWearablesPerson,
+  personImage: ChristyFernandezCull,
   companyImage: DaVinciWearables,
 },
 {
   id: 29,
-  name: "Participant 4",
-  position: "N/A",
+  name: "Jongwoong Kim",
+  position: "CEO",
   company: "i-ESG",
   role: "Participant",
-  // personImage: IESGPerson,
+  personImage: JongwoongKim,
   companyImage: IESG,
 },
 {
   id: 30,
-  name: "Participant 5",
-  position: "N/A",
+  name: "PKristen Kople",
+  position: "Head of Marketing",
   company: "Edgematics Group",
   role: "Participant",
-  // personImage: EdgematicsPerson,
+  personImage: PKristenKople,
   companyImage: Edgematics,
 },
 {
   id: 31,
-  name: "Participant 6",
-  position: "N/A",
+  name: "Laurent Bsalis",
+  position: "Co-founder",
   company: "Circular SAS",
   role: "Participant",
-  // personImage: CircularSASPerson,
+  personImage: LaurentBsalis,
   companyImage: CircularSAS,
 },
 {
   id: 32,
-  name: "Participant 7",
-  position: "N/A",
+  name: "Hardik Dave",
+  position: "Founder",
   company: "Indika AI",
   role: "Participant",
-  // personImage: IndikaAIPerson,
+  personImage: HardikDave,
   companyImage: IndikaAI,
-}
+},
+
+
+{
+  id: 33,
+  name: "Rohan Malhotra",
+  position: "CEO",
+  company: "Roadzen",
+  role: "Participant",
+  personImage: RohanMalhotra,
+  companyImage: Roadzen,
+},
+{
+  id: 34,
+  name: "Vedant Ahluwalia",
+  position: "CEO",
+  company: "Dataviv Technologies",
+  role: "Participant",
+  personImage: VedantAhluwalia,
+  companyImage: DatavivTechnologies,
+},
+{
+  id: 35,
+  name: "Jason Kim",
+  position: "CEO",
+  company: "MOBILETECH Co. Ltd.",
+  role: "Participant",
+  personImage: JasonKim,
+  companyImage: MOBILETECH,
+},
+{
+  id: 36,
+  name: "Dr. Sameer Maskey",
+  position: "Founder & CEO",
+  company: "Fusemachines",
+  role: "Participant",
+  personImage: SameerMaskey,
+  companyImage: Fusemachines,
+},
+{
+  id: 37,
+  name: "Vishal Batvia",
+  position: "CTO",
+  company: "VisionBox",
+  role: "Participant",
+  personImage: VishalBatvia,
+  companyImage: VisionBox,
+},
+{
+  id: 38,
+  name: "Reza Rezaei",
+  position: "Co-founder",
+  company: "Intellectera",
+  role: "Participant",
+  personImage: RezaRezaei,
+  companyImage: Intellectera,
+},
+{
+  id: 39,
+  name: "Abhishek Sharma",
+  position: "VP",
+  company: "AR Genie Inc.",
+  role: "Participant",
+  personImage: AbhishekSharma,
+  companyImage: ARGenie,
+},
+{
+  id: 40,
+  name: "Muhammad Owais Khan",
+  position: "CEO",
+  company: "Go Accelovate",
+  role: "Participant",
+  personImage: MuhammadOwaisKhan,
+  companyImage: GoAccelovate,
+},
+{
+  id: 41,
+  name: "Henson Tsai",
+  position: "CEO",
+  company: "SleekFlow",
+  role: "Participant",
+  personImage: HensonTsai,
+  companyImage: SleekFlow,
+},
+{
+  id: 42,
+  name: "Liza Aleksandrova",
+  position: "COO",
+  company: "MOD-y",
+  role: "Participant",
+  personImage: LizaAleksandrova,
+  companyImage: MODy,
+},
+{
+  id: 43,
+  name: "Lim Tao Cheng",
+  position: "CEO",
+  company: "Wise AI",
+  role: "Participant",
+  personImage: LimTaoCheng,
+  companyImage: WiseAI,
+},
+// {
+//   id: 44,
+//   name: "Fadel Al Jabi",
+//   position: "N/A",
+//   company: "IDEAL Software Design",
+//   role: "Participant",
+//   // personImage: FadelAlJabi,
+//   // companyImage: IDEALSoftwareDesign,
+// },
+{
+  id: 45,
+  name: "SherazAhmedKhateeb",
+  position: "CEO",
+  company: "Word Works AI",
+  role: "Participant",
+  personImage: SherazAhmedKhateeb,
+  companyImage: WordWorksAI,
+},
+{
+  id: 46,
+  name: "Niladri Dutta",
+  position: "CEO",
+  company: "TARDID Technologies Pvt. Ltd.",
+  role: "Participant",
+  personImage: NiladriDutta,
+  companyImage: TARDIDTechnologies,
+},
+{
+  id: 47,
+  name: "Vineet Dwivedi",
+  position: "CEO",
+  company: "LaunchX Labs Pvt. Ltd.",
+  role: "Participant",
+  personImage: VineetDwivedi,
+  companyImage: LaunchXLabs,
+},
+
+
 
 ];
 

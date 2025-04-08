@@ -26,7 +26,7 @@ const GaisCard = () => {
         <div className="pt-10  ">
           <RevealLeft width="">
             <Link
-              to={"/gais"}
+              to={"https://www.global-investors-forum.com/"}
               className="border border-blue-950 bg-transparent p-3 text-blue-950 font-bold hover:bg-neutral-600"
             >
               EXPLORE MORE
