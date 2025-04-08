@@ -78,7 +78,7 @@ function Speakers() {
   const navigate = useNavigate();
 
   const handleCardClick = (id) => {
-    navigate(`/attendee/${id}`);
+    // navigate(`/gais/Speaker/${id}`);
   };
 
   return (
@@ -115,7 +115,7 @@ function Speakers() {
         .map((person, index) => (
           <div
             key={index} 
-            // onClick={() => handleCardClick(index)}
+            onClick={() => handleCardClick(index)}
             className="attendee-card p-1 hue-rotate-30 hover:gradient-border hover:cursor-pointer group relative overflow-hidden rounded-xl"
           >
             {/* Gradient Border Container */}

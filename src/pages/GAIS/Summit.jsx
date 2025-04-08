@@ -46,6 +46,13 @@ const Summit = () => {
                   </li>
                 ))}
               </ul>
+              <div className="md:text-7xl text-6xl  md:px-12 py-5">
+              <Reveal>
+                <Link to={"/gais/attendees"}>
+                  <FaArrowAltCircleRight className="fill-black" />
+                </Link>
+              </Reveal>
+            </div>
             </div>
           </div>
         </div>
