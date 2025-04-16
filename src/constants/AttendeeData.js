@@ -428,7 +428,7 @@ export const AttendeesData = [
   id: 35,
   name: "Jason Kim",
   position: "CEO",
-  company: "MOBILETECH Co. Ltd.",
+  company: "MOBILTECH Co. Ltd.",
   role: "Participant",
   personImage: JasonKim,
   companyImage: MOBILETECH,
