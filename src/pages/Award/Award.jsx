@@ -1,5 +1,3 @@
-
-
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -19,6 +17,7 @@ import boostReason from "../../assets/AwardPage/Boost.jpg";
 import gathering from "../../assets/AwardPage/gathering.jpg";
 import inspireReason from "../../assets/AwardPage/Inspire.jpeg";
 import { Link } from "react-router-dom";
+import AwardCategories from "./AwardCategories";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -164,7 +163,7 @@ const Award = () => {
         imgSrc: boostReason,
         title: "Boost Credibility and Brand Value",
         description:
-          "Demonstrate your commitment to cutting-edge technology, solidifying your brand’s reputation as a leader in AI integration.",
+          "Demonstrate your commitment to cutting-edge technology, solidifying your brand's reputation as a leader in AI integration.",
       },
 
       {
@@ -183,9 +182,19 @@ const Award = () => {
     ],
     awards: [
       {
+        title: "The Global AI Excellence Award (GAIEA)",
+        description:
+        "The Global AI Excellence Award (GAIEA) Initiative is a premier global recognition platform honoring organizations at the forefront of artificial intelligence innovation, integration, and impact. Hosted by the Global Investors Forum at the world's largest AI summit, this prestigious award celebrates pioneers who are shaping the future of AI across industries. With carefully curated award categories, this prestigious global recognition honors outstanding organizations making a significant impact within the AI ecosystem—whether by integrating AI into business operations, offering AI-powered solutions, enabling AI adoption through infrastructure and platforms, advancing AI research, or fostering ethical and responsible AI development.",
+        imgSrc: "",
+        btn1: "",
+        btn2: "",
+        link1: '',
+        link2: '',
+      },
+      {
         title: "The AI Integration Excellence Award",
         description:
-          "In the symphony of digital transformation, some companies conduct their AI integration with unprecedented mastery. This award celebrates those virtuosos who have not just adopted AI—they've transformed it into their competitive edge. We're seeking the bold innovators who have woven AI into their organizational DNA, creating a tapestry of efficiency, innovation, and market leadership. Your story could be the next chapter in the evolution of AI excellence.",
+          "In the symphony of digital transformation, some companies conduct their AI integration with unprecedented mastery. This award celebrates those virtuosos who have not just adopted AI—they've transformed it into their competitive edge. We're seeking the bold innovators who have woven AI into their organizational DNA, creating a tapestry of efficiency, innovation, and market leadership. Your story could be the next chapter in the evolution of AI excellence.",
         imgSrc: AIIntegrationAward,
         btn1: "Find Details",
         btn2: "Nominate Now",
@@ -195,7 +204,7 @@ const Award = () => {
       {
         title: "Best Use of AI in Industry Award",
         description:
-          "Every industry has its pioneers—those who dare to reimagine the possible. This award shines a spotlight on the organizations that have orchestrated AI's transformative power to revolutionize their sector. We're searching for the game-changers who haven't just implemented AI but have unleashed its full potential to create ripples of innovation across their industry. Share with us how you're writing the future of your sector.",
+          "Every industry has its pioneers—those who dare to reimagine the possible. This award shines a spotlight on the organizations that have orchestrated AI's transformative power to revolutionize their sector. We're searching for the game-changers who haven't just implemented AI but have unleashed its full potential to create ripples of innovation across their industry. Share with us how you're writing the future of your sector.",
         imgSrc: BestUseAward,
         btn1: "Share your Impact",
         btn2: "",
@@ -203,7 +212,7 @@ const Award = () => {
       {
         title: "The Innovative AI-Powered Startup Award",
         description:
-          "This award salutes the bold and brilliant minds of the AI startup ecosystem. We are looking for young companies that have successfully incorporated AI into their business model while bringing fresh, innovative solutions to the market. This is your stage to shine. Nominate your company or startup today and let the world witness your AI-powered excellence.",
+          "This award salutes the bold and brilliant minds of the AI startup ecosystem. We are looking for young companies that have successfully incorporated AI into their business model while bringing fresh, innovative solutions to the market. This is your stage to shine. Nominate your company or startup today and let the world witness your AI-powered excellence.",
         imgSrc: InnovativeAward,
         btn1: "Showcase your Vision",
         btn2: "",
@@ -212,7 +221,7 @@ const Award = () => {
       {
         title: "The AI-Ecosystem Accelerator Award",
         description:
-          "The AI-Ecosystem Accelerator Award recognizes organizations that excel in fostering and nurturing the growth of AI ecosystems. This award honors entities that provide comprehensive support, resources, and mentorship to AI startups and innovators, driving innovation and economic development in the field of artificial intelligence.",
+          "The AI-Ecosystem Accelerator Award recognizes organizations that excel in fostering and nurturing the growth of AI ecosystems. This award honors entities that provide comprehensive support, resources, and mentorship to AI startups and innovators, driving innovation and economic development in the field of artificial intelligence.",
         imgSrc: EcosystemAward,
         btn1: "Accelerate Together",
         btn2: "",
@@ -350,6 +359,9 @@ const Award = () => {
         </div>
       </section>
 
+
+
+
       <section className="px-6 py-8 bg-gray-100 lg:px-32">
         <h2 className="text-center text-2xl sm:text-4xl md:text-5xl uppercase font-Antonio font-bold text-black mb-8">
           Our Featured Awards
@@ -363,15 +375,16 @@ const Award = () => {
               } items-center gap:6 md:gap-16 p-6 sm:p-12 rounded-md shadow-md`}
             >
               {
-                award.imgSrc ? (
+                award.imgSrc && (
                   <img
                     src={award.imgSrc}
-                    alt={award.title}
+                    // alt={award.title}
                     className="w-52 object-contain rounded-md mb-4 lg:mb-0 "
                   />
-                ) : (
-                  "Award Image"
-                )
+                ) 
+                // : (
+                //   "Award Image"
+                // )
                 
               }
 
@@ -383,7 +396,8 @@ const Award = () => {
                   {award.description}
                 </p>
                 <div className="flex flex-row justify-center md:justify-start gap-4 lg:justify-start">
-                  <Link
+                  {award.btn1 &&(
+                    <Link
                     to={
                       award.link1
                         ? award.link1
@@ -395,6 +409,7 @@ const Award = () => {
                   >
                     <span>{award.btn1}</span>
                   </Link>
+                  )}
                   {award.btn2 && (
                     <Link
                     to={
@@ -416,7 +431,10 @@ const Award = () => {
         </div>
       </section>
 
-          <Faq/>
+
+      {/* <AwardCategories/> */}
+
+      <Faq/>
 
     </div>
   );
