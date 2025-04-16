@@ -516,7 +516,7 @@ export const AttendeesData = [
 // },
 {
   id: 45,
-  name: "SherazAhmedKhateeb",
+  name: "Sheraz Ahmed Khateeb",
   position: "CEO",
   company: "Word Works AI",
   role: "Participant",
