@@ -694,10 +694,10 @@ export const partnersLogo = [
     imgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fpicterra.png?alt=media&token=3efdc613-13f9-4508-b40a-aaef4e1405bb",
   },
-  {
-    imgURL:
-      "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fniramai.png?alt=media&token=e5f607dd-bed2-4106-881d-b4d342c45e03",
-  },
+  // {
+  //   imgURL:
+  //     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fniramai.png?alt=media&token=e5f607dd-bed2-4106-881d-b4d342c45e03",
+  // },
   {
     imgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fkodexai_cover.jpeg?alt=media&token=dfc28f32-6367-4c12-a13e-3808c723286f",
