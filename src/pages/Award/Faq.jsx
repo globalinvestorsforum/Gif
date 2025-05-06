@@ -100,14 +100,14 @@ const FAQPage = () => {
   };
 
   return (
-    <div className="min-h-screen font-Archivo bg-gray-50">
+    <div className="min-h-screen font-Archivo bg-gradient-to-r from-purple-100 to-pink-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-16">
+      <div className=" text-white py-16">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4 font-Antonio">
+          <h1 className="text-4xl font-bold text-black mb-4 font-Antonio">
             Frequently Asked Questions
           </h1>
-          <p className="text-lg text-blue-100 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Find answers to common questions about our AI Awards nomination
             process, ceremony details, and participation guidelines.
           </p>
@@ -115,7 +115,7 @@ const FAQPage = () => {
       </div>
 
       {/* FAQ Section */}
-      <div className="max-w-3xl mx-auto px-4 py-16">
+      <div className="max-w-3xl mx-auto px-4 pb-16">
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
@@ -168,9 +168,9 @@ const FAQPage = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="bg-white py-16">
+      <div className=" py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8">
+          <div className="bg-gradient-to-r from-purple-200 to-pink-200 rounded-2xl p-8">
             <h2 className="text-2xl text-black font-Archivo font-bold mb-4">Still have questions?</h2>
             <p className="text-gray-600 mb-6">
               Our team is here to help. Contact us for personalized assistance.

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function AwardCategories() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -94,40 +95,40 @@ export default function AwardCategories() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 md:p-8">
+    <div className="min-h-screen bg-white text-black p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <header className="text-center mb-12 pt-8">
-          <h1 className="text-5xl font-bold mb-4">AWARD CATEGORIES</h1>
-          <div className="w-24 h-1 bg-blue-400 mx-auto mb-6"></div>
-          <p className="text-gray-300 max-w-2xl mx-auto">Recognizing excellence in AI innovation across multiple disciplines</p>
+          <h1 className="text-5xl font-bold mb-4 uppercase">All Award Categories</h1>
+          <div className="w-24 h-1 bg-gradient-to-r from-indigo-300 to-pink-300 mx-auto mb-6"></div>
+          <p className="text-gray-700 max-w-2xl mx-auto">Recognizing excellence in AI innovation across multiple disciplines</p>
         </header>
         
         {/* Main Container */}
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Categories Side */}
           <div className="w-full">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
               {awardCategories.map((award) => (
-                <div 
+                  <div 
                   key={award.id}
-                  className={`bg-opacity-40 rounded-xl p-5 cursor-pointer transition-all duration-300 h-full ${
+                  className={`bg-opacity-40 rounded-xl p-5 cursor-pointer transition-all duration-300  ${
                     selectedCategory === award.id 
-                      ? 'bg-blue-800 border-2 border-blue-400 shadow-lg shadow-blue-900/50' 
-                      : 'bg-blue-900 border border-blue-800 hover:bg-blue-800'
+                      ? 'transition-all duration-300 bg-gradient-to-r from-indigo-950 to-pink-900  shadow-lg shadow-blue-500/50' 
+                      : 'transition-all duration-300 bg-gradient-to-r from-pink-800 to-purple-800 hover:bg-gradient-to-r hover:from-pink-900  hover:to-indigo-950'
                   }`}
                   onClick={() => setSelectedCategory(award.id === selectedCategory ? null : award.id)}
                 >
                   <div className="flex flex-col h-full">
                     <div className="flex justify-between items-start mb-3">
-                      <h2 className="text-lg font-bold font-Archivo text-transparent bg-gradient-to-r from-blue-600 via-red-500 to-yellow-600 bg-clip-text ">{award.title.replace(/^The\s/, '')}</h2>
+                      <h2 className="text-lg font-bold font-Archivo text-transparent bg-gradient-to-r from-red-200 to-yellow-600 bg-clip-text ">{award.title.replace(/^The\s/, '')}</h2>
                       {selectedCategory === award.id ? (
-                        <span className="bg-blue-400 text-blue-900 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">−</span>
+                        <span className="bg-white text-blue-700 rounded-full w-6 h-6 p-4 text-justify flex items-center justify-center text-2xl font-bold">−</span>
                       ) : (
-                        <span className="bg-blue-700 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">+</span>
+                        <span className="bg-white text-blue-700 rounded-full w-6 h-6 p-4  text-justify flex items-center justify-center text-2xl font-bold">+</span>
                       )}
                     </div>
-                    <p className="text-sm text-gray-300 flex-grow">
+                    <p className="text-sm text-white flex-grow">
                       {award.description.length > 120 && selectedCategory !== award.id
                         ? `${award.description.substring(0, 120)}...`
                         : award.description}
@@ -135,7 +136,7 @@ export default function AwardCategories() {
                     
                     {/* Show nominees when selected */}
                     {selectedCategory === award.id && award.nominees.length > 0 && (
-                      <div className="mt-4 pt-4 border-t border-blue-700">
+                      <div className="mt-4 pt-4 border-t border-white">
                         <h3 className="text-sm font-semibold mb-2 text-blue-300">Eligible Nominees:</h3>
                         <ul className="text-sm space-y-2">
                           {award.nominees.map((nominee, index) => (
@@ -156,10 +157,10 @@ export default function AwardCategories() {
         
         {/* CTA Section */}
         <div className="mt-16 mb-10 text-center">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-10 rounded-lg shadow-lg transform transition hover:scale-105">
+          <Link to={'/gais/ticket'} className="uppercase bg-gradient-to-r from-purple-500 to-pink-900 hover:bg-gradient-to-r hover:from-purple-900 hover:to-pink-500 text-white font-bold py-3 px-10 rounded-lg shadow-lg hover:scale-150">
             Submit Your Nomination
-          </button>
-          <p className="mt-4 text-gray-400">Deadline: April 30, 2025</p>
+          </Link>
+          {/* <p className="mt-4 text-gray-400">Deadline: April 30, 2025</p> */}
         </div>
       </div>
       

@@ -432,7 +432,7 @@ const Award = () => {
       </section>
 
 
-      {/* <AwardCategories/> */}
+      <AwardCategories/>
 
       <Faq/>
 
