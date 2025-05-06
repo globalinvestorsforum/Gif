@@ -298,7 +298,7 @@ const AiIntegrationPage = () => {
       {
         imgSrc: NominationDeadline,
         event: "Nomination Deadline",
-        date: "5th Augest, 2025",
+        date: "5th August, 2025",
       },
       {
         imgSrc: ShortlistAnnounced,
