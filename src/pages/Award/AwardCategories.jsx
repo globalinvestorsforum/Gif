@@ -157,9 +157,9 @@ export default function AwardCategories() {
         
         {/* CTA Section */}
         <div className="mt-16 mb-10 text-center">
-          <Link to={'/gais/ticket'} className="uppercase bg-gradient-to-r from-purple-500 to-pink-900 hover:bg-gradient-to-r hover:from-purple-900 hover:to-pink-500 text-white font-bold py-3 px-10 rounded-lg shadow-lg hover:scale-150">
+          <a href="mailto:info@global-investors-forum.com" className="uppercase bg-gradient-to-r from-purple-500 to-pink-900 hover:bg-gradient-to-r hover:from-purple-900 hover:to-pink-500 text-white font-bold py-3 px-10 rounded-lg shadow-lg   hover:scale-150">
             Submit Your Nomination
-          </Link>
+          </a>
           {/* <p className="mt-4 text-gray-400">Deadline: April 30, 2025</p> */}
         </div>
       </div>
