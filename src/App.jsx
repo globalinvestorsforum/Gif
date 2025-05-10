@@ -33,6 +33,7 @@ import {
   TicketRegistration,
   AllAgendas,
   AllAttendees,
+  AgricultureSummit
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -61,7 +62,8 @@ const router = createBrowserRouter(
       
       <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} />
       <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
-
+      <Route path="/gais/conference/ai-agriculture-summit" element={<AgricultureSummit />} />
+     
       <Route path="/home" element={<Homepage />} />
       <Route path="/whatweproduce" element={<WhatWeProduce />} />
       <Route path="/membership" element={<Membership />} />

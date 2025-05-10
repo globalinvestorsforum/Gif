@@ -1012,12 +1012,13 @@ export const cards = [
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
   },
   {
-    title: "The AI Agricuture Summit",
+    title: "The AI Agriculture Summit",
     discription:
       "Reaping the Benefits of Artifical Intelligence in Agricuture.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFood%20Processing%20and%20agritechjulia-koblitz-WbCZlA0JAfA-unsplash%20(4).jpg?alt=media&token=3402ad9f-8a89-4f2f-9f6b-74d5806afa6a",
-  },
+    eventLink : "/gais/conference/ai-agriculture-summit",
+    },
   {
     title: "The Global Foodtech AI Conference",
     discription: "Interating AI From Farm to Fork.",
@@ -1055,6 +1056,7 @@ export const cards = [
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
   },
+  
 ];
 
 
