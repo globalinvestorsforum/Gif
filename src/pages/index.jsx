@@ -27,3 +27,5 @@ export { default as NotFound } from './NotFound/NotFound.jsx';
 export { default as Carrier } from './Carrier/Carrier.jsx';
 export { default as Registration } from './Registration/RegistrationPage.jsx';
 
+export {default as AgricultureSummit} from "./Conference/Ai-Summits/Ai-Agriculture-Summit/AgricultureSummit"
+
