@@ -111,7 +111,7 @@ function Company() {
           <div
             key={index} 
             // onClick={() => handleCardClick(index)}
-            className="attendee-card max-w-[200px] p-1 hue-rotate-30 hover:gradient-border hover:cursor-pointer group relative overflow-hidden rounded-xl"
+            className="attendee-card max-w-[200px] p-1  hover:gradient-border hover:cursor-pointer group relative overflow-hidden rounded-xl"
           >
             {/* Gradient Border Container */}
             <div className="h-full  bg-black shadow rounded-xl relative z-10">
