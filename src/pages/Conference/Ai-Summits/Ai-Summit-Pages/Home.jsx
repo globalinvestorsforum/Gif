@@ -6,8 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-function Home() {
-
+function Home({config}) {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -106,11 +105,12 @@ function Home() {
   const handleAgendaClick = () => {
     navigate('/gais/conference/ai-healthcare-summit/all-agendas') 
   }
+  
   return (
     <div ref={containerRef}>
       <div className="flex flex-row justify-between bg-gradient-to-br from-teal-50 via-blue-50 to-white">
         <div className="relative h-[calc(100vh-86px)] w-full ">
-            <img className="object-cover w-full h-full brightness-75" src={surgury} alt="" />
+            <img className="object-cover w-full h-full brightness-75" src={config?.bgImage} alt="" />
         </div>
       
         <div className="absolute top-0 left-0 h-[calc(100vh-86px)] flex flex-row justify-start items-center pt-32 pb-16 px-6 sm:px- lg:px-16 ">
@@ -119,18 +119,18 @@ function Home() {
               March 2025
             </span> */}
             <h1 className="mt-4 text-4xl uppercase font-bold text-gray-50 lg:text-7xl">
-             The <br />AI-Healthcare Summit 
+            {config.title.split(" ",1)[0]}  <br />
+            {config.title.slice(config.title.split(" ",1)[0].length+1)}
             </h1>
             <p className="mt-6 text-xl text-gray-300 max-w-2xl">
-              Transforming Healthcare Through Artificial Intelligence: Join
-              Leading Medical Professionals and AI Experts
+              {config.introductionText}
             </p>
             <div className="mt-10 flex justify-center md:justify-start gap-4">
-            <button onClick={handleClick} className="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110">
+            <button onClick={handleClick} className={config.registerButtonCSS}>
             Register Now
                 {/* <ChevronRight className="ml-2 h-5 w-5" /> */}
               </button>
-              <button onClick={handleAgendaClick} className="bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white">
+              <button onClick={handleAgendaClick} className={config.scheduleButtonCSS}>
                 View Schedule
               </button>
             </div>

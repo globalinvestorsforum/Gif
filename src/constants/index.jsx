@@ -1,4 +1,11 @@
 import { AiOutlineGlobal } from "react-icons/ai";
+import surgury from '../assets/HealthcareSummit/surgury.png';
+import Greenary from "../assets/AgricultureSummit/Greenary.png"
+import Discover from "../assets/HealthcareSummit/Discover.png";
+import Networking from "../assets/HealthcareSummit/Networking.jpg";
+import Opportunity from "../assets/HealthcareSummit/Opportunity.jpg";
+import Insight from "../assets/HealthcareSummit/Insight.jpg";
+import { Brain, Users, Lightbulb, Coins } from "lucide-react";
 
 export const contactus = [
   {
@@ -450,15 +457,15 @@ export const gaisNavItems = [
 
 // const gaisURL = "https://www.gais2024.com/"
 export const footerItems = [
- 
-  
+
+
   {
     title: "AI Summit",
     items: [
       { text: "GAIS", link: "/" },
-      { text: "Conferences", link: `/gais/conference`} ,
-      { text: "Award Ceremony", link:  `/gais/award`},
-      { text: "Investors Meet", link:`/gais/meet`},
+      { text: "Conferences", link: `/gais/conference` },
+      { text: "Award Ceremony", link: `/gais/award` },
+      { text: "Investors Meet", link: `/gais/meet` },
       { text: "Tickets", link: `/gais/ticket` },
       // { text: "Participating Companies", link: `/gais/companies` },
       // { text: "Featured Speaker", link: `/gais/speakers` },
@@ -523,6 +530,7 @@ import { FaBowlFood } from "react-icons/fa6";
 import { SlBookOpen } from "react-icons/sl";
 import { GrGamepad } from "react-icons/gr";
 import { RiAdvertisementFill } from "react-icons/ri";
+import { Percent } from "lucide-react";
 
 
 export const summitList = [
@@ -958,7 +966,77 @@ export const cards = [
       " Harnessing AI for Improved Health Services and disrupting the Status Quo",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FHealthcare%201.jpg?alt=media&token=cb9a8087-1265-4917-b0eb-da969738dc88",
-    eventLink : "/gais/conference/ai-healthcare-summit",
+    eventLink: "/gais/conference/ai-healthcare-summit",
+    config: {
+      bgImage: surgury,
+      title: "The AI-Healthcare Summit",
+
+      showIntroduction: true,
+      introductionText:
+        "Transforming Healthcare Through Artificial Intelligence: Join Leading Medical Professionals and AI Experts",
+      introdunctionCard1title: "AI in Healthcare",
+      introdunctionCard1subTitle: "USD 14.92B → USD 164.16B",
+      introdunctionCard1Range: "2024 → 2030",
+      introdunctionCard1Percent: "49.1% CAGR",
+      introdunctionCard2title: " The Global AI in healthcare market is projected to explode, reaching a staggering USD 164.16 billion by 2030, growing at an astounding CAGR of 49.1% from 2024's USD 14.92 billion. The summit presents a timely opportunity for stakeholders to engage with innovative technologies and strategies that are driving this growth.",
+      introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
+      introductionParagraph1: "The AI Healthcare Summit is a pioneering event dedicated to exploring the latest trends and advancements in artificial intelligence and their impact on healthcare. With AI rapidly transforming the way healthcare is delivered, this summit brings together leading experts, cutting-edge startups, innovators, researchers, and practitioners from across the globe."
+      ,
+      introductionParagraph2: "Participants will share insights, knowledge, and experiences on how AI is shaping the healthcare landscape through interactive sessions, panel discussions, keynote speeches, and workshops. The healthcare landscape is undergoing a radical transformation, driven by the power of AI - revolutionizing everything from diagnostics and treatment to drug discovery and patient care.",
+      introductionParagraph3: "  Join us for this ground-breaking event and be a part of the conversation that is shaping the future of healthcare. This unparalleled opportunity will allow attendees to gain valuable knowledge on the latest advancements in AI and their practical applications in healthcare."
+      ,
+      showWhyJoin: true,
+      reasons: [
+        {
+          number: 1,
+          title: "Discover Cutting-Edge AI Innovations in Healthcare",
+          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
+          gradientClass: "from-blue-600 to-cyan-600",
+          imgSrc: Discover,
+          iconColor: "#3B82F6",
+          icon: Brain,
+        },
+        {
+          number: 2,
+          title: "Network with Global Industry Leaders & AI Experts",
+          description:
+            "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
+          gradientClass: "from-purple-600 to-blue-600",
+          iconColor: "#8B5CF6",
+          icon: Users,
+          imgSrc: Networking,
+        },
+        {
+          number: 3,
+          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
+          description:
+            "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
+          gradientClass: "from-violet-600 to-purple-600",
+          imgSrc: Insight,
+          iconColor: "#EC4899",
+
+          icon: Lightbulb,
+        },
+        {
+          number: 4,
+          title: "Unlock Investment & Business Opportunities",
+          description:
+            "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
+          gradientClass: "from-indigo-600 to-violet-600",
+          imgSrc: Opportunity,
+          iconColor: "#6366F1",
+          icon: Coins,
+        },
+      ],
+      showAudience: true,
+      showAwardAgenda: true,
+      showRegister: true,
+      registerButtonCSS: "bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+      scheduleButtonCSS: "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+      agendaLink: '/gais/conference/ai-healthcare-summit/all-agendas',
+      registerLink: '/gais/ticket'
+
+    }
   },
   {
     title: "The AI Pharmaceutical Summit",
@@ -1017,8 +1095,73 @@ export const cards = [
       "Reaping the Benefits of Artifical Intelligence in Agricuture.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFood%20Processing%20and%20agritechjulia-koblitz-WbCZlA0JAfA-unsplash%20(4).jpg?alt=media&token=3402ad9f-8a89-4f2f-9f6b-74d5806afa6a",
-    eventLink : "/gais/conference/ai-agriculture-summit",
-    },
+    eventLink: "/gais/conference/ai-agriculture-summit",
+    config: {
+      bgImage: Greenary,
+      title: "The AI-Agriculture Summit",
+      introductionText: "Join World's Largest AI Summit On Agriculture Industry",
+      showIntroduction: true,
+      introdunctionCard1title: "AI in Agriculture",
+      introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
+      introdunctionCard1Range: "2023 → 2030",
+      Percent: "25.5% CAGR",
+      introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
+      introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
+      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
+      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
+      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
+
+      ,
+      showWhyJoin: true,
+
+      reasons: [
+        {
+          number: 1,
+          title: "Discover Cutting-Edge AI Innovations in Healthcare",
+          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
+          gradientClass: "from-blue-600 to-cyan-600",
+          imgSrc: Discover,
+          iconColor: "#3B82F6",
+          icon: Brain,
+        },
+        {
+          number: 2,
+          title: "Network with Global Industry Leaders & AI Experts",
+          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
+          gradientClass: "from-purple-600 to-blue-600",
+          iconColor: "#8B5CF6",
+          icon: Users,
+          imgSrc: Networking,
+        },
+        {
+          number: 3,
+          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
+          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
+          gradientClass: "from-violet-600 to-purple-600",
+          imgSrc: Insight,
+          iconColor: "#EC4899",
+          icon: Lightbulb,
+        },
+        {
+          number: 4,
+          title: "Unlock Investment & Business Opportunities",
+          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
+          gradientClass: "from-indigo-600 to-violet-600",
+          imgSrc: Opportunity,
+          iconColor: "#6366F1",
+          icon: Coins,
+        },
+      ],
+      showAudience: false,
+      showAwardAgenda: false,
+      showRegister: false,
+      registerButtonCSS: "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110", scheduleButtonCSS: "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+      scheduleButtonCSS: "bg-white text-green-700 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-700 hover:text-white",
+      agendaLink: '/gais/conference/ai-healthcare-summit/all-agendas',
+      registerLink: '/gais/ticket'
+
+    }
+  },
   {
     title: "The Global Foodtech AI Conference",
     discription: "Interating AI From Farm to Fork.",
@@ -1056,7 +1199,7 @@ export const cards = [
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
   },
-  
+
 ];
 
 
