@@ -47,6 +47,8 @@ import SherazAhmedKhateeb from '../assets/AllAttendees/AttendeeImage/SherazAhmed
 import NiladriDutta from '../assets/AllAttendees/AttendeeImage/NiladriDutta.png';
 import LimTaoCheng from '../assets/AllAttendees/AttendeeImage/LimTaoCheng.png';
 import MuhammadOwaisKhan from '../assets/AllAttendees/AttendeeImage/MuhammadOwaisKhan.jpg';
+import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg';
+import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
 
 
 
@@ -105,6 +107,8 @@ import Fusemachines from '../assets/AllAttendees/Company-logo/Fusemachines.png';
 import TARDIDTechnologies from '../assets/AllAttendees/Company-logo/TARDIDTechnologies.jpeg';
 import LaunchXLabs from '../assets/AllAttendees/Company-logo/LaunchXLabs.png';
 import WordWorksAI from '../assets/AllAttendees/Company-logo/WordWorksAI.png';
+import Omdena from '../assets/AllAttendees/Company-logo/Omdena.jpeg';
+import Bragi from '../assets/AllAttendees/Company-logo/Bragi.jpeg';
 
 
 
@@ -368,18 +372,18 @@ export const AttendeesData = [
   personImage: ChristyFernandezCull,
   companyImage: DaVinciWearables,
 },
-{
-  id: 29,
-  name: "Jongwoong Kim",
-  position: "CEO",
-  company: "i-ESG",
-  role: "Participant",
-  personImage: JongwoongKim,
-  companyImage: IESG,
-},
+// {
+//   id: 29,
+//   name: "Jongwoong Kim",
+//   position: "CEO",
+//   company: "i-ESG",
+//   role: "Participant",
+//   personImage: JongwoongKim,
+//   companyImage: IESG,
+// },
 {
   id: 30,
-  name: "PKristen Kople",
+  name: "Kristen Kople",
   position: "Head of Marketing",
   company: "Edgematics Group",
   role: "Participant",
@@ -395,15 +399,15 @@ export const AttendeesData = [
   personImage: LaurentBsalis,
   companyImage: CircularSAS,
 },
-{
-  id: 32,
-  name: "Hardik Dave",
-  position: "Founder",
-  company: "Indika AI",
-  role: "Participant",
-  personImage: HardikDave,
-  companyImage: IndikaAI,
-},
+// {
+//   id: 32,
+//   name: "Hardik Dave",
+//   position: "Founder",
+//   company: "Indika AI",
+//   role: "Participant",
+//   personImage: HardikDave,
+//   companyImage: IndikaAI,
+// },
 
 
 {
@@ -540,6 +544,24 @@ export const AttendeesData = [
   role: "Participant",
   personImage: VineetDwivedi,
   companyImage: LaunchXLabs,
+},
+{
+  id: 48,
+  name: "Rudradeb Mitra",
+  position: "CEO",
+  company: "Omdena",
+  role: "Participant",
+  personImage: RudradebMitra,
+  companyImage: Omdena,
+},
+{
+  id: 47,
+  name: "Nikolaj Hviid",
+  position: "CEO",
+  company: "Bragi",
+  role: "Participant",
+  personImage: NikolajHviid,
+  companyImage: Bragi,
 },
 
 

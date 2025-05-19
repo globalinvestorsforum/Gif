@@ -22,13 +22,14 @@ const TicketSection = () => {
     {
       title: "Track Pass",
       price: "€1140 + VAT",
-      originalPrice: "€3000",
-      discount: "Save €1860 off the late price, with a 62% Discount.",
+      originalPrice: "€1460",
+      discount: "Save €320 off the late price, with a 21.92% Discount.",
       // link:"https://rzp.io/l/j4sDHOHp",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
         "Access to 3 Scheduled session, including networking events and lunch on both days.",
+        
       ],
     },
     {
