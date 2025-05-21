@@ -1150,78 +1150,49 @@ export const cards = [
       introductionParagraph3: "  Join us for this ground-breaking event and be a part of the conversation that is shaping the future of healthcare. This unparalleled opportunity will allow attendees to gain valuable knowledge on the latest advancements in AI and their practical applications in healthcare."
       ,
       showWhyJoin: true,
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "To explore how AI is transforming drug discovery, clinical trials, formulation development, and regulatory compliance.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description:
-            "To showcase breakthroughs in molecular modeling, predictive analytics, generative drug design, and AI-powered diagnostics.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description:
-            "To pitch AI-based platforms and therapeutics, connect with global pharma players, and secure investment and research partnerships.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
+      reasons : [
+  {
+    number: 1,
+    title: "Discover Cutting-Edge AI Innovations in Pharmaceuticals",
+    description:
+      "Explore the latest AI-driven advancements in drug discovery, formulation design, clinical trials, and manufacturing, and learn how AI is transforming pharmaceutical R&D, speed, and precision.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Global Pharma Leaders & AI Experts",
+    description:
+      "Connect with pharmaceutical executives, AI researchers, biotech pioneers, and regulatory experts to build strategic partnerships that drive AI integration across the drug development lifecycle.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Exclusive Insights from AI & Pharma Visionaries",
+    description:
+      "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in molecule design, biomarker discovery, and predictive modeling.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Investment & Commercialization Opportunities",
+    description:
+      "Meet venture capitalists, pharma investors, and startup leaders exploring funding and collaboration opportunities in AI-driven platforms accelerating drug development and market access.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
 
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description:
-            "To discover the most promising AI-driven biotech startups and technologies with high-impact potential.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-         {
-          number: 5,
-          title: "Unlock Investment & Business Opportunities",
-          description:
-            "To explore AI use in patient recruitment, trial simulation, real-world evidence, and adaptive trial design.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-         {
-          number: 5,
-          title: "Unlock Investment & Business Opportunities",
-          description:
-           "To understand AI’s implications for drug approval, compliance, data governance, and global health regulations.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-         {
-          number: 5,
-          title: "Unlock Investment & Business Opportunities",
-          description:
-         " To engage with leading minds, present research, and explore careers at the intersection of AI and pharmaceuticals.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
       showAudience: true,
       
        demographics :[
@@ -1322,44 +1293,51 @@ export const cards = [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+
+       reasons : [
+  {
+    number: 1,
+    title: "Discover Cutting-Edge AI Innovations in Finance",
+    description:
+      "Explore how AI is transforming risk management, fraud detection, trading algorithms, and customer service in the finance industry, driving greater accuracy, speed, and security.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Global Financial Leaders & AI Experts",
+    description:
+      "Connect with banking executives, fintech innovators, AI researchers, and regulators to build strategic alliances and exchange insights on the future of AI in finance.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Exclusive Insights from AI & Fintech Visionaries",
+    description:
+      "Attend expert-led keynotes, panels, and workshops to learn how AI is reshaping wealth management, credit scoring, market forecasting, and real-time decision-making.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Investment & Growth Opportunities",
+    description:
+      "Meet venture capitalists, institutional investors, and fintech startups exploring AI-powered solutions that drive innovation, efficiency, and new revenue models across financial services.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
+
       showAudience: true,
      demographics: [
   {
@@ -1441,44 +1419,49 @@ export const cards = [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+      reasons : [
+  {
+    number: 1,
+    title: "Discover Cutting-Edge AI Innovations in Retail & E-Commerce",
+    description:
+      "Explore how AI is revolutionizing product recommendations, customer segmentation, inventory management, and pricing strategies to drive smarter, data-driven retail experiences.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Global Retail Leaders & AI Experts",
+    description:
+      "Connect with retail executives, e-commerce innovators, AI technologists, and digital transformation leaders to share strategies and build partnerships shaping the future of AI in commerce.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Exclusive Insights from AI & Retail Visionaries",
+    description:
+      "Attend keynotes, panels, and workshops led by pioneers in AI-driven retail to learn about real-world applications in customer behavior analytics, personalized marketing, and demand forecasting.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Investment & Growth Opportunities",
+    description:
+      "Meet investors, retail tech startups, and solution providers exploring AI-powered tools and platforms that boost operational efficiency, customer engagement, and business growth.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
 demographics : [
   {
@@ -1559,45 +1542,49 @@ demographics : [
 
       ,
       showWhyJoin: true,
+ reasons : [
+  {
+    number: 1,
+    title: "Discover Breakthroughs in Generative AI",
+    description:
+      "Explore the latest innovations in generative AI, from large language models to synthetic media, and learn how these technologies are reshaping industries through creativity, automation, and intelligence.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Global AI Pioneers & Industry Leaders",
+    description:
+      "Connect with top researchers, developers, founders, and enterprise leaders advancing generative AI in domains like content creation, product design, software development, and more.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Exclusive Insights from Generative AI Visionaries",
+    description:
+      "Attend talks, panels, and hands-on sessions to gain deep insights into prompt engineering, foundation models, ethical concerns, and practical use cases transforming creative and technical workflows.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Innovation & Business Opportunities",
+    description:
+      "Meet investors, innovators, and platform builders exploring monetization, scalability, and strategic partnerships with startups and enterprises at the forefront of generative AI innovation.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
       showAudience: true, demographics : [
   {
     id: 1,
@@ -1680,44 +1667,49 @@ demographics : [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+    reasons : [
+  {
+    number: 1,
+    title: "Explore AI Innovations Powering the Energy Sector",
+    description:
+      "Discover how AI is driving advancements in energy efficiency, smart grids, predictive maintenance, renewable energy forecasting, and carbon footprint reduction across the power ecosystem.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Energy Leaders & AI Specialists",
+    description:
+      "Connect with utility providers, AI technologists, sustainability officers, and infrastructure leaders to foster collaborations that accelerate AI adoption in clean and traditional energy systems.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Insights from AI & Energy Visionaries",
+    description:
+      "Attend keynotes, panels, and case studies that showcase real-world AI applications in grid management, energy storage optimization, and smart city infrastructure.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Sustainable Innovation & Investment Opportunities",
+    description:
+      "Engage with investors, cleantech startups, and energy innovators exploring AI-driven solutions to enhance resilience, reduce emissions, and support the global transition to sustainable energy.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
        demographics : [
   {
@@ -1817,44 +1809,49 @@ demographics : [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+     reasons : [
+  {
+    number: 1,
+    title: "Explore AI Innovations Driving the Future of Mobility",
+    description:
+      "Discover how AI is accelerating advancements in autonomous vehicles, smart transportation systems, driver assistance, and vehicle-to-everything (V2X) communication, transforming the auto industry.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Automotive & AI Industry Leaders",
+    description:
+      "Connect with OEMs, Tier 1 suppliers, AI researchers, mobility startups, and policy makers to build impactful partnerships that are shaping next-gen automotive innovation.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Insights from Autotech & AI Visionaries",
+    description:
+      "Attend sessions led by pioneers in autonomous systems, machine learning, EV technology, and smart mobility to learn how AI is redefining safety, performance, and customer experience.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Investment & Tech Deployment Opportunities",
+    description:
+      "Meet investors, engineers, and product leaders exploring funding and commercialization of AI-powered platforms across autonomous driving, connected vehicles, and mobility-as-a-service (MaaS).",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
       demographics : [
   {
@@ -1954,44 +1951,49 @@ demographics : [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+       reasons : [
+  {
+    number: 1,
+    title: "Explore AI Innovations Revolutionizing Transportation",
+    description:
+      "Discover how AI is transforming transportation through intelligent traffic management, autonomous mobility, logistics optimization, and predictive maintenance across road, rail, air, and sea.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Transportation Leaders & AI Experts",
+    description:
+      "Connect with logistics companies, transit authorities, mobility startups, and AI technologists to exchange ideas and build partnerships advancing the future of smart, connected transportation.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Insights from Pioneers in AI-Powered Mobility",
+    description:
+      "Attend expert-led sessions, case studies, and panels on AI applications in fleet management, route optimization, public transit, infrastructure planning, and sustainable mobility.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Business & Policy Opportunities",
+    description:
+      "Engage with investors, policymakers, and solution providers exploring AI-based systems that improve operational efficiency, safety, and sustainability in global transportation networks.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
       demographics :[
   {
@@ -2073,44 +2075,49 @@ demographics : [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+      reasons : [
+  {
+    number: 1,
+    title: "Discover AI Innovations Transforming Manufacturing",
+    description:
+      "Explore how AI is revolutionizing manufacturing through predictive maintenance, quality control, process automation, and smart factory optimization, driving agility and efficiency at scale.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Industry 4.0 Leaders & AI Experts",
+    description:
+      "Connect with manufacturers, automation engineers, AI researchers, and technology providers to exchange ideas and forge partnerships that power the next wave of industrial innovation.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Insights from AI & Manufacturing Trailblazers",
+    description:
+      "Attend sessions led by experts in robotics, digital twins, computer vision, and supply chain optimization to learn how AI is enabling smarter production and real-time decision-making.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Innovation & Scalable Solutions",
+    description:
+      "Meet investors, industrial tech startups, and enterprise leaders exploring scalable AI solutions that enhance productivity, reduce downtime, and deliver competitive advantage in global manufacturing.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
     demographics : [
   {
@@ -2212,44 +2219,49 @@ demographics : [
       ,
       showWhyJoin: true,
 
-      reasons: [
-        {
-          number: 1,
-          title: "Discover Cutting-Edge AI Innovations in Healthcare",
-          description: "Explore the latest AI-driven breakthroughs in diagnostics, drug discovery, patient care, and hospital management, and learn how AI is transforming healthcare efficiency, precision, and accessibility.",
-          gradientClass: "from-blue-600 to-cyan-600",
-          imgSrc: Discover,
-          iconColor: "#3B82F6",
-          icon: Brain,
-        },
-        {
-          number: 2,
-          title: "Network with Global Industry Leaders & AI Experts",
-          description: "Connect with top healthcare executives, AI researchers, policymakers, and technology pioneers to build strategic partnerships with startups, investors, and healthcare providers driving AI adoption.",
-          gradientClass: "from-purple-600 to-blue-600",
-          iconColor: "#8B5CF6",
-          icon: Users,
-          imgSrc: Networking,
-        },
-        {
-          number: 3,
-          title: "Gain Exclusive Insights from AI & Healthcare Visionaries",
-          description: "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in genomics, robotics, telemedicine, and personalized medicine.",
-          gradientClass: "from-violet-600 to-purple-600",
-          imgSrc: Insight,
-          iconColor: "#EC4899",
-          icon: Lightbulb,
-        },
-        {
-          number: 4,
-          title: "Unlock Investment & Business Opportunities",
-          description: "Meet venture capitalists, government agencies, and corporate leaders looking to fund AI healthcare innovations while exploring collaboration opportunities with AI-driven startups and enterprises shaping the future of healthcare.",
-          gradientClass: "from-indigo-600 to-violet-600",
-          imgSrc: Opportunity,
-          iconColor: "#6366F1",
-          icon: Coins,
-        },
-      ],
+     reasons : [
+  {
+    number: 1,
+    title: "Discover AI Innovations Revolutionizing Agriculture",
+    description:
+      "Explore how AI is transforming modern farming with precision agriculture, crop health monitoring, autonomous machinery, and data-driven resource management to improve yield and sustainability.",
+    gradientClass: "from-blue-600 to-cyan-600",
+    imgSrc: Discover,
+    iconColor: "#3B82F6",
+    icon: Brain,
+  },
+  {
+    number: 2,
+    title: "Network with Agri-Tech Leaders & AI Experts",
+    description:
+      "Connect with agronomists, agri-tech startups, researchers, and AI developers to collaborate on solutions that address food security, climate challenges, and global farming efficiency.",
+    gradientClass: "from-purple-600 to-blue-600",
+    iconColor: "#8B5CF6",
+    icon: Users,
+    imgSrc: Networking,
+  },
+  {
+    number: 3,
+    title: "Gain Insights from Agriculture & AI Pioneers",
+    description:
+      "Join keynotes, panels, and technical sessions covering real-world AI use cases in smart irrigation, soil analytics, pest detection, livestock monitoring, and supply chain automation.",
+    gradientClass: "from-violet-600 to-purple-600",
+    imgSrc: Insight,
+    iconColor: "#EC4899",
+    icon: Lightbulb,
+  },
+  {
+    number: 4,
+    title: "Unlock Investment & Growth in Agri-Innovation",
+    description:
+      "Meet impact investors, sustainable farming advocates, and innovators shaping the future of agriculture with AI-powered tools that drive productivity, resilience, and environmental stewardship.",
+    gradientClass: "from-indigo-600 to-violet-600",
+    imgSrc: Opportunity,
+    iconColor: "#6366F1",
+    icon: Coins,
+  },
+],
+
       showAudience: true,
        demographics : [
   {
