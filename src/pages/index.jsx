@@ -25,7 +25,7 @@ export { default as Meet } from './Meet/Meet.jsx';
 export { default as Ticket } from './Ticket/Ticket.jsx';
 export { default as TicketRegistration } from './Ticket/TicketRegistration.jsx';
 export { default as NotFound } from './NotFound/NotFound.jsx';
-export { default as Carrier } from './Carrier/Carrier.jsx';
+export { default as Careers } from './Careers/Careers.jsx';
 export { default as Registration } from './Registration/RegistrationPage.jsx';
 
 

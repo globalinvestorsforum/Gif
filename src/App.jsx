@@ -25,7 +25,7 @@ import {
   Registration,
   Company,
   // NotFound,
-  Carrier,
+  Careers,
   BestUseOfAiForm,
   Speakers,
   SpeakerDetails,
@@ -55,7 +55,7 @@ const router = createBrowserRouter(
       <Route path="/gais/speaker/:id" element={<SpeakerDetails />}/>
       <Route path="/gais/ticket" element={<Ticket />} />
       <Route path="/gais/TicketRegistration" element={<TicketRegistration />} />
-      <Route path="/gais/carrier" element={<Carrier />} />
+      {/* <Route path="/gais/carrier" element={<Carrier />} /> */}
       <Route path="/gais/Registration" element={<Registration />} />
       <Route path="/gais/conference" element={<Conference />} />
       
@@ -73,6 +73,7 @@ const router = createBrowserRouter(
       <Route path="/contactus" element={<Contact />} />
       <Route path="/terms" element={<Terms/>} />
       <Route path="/privacy" element={<Privacy/>} />
+      <Route path="/Careers" element={<Careers />} />
 
       <Route path="*" element={<NotFound />} />
     </Route>

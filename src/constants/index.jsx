@@ -486,7 +486,7 @@ export const footerItems = [
     items: [
       { text: "Blog", link: "#footer" },
       { text: "Press", link: "mailto:info@global-investors-forum.com" },
-      { text: "Careers", link: "#footer" },
+      { text: "Careers", link: "/Careers" },
     ],
   },
   // {

@@ -1,8 +1,9 @@
 import React from 'react'
 import HeadCard from './HeadCard'
 import SubCard from './SubCard'
+import InternshipPosition from './InternshipPosition'
 
-const Carrier = () => {
+const Careers = () => {
     const headCard1Heading= "Are you ready to orchestrate the extraordinary?"
     const headCard1Desc= "If you're looking for a career that's both challenging and rewarding, we invite you to explore the opportunities available at Global Investors Forum."
 
@@ -15,7 +16,7 @@ const Carrier = () => {
 
   return (
     <>
-    <div
+    {/* <div
           className="w-full min-h-screen bg-no-repeat bg-cover bg-center  border-b border-neutral-800 md:py-20 sm:py-10"
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Carrier%2FHeadCard1.png?alt=media&token=103a20d0-56ae-4bde-aa30-2a5e59f4183c') `,
@@ -23,8 +24,8 @@ const Carrier = () => {
         >
         <div className='pt-10 px-20'> <HeadCard head={headCard1Heading}  desc={headCard1Desc}/> </div>
        
-    </div>
-    <div
+    </div> */}
+    {/* <div
           className="w-full min-h-screen bg-no-repeat bg-cover   border-b border-neutral-800 md:py-20 sm:py-10"
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Carrier%2FHeadCard2.png?alt=media&token=d6c2edcb-babf-494f-a802-755e83845ce6') `,
@@ -32,15 +33,17 @@ const Carrier = () => {
         >
         <div className='pt-10 px-20'> <HeadCard head={headCard2Heading} desc={headCard2Desc}/> </div>
        
-    </div>
-    <div className='w-full min-h-screen bg-white border-b border-neutral-800 p-20'>
+    </div> */}
+    {/* <div className='w-full min-h-screen bg-white border-b border-neutral-800 p-20'>
             <SubCard img={subCardImg} para1={subCard1para1} para2={subCard1para2}/>
             <h1 className='text-neutral-900 text-2xl'>What It Means to Be Part of Our Team</h1>
             <SubCard img={subCardImg} para1={subCard1para1} para2={subCard1para2} order={1} style={"end"}/>
-    </div>
+    </div> */}
+
+    <InternshipPosition/>
     </>
     
   )
 }
 
-export default Carrier
+export default Careers
