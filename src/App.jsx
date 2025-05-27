@@ -59,9 +59,9 @@ const router = createBrowserRouter(
       <Route path="/gais/Registration" element={<Registration />} />
       <Route path="/gais/conference" element={<Conference />} />
       
-      {/* <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} />
+      {/* <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} /> */}
       <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
-      <Route path="/gais/conference/ai-agriculture-summit" element={<AgricultureSummit />} /> */}
+      {/* <Route path="/gais/conference/ai-agriculture-summit" element={<AgricultureSummit />} /> */}
 
       
      <Route path="/gais/conference/:summitId" element={<AiSummitLayout />}/>
