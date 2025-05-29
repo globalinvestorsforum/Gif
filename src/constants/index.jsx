@@ -1,7 +1,7 @@
 import { AiOutlineGlobal } from "react-icons/ai";
 import surgury from '../assets/HealthcareSummit/surgury.png';
 import Gardening from "../assets/Gardening.png"
-
+import Global_Ai from "../assets/Global_Ai.png"
 import car from "../assets/car.png";
 import Pharma1 from "../assets/Pharma1.jpg";
 import Machine from "../assets/Machine.png"
@@ -978,7 +978,147 @@ export const cards = [
     discription: "Unifying the world AI community",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6",
-  },
+  eventLink: "/gais/conference/ai-Global-AI-Summit-summit",
+  config: {
+  bgImage: Global_Ai,
+  title: "The Global AI Summit",
+  showIntroduction: true,
+  introductionText:
+    "Accelerating Innovation Across Industries: Join Global Leaders, Innovators, and AI Experts at the Forefront of Artificial Intelligence",
+  introdunctionCard1title: "Global AI Market",
+  introdunctionCard1subTitle: "USD 196.63B → USD 1,811.8B",
+  introdunctionCard1Range: "2024 → 2030",
+  introdunctionCard1Percent: "45.4% CAGR",
+  introdunctionCard2title:
+    "The global AI market is expected to skyrocket to USD 1.81 trillion by 2030, growing at a compound annual growth rate of 45.4% from 2024's USD 196.63 billion. The Global AI Summit offers a timely platform to explore this exponential growth and the technologies powering it.",
+  introdunctionCard2SubTitle:
+    "Source: MarketsandMarkets (Artificial Intelligence Market Analysis & Forecast).",
+  introductionParagraph1:
+    "The Global AI Summit is a landmark event uniting the world’s top minds in artificial intelligence. It brings together industry leaders, researchers, technologists, and policymakers to explore AI's transformative impact across all sectors—from finance and education to transportation, energy, and entertainment.",
+  introductionParagraph2:
+    "Through visionary keynotes, technical workshops, and cross-industry panels, the summit provides a comprehensive view of how AI is being applied to real-world challenges. Attendees will discover cutting-edge innovations, share insights, and shape the ethical and strategic future of AI.",
+  introductionParagraph3:
+    "Be part of this global gathering to connect, collaborate, and contribute to the future of artificial intelligence. Whether you're driving innovation or navigating AI disruption, this summit is your gateway to the next wave of intelligent transformation.",
+  showWhyJoin: true,
+  reasons: [
+    {
+      number: 1,
+      title: "Explore AI Innovations Across Industries",
+      description:
+        "Discover how AI is revolutionizing sectors like finance, logistics, healthcare, retail, agriculture, and more through automation, analytics, and intelligent systems.",
+      gradientClass: "from-blue-600 to-cyan-600",
+      imgSrc: Discover,
+      iconColor: "#3B82F6",
+      icon: Brain,
+    },
+    {
+      number: 2,
+      title: "Network with Global AI Leaders & Innovators",
+      description:
+        "Connect with AI pioneers, corporate executives, government officials, and researchers to form collaborations, partnerships, and alliances that drive AI forward.",
+      gradientClass: "from-purple-600 to-blue-600",
+      iconColor: "#8B5CF6",
+      icon: Users,
+      imgSrc: Networking,
+    },
+    {
+      number: 3,
+      title: "Learn from Industry Visionaries & Tech Trailblazers",
+      description:
+        "Gain unique perspectives from global AI leaders on topics like generative AI, robotics, smart cities, and ethical governance through immersive talks and panels.",
+      gradientClass: "from-violet-600 to-purple-600",
+      imgSrc: Insight,
+      iconColor: "#EC4899",
+      icon: Lightbulb,
+    },
+    {
+      number: 4,
+      title: "Unlock Global Investment & Innovation Opportunities",
+      description:
+        "Meet VCs, accelerators, and corporate investors looking to fund the next generation of AI ventures. Discover startup pitches, product showcases, and R&D collaborations.",
+      gradientClass: "from-indigo-600 to-violet-600",
+      imgSrc: Opportunity,
+      iconColor: "#6366F1",
+      icon: Coins,
+    },
+  ],
+  showAudience: true,
+  demographics: [
+    {
+      id: 1,
+      title: "Industry Professionals",
+      description: "Executives, managers, and digital transformation leaders",
+      bgColor: "from-blue-500 to-blue-600",
+      icon: <Users className="w-6 h-6 text-white" />,
+      reason:
+        "To explore AI-driven efficiencies and strategies across their sectors.",
+    },
+    {
+      id: 2,
+      title: "AI & Tech Innovators",
+      description: "Engineers, data scientists, and machine learning experts",
+      bgColor: "from-purple-500 to-purple-600",
+      icon: <Database className="w-6 h-6 text-white" />,
+      reason:
+        "To showcase algorithms, platforms, and architectures driving global AI advancements.",
+    },
+    {
+      id: 3,
+      title: "Startups & Entrepreneurs",
+      description: "Founders and tech disruptors across AI-driven industries",
+      bgColor: "from-green-500 to-green-600",
+      icon: <Rocket className="w-6 h-6 text-white" />,
+      reason:
+        "To pitch innovations, gain visibility, and build strategic relationships.",
+    },
+    {
+      id: 4,
+      title: "Investors & VCs",
+      description: "Angel investors, VC firms, and global capital partners",
+      bgColor: "from-amber-500 to-amber-600",
+      icon: <Landmark className="w-6 h-6 text-white" />,
+      reason:
+        "To discover and invest in scalable AI startups and frontier technologies.",
+    },
+    {
+      id: 5,
+      title: "Governments & Policymakers",
+      description: "Regulators, tech policy experts, and civic leaders",
+      bgColor: "from-cyan-500 to-cyan-600",
+      icon: <Users className="w-6 h-6 text-white" />,
+      reason:
+        "To explore AI’s impact on governance, policy frameworks, and societal implications.",
+    },
+    {
+      id: 6,
+      title: "Academics & Students",
+      description: "Researchers, scholars, and aspiring AI professionals",
+      bgColor: "from-indigo-500 to-indigo-600",
+      icon: <GraduationCap className="w-6 h-6 text-white" />,
+      reason:
+        "To gain exposure to leading-edge research and future career paths in AI.",
+    },
+    {
+      id: 7,
+      title: "Media & Influencers",
+      description: "Tech journalists, analysts, and AI thought leaders",
+      bgColor: "from-red-500 to-red-600",
+      icon: <Lightbulb className="w-6 h-6 text-white" />,
+      reason:
+        "To report on AI trends, spotlight innovation, and shape public discourse.",
+    },
+  ],
+  showAwardAgenda: true,
+  showRegister: true,
+  registerButtonCSS:
+    "bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+  scheduleButtonCSS:
+    "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+  agendaLink: '/gais/conference/global-ai-summit/all-agendas',
+  registerLink: '/gais/ticket'
+}
+
+    },
   {
     title: "The AI HealthCare Summit",
     discription:
@@ -999,7 +1139,7 @@ export const cards = [
       introdunctionCard1Percent: "49.1% CAGR",
       introdunctionCard2title: " The Global AI in healthcare market is projected to explode, reaching a staggering USD 164.16 billion by 2030, growing at an astounding CAGR of 49.1% from 2024's USD 14.92 billion. The summit presents a timely opportunity for stakeholders to engage with innovative technologies and strategies that are driving this growth.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Healthcare Summit is a pioneering event dedicated to exploring the latest trends and advancements in artificial intelligence and their impact on healthcare. With AI rapidly transforming the way healthcare is delivered, this summit brings together leading experts, cutting-edge startups, innovators, researchers, and practitioners from across the globe."
+      introductionParagraph1:  "The AI Healthcare Summit is a pioneering event dedicated to exploring the latest trends and advancements in artificial intelligence and their impact on healthcare. With AI rapidly transforming the way healthcare is delivered, this summit brings together leading experts, cutting-edge startups, innovators, researchers, and practitioners from across the globe."
       ,
       introductionParagraph2: "Participants will share insights, knowledge, and experiences on how AI is shaping the healthcare landscape through interactive sessions, panel discussions, keynote speeches, and workshops. The healthcare landscape is undergoing a radical transformation, driven by the power of AI - revolutionizing everything from diagnostics and treatment to drug discovery and patient care.",
       introductionParagraph3: "  Join us for this ground-breaking event and be a part of the conversation that is shaping the future of healthcare. This unparalleled opportunity will allow attendees to gain valuable knowledge on the latest advancements in AI and their practical applications in healthcare."
@@ -1124,277 +1264,281 @@ export const cards = [
 
     }
   },
-  {
-    title: "The AI Pharmaceutical Summit",
-    discription:
-      "Creating Synergies between Artificial Intelligence, Biotechnology, & Medicine.",
-    backImgURL:
-      "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FPharmaceutical%201.jpg?alt=media&token=379f8c4d-11b3-46e9-9e82-12da7593afd8",
+ {
+  title: "The AI Pharmaceutical Summit",
+  discription:
+    "Creating Synergies between Artificial Intelligence, Biotechnology, & Medicine.",
+  backImgURL:
+    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FPharmaceutical%201.jpg?alt=media&token=379f8c4d-11b3-46e9-9e82-12da7593afd8",
   eventLink: "/gais/conference/ai-pharmaceutical-summit",
-      config: {
-      bgImage: Pharma1,
-      title: "The AI-Pharmaceutical Summit",
+  config: {
+    bgImage: Pharma1,
+    title: "The AI-Pharmaceutical Summit",
+    showIntroduction: true,
+    introductionText:
+      "Advancing Pharmaceuticals Through Artificial Intelligence: Join Leading Industry Experts, Researchers, and AI Innovators",
+    introdunctionCard1title: "AI in Pharmaceuticals",
+    introdunctionCard1subTitle: "USD 1.54B → USD 9.24B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "34.2% CAGR",
+    introdunctionCard2title:
+      "The global AI in pharmaceuticals market is projected to grow exponentially, reaching USD 9.24 billion by 2030 from USD 1.54 billion in 2024, at a CAGR of 34.2%. The summit offers an essential platform to explore innovations revolutionizing drug development, production, and delivery.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (AI in Pharma Market Report).",
+    introductionParagraph1:
+    "The AI Pharma Summit is a trailblazing global event focused on exploring the latest breakthroughs and trends in artificial intelligence and its transformative impact on the pharmaceutical industry. As AI continues to revolutionize drug discovery, clinical trials, manufacturing, and patient outcomes, this summit convenes top pharmaceutical companies, cutting-edge startups, researchers, regulators, and technologists from around the world.",
+      introductionParagraph2:
+      "Participants will share insights, strategies, and experiences on how AI is accelerating pharmaceutical innovation through interactive sessions, panel discussions, keynote presentations, and hands-on workshops. The pharma landscape is undergoing a profound transformation powered by AI—enabling faster and more cost-effective drug development, predictive analytics, personalized medicine, and smarter supply chains.",
+       introductionParagraph3:
+      "Join us for this visionary gathering and become part of the conversation shaping the future of pharmaceuticals. This unique opportunity will equip attendees with valuable knowledge on the latest AI advancements and their practical applications across the entire pharmaceutical value chain.",
+       showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Cutting-Edge AI Innovations in Pharmaceuticals",
+        description:
+          "Explore the latest AI-driven advancements in drug discovery, formulation design, clinical trials, and manufacturing, and learn how AI is transforming pharmaceutical R&D, speed, and precision.",
+        gradientClass: "from-blue-600 to-cyan-600",
+        imgSrc: Discover,
+        iconColor: "#3B82F6",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Network with Global Pharma Leaders & AI Experts",
+        description:
+          "Connect with pharmaceutical executives, AI researchers, biotech pioneers, and regulatory experts to build strategic partnerships that drive AI integration across the drug development lifecycle.",
+        gradientClass: "from-purple-600 to-blue-600",
+        iconColor: "#8B5CF6",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Gain Exclusive Insights from AI & Pharma Visionaries",
+        description:
+          "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in molecule design, biomarker discovery, and predictive modeling.",
+        gradientClass: "from-violet-600 to-purple-600",
+        imgSrc: Insight,
+        iconColor: "#EC4899",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Unlock Investment & Commercialization Opportunities",
+        description:
+          "Meet venture capitalists, pharma investors, and startup leaders exploring funding and collaboration opportunities in AI-driven platforms accelerating drug development and market access.",
+        gradientClass: "from-indigo-600 to-violet-600",
+        imgSrc: Opportunity,
+        iconColor: "#6366F1",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Pharmaceutical Industry Leaders",
+        description: "Executives from pharma companies, R&D directors, and innovation heads",
+        bgColor: "from-red-500 to-red-600",
+        icon: <Lightbulb className="w-6 h-6 text-white" />,
+        reason:
+          "To explore how AI is transforming drug discovery, clinical trials, formulation development, and regulatory compliance.",
+      },
+      {
+        id: 2,
+        title: "AI & Tech Innovators",
+        description: "AI researchers, computational biologists, data scientists, and platform developers",
+        bgColor: "from-purple-500 to-purple-600",
+        icon: <Database className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase breakthroughs in molecular modeling, predictive analytics, generative drug design, and AI-powered diagnostics.",
+      },
+      {
+        id: 3,
+        title: "Pharma & Biotech Startups",
+        description: "Founders, CEOs, and early-stage innovators in drug development and health tech",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To pitch AI-based platforms and therapeutics, connect with global pharma players, and secure investment and research partnerships.",
+      },
+      {
+        id: 4,
+        title: "Investors & VCs",
+        description: "Pharma investors, biotech venture funds, and life sciences VCs",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To discover the most promising AI-driven biotech startups and technologies with high-impact potential.",
+      },
+      {
+        id: 5,
+        title: "Clinical Research Organizations (CROs)",
+        description: "Clinical trial designers, data managers, and CRO executives",
+        bgColor: "from-blue-500 to-blue-600",
+        icon: <Stethoscope className="w-6 h-6 text-white" />,
+        reason:
+          "To explore AI use in patient recruitment, trial simulation, real-world evidence, and adaptive trial design.",
+      },
+      {
+        id: 6,
+        title: "Regulatory Experts & Policy Makers",
+        description: "Regulatory officials, policy advisors, and ethics committees",
+        bgColor: "from-cyan-500 to-cyan-600",
+        icon: <Users className="w-6 h-6 text-white" />,
+        reason:
+          "To understand AI’s implications for drug approval, compliance, data governance, and global health regulations.",
+      },
+      {
+        id: 7,
+        title: "Academics & Students",
+        description: "Pharmaceutical scientists, AI researchers, and medical science students",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To engage with leading minds, present research, and explore careers at the intersection of AI and pharmaceuticals.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110 shadow-md",
+    agendaLink: "/gais/conference/ai-pharmaceutical-summit/all-agendas",
+    registerLink: "/gais/ticket"
+  }
+},
 
-      showIntroduction: true,
-      introductionText:
-        "Advancing Pharmaceuticals Through Artificial Intelligence: Join Leading Industry Experts, Researchers, and AI Innovators",
-      introdunctionCard1title: "AI in Healthcare",
-      introdunctionCard1subTitle: "USD 14.92B → USD 164.16B",
-      introdunctionCard1Range: "2024 → 2030",
-      introdunctionCard1Percent: "49.1% CAGR",
-      introdunctionCard2title: " The Global AI in healthcare market is projected to explode, reaching a staggering USD 164.16 billion by 2030, growing at an astounding CAGR of 49.1% from 2024's USD 14.92 billion. The summit presents a timely opportunity for stakeholders to engage with innovative technologies and strategies that are driving this growth.",
-      introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Healthcare Summit is a pioneering event dedicated to exploring the latest trends and advancements in artificial intelligence and their impact on healthcare. With AI rapidly transforming the way healthcare is delivered, this summit brings together leading experts, cutting-edge startups, innovators, researchers, and practitioners from across the globe."
-      ,
-      introductionParagraph2: "Participants will share insights, knowledge, and experiences on how AI is shaping the healthcare landscape through interactive sessions, panel discussions, keynote speeches, and workshops. The healthcare landscape is undergoing a radical transformation, driven by the power of AI - revolutionizing everything from diagnostics and treatment to drug discovery and patient care.",
-      introductionParagraph3: "  Join us for this ground-breaking event and be a part of the conversation that is shaping the future of healthcare. This unparalleled opportunity will allow attendees to gain valuable knowledge on the latest advancements in AI and their practical applications in healthcare."
-      ,
-      showWhyJoin: true,
-      reasons : [
   {
-    number: 1,
-    title: "Discover Cutting-Edge AI Innovations in Pharmaceuticals",
-    description:
-      "Explore the latest AI-driven advancements in drug discovery, formulation design, clinical trials, and manufacturing, and learn how AI is transforming pharmaceutical R&D, speed, and precision.",
-    gradientClass: "from-blue-600 to-cyan-600",
-    imgSrc: Discover,
-    iconColor: "#3B82F6",
-    icon: Brain,
-  },
-  {
-    number: 2,
-    title: "Network with Global Pharma Leaders & AI Experts",
-    description:
-      "Connect with pharmaceutical executives, AI researchers, biotech pioneers, and regulatory experts to build strategic partnerships that drive AI integration across the drug development lifecycle.",
-    gradientClass: "from-purple-600 to-blue-600",
-    iconColor: "#8B5CF6",
-    icon: Users,
-    imgSrc: Networking,
-  },
-  {
-    number: 3,
-    title: "Gain Exclusive Insights from AI & Pharma Visionaries",
-    description:
-      "Attend keynotes, panel discussions, and workshops led by industry pioneers to gain firsthand knowledge of AI applications in molecule design, biomarker discovery, and predictive modeling.",
-    gradientClass: "from-violet-600 to-purple-600",
-    imgSrc: Insight,
-    iconColor: "#EC4899",
-    icon: Lightbulb,
-  },
-  {
-    number: 4,
-    title: "Unlock Investment & Commercialization Opportunities",
-    description:
-      "Meet venture capitalists, pharma investors, and startup leaders exploring funding and collaboration opportunities in AI-driven platforms accelerating drug development and market access.",
-    gradientClass: "from-indigo-600 to-violet-600",
-    imgSrc: Opportunity,
-    iconColor: "#6366F1",
-    icon: Coins,
-  },
-],
+  title: "The AI Finance Summit",
+  discription: "Money Meets Machine.",
+  backImgURL:
+    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
+  eventLink: "/gais/conference/ai-Finance-summit",
+  config: {
+    bgImage: finance,
+    title: "The AI-Finance Summit",
+    introductionText:
+      "Transforming Finance Through Artificial Intelligence: Join Leading Financial Professionals and AI Experts",
+    showIntroduction: true,
+    introdunctionCard1title: "AI in Finance",
+    introdunctionCard1subTitle: "USD 10.1B → USD 64.0B",
+    introdunctionCard1Range: "2023 → 2030",
+    Percent: "30.4% CAGR",
+    introdunctionCard2title:
+      "The global AI in finance market is expected to grow from USD 10.1 billion in 2023 to USD 64.0 billion by 2030, at a CAGR of 30.4%. This summit is a key event for understanding the technological shift transforming financial services.",
+    introdunctionCard2SubTitle:
+      "Source: Fortune Business Insights (Global Forecast & Trends).",
+    introductionParagraph1:
+     "Artificial intelligence is revolutionizing the Banking, Financial Services, and Insurance (BFSI) sector, redefining risk assessment, fraud detection, customer experience, and investment strategies. As financial institutions embrace AI-driven innovations, staying ahead of the curve is no longer an option—it’s a necessity.  " ,
+     introductionParagraph2:
+     "The summit is meticulously curated to foster high-impact collaboration, ignite insightful discussions, and shape the future of the global financial industry. Through visionary keynotes, interactive panels, and hands-on workshops, participants will explore real-world case studies, pioneering research, and AI-powered financial strategies—all focused on accelerating AI adoption, navigating regulatory challenges, and redefining the future of intelligent automation in financial services.",
+       introductionParagraph3:
+      "Join us in shaping the next wave of AI integration, unlocking new opportunities for efficiency, security, and customer engagement in the BFSI sector. Be a part of the transformation—where intelligence meets finance, and innovation drives growth.  ",
+       showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Cutting-Edge AI Innovations in Finance",
+        description:
+          "Explore how AI is transforming risk management, fraud detection, trading algorithms, and customer service in the finance industry, driving greater accuracy, speed, and security.",
+        gradientClass: "from-blue-600 to-cyan-600",
+        imgSrc: Discover,
+        iconColor: "#3B82F6",
+        icon: Brain
+      },
+      {
+        number: 2,
+        title: "Network with Global Financial Leaders & AI Experts",
+        description:
+          "Connect with banking executives, fintech innovators, AI researchers, and regulators to build strategic alliances and exchange insights on the future of AI in finance.",
+        gradientClass: "from-purple-600 to-blue-600",
+        iconColor: "#8B5CF6",
+        icon: Users,
+        imgSrc: Networking
+      },
+      {
+        number: 3,
+        title: "Gain Exclusive Insights from AI & Fintech Visionaries",
+        description:
+          "Attend expert-led keynotes, panels, and workshops to learn how AI is reshaping wealth management, credit scoring, market forecasting, and real-time decision-making.",
+        gradientClass: "from-violet-600 to-purple-600",
+        imgSrc: Insight,
+        iconColor: "#EC4899",
+        icon: Lightbulb
+      },
+      {
+        number: 4,
+        title: "Unlock Investment & Growth Opportunities",
+        description:
+          "Meet venture capitalists, institutional investors, and fintech startups exploring AI-powered solutions that drive innovation, efficiency, and new revenue models across financial services.",
+        gradientClass: "from-indigo-600 to-violet-600",
+        imgSrc: Opportunity,
+        iconColor: "#6366F1",
+        icon: Coins
+      }
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Banking & Financial Services Leaders",
+        description: "Executives from banks, fintechs, and insurance firms",
+        bgColor: "from-gray-700 to-gray-800",
+        icon: <CreditCard className="w-6 h-6 text-white" />,
+        reason:
+          "To adopt AI for fraud detection, customer onboarding, and robo-advisory services."
+      },
+      {
+        id: 2,
+        title: "Quantitative Analysts & Data Scientists",
+        description:
+          "Experts in financial modeling, algorithmic trading, and risk analytics",
+        bgColor: "from-blue-500 to-blue-600",
+        icon:<BarChart className="w-6 h-6 text-white" /> ,
+        reason:
+          "To apply AI in portfolio optimization, real-time data analysis, and anomaly detection."
+      },
+      {
+        id: 3,
+        title: "Compliance & Regulatory Professionals",
+        description: "Specialists in AML, KYC, and financial regulations",
+        bgColor: "from-red-600 to-red-700",
+        icon:<ShieldCheck className="w-6 h-6 text-white" /> ,
+        reason:
+          "To evaluate AI tools for regulatory compliance, audit automation, and transparency."
+      },
+      {
+        id: 4,
+        title: "Fintech Founders & Innovators",
+        description:
+          "Startups building AI solutions for lending, payments, and wealth management",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Rocket className='w-6 h-6 text-white' />,
+        reason:
+          "To scale innovations and attract partnerships in the evolving AI-finance space."
+      },
+      {
+        id: 5,
+        title: "Financial Sector Investors & VCs",
+        description: "VCs investing in AI-driven fintech and insurtech companies",
+        bgColor: "from-amber-600 to-amber-700",
+        icon: <Landmark className='w-6 h-6 text-white' />,
+        reason:
+          "To identify high-return AI applications in the financial ecosystem."
+      }
+    ],
+    showAwardAgenda: false,
+    showRegister: false,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+    agendaLink: "/gais/conference/ai-finance-summit/all-agendas",
+    registerLink: "/gais/ticket"
+  }
+},
 
-      showAudience: true,
-      
-       demographics :[
-  {
-    id: 1,
-    title: "Pharmaceutical Industry Leaders",
-    description: "Executives from pharma companies, R&D directors, and innovation heads",
-    bgColor: "from-red-500 to-red-600",
-    icon: <Lightbulb className="w-6 h-6 text-white" />,
-    reason:
-      "To explore how AI is transforming drug discovery, clinical trials, formulation development, and regulatory compliance.",
-  },
-  {
-    id: 2,
-    title: "AI & Tech Innovators",
-    description: "AI researchers, computational biologists, data scientists, and platform developers",
-    bgColor: "from-purple-500 to-purple-600",
-    icon: <Database className="w-6 h-6 text-white" />,
-    reason:
-      "To showcase breakthroughs in molecular modeling, predictive analytics, generative drug design, and AI-powered diagnostics.",
-  },
-  {
-    id: 3,
-    title: "Pharma & Biotech Startups",
-    description: "Founders, CEOs, and early-stage innovators in drug development and health tech",
-    bgColor: "from-green-500 to-green-600",
-    icon: <Rocket className="w-6 h-6 text-white" />,
-    reason:
-      "To pitch AI-based platforms and therapeutics, connect with global pharma players, and secure investment and research partnerships.",
-  },
-  {
-    id: 4,
-    title: "Investors & VCs",
-    description: "Pharma investors, biotech venture funds, and life sciences VCs",
-    bgColor: "from-amber-500 to-amber-600",
-    icon: <Landmark className="w-6 h-6 text-white" />,
-    reason:
-      "To discover the most promising AI-driven biotech startups and technologies with high-impact potential.",
-  },
-  {
-    id: 5,
-    title: "Clinical Research Organizations (CROs)",
-    description: "Clinical trial designers, data managers, and CRO executives",
-    bgColor: "from-blue-500 to-blue-600",
-    icon: <Stethoscope className="w-6 h-6 text-white" />,
-    reason:
-      "To explore AI use in patient recruitment, trial simulation, real-world evidence, and adaptive trial design.",
-  },
-  {
-    id: 6,
-    title: "Regulatory Experts & Policy Makers",
-    description: "Regulatory officials, policy advisors, and ethics committees",
-    bgColor: "from-cyan-500 to-cyan-600",
-    icon: <Users className="w-6 h-6 text-white" />,
-    reason:
-      "To understand AI’s implications for drug approval, compliance, data governance, and global health regulations.",
-  },
-  {
-    id: 7,
-    title: "Academics & Students",
-    description: "Pharmaceutical scientists, AI researchers, and medical science students",
-    bgColor: "from-indigo-500 to-indigo-600",
-    icon: <GraduationCap className="w-6 h-6 text-white" />,
-    reason:
-      "To engage with leading minds, present research, and explore careers at the intersection of AI and pharmaceuticals.",
-  },
-],
-
-      showAwardAgenda: true,
-      showRegister: true,
-   registerButtonCSS: "bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110 shadow-md",
-     agendaLink: '/gais/conference/ai-healthcare-summit/all-agendas',
-      registerLink: '/gais/ticket'
-
-    }
-    },
-  {
-    title: "The AI Finance Summit",
-    discription: "Money Meets Machine.",
-    backImgURL:
-      "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
-      eventLink: "/gais/conference/ai-Finance-summit",
-    config: {
-      bgImage: finance,
-      title: "The AI-Finance Summit",
-      introductionText: "Transforming Finance Through Artificial Intelligence: Join Leading Financial Professionals and AI Experts",
-      showIntroduction: true,
-      introdunctionCard1title: "AI in Agriculture",
-      introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
-      introdunctionCard1Range: "2023 → 2030",
-      Percent: "25.5% CAGR",
-      introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
-      introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
-      ,
-      showWhyJoin: true,
-
-
-       reasons : [
-  {
-    number: 1,
-    title: "Discover Cutting-Edge AI Innovations in Finance",
-    description:
-      "Explore how AI is transforming risk management, fraud detection, trading algorithms, and customer service in the finance industry, driving greater accuracy, speed, and security.",
-    gradientClass: "from-blue-600 to-cyan-600",
-    imgSrc: Discover,
-    iconColor: "#3B82F6",
-    icon: Brain,
-  },
-  {
-    number: 2,
-    title: "Network with Global Financial Leaders & AI Experts",
-    description:
-      "Connect with banking executives, fintech innovators, AI researchers, and regulators to build strategic alliances and exchange insights on the future of AI in finance.",
-    gradientClass: "from-purple-600 to-blue-600",
-    iconColor: "#8B5CF6",
-    icon: Users,
-    imgSrc: Networking,
-  },
-  {
-    number: 3,
-    title: "Gain Exclusive Insights from AI & Fintech Visionaries",
-    description:
-      "Attend expert-led keynotes, panels, and workshops to learn how AI is reshaping wealth management, credit scoring, market forecasting, and real-time decision-making.",
-    gradientClass: "from-violet-600 to-purple-600",
-    imgSrc: Insight,
-    iconColor: "#EC4899",
-    icon: Lightbulb,
-  },
-  {
-    number: 4,
-    title: "Unlock Investment & Growth Opportunities",
-    description:
-      "Meet venture capitalists, institutional investors, and fintech startups exploring AI-powered solutions that drive innovation, efficiency, and new revenue models across financial services.",
-    gradientClass: "from-indigo-600 to-violet-600",
-    imgSrc: Opportunity,
-    iconColor: "#6366F1",
-    icon: Coins,
-  },
-],
-
-
-      showAudience: true,
-     demographics: [
-  {
-    id: 1,
-    title: "Banking & Financial Services Leaders",
-    description: "Executives from banks, fintechs, and insurance firms",
-    bgColor: "from-gray-700 to-gray-800",
-    icon: <CreditCard className="w-6 h-6 text-white" />,
-    reason:
-      "To adopt AI for fraud detection, customer onboarding, and robo-advisory services.",
-  },
-  {
-    id: 2,
-    title: "Quantitative Analysts & Data Scientists",
-    description: "Experts in financial modeling, algorithmic trading, and risk analytics",
-    bgColor: "from-blue-500 to-blue-600",
-    icon: <BarChart className="w-6 h-6 text-white" />,
-    reason:
-      "To apply AI in portfolio optimization, real-time data analysis, and anomaly detection.",
-  },
-  {
-    id: 3,
-    title: "Compliance & Regulatory Professionals",
-    description: "Specialists in AML, KYC, and financial regulations",
-    bgColor: "from-red-600 to-red-700",
-    icon: <ShieldCheck className="w-6 h-6 text-white" />,
-    reason:
-      "To evaluate AI tools for regulatory compliance, audit automation, and transparency.",
-  },
-  {
-    id: 4,
-    title: "Fintech Founders & Innovators",
-    description: "Startups building AI solutions for lending, payments, and wealth management",
-    bgColor: "from-green-500 to-green-600",
-    icon: <Rocket className="w-6 h-6 text-white" />,
-    reason:
-      "To scale innovations and attract partnerships in the evolving AI-finance space.",
-  },
-  {
-    id: 5,
-    title: "Financial Sector Investors & VCs",
-    description: "VCs investing in AI-driven fintech and insurtech companies",
-    bgColor: "from-amber-600 to-amber-700",
-    icon: <Landmark className="w-6 h-6 text-white" />,
-    reason:
-      "To identify high-return AI applications in the financial ecosystem.",
-  },
-],
-
-      showAwardAgenda: false,
-      showRegister: false,
-      registerButtonCSS: "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110", scheduleButtonCSS: "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
-       agendaLink: '/gais/conference/ai-healthcare-summit/all-agendas',
-      registerLink: '/gais/ticket'
-
-    }
-  },
   {
     title: "The AI Powered Retail & E- commerce Conclave",
     discription: "Driving growth with AI and enhancing customer experience.",
@@ -1412,11 +1556,10 @@ export const cards = [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
-      ,
+      introductionParagraph1: "Welcome to The AI Retail & E-Commerce Summit, the world's premier gathering dedicated to revolutionizing the retail and e-commerce landscape through artificial intelligence. As AI continues to redefine customer experiences, streamline operations, and drive personalization, this summit brings together industry leaders, innovators, and experts to explore cutting-edge solutions shaping the future of commerce.",
+        introductionParagraph2: "With AI's ability to analyze vast amounts of data, predict consumer behavior, and optimize supply chains, businesses are unlocking new opportunities for growth, efficiency, and engagement. This summit serves as a collaborative platform where participants can delve into transformative AI applications—ranging from intelligent product recommendations and dynamic pricing strategies to automated logistics, fraud detection, and next-generation customer service.  "
+        ,    introductionParagraph3: "Attendees will experience a dynamic mix of keynote sessions, panel discussions, interactive workshops, and networking opportunities, all designed to provide actionable insights and foster meaningful collaborations. Whether you're a retailer, entrepreneur, tech visionary, or researcher, The AI Retail & E-Commerce Summit is your gateway to understanding how AI is shaping the future of shopping and digital commerce.  ",
+      
       showWhyJoin: true,
 
       reasons : [
@@ -1520,128 +1663,137 @@ demographics : [
     }
   },
   {
-    title: "The Generartive AI Summit",
-    discription: "The Frontier is Now",
-    backImgURL:
-      "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05",
-        eventLink: "/gais/conference/ai-Generartive-summit",
-    config: {
-      bgImage: Machine,
-      title: "The AI-Generartive Summit",
-      introductionText: "Redefining Creativity Through Generative AI: Join Top Innovators, Researchers, and AI Experts",
-      showIntroduction: true,
-      introdunctionCard1title: "AI-Generartive Summit",
-      introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
-      introdunctionCard1Range: "2023 → 2030",
-      Percent: "25.5% CAGR",
-      introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
-      introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
+  title: "The Generative AI Summit",
+  description: "The Frontier is Now",
+  backImgURL:
+    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05",
+  eventLink: "/gais/conference/ai-Generartive-summit",
+  config: {
+    bgImage: Machine,
+    title: "The Generative AI Summit",
+    introductionText:
+      "Redefining Creativity Through Generative AI: Join Top Innovators, Researchers, and AI Experts",
+    showIntroduction: true,
+    introdunctionCard1title: "Generative AI Market Growth",
+    introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
+    introdunctionCard1Range: "2023 → 2030",
+    Percent: "25.5% CAGR",
+    introdunctionCard2title:
+      "The global generative AI market is expected to grow from USD 1.7 billion in 2023 to USD 11.2 billion by 2030, as industries increasingly adopt generative models to automate creativity and content production.",
+    introdunctionCard2SubTitle:
+      "Source: Grand View Research (Generative AI Market Insights).",
+    introductionParagraph1:
+      "Generative AI is revolutionizing the way we create, communicate, and compute—unlocking a new era where machines generate content, ideas, and innovations at unprecedented scale. The Generative AI Summit is a premier global gathering of visionaries, researchers, creators, and industry leaders driving this extraordinary transformation.",
+       introductionParagraph2:
+      "This summit brings together pioneers in artificial intelligence, digital media, enterprise tech, academia, and the creative industries to explore how generative models are reshaping everything from business and design to healthcare, education, and entertainment.",
 
-      ,
+    introductionParagraph3:
+      "It features thought-provoking keynotes, high-impact panel discussions, live demonstrations, and showcases of breakthrough generative AI applications, offering attendees a front-row seat to the technologies redefining creativity and productivity. ",
       showWhyJoin: true,
- reasons : [
-  {
-    number: 1,
-    title: "Discover Breakthroughs in Generative AI",
-    description:
-      "Explore the latest innovations in generative AI, from large language models to synthetic media, and learn how these technologies are reshaping industries through creativity, automation, and intelligence.",
-    gradientClass: "from-blue-600 to-cyan-600",
-    imgSrc: Discover,
-    iconColor: "#3B82F6",
-    icon: Brain,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Breakthroughs in Generative AI",
+        description:
+          "Explore the latest innovations in generative AI, from large language models to synthetic media, and learn how these technologies are reshaping industries through creativity, automation, and intelligence.",
+        gradientClass: "from-blue-600 to-cyan-600",
+        imgSrc: Discover,
+        iconColor: "#3B82F6",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Network with Global AI Pioneers & Industry Leaders",
+        description:
+          "Connect with top researchers, developers, founders, and enterprise leaders advancing generative AI in domains like content creation, product design, software development, and more.",
+        gradientClass: "from-purple-600 to-blue-600",
+        iconColor: "#8B5CF6",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Gain Exclusive Insights from Generative AI Visionaries",
+        description:
+          "Attend talks, panels, and hands-on sessions to gain deep insights into prompt engineering, foundation models, ethical concerns, and practical use cases transforming creative and technical workflows.",
+        gradientClass: "from-violet-600 to-purple-600",
+        imgSrc: Insight,
+        iconColor: "#EC4899",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Unlock Innovation & Business Opportunities",
+        description:
+          "Meet investors, innovators, and platform builders exploring monetization, scalability, and strategic partnerships with startups and enterprises at the forefront of generative AI innovation.",
+        gradientClass: "from-indigo-600 to-violet-600",
+        imgSrc: Opportunity,
+        iconColor: "#6366F1",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "AI Researchers & ML Engineers",
+        description:
+          "Experts in generative models, deep learning, and foundation models",
+        bgColor: "from-indigo-600 to-indigo-700",
+        icon: <Brain className="w-6 h-6 text-white" />,
+        reason:
+          "To explore the latest advancements in generative AI, including LLMs, diffusion models, and multimodal systems.",
+      },
+      {
+        id: 2,
+        title: "Creative Professionals & Designers",
+        description: "Artists, content creators, and digital media producers",
+        bgColor: "from-pink-600 to-pink-700",
+        icon: <Palette className="w-6 h-6 text-white" />,
+        reason:
+          "To learn how generative AI is transforming visual art, music, video production, and storytelling.",
+      },
+      {
+        id: 3,
+        title: "Product Leaders & Startup Founders",
+        description:
+          "Innovators building generative AI tools, apps, and platforms",
+        bgColor: "from-blue-500 to-blue-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase breakthrough products, discover go-to-market strategies, and raise funding.",
+      },
+      {
+        id: 4,
+        title: "Enterprise Innovation & IT Leaders",
+        description:
+          "Heads of digital transformation, R&D, and corporate innovation",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <Briefcase className="w-6 h-6 text-white" />,
+        reason:
+          "To integrate generative AI into business workflows, customer engagement, and knowledge management.",
+      },
+      {
+        id: 5,
+        title: "Policy Makers & Ethicists",
+        description: "Experts in AI governance, safety, and responsible innovation",
+        bgColor: "from-red-600 to-red-700",
+        icon: <ShieldAlert className="w-6 h-6 text-white" />,
+        reason:
+          "To address concerns around misinformation, deepfakes, copyright, and bias in generative models.",
+      },
+    ],
+    showAwardAgenda: false,
+    showRegister: false,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+    agendaLink: "/gais/conference/ai-Generartive-summit/all-agendas",
+    registerLink: "/gais/ticket",
   },
-  {
-    number: 2,
-    title: "Network with Global AI Pioneers & Industry Leaders",
-    description:
-      "Connect with top researchers, developers, founders, and enterprise leaders advancing generative AI in domains like content creation, product design, software development, and more.",
-    gradientClass: "from-purple-600 to-blue-600",
-    iconColor: "#8B5CF6",
-    icon: Users,
-    imgSrc: Networking,
-  },
-  {
-    number: 3,
-    title: "Gain Exclusive Insights from Generative AI Visionaries",
-    description:
-      "Attend talks, panels, and hands-on sessions to gain deep insights into prompt engineering, foundation models, ethical concerns, and practical use cases transforming creative and technical workflows.",
-    gradientClass: "from-violet-600 to-purple-600",
-    imgSrc: Insight,
-    iconColor: "#EC4899",
-    icon: Lightbulb,
-  },
-  {
-    number: 4,
-    title: "Unlock Innovation & Business Opportunities",
-    description:
-      "Meet investors, innovators, and platform builders exploring monetization, scalability, and strategic partnerships with startups and enterprises at the forefront of generative AI innovation.",
-    gradientClass: "from-indigo-600 to-violet-600",
-    imgSrc: Opportunity,
-    iconColor: "#6366F1",
-    icon: Coins,
-  },
-],
-
-      showAudience: true, demographics : [
-  {
-    id: 1,
-    title: "AI Researchers & ML Engineers",
-    description: "Experts in generative models, deep learning, and foundation models",
-    bgColor: "from-indigo-600 to-indigo-700",
-    icon: <Brain className="w-6 h-6 text-white" />,
-    reason:
-      "To explore the latest advancements in generative AI, including LLMs, diffusion models, and multimodal systems.",
-  },
-  {
-    id: 2,
-    title: "Creative Professionals & Designers",
-    description: "Artists, content creators, and digital media producers",
-    bgColor: "from-pink-600 to-pink-700",
-    icon: <Palette className="w-6 h-6 text-white" />,
-    reason:
-      "To learn how generative AI is transforming visual art, music, video production, and storytelling.",
-  },
-  {
-    id: 3,
-    title: "Product Leaders & Startup Founders",
-    description: "Innovators building generative AI tools, apps, and platforms",
-    bgColor: "from-blue-500 to-blue-600",
-    icon: <Rocket className="w-6 h-6 text-white" />,
-    reason:
-      "To showcase breakthrough products, discover go-to-market strategies, and raise funding.",
-  },
-  {
-    id: 4,
-    title: "Enterprise Innovation & IT Leaders",
-    description: "Heads of digital transformation, R&D, and corporate innovation",
-    bgColor: "from-yellow-500 to-yellow-600",
-    icon: <Briefcase className="w-6 h-6 text-white" />,
-    reason:
-      "To integrate generative AI into business workflows, customer engagement, and knowledge management.",
-  },
-  {
-    id: 5,
-    title: "Policy Makers & Ethicists",
-    description: "Experts in AI governance, safety, and responsible innovation",
-    bgColor: "from-red-600 to-red-700",
-    icon: <ShieldAlert className="w-6 h-6 text-white" />,
-    reason:
-      "To address concerns around misinformation, deepfakes, copyright, and bias in generative models.",
-  },
-],
-      showAwardAgenda: false,
-      showRegister: false,
-      registerButtonCSS: "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110", scheduleButtonCSS: "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
-      agendaLink: '/gais/conference/ai-healthcare-summit/all-agendas',
-      registerLink: '/gais/ticket'
-
-    },
-  
-
-  },
+}
+,
   {
     title: "The Energy & Ai Integration Forum",
     discription:
@@ -1660,10 +1812,9 @@ demographics : [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
+      introductionParagraph1: "Welcome to The AI Energy Summit, an unparalleled global gathering dedicated to reshaping the future of energy through artificial intelligence. As the world confronts the pressing challenges of energy efficiency, sustainability, and grid optimization, AI is revolutionizing the way we generate, distribute, and consume power.  ",
+        introductionParagraph2: "This summit brings together visionary leaders from industry, academia, and government to explore AI-driven innovations that will drive efficiency, reduce environmental impact, and accelerate the transition to smarter energy ecosystems. Through keynote addresses, expert panel discussions, and cutting-edge research presentations, participants will dive into transformative AI applications, including intelligent grid management, predictive maintenance, renewable energy forecasting, and smart infrastructure solutions",
+          introductionParagraph3: "Beyond being a forum for discourse, The AI Energy Summit fosters collaboration, knowledge-sharing, and actionable strategies for integrating AI across the energy sector. It is the ultimate platform for those shaping the next era of energy innovation. Join us as we unlock the potential of artificial intelligence to power a sustainable and intelligent energy future."
       ,
       showWhyJoin: true,
 
@@ -1802,10 +1953,9 @@ demographics : [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
+      introductionParagraph1: "The automotive industry is evolving at an unprecedented pace, driven by artificial intelligence, automation, and next-generation technologies. From autonomous vehicles and smart mobility ecosystems to AI-powered safety systems and predictive maintenance, innovation is transforming every aspect of transportation.  ",
+         introductionParagraph2: "The Next-gen Autotech Summit brings together industry pioneers, AI researchers, and automotive leaders will gather to explore the latest advancements in AI-driven mobility. Through keynote sessions, panel discussions, and hands-on demonstrations, participants will gain insights into intelligent transportation solutions, sustainable automotive innovations, and the evolving role of automation in modern vehicles.  "
+         ,   introductionParagraph3: "Join us at the forefront of autotech evolution, where cutting-edge AI meets mobility, reshaping the future of smart transportation and connected ecosystems."
       ,
       showWhyJoin: true,
 
@@ -1944,9 +2094,9 @@ demographics : [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
+      introductionParagraph1: "The AI Transportation Summit is a dynamic platform that brings together global experts to discuss the transformative role of artificial intelligence in the transportation industry. As AI reshapes mobility, logistics, and infrastructure, this summit serves as a critical venue for industry leaders, policymakers, and innovators to exchange ideas and drive technological advancements.",
+      introductionParagraph2: "From autonomous vehicles and intelligent traffic management to AI-powered fleet optimization, transportation is undergoing a revolution. This summit provides deep insights into cutting-edge AI applications, enhancing safety, efficiency, and sustainability in urban and global transport systems.",
+      introductionParagraph3: "Attendees will explore groundbreaking solutions that redefine public transit, freight logistics, aviation, and smart mobility. With keynotes, panel discussions, and networking sessions, participants will uncover strategies to integrate AI into transportation frameworks, fostering smarter, safer, and more connected transit ecosystems."
 
       ,
       showWhyJoin: true,
@@ -2068,10 +2218,9 @@ demographics : [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
+      introductionParagraph1: "The AI Manufacturing Summit is a transformative gathering that explores how artificial intelligence is reshaping manufacturing industries worldwide. As AI-driven automation, predictive analytics, and smart factories become the backbone of modern manufacturing, this summit serves as a critical platform for thought leaders, engineers, and innovators to collaborate on the next wave of advancements.",
+ introductionParagraph2: "Bringing together a diverse audience, including industry executives, AI specialists, supply chain experts, and policymakers, this event delves into breakthrough technologies that enhance efficiency, scalability, and sustainability in manufacturing operations. Attendees will engage in deep discussions on AI-powered robotics, intelligent production systems, quality assurance innovations, and the role of AI in reshaping workforce dynamics.",
+introductionParagraph3: "Through insightful keynotes, interactive panels, and networking sessions, participants will gain a strategic understanding of how AI is optimizing processes, reducing operational costs, and driving unprecedented levels of precision and productivity across the manufacturing ecosystem."
       ,
       showWhyJoin: true,
 
@@ -2212,11 +2361,9 @@ demographics : [
       Percent: "25.5% CAGR",
       introdunctionCard2title: "The Global AI in agriculture market is projected to surge dramatically, reaching USD 11.2 billion by 2030, growing at an impressive CAGR of 25.5% from 2023's USD 1.7 billion. The summit presents a pivotal opportunity for stakeholders to engage with cutting-edge technologies and strategies that are revolutionizing modern farming, crop production, and sustainable agricultural practices.",
       introdunctionCard2SubTitle: "Source: Grand View Research (Global Market Insights and Industry Analysis).",
-      introductionParagraph1: "The AI Agriculture Summit is a pioneering event focused on exploring the latest innovations in artificial intelligence and their transformative impact on the agricultural sector. As AI redefines modern farming practices, the summit brings together top agri-tech innovators, researchers, policymakers, startups, and industry leaders from around the world.",
-      introductionParagraph2: "Attendees will exchange insights and expertise on how AI is revolutionizing agriculture through precision farming, crop monitoring, weather forecasting, automated machinery, and sustainable farming practices. The agricultural landscape is being reshaped by AI, driving efficiency, productivity, and food security in an era of global challenges.",
-      introductionParagraph3: "Join us for this groundbreaking event and be part of the movement redefining the future of farming. This unique platform offers invaluable knowledge and practical strategies for leveraging AI across the entire agricultural value chain."
-
-      ,
+      introductionParagraph1: "Welcome to The AI Agriculture Summit, a pioneering global forum dedicated to revolutionizing the agricultural sector through the transformative power of artificial intelligence. As the world faces mounting challenges—ranging from climate change and food security to resource optimization—AI stands at the forefront of innovation, offering cutting-edge solutions to redefine farming efficiency, sustainability, and resilience.  ",
+           introductionParagraph2: "This summit brings together a diverse coalition of industry leaders, policymakers, researchers, farmers, and technology innovators, all committed to harnessing AI-driven breakthroughs that enhance productivity and safeguard our planet's agricultural future. Through insightful keynote sessions, dynamic panel discussions, and interactive workshops, we will explore the latest AI applications in precision farming, smart irrigation, crop monitoring, predictive analytics, and sustainable food production.  ",
+                 introductionParagraph3: "More than just a conference, The AI Agriculture Summit serves as a catalyst for collaboration and knowledge exchange, empowering stakeholders to adopt AI-driven solutions that accelerate industry growth and ensure long-term environmental balance.  Join us in shaping the future of agriculture—where intelligence meets cultivation, and innovation paves the way for a thriving global food ecosystem.  "
       showWhyJoin: true,
 
      reasons : [
