@@ -16,8 +16,10 @@ import industry from "../../assets/AwardPage/industry.jpg";
 import boostReason from "../../assets/AwardPage/Boost.jpg";
 import gathering from "../../assets/AwardPage/gathering.jpg";
 import inspireReason from "../../assets/AwardPage/Inspire.jpeg";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import AwardCategories from "./AwardCategories";
+import Timelines from "./Timelines";
+import AllAwardCategories from "./AllAwardCategories/AllAwardCategories";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -238,6 +240,7 @@ const Award = () => {
 
   const { title, summitDetails, reasonsToApply, awards } = aiSummitData;
 
+  const navigate = useNavigate();
   return (
     <div ref={containerRef} className="text-black">
       <section className="lg:px-12 bg-white flex flex-col md:flex-col">
@@ -249,7 +252,7 @@ const Award = () => {
           // }}
         >
           <div className=" ">
-            <h1 className="title w-[325px] lg:w-[500px] ml-6 title uppercase pt-24 pb-8 text-5xl lg:text-7xl font-Antonio font-semibold text-transparent bg-gradient-to-r from-purple-400 via-red-400  to-red-400 bg-clip-text ">
+            <h1 className="title w-[325px] lg:w-[500px] ml-4 title uppercase pt-24 pb-8 text-5xl lg:text-7xl font-Antonio font-semibold text-transparent bg-gradient-to-r from-purple-400 via-red-400  to-red-400 bg-clip-text ">
               {title}
             </h1>
           </div>
@@ -359,9 +362,6 @@ const Award = () => {
         </div>
       </section>
 
-
-
-
       <section className="px-6 py-8 bg-gray-100 lg:px-32">
         <h2 className="text-center text-2xl sm:text-4xl md:text-5xl uppercase font-Antonio font-bold text-black mb-8">
           Our Featured Awards
@@ -430,9 +430,28 @@ const Award = () => {
           ))}
         </div>
       </section>
+      <Timelines/>
 
-
-      <AwardCategories/>
+      {/* <AwardCategories/> */}
+      <section className="flex flex-col text-center items-center justify-center bg-white py-16 px-6">
+        <div>
+          <h1 className="text-5xl text-center md:text-6xl uppercase font-bold bg-gradient-to-r from-orange-500 via-purple-200 to-blue-400 bg-clip-text text-transparent mb-6 p-4">
+            GAIEA Award Categories
+          </h1>
+          <p className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto">
+            Celebrating innovation, ethics, and excellence in artificial intelligence across industries and research
+          </p>
+          <p className="text-lg text-gray-400 mb-8 max-w-3xl ">
+              Join the celebration of AI excellence. Submit your nomination and be part of the future of artificial intelligence.
+            </p>
+        </div>
+        <button
+                onClick={() => navigate('/gais/all-award-categories')}
+                className="px-8 py-4 cursor-pointer bg-gradient-to-r from-purple-500 to-pink-500 text-white uppercase font-semibold rounded-xl hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105"
+              >
+                Explore More Categories
+              </button>
+      </section>
 
       <Faq/>
 

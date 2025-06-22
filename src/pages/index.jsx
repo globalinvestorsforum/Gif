@@ -17,6 +17,8 @@ export { default as AllAttendees } from './Speaker/AllAttendees.jsx';
 export { default as Speakers } from './Speaker/Speakers.jsx';
 export { default as SpeakerDetails } from './Speaker/SpeakerDetails.jsx';
 export { default as Award } from './Award/Award.jsx';
+export { default as AllAwardCategories } from './Award/AllAwardCategories/AllAwardCategories.jsx';
+export { default as AwardFormPage } from './Award/Award FormPage/Award FormPage.jsx';
 export { default as AiIntegrationPage } from './Award/AiIntegration/AiIntegrationPage.jsx';
 export { default as AiIntegrationForm } from './Award/AiIntegration/AiIntegrationForm.jsx';
 export { default as BestUseOfAiForm } from './Award/BestUseOfAi/BestUseOfAiForm.jsx';

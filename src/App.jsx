@@ -32,7 +32,9 @@ import {
   TicketRegistration,
   AllAgendas,
   AllAttendees,
-  AiSummitLayout
+  AiSummitLayout,
+  AllAwardCategories,
+  AwardFormPage
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -47,6 +49,8 @@ const router = createBrowserRouter(
       <Route path="/gais/award/Ai-Integration-Award" element={<AiIntegrationPage />} />
       <Route path="/gais/award/Ai-Integration-Form" element={<AiIntegrationForm />} />
       <Route path="/gais/award/BestUseOfAi-Form" element={<BestUseOfAiForm />} />
+      <Route path="/gais/all-award-categories" element={<AllAwardCategories />} />
+      <Route path="/gais/award-form-page" element={<AwardFormPage />} />
       <Route path="/gais/contact" element={<Contact />} />
       <Route path="/gais/meet" element={<Meet />} />
       <Route path="/gais/companies" element={<Company />} />

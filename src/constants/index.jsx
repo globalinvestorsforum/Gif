@@ -961,7 +961,7 @@ export const cards = [
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6",
   },
   {
-    title: "The AI HealthCare Summit",
+    title: "AI In HealthCare",
     discription:
       " Harnessing AI for Improved Health Services and disrupting the Status Quo",
     backImgURL:
@@ -969,7 +969,7 @@ export const cards = [
     eventLink: "/gais/conference/ai-healthcare-summit",
     config: {
       bgImage: surgury,
-      title: "The AI-Healthcare Summit",
+      title: "AI In HealthCare",
 
       showIntroduction: true,
       introductionText:
@@ -1039,58 +1039,58 @@ export const cards = [
     }
   },
   {
-    title: "The AI Pharmaceutical Summit",
+    title: "AI In Pharmaceutical ",
     discription:
       "Creating Synergies between Artificial Intelligence, Biotechnology, & Medicine.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FPharmaceutical%201.jpg?alt=media&token=379f8c4d-11b3-46e9-9e82-12da7593afd8",
   },
   {
-    title: "The AI Finance Summit",
+    title: "AI In Finance ",
     discription: "Money Meets Machine.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
   },
   {
-    title: "The AI Powered Retail & E- commerce Conclave",
+    title: "AI In Retail & E-Commerce",
     discription: "Driving growth with AI and enhancing customer experience.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail3.jpg?alt=media&token=64ea594f-127b-430b-ac7f-0c308e682c4b",
   },
   {
-    title: "The Generartive AI Summit",
+    title: "The Generative AI ",
     discription: "The Frontier is Now",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05",
   },
   {
-    title: "The Energy & Ai Integration Forum",
+    title: "AI In Energy",
     discription:
       "Transforming the Energy Industry through AI and Machine Learning",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fenergy2.jpg?alt=media&token=89463340-fd7c-403b-ba10-3c7ec8acfebd",
   },
   {
-    title: "The Next-Gen Autotech Conference",
+    title: "AI In Autotech ",
     discription:
       "Exploring the Future of AI and IOT in the Automobile Industry",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FAutotech.jpg?alt=media&token=c2c86eed-773e-4bdb-891b-e898ea6ef0db",
   },
   {
-    title: "The AI-Driven Transporatation Summit",
-    discription: "Navigating a new eara of Smart Mobility.",
+    title: "AI In Transportation ",
+    discription: "Navigating a new era of Smart Mobility.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Ftransportation1.jpg?alt=media&token=f89b121c-049d-4a18-9bed-cac3c4231e71",
   },
   {
-    title: "The AI Manufaturing Summit",
+    title: "AI In Manufacturing ",
     discription: "Accelerating Industry 4.O with AI.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
   },
   {
-    title: "The AI Agriculture Summit",
+    title: "AI In Agriculture ",
     discription:
       "Reaping the Benefits of Artifical Intelligence in Agricuture.",
     backImgURL:
@@ -1098,8 +1098,8 @@ export const cards = [
     eventLink: "/gais/conference/ai-agriculture-summit",
     config: {
       bgImage: Greenary,
-      title: "The AI-Agriculture Summit",
-      introductionText: "Join World's Largest AI Summit On Agriculture Industry",
+      title: "AI In Agriculture ",
+      introductionText: "Join World's Largest AI On Agriculture Industry",
       showIntroduction: true,
       introdunctionCard1title: "AI in Agriculture",
       introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
@@ -1163,38 +1163,38 @@ export const cards = [
     }
   },
   {
-    title: "The Global Foodtech AI Conference",
+    title: "AI In Foodtech",
     discription: "Interating AI From Farm to Fork.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
   },
   {
-    title: "The Robotics Ai Fontier Conference",
+    title: "AI In Robotics",
     discription:
       "Exploring oring the intersection of AI and Robotics Industry.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Frobot.jpg?alt=media&token=588cc65e-414d-42c8-b748-e2d4a13670c1",
   },
   {
-    title: "The AI Education Summit",
+    title: "AI In Education",
     discription: "Revolutionising the way we learn and teach with AI.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Feducation.jpg?alt=media&token=a67d4be0-54f7-48a7-8aab-d5542c952c6b",
   },
   {
-    title: "The AI Media & Communication Conference",
-    discription: "The World's Premier AI Media Summit.",
+    title: "AI In Media & Communication",
+    discription: "The World's Premier AI Media.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FMedia%20and%20communication%20.jpg?alt=media&token=acc2ce18-6818-4e94-ad06-1ce39b1f7348",
   },
   {
-    title: "The AI Space Exploration Summit",
-    discription: "Unleashing the Power of Ai in the Cosmos",
+    title: "AI In Space",
+    discription: "Unleashing the Power of AI in the Cosmos",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fspace1.jpeg?alt=media&token=821a47ed-ab1f-4bfb-b45e-c62583241d53",
   },
   {
-    title: "The AI Cybersecurity Summit",
+    title: "AI In Cybersecurity",
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",

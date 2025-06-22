@@ -104,7 +104,7 @@ const FAQPage = () => {
       {/* Hero Section */}
       <div className=" text-white py-16">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-black mb-4 font-Antonio">
+          <h1 className="text-4xl uppercase font-bold text-black mb-4 font-Antonio">
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
