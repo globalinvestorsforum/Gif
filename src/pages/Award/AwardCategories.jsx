@@ -112,11 +112,7 @@ export default function AwardCategories() {
               {awardCategories.map((award) => (
                   <div 
                   key={award.id}
-                  className={`bg-opacity-40 rounded-xl p-5 cursor-pointer transition-all duration-300  ${
-                    selectedCategory === award.id 
-                      ? 'transition-all duration-300 bg-gradient-to-r from-indigo-950 to-pink-900  shadow-lg shadow-blue-500/50' 
-                      : 'transition-all duration-300 bg-gradient-to-r from-pink-800 to-purple-800 hover:bg-gradient-to-r hover:from-pink-900  hover:to-indigo-950'
-                  }`}
+                  className={`bg-opacity-40 rounded-xl p-5 cursor-pointer transition-all duration-300  `}
                   onClick={() => setSelectedCategory(award.id === selectedCategory ? null : award.id)}
                 >
                   <div className="flex flex-col h-full">
