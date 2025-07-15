@@ -34,7 +34,10 @@ import {
   AllAttendees,
   AiSummitLayout,
   AllAwardCategories,
-  AwardFormPage
+  AwardFormPage,
+  FormOverview,
+  FormA,
+  FormB
 } from "./pages/index";
 
 import { NotFound } from "./components/index";
@@ -69,6 +72,10 @@ const router = createBrowserRouter(
 
       
      <Route path="/gais/conference/:summitId" element={<AiSummitLayout />}/>
+
+      <Route path="/gais/free-exhibition-overview" element={<FormOverview />} />
+      <Route path="/gais/exhibition-form" element={<FormA />} /> 
+      <Route path="/gais/branding-form" element={<FormB />} />
 
       <Route path="/home" element={<Homepage />} />
       <Route path="/whatweproduce" element={<WhatWeProduce />} />
