@@ -23,6 +23,10 @@ export { default as AiIntegrationPage } from './Award/AiIntegration/AiIntegratio
 export { default as AiIntegrationForm } from './Award/AiIntegration/AiIntegrationForm.jsx';
 export { default as BestUseOfAiForm } from './Award/BestUseOfAi/BestUseOfAiForm.jsx';
 
+export { default as FormOverview } from './FormsCollection/FormOverview.jsx';
+export { default as FormA } from './FormsCollection/FormA.jsx';
+export { default as FormB } from './FormsCollection/FormB.jsx';
+
 export { default as Meet } from './Meet/Meet.jsx';
 export { default as Ticket } from './Ticket/Ticket.jsx';
 export { default as TicketRegistration } from './Ticket/TicketRegistration.jsx';
