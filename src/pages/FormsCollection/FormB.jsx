@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Check, User, Building, Award, Globe, Quote, FileText } from 'lucide-react';
 
-const FormB= () => {
+const FormB = () => {
   const [formData, setFormData] = useState({
     companyName: '',
     headquarters: '',
@@ -72,12 +72,37 @@ const FormB= () => {
     { id: 'declaration', title: 'Declaration', icon: FileText }
   ];
 
-  const handleSubmit = () => {
+  const handleSubmit = async() => {
     if (!formData.companyName || !formData.headquarters || !formData.declaration) {
       alert('Please fill in all required fields and accept the declaration.');
       return;
     }
+
     console.log('Form submitted:', formData);
+    const form = new FormData();
+  Object.entries(formData).forEach(([key, value]) => {
+    if (Array.isArray(value)) {
+      value.forEach((v) => form.append(`${key}[]`, v));
+    } else {
+      form.append(key, value);
+    }
+  });
+  form.append("access_key", "b22c0c11-e09a-4348-b6ec-15c7f330cb56");
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: form,
+  });
+
+  const data = await response.json();
+
+  if (data.success) {
+    alert("Application submitted successfully!");
+     // Reset the form
+  } else {
+    console.log("Error", data);
+    alert("Failed to submit. Please try again.");
+  }
     alert('Form submitted successfully!');
   };
 
@@ -92,28 +117,28 @@ const FormB= () => {
         </div>
       </div>
 
-      {/* Progress Bar */}
-      <div className="max-w-6xl mx-auto px-6 -mt-4">
+      {/* Progress Bar - Hidden on mobile, visible on tablet and desktop */}
+      <div className="hidden md:block max-w-6xl mx-auto px-6 -mt-4">
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-          <div className="flex flex-wrap justify-between items-center gap-2 mb-4">
+          <div className="flex justify-between items-center gap-4">
             {sections.map((section, index) => {
               const Icon = section.icon;
               return (
                 <div key={section.id} className="flex items-center min-w-0 flex-1">
-                  <div className={`w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
+                  <div className={`w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 ${
                     index <= currentSection 
                       ? 'bg-gradient-to-r from-blue-500 to-emerald-500 text-white' 
                       : 'bg-gray-200 text-gray-500'
                   }`}>
-                    <Icon size={16} className="md:w-5 md:h-5" />
+                    <Icon size={20} className="lg:w-6 lg:h-6" />
                   </div>
-                  <span className={`ml-1 md:ml-2 text-xs md:text-sm font-medium ${
+                  <span className={`ml-3 text-sm lg:text-base font-medium ${
                     index <= currentSection ? 'text-blue-600' : 'text-gray-500'
                   }`}>
                     {section.title}
                   </span>
                   {index < sections.length - 1 && (
-                    <div className={`w-2 md:w-8 h-0.5 ml-1 md:ml-4 flex-shrink-0 ${
+                    <div className={`w-8 lg:w-12 h-0.5 ml-4 lg:ml-6 flex-shrink-0 ${
                       index < currentSection ? 'bg-gradient-to-r from-blue-500 to-emerald-500' : 'bg-gray-200'
                     }`} />
                   )}
@@ -125,7 +150,7 @@ const FormB= () => {
       </div>
 
       {/* Form Container */}
-      <div className="max-w-6xl mx-auto px-6 pb-12">
+      <div className="max-w-6xl mx-auto px-6 pb-12 pt-8 md:pt-0">
         <div className="space-y-8">
           
           {/* Section 1: Company Information */}
@@ -233,7 +258,6 @@ const FormB= () => {
                   name="tagline"
                   value={formData.tagline}
                   onChange={handleInputChange}
-
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                   required
                 />
@@ -245,7 +269,6 @@ const FormB= () => {
                   name="shortDescription"
                   value={formData.shortDescription}
                   onChange={handleInputChange}
-
                   maxLength={400}
                   rows={3}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
@@ -260,7 +283,6 @@ const FormB= () => {
                   name="longBio"
                   value={formData.longBio}
                   onChange={handleInputChange}
-
                   maxLength={700}
                   rows={4}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
@@ -367,7 +389,6 @@ const FormB= () => {
                   name="shortBio"
                   value={formData.shortBio}
                   onChange={handleInputChange}
-
                   maxLength={500}
                   rows={3}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
@@ -392,7 +413,6 @@ const FormB= () => {
                   name="quote"
                   value={formData.quote}
                   onChange={handleInputChange}
-
                   rows={3}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                 />
