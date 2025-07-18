@@ -31,7 +31,39 @@ const FormA = () => {
     signature: '',
     date: new Date().toISOString().split('T')[0]
   });
-
+  const [showOtherInputIndustry, setShowOtherInputIndustry] = useState(false);
+   const [showOtherInputRole, setShowOtherInputRole] = useState(false);
+  const handleSelectChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    
+    if (name === 'aiRole') {
+      if (value === 'Other') {
+        setShowOtherInputRole(true);
+        setFormData(prev => ({
+          ...prev,
+          aiRole: ''
+        }));
+      } else {
+        setShowOtherInputRole(false);
+        setFormData(prev => ({
+          ...prev,
+          aiRole: value
+        }));
+      }
+    } else {
+      setFormData(prev => ({
+        ...prev,
+        [name]: type === 'checkbox' ? checked : value
+      }));
+    }
+  };
+  const handleOtherTextChange = (e) => {
+    const value = e.target.value;
+    setFormData(prev => ({
+      ...prev,
+      aiRole: value
+    }));
+  };
   const companySizes = [
     'Startup (1-10 employees)',
     'Small (11-50 employees)',
@@ -97,12 +129,35 @@ const FormA = () => {
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
+    if (name === 'primaryIndustry') {
+      if (value === 'Other') {
+        setShowOtherInputIndustry(true);
+        setFormData(prev => ({
+          ...prev,
+          primaryIndustry: ''
+        }));
+      } else {
+        setShowOtherInputIndustry(false);
+        setFormData(prev => ({
+          ...prev,
+          primaryIndustry: value
+        }));
+      }
+    } else {
+      setFormData(prev => ({
+        ...prev,
+        [name]: type === 'checkbox' ? checked : value
+      }));
+    }
+    
+  };
+  const handleOtherIndustryChange = (e) => {
+    const value = e.target.value;
     setFormData(prev => ({
       ...prev,
-      [name]: type === 'checkbox' ? checked : value
+      primaryIndustry: value
     }));
   };
-
   const handleTechnologyToggle = (tech) => {
     setFormData(prev => ({
       ...prev,
@@ -172,7 +227,7 @@ const FormA = () => {
                 <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                   1
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Company Information</h2>
+                <h2 className="text-2xl font-bold text-gray-800">COMPANY INFORMATION</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -254,23 +309,37 @@ const FormA = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Primary Industry</label>
-                  <div className="relative">
-                    <select
-                      name="primaryIndustry"
-                      value={formData.primaryIndustry}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none cursor-pointer"
-                      required
-                    >
-                      <option value="">Select primary industry</option>
-                      {industries.map(industry => (
-                        <option key={industry} value={industry}>{industry}</option>
-                      ))}
-                    </select>
-                    <ChevronDown className="absolute right-3 top-3 w-5 h-5 text-gray-400 pointer-events-none" />
-                  </div>
-                </div>
+      <label className="block text-sm font-semibold text-gray-700 mb-2">Primary Industry</label>
+      <div className="relative">
+        <select
+          name="primaryIndustry"
+          value={showOtherInputIndustry ? 'Other' : formData.primaryIndustry}
+          onChange={handleInputChange}
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none cursor-pointer"
+          required
+        >
+          <option value="">Select primary industry</option>
+          {industries.map(industry => (
+            <option key={industry} value={industry}>{industry}</option>
+          ))}
+        </select>
+        <ChevronDown className="absolute right-3 top-3 w-5 h-5 text-gray-400 pointer-events-none" />
+      </div>
+
+      {/* Text input for Other option */}
+      {showOtherInputIndustry && (
+        <div className="mt-3">
+          <input
+            type="text"
+            value={formData.primaryIndustry}
+            onChange={handleOtherIndustryChange}
+            placeholder="Please specify your primary industry..."
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+            autoFocus
+          />
+        </div>
+      )}
+    </div>
               </div>
 
               <div>
@@ -297,7 +366,7 @@ const FormA = () => {
                 <div className="bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                   2
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">AI Role & Contribution</h2>
+                <h2 className="text-2xl font-bold text-gray-800">AI ROLE & CONTRIBUTION</h2>
               </div>
 
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl">
@@ -305,6 +374,7 @@ const FormA = () => {
                 <div className="space-y-3">
                   <label className="flex items-center space-x-3 cursor-pointer">
                     <input
+                      required
                       type="radio"
                       name="usingAI"
                       value="yes"
@@ -329,26 +399,39 @@ const FormA = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Which of the following best describe your AI role?</label>
-                  <div className="relative">
-                    <select
-                      name="aiRole"
-                      value={formData.aiRole}
-                      onChange={handleInputChange}
-
-                      className="w-full px-4 py-3 border text-gray-400 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none cursor-pointer"
-                      required
-                    >
-                      <option value="">Select your AI role</option>
-                      {aiRoles.map(role => (
-                        <option key={role} value={role}>{role}</option>
-                      ))}
-                    </select>
-                    <ChevronDown className="absolute right-3 top-3 w-5 h-5 text-gray-400 pointer-events-none" />
-                  </div>
-                </div>
-
+               
+              <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Which of the following best describe your AI role?</label>
+                      <div className="relative">
+                        <select
+                          name="aiRole"
+                          value={showOtherInputRole ? 'Other' : formData.aiRole}
+                          onChange={handleSelectChange}
+                          className="w-full px-4 py-3 border text-gray-400 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none cursor-pointer"
+                          required
+                        >
+                          <option value="">Select your AI role</option>
+                          {aiRoles.map(role => (
+                            <option key={role} value={role}>{role}</option>
+                          ))}
+                        </select>
+                        <ChevronDown className="absolute right-3 top-3 w-5 h-5 text-gray-400 pointer-events-none" />
+                      </div>
+              
+                      {/* Text input for Other option */}
+                      {showOtherInputRole && (
+                        <div className="mt-3">
+                          <input
+                            type="text"
+                            value={formData.aiRole}
+                            onChange={handleOtherTextChange}
+                            placeholder="Please specify your AI role..."
+                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                            autoFocus
+                          />
+                        </div>
+                      )}
+                    </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">What stage is your AI work in?</label>
                   <div className="relative">
@@ -425,7 +508,7 @@ const FormA = () => {
                 <div className="bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                   3
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Showcase Requirements</h2>
+                <h2 className="text-2xl font-bold text-gray-800">SHOWCASE REQUIREMENTS</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -492,7 +575,7 @@ const FormA = () => {
                 <div className="bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                   4
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Contact Details</h2>
+                <h2 className="text-2xl font-bold text-gray-800">CONTACT DETAILS</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -573,7 +656,7 @@ const FormA = () => {
                 <div className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                   5
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Consent & Confirmation</h2>
+                <h2 className="text-2xl font-bold text-gray-800">CONSENT & CONFIRMATION</h2>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-xl space-y-4">
