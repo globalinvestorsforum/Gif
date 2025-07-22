@@ -33,6 +33,6 @@ export { default as TicketRegistration } from './Ticket/TicketRegistration.jsx';
 export { default as NotFound } from './NotFound/NotFound.jsx';
 export { default as Careers } from './Careers/Careers.jsx';
 export { default as Registration } from './Registration/RegistrationPage.jsx';
-
+export {default as GAIEAAwardsPage} from './Gaiea/Gaiea.jsx'
 
 export {default as AiSummitLayout} from "./Conference/Ai-Summits/Ai-Summit-Layout.jsx";
