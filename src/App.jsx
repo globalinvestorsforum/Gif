@@ -38,6 +38,7 @@ import {
   FormOverview,
   FormA,
   FormB,
+  GAIEAAwardsPage
  
 } from "./pages/index";
 
@@ -86,7 +87,7 @@ const router = createBrowserRouter(
       <Route path="/terms" element={<Terms/>} />
       <Route path="/privacy" element={<Privacy/>} />
       <Route path="/Careers" element={<Careers />} />
-
+      <Route path="/GAIEA" element={<GAIEAAwardsPage/>}/>
       <Route path="*" element={<NotFound />} />
           
           {/* Samole test */}
