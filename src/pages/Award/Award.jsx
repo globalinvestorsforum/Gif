@@ -20,7 +20,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import AwardCategories from "./AwardCategories";
 import Timelines from "./Timelines";
 import AllAwardCategories from "./AllAwardCategories/AllAwardCategories";
-
+import GAIEA from "./GAIEA_Intro.jsx"
 gsap.registerPlugin(ScrollTrigger);
 
 const Award = () => {
@@ -242,7 +242,9 @@ const Award = () => {
 
   const navigate = useNavigate();
   return (
+
     <div ref={containerRef} className="text-black">
+      <GAIEA/>
       <section className="lg:px-12 bg-white flex flex-col md:flex-col">
         <div
           className=" flex justify-start items-top bg-cover bg-center  "

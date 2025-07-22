@@ -6,7 +6,7 @@ export default function Timelines() {
     {
       id: 1,
       title: "Zero Cost Nomination Open",
-      date: "1st March, 2025",
+      date: "9th May, 2025",
       icon: Calendar,
       status: "completed",
       description: "Free nomination window opens"
@@ -14,7 +14,7 @@ export default function Timelines() {
     {
       id: 2,
       title: "Paid Nomination Open",
-      date: "5th August, 2025",
+      date: "30th August, 2025",
       icon: DollarSign,
       status: "upcoming",
       description: "Premium nomination period begins"
@@ -22,7 +22,7 @@ export default function Timelines() {
     {
       id: 3,
       title: "Nomination Deadline",
-      date: "30th August, 2025",
+      date: "15th September, 2025",
       icon: Clock,
       status: "upcoming",
       description: "Final date for all submissions"
@@ -30,7 +30,7 @@ export default function Timelines() {
     {
       id: 4,
       title: "Shortlist Announced",
-      date: "5th September, 2025",
+      date: "1st October, 2025",
       icon: Bell,
       status: "upcoming",
       description: "Finalists revealed to the public"
