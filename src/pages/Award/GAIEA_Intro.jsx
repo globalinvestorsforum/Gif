@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-
+import {useNavigate} from 'react-router-dom';
 const GAIEA = () => {
+  const navigate=useNavigate();
   const [isMobile, setIsMobile] = useState(false);
   
   // Image paths for different viewports
@@ -83,7 +84,7 @@ const GAIEA = () => {
               
               {/* World's Largest */}
               <div className="space-y-2 lg:space-y-3 transform transition-all duration-500 hover:scale-110 hover:translate-y-2 animate-fade-in-up group cursor-pointer" style={{animationDelay: '0.2s'}}>
-                <h3 className="text-gray-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.5s'}}>#World's Largest AI Awards Program</h3>
+                <h3 className="text-yellow-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.5s'}}>#World's Largest AI Awards Program</h3>
                 <p className="text-gray-200 text-xs sm:text-sm leading-relaxed transition-all duration-300 group-hover:text-white">
                   Recognizing groundbreaking contributions shaping the global AI ecosystem.
                 </p>
@@ -91,7 +92,7 @@ const GAIEA = () => {
 
               {/* Global Participation */}
               <div className="space-y-2 lg:space-y-3 transform transition-all duration-500 hover:scale-110 hover:translate-y-2 animate-fade-in-up group cursor-pointer" style={{animationDelay: '0.4s'}}>
-                <h3 className="text-gray-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.7s'}}>#100+ Countries, Unmatched Participation</h3>
+                <h3 className="text-yellow-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.7s'}}>#100+ Countries, Unmatched Participation</h3>
                 <p className="text-gray-200 text-xs sm:text-sm leading-relaxed transition-all duration-300 group-hover:text-white">
                   GAIEA brings together the highest number of AI organizations ever engaged in a single global platform.
                 </p>
@@ -99,7 +100,7 @@ const GAIEA = () => {
 
               {/* Zero Fees */}
               <div className="space-y-2 lg:space-y-3 transform transition-all duration-500 hover:scale-110 hover:translate-y-2 animate-fade-in-up group cursor-pointer" style={{animationDelay: '0.6s'}}>
-                <h3 className="text-gray-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.9s'}}>#Zero Nomination Fees</h3>
+                <h3 className="text-yellow-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '0.9s'}}>#Zero Nomination Fees</h3>
                 <p className="text-gray-200 text-xs sm:text-sm leading-relaxed transition-all duration-300 group-hover:text-white">
                   offering you a chance to be recognized globally without any upfront fees or hidden cost.
                 </p>
@@ -107,7 +108,7 @@ const GAIEA = () => {
 
               {/* Sectors */}
               <div className="space-y-2 lg:space-y-3 transform transition-all duration-500 hover:scale-110 hover:translate-y-2 animate-fade-in-up group cursor-pointer" style={{animationDelay: '0.8s'}}>
-                <h3 className="text-gray-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '1.1s'}}>#40+ Sectors, Full-Spectrum Recognition</h3>
+                <h3 className="text-yellow-400 font-semibold text-sm sm:text-base lg:text-lg transition-all duration-700 animate-text-glow group-hover:text-yellow-300 group-hover:text-xl group-hover:scale-105" style={{animationDelay: '1.1s'}}>#40+ Sectors, Full-Spectrum Recognition</h3>
                 <p className="text-gray-200 text-xs sm:text-sm leading-relaxed transition-all duration-300 group-hover:text-white">
                   The only AI award initiative honoring industry-specific excellence across healthcare, finance, energy, manufacturing, and more.
                 </p>
@@ -128,7 +129,7 @@ const GAIEA = () => {
               </p>
               
               {/* CTA Button */}
-              <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-2xl shadow-xl hover:-translate-y-1 active:scale-95 group relative overflow-hidden text-sm sm:text-base">
+              <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-2xl shadow-xl hover:-translate-y-1 active:scale-95 group relative overflow-hidden text-sm sm:text-base" onClick={()=>{navigate("/gais/award-form-page")}}>
                 <span className="relative z-10 transition-all duration-300 group-hover:tracking-wider">NOMINATE NOW</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 to-yellow-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>
@@ -146,18 +147,6 @@ const GAIEA = () => {
           </div>
 
         </div>
-      </div>
-
-      {/* Enhanced Floating particles with animations */}
-      <div className="absolute inset-0 pointer-events-none z-30">
-        <div className="absolute top-1/4 left-1/3 w-2 h-2 bg-white rounded-full opacity-60 animate-pulse transition-all duration-1000 hover:opacity-100"></div>
-        <div className="absolute top-3/4 left-1/4 w-1 h-1 bg-yellow-400 rounded-full opacity-80 animate-pulse transition-all duration-1000 hover:opacity-100" style={{animationDelay: '0.5s'}}></div>
-        <div className="absolute top-1/2 right-1/4 w-1.5 h-1.5 bg-blue-400 rounded-full opacity-70 animate-pulse transition-all duration-1000 hover:opacity-100" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-1/6 right-1/3 w-1 h-1 bg-purple-300 rounded-full opacity-60 animate-pulse transition-all duration-1000 hover:opacity-100" style={{animationDelay: '1.5s'}}></div>
-        
-        {/* Additional floating elements */}
-        <div className="absolute top-1/3 right-1/2 w-1 h-1 bg-yellow-300 rounded-full opacity-50 animate-ping" style={{animationDelay: '2s'}}></div>
-        <div className="absolute bottom-1/3 left-1/2 w-1.5 h-1.5 bg-red-400 rounded-full opacity-40 animate-ping" style={{animationDelay: '2.5s'}}></div>
       </div>
 
       {/* CSS for custom animations */}
