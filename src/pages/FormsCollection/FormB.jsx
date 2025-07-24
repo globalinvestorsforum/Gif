@@ -8,7 +8,7 @@ const FormB = () => {
     incorporationYear: '',
     website: '',
     linkedIn: '',
-    logo: null,
+    logoLink: '',
     tagline: '',
     shortDescription: '',
     longBio: '',
@@ -16,11 +16,11 @@ const FormB = () => {
     fullName: '',
     designation: '',
     linkedInProfile: '',
-    photo: null,
+    photoLink: '',
     shortBio: '',
     quote: '',
     demoVideo: '',
-    brochure: null,
+    brochureLink: '',
     mediaKit: '',
     declaration: false
   });
@@ -157,7 +157,7 @@ const FormB = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-blue-500">
             <div className="flex items-center mb-6">
               <Building className="w-6 h-6 text-blue-600 mr-3" />
-              <h2 className="text-2xl font-bold text-gray-800">Company Information</h2>
+              <h2 className="text-2xl font-bold text-gray-800">COMPANY INFORMATION</h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -223,21 +223,18 @@ const FormB = () => {
               
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">Company Logo *</label>
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 text-center hover:border-blue-500 transition-colors">
-                  <Upload className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                  <p className="text-gray-600 text-sm mb-3 text-center">
+                    Upload your official logo to Dropbox, Google Drive, or any cloud storage and paste the viewable link here.
+                  </p>
                   <input
-                    type="file"
-                    accept=".png,.jpg,.jpeg,.svg"
-                    onChange={(e) => handleFileUpload(e, 'logo')}
-                    className="hidden"
-                    id="logo-upload"
+                    type="url"
+                    name="logoLink"
+                    value={formData.logoLink || ''}
+                    onChange={handleInputChange}
+                    placeholder="Paste your logo link here..."
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   />
-                  <label htmlFor="logo-upload" className="cursor-pointer text-blue-600 hover:text-blue-700">
-                    Upload high-resolution PNG, JPG, or SVG
-                  </label>
-                  {formData.logo && (
-                    <p className="text-sm text-green-600 mt-2">✓ {formData.logo.name}</p>
-                  )}
                 </div>
               </div>
             </div>
@@ -247,7 +244,7 @@ const FormB = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-emerald-500">
             <div className="flex items-center mb-6">
               <Globe className="w-6 h-6 text-emerald-600 mr-3" />
-              <h2 className="text-2xl font-bold text-gray-800">Brand Visibility Details</h2>
+              <h2 className="text-2xl font-bold text-gray-800">BRAND VISIBILITY DETAILS</h2>
             </div>
             
             <div className="space-y-6">
@@ -296,7 +293,7 @@ const FormB = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-cyan-500">
             <div className="flex items-center mb-6">
               <Award className="w-6 h-6 text-cyan-600 mr-3" />
-              <h2 className="text-2xl font-bold text-gray-800">AI Landscape Role</h2>
+              <h2 className="text-2xl font-bold text-gray-800">AI LANDSCAPE ROLE</h2>
             </div>
             
             <div>
@@ -323,7 +320,7 @@ const FormB = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-blue-500">
             <div className="flex items-center mb-6">
               <User className="w-6 h-6 text-blue-600 mr-3" />
-              <h2 className="text-2xl font-bold text-gray-800">Representative Details</h2>
+              <h2 className="text-2xl font-bold text-gray-800">REPRESENTATIVE DETAILS</h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -365,21 +362,18 @@ const FormB = () => {
               
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">High-Resolution Photo (Headshot) *</label>
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 text-center hover:border-blue-500 transition-colors">
-                  <Upload className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-blue-500 transition-colors">
+                  <p className="text-gray-600 text-sm mb-3 text-center">
+                    Upload a headshot of your representative and paste the shareable link here.
+                  </p>
                   <input
-                    type="file"
-                    accept=".png,.jpg,.jpeg"
-                    onChange={(e) => handleFileUpload(e, 'photo')}
-                    className="hidden"
-                    id="photo-upload"
+                    type="url"
+                    name="photoLink"
+                    value={formData.photoLink || ''}
+                    onChange={handleInputChange}
+                    placeholder="Paste your photo link here..."
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   />
-                  <label htmlFor="photo-upload" className="cursor-pointer text-blue-600 hover:text-blue-700">
-                    Upload for website and speaker highlights
-                  </label>
-                  {formData.photo && (
-                    <p className="text-sm text-green-600 mt-2">✓ {formData.photo.name}</p>
-                  )}
                 </div>
               </div>
               
@@ -403,7 +397,7 @@ const FormB = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-emerald-500">
             <div className="flex items-center mb-6">
               <Quote className="w-6 h-6 text-emerald-600 mr-3" />
-              <h2 className="text-2xl font-bold text-gray-800">Quote & Additional Materials (Optional)</h2>
+              <h2 className="text-2xl font-bold text-gray-800">QUOTE & ADDITIONAL MATERIALS (OPTIONAL)</h2>
             </div>
             
             <div className="space-y-6">
@@ -444,21 +438,18 @@ const FormB = () => {
               
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">PDF Brochure or Deck</label>
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 text-center hover:border-emerald-500 transition-colors">
-                  <Upload className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 hover:border-emerald-500 transition-colors">
+                  <p className="text-gray-600 text-sm mb-3 text-center">
+                    Upload your PDF brochure or presentation deck to cloud storage and paste the shareable link here.
+                  </p>
                   <input
-                    type="file"
-                    accept=".pdf"
-                    onChange={(e) => handleFileUpload(e, 'brochure')}
-                    className="hidden"
-                    id="brochure-upload"
+                    type="url"
+                    name="brochureLink"
+                    value={formData.brochureLink || ''}
+                    onChange={handleInputChange}
+                    placeholder="Paste your PDF link here..."
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                   />
-                  <label htmlFor="brochure-upload" className="cursor-pointer text-emerald-600 hover:text-emerald-700">
-                    Upload PDF brochure or presentation deck
-                  </label>
-                  {formData.brochure && (
-                    <p className="text-sm text-green-600 mt-2">✓ {formData.brochure.name}</p>
-                  )}
                 </div>
               </div>
             </div>
