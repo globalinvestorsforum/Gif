@@ -18,7 +18,7 @@ const AwardFormPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 500); // 0.5 seconds delay
+    }, 100); // 0.5 seconds delay
 
     return () => clearTimeout(timer); // Cleanup timer
   }, []);
