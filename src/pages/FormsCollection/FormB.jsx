@@ -111,7 +111,7 @@ const FormB = () => {
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 via-cyan-600 to-emerald-600 text-white py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl font-bold mb-2">Global AI Summit</h1>
+          <h1 className="text-4xl font-bold mb-2">GLOBAL AI SUMMIT</h1>
           <p className="text-xl opacity-90">Visibility & Branding Submission Form</p>
           <p className="text-blue-100 mt-2">Berlin • For Visiting AI Companies, Exhibitors, Sponsors, Award Nominees & Ecosystem Partners</p>
         </div>
