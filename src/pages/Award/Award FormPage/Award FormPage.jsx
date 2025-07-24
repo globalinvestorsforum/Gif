@@ -18,7 +18,7 @@ const AwardFormPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 1000); // 1.2 seconds delay
+    }, 500); // 0.5 seconds delay
 
     return () => clearTimeout(timer); // Cleanup timer
   }, []);
@@ -1042,7 +1042,7 @@ const AwardFormPage = () => {
 
   )}
   return(
-    <div className="h-[50vh] bg-white"></div>
+    <div className="h-[100vh] bg-white"></div>
   );
 };
 
