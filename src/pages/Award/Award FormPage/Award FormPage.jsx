@@ -1042,7 +1042,7 @@ const AwardFormPage = () => {
 
   )}
   return(
-    <></>
+    <div className="h-[50vh] bg-white"></div>
   );
 };
 
