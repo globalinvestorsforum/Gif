@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import {
   Building2,
   CheckSquare,
@@ -14,6 +14,14 @@ const AwardFormPage = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [expandedCategory, setExpandedCategory] = useState(null);
   const [justifications, setJustifications] = useState({});
+  const [isLoaded, setIsLoaded] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoaded(true);
+    }, 1000); // 1.2 seconds delay
+
+    return () => clearTimeout(timer); // Cleanup timer
+  }, []);
 
   const awardCategories = [
     {
@@ -310,7 +318,7 @@ const AwardFormPage = () => {
       declaration: e.target.checked,
     }));
   };
-
+  if (isLoaded){
   return (
       <div className=" text-black text-base bg-gray-50">
     <form onSubmit={handleSubmit} className=" ">
@@ -1032,6 +1040,9 @@ const AwardFormPage = () => {
     </div>
     
 
+  )}
+  return(
+    <></>
   );
 };
 
