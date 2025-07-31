@@ -37,7 +37,10 @@ const FormB = () => {
             ? [...prev.aiRoles, value]
             : prev.aiRoles.filter(role => role !== value)
         }));
-      } else {
+      }else if(name==="declaration"){
+        setFormData(prev => ({ ...prev, [name]: true }));
+      }
+       else {
         setFormData(prev => ({ ...prev, [name]: checked }));
       }
     } else {
