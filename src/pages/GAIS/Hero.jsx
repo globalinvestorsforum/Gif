@@ -18,7 +18,7 @@ function Hero() {
               AI is no longer a futuristic concept — it’s now woven into the fabric of our daily lives, from personalized recommendations to self-driving cars. Businesses that fail to leverage AI risk falling behind. Join us to explore the latest trends and advancements in AI.
             </h2>
             <p className="pt-6 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-1 ">
-              9th & 10th October, 2025
+              19th & 20th March, 2026
             </p>
             <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-1  ">
               Berlin, Germany.
