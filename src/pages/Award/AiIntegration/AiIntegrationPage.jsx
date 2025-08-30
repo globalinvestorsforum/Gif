@@ -288,27 +288,27 @@ const AiIntegrationPage = () => {
       {
         imgSrc: ZeroCostNominationOpen,
         event: "Zero Cost Nomination Open",
-        date: "1st March, 2024",
+        date: "1st September, 2025",
       },
       {
         imgSrc: PaidNominationOpen,
         event: "Paid Nomination Open",
-        date: "5th July, 2025",
+        date: "1st November, 2025",
       },
       {
         imgSrc: NominationDeadline,
         event: "Nomination Deadline",
-        date: "5th August, 2025",
+        date: "21st January, 2026",
       },
       {
         imgSrc: ShortlistAnnounced,
         event: "Shortlist Announced",
-        date: "5th September, 2025",
+        date: "1st March, 2026",
       },
       {
         imgSrc: WinnersAnnouncement,
         event: "Winners Announcement",
-        date: "9th October, 2025",
+        date: "19th March, 2026",
       },
     ],
     winning: {
