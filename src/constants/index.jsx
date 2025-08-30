@@ -447,7 +447,7 @@ export const navItems = [
 
 export const gaisNavItems = [
   { name: "GAIS", href: "/", current: true },
-  { name: "Conferences", href: "/gais/conference", current: false },
+  { name: "Tracks", href: "/gais/Inter", current: false },
   { name: "Award Ceremony", href: "/gais/award", current: false },
   // { name: "Global Investors Meet", href: "/gais/meet", current: false },
   { name: "Participating Companies", href: "/gais/companies", current: false },

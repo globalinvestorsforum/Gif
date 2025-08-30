@@ -38,6 +38,8 @@ import {
   FormOverview,
   FormA,
   FormB,
+  GAISTracksPage,
+  UnifiedTracks,
   
  
 } from "./pages/index";
@@ -63,6 +65,8 @@ const router = createBrowserRouter(
       <Route path="/gais/speakers" element={<Speakers />} />
       <Route path="/gais/speaker/:id" element={<SpeakerDetails />}/>
       <Route path="/gais/ticket" element={<Ticket />} />
+      <Route path="/gais/Inter" element={<GAISTracksPage/>}></Route>
+      <Route path="/gais/UnifiedTracks" element={<UnifiedTracks/>}></Route>
       <Route path="/gais/TicketRegistration" element={<TicketRegistration />} />
       {/* <Route path="/gais/carrier" element={<Carrier />} /> */}
       <Route path="/gais/Registration" element={<Registration />} />
