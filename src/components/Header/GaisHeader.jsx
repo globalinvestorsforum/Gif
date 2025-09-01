@@ -83,7 +83,7 @@ const Navbar = () => {
   <div>
    <button
   onClick={() => setDropdownOpen(!dropdownOpen)}
-  className="font-bold text-white hover:text-blue-500 flex items-center gap-1"
+  className="font-bold text-white hover:text-blue-500 flex items-center justify-center gap-1"
 >
   {item.name}
   <svg 
