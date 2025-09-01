@@ -55,7 +55,7 @@ import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
 import jacobhjalmarsson from "../assets/AllAttendees/AttendeeImage/jacobhjalmarsson.jpg";
 import JonathanSiboni from "../assets/AllAttendees/AttendeeImage/JonathanSiboni.jpg";
 import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximilianHahenkamp.jpg";
-import FredderickGerken from "../assets/AllAttendees/AttendeeImage/FederickGerken.jpg";
+import FredderickGerken from "../assets/AllAttendees/AttendeeImage/FederickGerken.png";
 // Company Images
 
 import AxeleraAI from '../assets/AllAttendees/Company-logo/Axelera-Logo-Black.png';
