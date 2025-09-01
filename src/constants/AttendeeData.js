@@ -50,7 +50,12 @@ import MuhammadOwaisKhan from '../assets/AllAttendees/AttendeeImage/MuhammadOwai
 import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg';
 import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
 import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.jpg";
-
+import AlenArslanagic from "../assets/AllAttendees/AttendeeImage/AlenArslanagic.jpg";
+import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
+import jacobhjalmarsson from "../assets/AllAttendees/AttendeeImage/jacobhjalmarsson.jpg";
+import JonathanSiboni from "../assets/AllAttendees/AttendeeImage/JonathanSiboni.jpg";
+import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximilianHahenkamp.jpg";
+import FredderickGerken from "../assets/AllAttendees/AttendeeImage/FederickGerken.jpg";
 // Company Images
 
 import AxeleraAI from '../assets/AllAttendees/Company-logo/Axelera-Logo-Black.png';
@@ -109,7 +114,12 @@ import WordWorksAI from '../assets/AllAttendees/Company-logo/WordWorksAI.png';
 import Omdena from '../assets/AllAttendees/Company-logo/Omdena.jpeg';
 import Bragi from '../assets/AllAttendees/Company-logo/Bragi.jpeg';
 import vGreens from '../assets/AllAttendees/Company-logo/vGreens.png';
-
+import Arboair from '../assets/AllAttendees/Company-logo/Arboair.png';
+import Luxurynsight from '../assets/AllAttendees/Company-logo/Luxurynsight.jpg';
+import optocycle from '../assets/AllAttendees/Company-logo/optocycle.png';
+import ScavengerAi from '../assets/AllAttendees/Company-logo/ScavengerAI.jpg';
+import TextCortex from '../assets/AllAttendees/Company-logo/TextCortext.jpg';
+import Visium from '../assets/AllAttendees/Company-logo/Visium.png';
 
 
 // import for default no image
@@ -571,6 +581,61 @@ export const AttendeesData = [
   personImage: MaxilmillianHartman,
   companyImage: vGreens,
 },
+{
+  id: 49,
+  name: "Maximilian HahnenKamp",
+  position: "Co-Founder",
+  company: "Scavenger AI",
+  role: "Participant",
+  personImage: MaximilianHahnenKamp,
+  companyImage: ScavengerAi,
+},
+{
+  id: 50,
+  name: "Baris Sen",
+  position: "Head of Growth",
+  company: "TextCortex",
+  role: "Participant",
+  personImage: BarisSen,
+  companyImage: TextCortex,
+},
+{
+  id: 51,
+  name: "Max-Frederick Gerken",
+  position: "CEO",
+  company: "OPTOCYCLE GmbH",
+  role: "Participant",
+  personImage: FredderickGerken,
+  companyImage: optocycle,
+},
+{
+  id: 52,
+  name: "Jacob Hjalmarsson",
+  position: "COO",
+  company: "Arboair AB",
+  role: "Participant",
+  personImage: jacobhjalmarsson,
+  companyImage: Arboair,
+},
+{
+  id: 53,
+  name: "Alen Arslanagic",
+  position: "Founder & CEO",
+  company: "Visium SA",
+  role: "Participant",
+  personImage: AlenArslanagic,
+  companyImage: Visium,
+},
+{
+  id: 54,
+  name: "Jonathan Siboni",
+  position: "CEO & Co-founder",
+  company: "Luxurynsight",
+  role: "Participant",
+  personImage: JonathanSiboni,
+  companyImage: Luxurynsight,
+},
+
 
 
 
