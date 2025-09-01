@@ -964,7 +964,7 @@ const handleSearch = () => {
         <div style={{margin: 0, padding: 0, backgroundColor: '#000000', minHeight: '100vh'}}>
          <div className="min-h-screen bg-black text-green-400" style={{margin: 0, padding: 0}}>
          <header className="px-8 py-12">
-      <h1 className="text-4xl font-bold text-white mb-4">AI Conference Tracks</h1>
+      <h1 className="text-4xl font-bold text-white mb-4">AI CONFERENCE TRACKS</h1>
       <p className="text-white max-w-4xl leading-relaxed mb-8">
         Explore comprehensive AI tracks covering strategic transformations and technical innovations.
       </p>
@@ -1022,7 +1022,7 @@ const handleSearch = () => {
    {/* AI Transformations Section */}
 
       <header className="px-8 py-12">
-  <h1 className="text-4xl font-bold text-white mb-4">AI Revolution Tracks</h1>
+  <h1 className="text-4xl font-bold text-white mb-4">AI REVOLUTION TRACKS</h1>
   <p className="text-white max-w-4xl leading-relaxed mb-8">
     Our transformation tracks focus on strategic AI implementation and business transformation. 
     Explore how AI agents, generative AI, and data strategies can drive organizational change, 
@@ -1044,8 +1044,8 @@ const handleSearch = () => {
         ) : (
           <ChevronRight className="text-green-400 mr-3 w-5 h-5 flex-shrink-0" />
         )}
-        <h2 className="text-xl font-semibold text-green-400">
-          All AI Revolutions Tracks 
+        <h2 className="text-lg font-semibold text-green-400">
+          ALL AI REVOLUTIONS TRACKS 
         </h2>
       </div>
       <GlassArrowButton 
@@ -1129,7 +1129,7 @@ const handleSearch = () => {
  {/* Technical Tracks Section */}
 
       <header className="px-8 py-12">
-  <h1 className="text-4xl font-bold text-white mb-4">Technical Tracks</h1>
+  <h1 className="text-4xl font-bold text-white mb-4">TECHNICAL TRACKS</h1>
   <p className="text-white max-w-4xl leading-relaxed mb-8">
     Our technical tracks dive deep into the engineering and research aspects of AI. 
     From advanced model architectures and machine learning techniques to infrastructure, 
@@ -1152,8 +1152,8 @@ const handleSearch = () => {
         ) : (
           <ChevronRight className="text-green-400 mr-3 w-5 h-5 flex-shrink-0" />
         )}
-        <h2 className="text-xl font-semibold text-green-400">
-          All Technical Tracks 
+        <h2 className="text-lg font-semibold text-green-400">
+          ALL TECHNICAL TRACKS 
         </h2>
       </div>
       <GlassArrowButton 
@@ -1235,7 +1235,7 @@ const handleSearch = () => {
 </main>
 {/* Role Based Tracks */}
  <header className="px-8 py-12">
-        <h1 className="text-4xl font-bold text-white mb-4">Role-Based Tracks</h1>
+        <h1 className="text-4xl font-bold text-white mb-4">ROLE-BASED TRACKS</h1>
         <p className="text-white max-w-4xl leading-relaxed mb-8">
           Our role-based tracks are designed for specific job functions and professional roles. 
           Explore AI applications, strategies, and best practices tailored to your specific area 
@@ -1259,8 +1259,8 @@ const handleSearch = () => {
                 ) : (
                   <ChevronRight className="text-green-400 mr-3 w-5 h-5 flex-shrink-0" />
                 )}
-                <h2 className="text-xl font-semibold text-green-400">
-                  All Role-Based Tracks 
+                <h2 className="text-lg font-semibold text-green-400">
+                  ALL ROLE-BASED TRACKS 
                 </h2>
               </div>
               <GlassArrowButton 
@@ -1338,7 +1338,7 @@ const handleSearch = () => {
       </main>
       {/* Social Tracks */}
        <header className="px-8 py-12">
-              <h1 className="text-4xl font-bold text-white mb-4">Social Impact Tracks</h1>
+              <h1 className="text-4xl font-bold text-white mb-4">SOCIAL IMPACT TRACKS</h1>
               <p className="text-white max-w-4xl leading-relaxed mb-8">
                 Our social impact tracks address the broader implications of AI on society, the environment, 
                 and human values. Explore how AI intersects with emerging technologies, environmental 
@@ -1363,8 +1363,8 @@ const handleSearch = () => {
                       ) : (
                         <ChevronRight className="text-green-400 mr-3 w-5 h-5 flex-shrink-0" />
                       )}
-                      <h2 className="text-xl font-semibold text-green-400">
-                        All Social Impact Tracks 
+                      <h2 className="text-lg font-semibold text-green-400">
+                        ALL SOCIAL IMPACT TRACKS 
                       </h2>
                     </div>
                     <GlassArrowButton 
@@ -1442,7 +1442,7 @@ const handleSearch = () => {
             </main>
             {/* Summit Tracks */}
              <header className="px-8 py-12">
-                    <h1 className="text-4xl font-bold text-white mb-4">Summit Tracks</h1>
+                    <h1 className="text-4xl font-bold text-white mb-4">SUMMIT TRACKS</h1>
                     <p className="text-white max-w-4xl leading-relaxed mb-8">
                       Our summit tracks bring together thought leaders, researchers, policymakers, investors, 
                       and innovators to explore the most pressing topics in AI. From cutting-edge research 
@@ -1467,8 +1467,8 @@ const handleSearch = () => {
                             ) : (
                               <ChevronRight className="text-green-400 mr-3 w-5 h-5 flex-shrink-0" />
                             )}
-                            <h2 className="text-xl font-semibold text-green-400">
-                              All Summit Tracks 
+                            <h2 className="text-lg font-semibold text-green-400">
+                              ALL SUMMIT TRACKS 
                             </h2>
                           </div>
                           <GlassArrowButton 
