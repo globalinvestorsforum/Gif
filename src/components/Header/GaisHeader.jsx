@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { gaisNavItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
+import { AiOutlineMenu, AiOutlineClose, AiOutlineDown } from 'react-icons/ai';
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -78,12 +79,14 @@ const Navbar = () => {
                             {gaisNavItems.map((item, index) => (
                                 <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                                     {item.name==='Agendas' ? (
+                                        
   <div>
     <button
       onClick={() => setDropdownOpen(!dropdownOpen)}
       className="font-bold text-white hover:text-blue-500"
     >
       {item.name}
+      <AiOutlineDown className={`ml-1 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}/>
     </button>
     {dropdownOpen && (
       <div className="mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48">
