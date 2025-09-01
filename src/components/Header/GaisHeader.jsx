@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { gaisNavItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
-
+import {useNavigate} from 'react-router-dom'
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const navigate = useNavigate();
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
     };
@@ -27,13 +28,33 @@ const Navbar = () => {
                         <ul className="flex flex-row uppercase">
                             {gaisNavItems.map((item, index) => (
                                 <li key={index} className='mx-4 '>
-                                    <NavLink
+                                    {item.name==='Agendas' ? (
+                                    <div>
+        <button
+          onClick={() => setDropdownOpen(!dropdownOpen)}
+          className="font-bold text-white hover:text-blue-500 uppercase"
+        >
+          {item.name}
+        </button>
+        {dropdownOpen && (
+          <div className="absolute top-full left-0 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
+            <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-blue-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
+              View All Tracks
+            </button>
+            <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-blue-500" onClick={()=>{navigate('/gais/conference')}}>
+              Industry Specific Tracks
+            </button>
+          </div>
+        )}
+      </div>
+                                   ):
+                                   ( <NavLink
                                      to={item.href}  
                                      className={({ isActive }) =>
                                        `font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
                                      }>
                                         {item.name}
-                                    </NavLink>
+                                    </NavLink>)}
                                 </li>
                             ))}
                         </ul>
