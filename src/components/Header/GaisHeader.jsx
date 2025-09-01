@@ -37,15 +37,15 @@ const Navbar = () => {
           {item.name}
         </button>
         {dropdownOpen && (
-          <div className="absolute top-full left-0 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
-            <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-blue-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
-              View All Tracks
-            </button>
-            <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-blue-500" onClick={()=>{navigate('/gais/conference')}}>
-              Industry Specific Tracks
-            </button>
-          </div>
-        )}
+  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
+      VIEW ALL TRACKS
+    </button>
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/conference')}}>
+      INDUSTRY SPECIFIC TRACKS
+    </button>
+  </div>
+)}
       </div>
                                    ):
                                    ( <NavLink
