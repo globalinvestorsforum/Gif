@@ -80,7 +80,7 @@ const Navbar = () => {
                                 <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                                     {item.name==='Agendas' ? (
 
-<div className="flex justify-center">
+<div className="flex flex-col items-center">
   <button
     onClick={() => setDropdownOpen(!dropdownOpen)}
     className="font-bold text-white hover:text-blue-500 flex items-center gap-1"
@@ -95,7 +95,7 @@ const Navbar = () => {
     </svg>
   </button>
   {dropdownOpen && (
-    <div className="absolute mt-8 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48 left-1/2 transform -translate-x-1/2">
+    <div className="mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48 w-full max-w-xs">
       <button 
         className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
         onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
