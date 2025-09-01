@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className="hidden lg:flex flex-row items-center justify-between w-4/5 xl:w-3/5 mx-6 ">
                         <ul className="flex flex-row uppercase">
                             {gaisNavItems.map((item, index) => (
-                                <li key={index} className='mx-4 '>
+                                <li key={index} className='mx-4 relative'>
                                     {item.name==='Agendas' ? (
                                     <div>
         <button
@@ -38,11 +38,11 @@ const Navbar = () => {
         </button>
         {dropdownOpen && (
   <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
-    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
-      VIEW ALL TRACKS
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500 uppercase" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
+      View All Tracks
     </button>
-    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/conference')}}>
-      INDUSTRY SPECIFIC TRACKS
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500 uppercase" onClick={()=>{navigate('/gais/conference')}}>
+      Industry Specific Tracks
     </button>
   </div>
 )}
@@ -76,7 +76,7 @@ const Navbar = () => {
                     <div className="fixed top-0 right-0 z-20 bg-neutral-900 w-full p-10 flex flex-col justify-center items-center text-center lg:hidden">
                         <ul>
                             {gaisNavItems.map((item, index) => (
-                                <li className="bg-neutral-900 py-1 text-base" key={index}>
+                                <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                                     {item.name==='Agendas' ? (
                                     <div>
         <button
@@ -87,11 +87,11 @@ const Navbar = () => {
         </button>
         {dropdownOpen && (
   <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
-    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
-      VIEW ALL TRACKS
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}>
+      View All Tracks
     </button>
-    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/conference')}}>
-      INDUSTRY SPECIFIC TRACKS
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}>
+      Industry Specific Tracks
     </button>
   </div>
 )}
