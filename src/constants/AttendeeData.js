@@ -564,7 +564,7 @@ export const AttendeesData = [
   companyImage: Omdena,
 },
 {
-  id: 47,
+  id: 49,
   name: "Nikolaj Hviid",
   position: "CEO",
   company: "Bragi",
@@ -573,7 +573,7 @@ export const AttendeesData = [
   companyImage: Bragi,
 },
 {
-  id: 48,
+  id: 50,
   name: "Dr. Maximilian Hartmann",
   position: "Co-Founder & Managing Director",
   company: "vGreens Holding GmbH",
@@ -582,7 +582,7 @@ export const AttendeesData = [
   companyImage: vGreens,
 },
 {
-  id: 49,
+  id: 51,
   name: "Maximilian HahnenKamp",
   position: "Co-Founder",
   company: "Scavenger AI",
@@ -590,17 +590,17 @@ export const AttendeesData = [
   personImage: MaximilianHahnenKamp,
   companyImage: ScavengerAi,
 },
-// {
-//   id: 50,
-//   name: "Baris Sen",
-//   position: "Head of Growth",
-//   company: "TextCortex",
-//   role: "Participant",
-//   personImage: BarisSen,
-//   companyImage: TextCortex,
-// },
 {
-  id: 50,
+  id: 52,
+  name: "Baris Sen",
+  position: "Head of Growth",
+  company: "TextCortex",
+  role: "Participant",
+  personImage: BarisSen,
+  companyImage: TextCortex,
+},
+{
+  id: 53,
   name: "Max-Frederick Gerken",
   position: "CEO",
   company: "OPTOCYCLE GmbH",
@@ -609,7 +609,7 @@ export const AttendeesData = [
   companyImage: optocycle,
 },
 {
-  id: 51,
+  id: 54,
   name: "Jacob Hjalmarsson",
   position: "COO",
   company: "Arboair AB",
@@ -618,7 +618,7 @@ export const AttendeesData = [
   companyImage: Arboair,
 },
 {
-  id: 52,
+  id: 55,
   name: "Alen Arslanagic",
   position: "Founder & CEO",
   company: "Visium SA",
@@ -626,15 +626,15 @@ export const AttendeesData = [
   personImage: AlenArslanagic,
   companyImage: Visium,
 },
-// {
-//   id: 54,
-//   name: "Jonathan Siboni",
-//   position: "CEO & Co-founder",
-//   company: "Luxurynsight",
-//   role: "Participant",
-//   personImage: JonathanSiboni,
-//   companyImage: Luxurynsight,
-// },
+{
+  id: 56,
+  name: "Jonathan Siboni",
+  position: "CEO & Co-founder",
+  company: "Luxurynsight",
+  role: "Participant",
+  personImage: JonathanSiboni,
+  companyImage: Luxurynsight,
+},
 
 
 
