@@ -54,7 +54,7 @@ import AlenArslanagic from "../assets/AllAttendees/AttendeeImage/AlenArslanagic.
 // import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
 import jacobhjalmarsson from "../assets/AllAttendees/AttendeeImage/jacobhjalmarsson.jpg";
 import JonathanSiboni from "../assets/AllAttendees/AttendeeImage/JonathanSiboni.jpg";
-import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximillainHahenkamp.jpg";
+import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximilianHahenkamp.jpg";
 import FredderickGerken from "../assets/AllAttendees/AttendeeImage/FederickGerken.png";
 // Company Images
 
