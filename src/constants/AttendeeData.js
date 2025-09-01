@@ -49,8 +49,7 @@ import LimTaoCheng from '../assets/AllAttendees/AttendeeImage/LimTaoCheng.png';
 import MuhammadOwaisKhan from '../assets/AllAttendees/AttendeeImage/MuhammadOwaisKhan.jpg';
 import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg';
 import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
-
-
+import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.png";
 
 // Company Images
 
@@ -109,7 +108,7 @@ import LaunchXLabs from '../assets/AllAttendees/Company-logo/LaunchXLabs.png';
 import WordWorksAI from '../assets/AllAttendees/Company-logo/WordWorksAI.png';
 import Omdena from '../assets/AllAttendees/Company-logo/Omdena.jpeg';
 import Bragi from '../assets/AllAttendees/Company-logo/Bragi.jpeg';
-
+import vGreens from '../assets/AllAttendees/Company-logo/vGreens.png';
 
 
 
@@ -562,6 +561,15 @@ export const AttendeesData = [
   role: "Participant",
   personImage: NikolajHviid,
   companyImage: Bragi,
+},
+{
+  id: 48,
+  name: "Dr. Maximilian Hartmann",
+  position: "Co-Founder & Managing Director",
+  company: "vGreens Holding GmbH",
+  role: "Participant",
+  personImage: MaxilmillianHartman,
+  companyImage: vGreens,
 },
 
 
