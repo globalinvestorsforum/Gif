@@ -49,7 +49,7 @@ import LimTaoCheng from '../assets/AllAttendees/AttendeeImage/LimTaoCheng.png';
 import MuhammadOwaisKhan from '../assets/AllAttendees/AttendeeImage/MuhammadOwaisKhan.jpg';
 import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg';
 import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
-import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.png";
+import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.jpg";
 
 // Company Images
 
