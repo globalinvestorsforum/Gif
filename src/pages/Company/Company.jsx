@@ -9,11 +9,14 @@ import ForParticipatingCompanies from '../../assets/AllAttendees/ForParticipatin
 gsap.registerPlugin(ScrollTrigger);
 
 function Company() {
-
+  // Add this right after your imports
+console.log("Raw AttendeesData length:", AttendeesData.length);
+console.log("Raw AttendeesData last 5 items:", AttendeesData.slice(-5));
+console.log("IDs greater than 50:", AttendeesData.filter(item => item.id > 50));
   const [attendees,setAttendees]=useState(AttendeesData)
 
   const containerRef = useRef(null);
-
+  
   useEffect(() => {
     const ctx = gsap.context(() => {
       // Animate text and button
