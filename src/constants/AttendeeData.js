@@ -51,7 +51,7 @@ import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg
 import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
 import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.jpg";
 import AlenArslanagic from "../assets/AllAttendees/AttendeeImage/AlenArslanagic.jpg";
-import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
+// import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
 import jacobhjalmarsson from "../assets/AllAttendees/AttendeeImage/jacobhjalmarsson.jpg";
 import JonathanSiboni from "../assets/AllAttendees/AttendeeImage/JonathanSiboni.jpg";
 import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximillainHahenkamp.jpg";
