@@ -107,9 +107,9 @@ function Company() {
 
       {/* Attendees Grid */}
       <div className="w-full  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6 py-8 px-6 md:px-16 ">
-        {attendees.map((person, index) => (
+        {attendees.map((person) => (
           <div
-            key={index} 
+            key={person.id} 
             // onClick={() => handleCardClick(index)}
             className="attendee-card max-w-[200px] p-1  hover:gradient-border hover:cursor-pointer group relative overflow-hidden rounded-xl"
           >
@@ -120,6 +120,11 @@ function Company() {
                   className="w-full max-w-[150px] group-hover:scale-75 duration-500 h-40 object-contain object-center p-4 "
                   src={person.companyImage}
                   alt={person.company}
+                  onError={(e) => {
+                    console.log(`Failed to load image for ${person.company}:`, person.companyImage);
+                    // You can set a default image here if needed
+                    // e.target.src = defaultCompanyImage;
+                  }}
                 />
               </div>
               <div className="p-2 rounded-b-xl pl-4 flex-1 " style={{ font: "normal 0.75rem 'Inter', serif", lineHeight: "1rem" }}>
