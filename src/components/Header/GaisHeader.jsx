@@ -77,13 +77,33 @@ const Navbar = () => {
                         <ul>
                             {gaisNavItems.map((item, index) => (
                                 <li className="bg-neutral-900 py-1 text-base" key={index}>
+                                    {item.name==='Agendas' ? (
+                                    <div>
+        <button
+          onClick={() => setDropdownOpen(!dropdownOpen)}
+          className="font-bold text-white hover:text-blue-500 uppercase"
+        >
+          {item.name}
+        </button>
+        {dropdownOpen && (
+  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg z-50 min-w-48">
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/UnifiedTracks')}}>
+      VIEW ALL TRACKS
+    </button>
+    <button className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" onClick={()=>{navigate('/gais/conference')}}>
+      INDUSTRY SPECIFIC TRACKS
+    </button>
+  </div>
+)}
+      </div>
+                                   ):(
                                     <NavLink 
                                     className={({ isActive }) =>
                                        ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
                                      }
                                      to={item.href}>
                                         {item.name}
-                                    </NavLink>
+                                    </NavLink>)}
                                 </li>
                             ))}
                         </ul>
