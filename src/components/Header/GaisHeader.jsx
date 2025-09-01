@@ -81,7 +81,7 @@ const Navbar = () => {
                                     <div>
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="font-bold text-white hover:text-blue-500 uppercase"
+          className="font-bold text-white hover:text-blue-500 "
         >
           {item.name}
         </button>
