@@ -80,37 +80,37 @@ const Navbar = () => {
                                 <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                                     {item.name==='Agendas' ? (
 
-  <div>
-   <button
-  onClick={() => setDropdownOpen(!dropdownOpen)}
-  className="font-bold text-white hover:text-blue-500 flex items-center justify-center gap-1"
->
-  {item.name}
-  <svg 
-    className={`w-4 h-4 text-white transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
-    fill="currentColor" 
-    viewBox="0 0 20 20"
+<div className="flex justify-center">
+  <button
+    onClick={() => setDropdownOpen(!dropdownOpen)}
+    className="font-bold text-white hover:text-blue-500 flex items-center gap-1"
   >
-    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-  </svg>
-</button>
-    {dropdownOpen && (
-      <div className="mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48">
-        <button 
-          className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
-          onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-        >
-          View All Tracks
-        </button>
-        <button 
-          className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
-          onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-        >
-          Industry Specific Tracks
-        </button>
-      </div>
-    )}
-  </div>
+    {item.name}
+    <svg 
+      className={`w-4 h-4 text-white transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
+      fill="currentColor" 
+      viewBox="0 0 20 20"
+    >
+      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+    </svg>
+  </button>
+  {dropdownOpen && (
+    <div className="absolute mt-8 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48 left-1/2 transform -translate-x-1/2">
+      <button 
+        className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
+        onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+      >
+        View All Tracks
+      </button>
+      <button 
+        className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
+        onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+      >
+        Industry Specific Tracks
+      </button>
+    </div>
+  )}
+</div>
 ):(
   <NavLink 
     className={({ isActive }) =>
