@@ -51,10 +51,10 @@ import NikolajHviid from '../assets/AllAttendees/AttendeeImage/Nikolaj-Hviid.jpg
 import RudradebMitra from '../assets/AllAttendees/AttendeeImage/Rudradeb-Mitra.jpg';
 import MaxilmillianHartman from "../assets/AllAttendees/AttendeeImage/MaximilianHartmann.jpg";
 import AlenArslanagic from "../assets/AllAttendees/AttendeeImage/AlenArslanagic.jpg";
-// import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
+import BarisSen from "../assets/AllAttendees/AttendeeImage/BarisSen.jpg";
 import jacobhjalmarsson from "../assets/AllAttendees/AttendeeImage/jacobhjalmarsson.jpg";
 import JonathanSiboni from "../assets/AllAttendees/AttendeeImage/JonathanSiboni.jpg";
-import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximilianHahenkamp.jpg";
+import MaximilianHahnenKamp from "../assets/AllAttendees/AttendeeImage/MaximillainHahenkamp.jpg";
 import FredderickGerken from "../assets/AllAttendees/AttendeeImage/FederickGerken.png";
 // Company Images
 
@@ -590,17 +590,17 @@ export const AttendeesData = [
   personImage: MaximilianHahnenKamp,
   companyImage: ScavengerAi,
 },
-// {
-//   id: 52,
-//   name: "Baris Sen",
-//   position: "Head of Growth",
-//   company: "TextCortex",
-//   role: "Participant",
-//   personImage: BarisSen,
-//   companyImage: TextCortex,
-// },
 {
   id: 52,
+  name: "Baris Sen",
+  position: "Head of Growth",
+  company: "TextCortex",
+  role: "Participant",
+  personImage: BarisSen,
+  companyImage: TextCortex,
+},
+{
+  id: 53,
   name: "Max-Frederick Gerken",
   position: "CEO",
   company: "OPTOCYCLE GmbH",
@@ -609,7 +609,7 @@ export const AttendeesData = [
   companyImage: optocycle,
 },
 {
-  id: 53,
+  id: 54,
   name: "Jacob Hjalmarsson",
   position: "COO",
   company: "Arboair AB",
@@ -618,7 +618,7 @@ export const AttendeesData = [
   companyImage: Arboair,
 },
 {
-  id: 54,
+  id: 55,
   name: "Alen Arslanagic",
   position: "Founder & CEO",
   company: "Visium SA",
@@ -626,15 +626,15 @@ export const AttendeesData = [
   personImage: AlenArslanagic,
   companyImage: Visium,
 },
-// {
-//   id: 56,
-//   name: "Jonathan Siboni",
-//   position: "CEO & Co-founder",
-//   company: "Luxurynsight",
-//   role: "Participant",
-//   personImage: JonathanSiboni,
-//   companyImage: Luxurynsight,
-// },
+{
+  id: 56,
+  name: "Jonathan Siboni",
+  position: "CEO & Co-founder",
+  company: "Luxurynsight",
+  role: "Participant",
+  personImage: JonathanSiboni,
+  companyImage: Luxurynsight,
+},
 
 
 
