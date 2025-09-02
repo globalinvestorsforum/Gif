@@ -115,10 +115,10 @@ import Omdena from '../assets/AllAttendees/Company-logo/Omdena.jpeg';
 import Bragi from '../assets/AllAttendees/Company-logo/Bragi.jpeg';
 import vGreens from '../assets/AllAttendees/Company-logo/vGreens.png';
 import Arboair from '../assets/AllAttendees/Company-logo/Arboair.png';
-import Luxurynsight from '../assets/AllAttendees/Company-logo/Luxurynsight.jpg';
+import Luxurynsight from '../assets/AllAttendees/Company-logo/Luxurynsight.svg';
 import optocycle from '../assets/AllAttendees/Company-logo/optocycle.png';
 import ScavengerAi from '../assets/AllAttendees/Company-logo/ScavengerAI.jpg';
-import TextCortex from '../assets/AllAttendees/Company-logo/TextCortext.jpg';
+import TextCortex from '../assets/AllAttendees/Company-logo/TextCortex.svg';
 import Visium from '../assets/AllAttendees/Company-logo/Visium.png';
 
 
