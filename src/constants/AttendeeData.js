@@ -575,7 +575,7 @@ export const AttendeesData = [
 {
   id: 50,
   name: "Dr. Maximilian Hartmann",
-  position: "Co-Founder & Managing Director",
+  position: "Managing Director",
   company: "vGreens Holding GmbH",
   role: "Participant",
   personImage: MaxilmillianHartman,
@@ -620,7 +620,7 @@ export const AttendeesData = [
 {
   id: 55,
   name: "Alen Arslanagic",
-  position: "Founder & CEO",
+  position: "CEO",
   company: "Visium SA",
   role: "Participant",
   personImage: AlenArslanagic,
@@ -629,7 +629,7 @@ export const AttendeesData = [
 {
   id: 56,
   name: "Jonathan Siboni",
-  position: "CEO & Co-founder",
+  position: "CEO",
   company: "Luxurynsight",
   role: "Participant",
   personImage: JonathanSiboni,
