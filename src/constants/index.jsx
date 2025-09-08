@@ -15,7 +15,7 @@ import Insight from "../assets/HealthcareSummit/Insight.jpg";
 import {
   Users,
   Stethoscope,Activity,Server ,
-  Factory,
+  Factory,FlaskConical,
   Lightbulb,
   Leaf,Car,
   Tractor,
@@ -2486,11 +2486,149 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     }
   },
   {
-    title: "The Global Foodtech AI Conference",
-    discription: "Interating AI From Farm to Fork.",
-    backImgURL:
+  title: "The Global Foodtech AI Conference",
+  description: "Integrating AI From Farm to Fork.",
+     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  
+  eventLink: "/gais/conference/global-foodtech-ai-conference",
+  config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "The Global Foodtech AI Conference",
+    showIntroduction: true,
+    introductionText:
+      "Revolutionizing the Food Ecosystem with Artificial Intelligence: Join Leaders Across Agriculture, Processing, Retail, and Supply Chain.",
+    introdunctionCard1title: "AI in Foodtech",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "The Global Foodtech AI Conference brings together AI researchers, agritech innovators, food processing experts, supply chain professionals, and policy makers to explore the transformation of the food industry through artificial intelligence.",
+    introductionParagraph2:
+      "Discover how AI is optimizing agricultural yields, reducing food waste, enabling smarter logistics, and driving personalized nutrition. Engage in thought-provoking panels, product showcases, and networking with pioneers reshaping the food ecosystem.",
+    introductionParagraph3:
+      "Be part of the AI-driven food revolution — from farm to fork. Learn, collaborate, and lead the change for a more efficient, sustainable, and intelligent food future.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Explore AI Innovations in Agriculture & Food Systems",
+        description:
+          "Learn how AI is transforming crop management, livestock monitoring, precision farming, and food safety.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Network with Foodtech & AI Experts",
+        description:
+          "Meet industry leaders, agritech founders, and AI engineers creating tomorrow’s food technologies.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Gain Insight into Smart Supply Chains & Retail AI",
+        description:
+          "Understand how AI enhances food logistics, demand forecasting, inventory optimization, and customer experience.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Discover Investment & Growth Opportunities",
+        description:
+          "Pitch to investors, explore strategic collaborations, and uncover funding for AI-powered food innovations.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Farmers & Agritech Innovators",
+        description:
+          "Agronomists, agriculture tech founders, and smart farming advocates",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To discover AI applications in crop monitoring, soil analysis, irrigation, and yield prediction.",
+      },
+      {
+        id: 2,
+        title: "Food Processing & Safety Professionals",
+        description: "Food scientists, QA managers, and processing tech leads",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "To implement AI for food quality, contamination detection, and smart processing systems.",
+      },
+      {
+        id: 3,
+        title: "Retail & Supply Chain Experts",
+        description:
+          "Retail executives, logistics managers, and supply chain strategists",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To optimize supply chains, reduce waste, and forecast demand using AI-powered systems.",
+      },
+      {
+        id: 4,
+        title: "Startups & Entrepreneurs",
+        description: "Foodtech startup founders, CEOs, and product builders",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase disruptive food AI solutions and connect with strategic investors.",
+      },
+      {
+        id: 5,
+        title: "Investors & VCs",
+        description: "VCs, angels, and impact investors",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To explore high-growth opportunities in AI for agriculture, logistics, and food innovation.",
+      },
+      {
+        id: 6,
+        title: "Academia & Researchers",
+        description:
+          "Agriculture scientists, AI researchers, and students",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To explore collaborative research and understand real-world AI applications in food systems.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-foodtech-ai-conference/all-agendas",
+    registerLink: "/gais/ticket",
   },
+}
+
+ ,
   {
     title: "The Robotics Ai Fontier Conference",
     discription:
@@ -2521,7 +2659,7 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
-  },
+  }
 
 ];
 
