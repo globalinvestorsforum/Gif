@@ -93,7 +93,7 @@ const AttendeeDetails = () => {
       }
     },
     {
-      name: "María Cayuela",
+      name: "Maria Cayuela",
       title: "Cheif Executive Officer",
       company: "Bio Smart Data",
       country: "Spain",
@@ -221,9 +221,9 @@ Nevio’s professional career spans media and data analytics, where his experien
       }
     },
     {
-      name: "Mr. Álvaro Sáez Tonda",
+      name: "Álvaro Sáez Tonda",
       title: "AI Researcher Leader",
-      company: "HachicerIA",
+      company: "HechicerIA",
       country: "Spain",
       image: AlvaroSaezTonda,
       linkedinUrl:"https://www.linkedin.com/in/álvaro-sáez-297b7853/?originalSubdomain=es",
@@ -551,7 +551,7 @@ business, and football.`
       }
     },
     {
-      name: "Dr Sameer Maskey",
+      name: "Dr. Sameer Maskey",
       title: "Cheif Executive Officer",
       company: "Fusemachines",
       country: "Nepal",
@@ -687,7 +687,7 @@ He holds a Ph.D. in Astronomy and Space Science from Yonsei University. With ov
       }
     },
     {
-      name: "Christy Fernandez-Cull",
+      name: "Christy Fernandez - Cull",
       title: "Cheif Executive Officer",
       company: "Davinci wearables, inc",
       country: "France",
@@ -717,7 +717,7 @@ He holds a Ph.D. in Astronomy and Space Science from Yonsei University. With ov
       }
     },
     {
-      name: "Mr. Vedant Ahluwalia",
+      name: "Vedant Ahluwalia",
       title: "Co-Founder",
       company: "Dataviv Technologies Private Limited",
       country: "Germany",
