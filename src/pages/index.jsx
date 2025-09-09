@@ -36,3 +36,4 @@ export { default as Registration } from './Registration/RegistrationPage.jsx';
 export { default as GAISTracksPage} from './Inter/InterPage.jsx';
 export { default as UnifiedTracks} from './AllTracks/UnifiedTracks.jsx';
 export {default as AiSummitLayout} from "./Conference/Ai-Summits/Ai-Summit-Layout.jsx";
+export {default as AttendeeDetails} from "./Speaker/AllAttenddeeDetails.jsx";
