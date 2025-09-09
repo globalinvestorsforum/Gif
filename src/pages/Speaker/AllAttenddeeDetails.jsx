@@ -144,7 +144,9 @@ const AttendeeDetails = () => {
       tabContent: {
         overview: {
           title: "Professional Overview",
-          content: `Geetha Sham is the managing director of the European region at CamCom. Her extensive experience leading large and complex businesses focusing on products and digital enablement provides valuable insights at CamCom. A passionate supporter of diversity and inclusion efforts, Geetha, a tech virtuoso, brings a level of experience that is one of the key drivers to CamCom’s long-term success. Customers across Europe rely on Geetha to be the source of truth for their businesses, solve their biggest challenges, and help them grow and confidently run their businesses. She oversees CamCom’s product strategy and leads the platform engineering, harnessing advanced technology that allows CamCom’s customers and partners across Europe. She is an essential cog of CamCom’s plan to be the global AI-powered visual inspection expert platform. Geetha is an experienced business leader who has successfully led a relevant/related high-growth business in top tech companies like Cybage, Mindtree, Wipro, and Oracle. Geetha embodies the spirit of CamCom – nothing succeeds like success. “CamCom is perfectly positioned to help its customers transform their quality inspection processes across the product lifecycle around the globe. I am privileged to lead a young, dynamic team with the zest to take on the world.” Geetha holds an engineering degree in electronics and communications from Bangalore University.`
+          content: `Geetha Sham is the managing director of the European region at CamCom. Her extensive experience leading large and complex businesses focusing on products and digital enablement provides valuable insights at CamCom. A passionate supporter of diversity and inclusion efforts, Geetha, a tech virtuoso, brings a level of experience that is one of the key drivers to CamCom’s long-term success. Customers across Europe rely on Geetha to be the source of truth for their businesses, solve their biggest challenges, and help them grow and confidently run their businesses. 
+
+          She oversees CamCom’s product strategy and leads the platform engineering, harnessing advanced technology that allows CamCom’s customers and partners across Europe. She is an essential cog of CamCom’s plan to be the global AI-powered visual inspection expert platform. Geetha is an experienced business leader who has successfully led a relevant/related high-growth business in top tech companies like Cybage, Mindtree, Wipro, and Oracle. Geetha embodies the spirit of CamCom – nothing succeeds like success. “CamCom is perfectly positioned to help its customers transform their quality inspection processes across the product lifecycle around the globe. I am privileged to lead a young, dynamic team with the zest to take on the world.” Geetha holds an engineering degree in electronics and communications from Bangalore University.`
         }
       }
     },
@@ -419,6 +421,7 @@ She is highly committed to non-profit organisations, both professional and socia
         overview: {
           title: "Professional Overview",
           content: `Results-driven marketing professional with over 7 years of experience in product marketing. Leveraging a growth mindset and an iterative approach, I specialize in developing innovative digital product strategies that drive business growth and enhance customer experiences.
+
       With extensive expertise in customer analytics and data-driven decision-making, I collaborate with companies to transform their marketing efforts by implementing user-centric growth strategies that yield sustainable results.`
         }
       }
@@ -561,6 +564,7 @@ business, and football.`
         overview: {
           title: "Professional Overview",
           content: `Dr Sameer Maskey is the Founder & CEO of Fusemachines Inc., an enterprise AI product and solutions company at the forefront of AI-enabled transformation. Dr. Maskey has more than two decades of experience in artificial intelligence, natural language processing, machine learning, data science and is Adjunct Associate Professor at Columbia University.
+          
           After completing his PhD in Computer Science from Columbia University, he joined IBM Watson Research Center where he invented various statistical algorithms to improve speech-to-speech translation and question answering systems.`
         }
       }
