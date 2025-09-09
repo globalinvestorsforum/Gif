@@ -11,9 +11,14 @@ gsap.registerPlugin(ScrollTrigger);
 function AllAttendees() {
 
   const [attendees,setAttendees]=useState(AttendeesData)
-
+  const navigate=useNavigate();
   const containerRef = useRef(null);
-
+ const handleAttendeeClick = (attendeeName) => {
+  sessionStorage.setItem('selectedAttendeeName', attendeeName);
+  // Navigate to the attendee details page
+  navigate('/gais/attendees/attendeedetails')
+  
+};
   useEffect(() => {
     const ctx = gsap.context(() => {
       // Animate text and button
@@ -75,7 +80,7 @@ function AllAttendees() {
 
 
   
-  const navigate = useNavigate();
+ 
 
   const handleCardClick = (id) => {
     // navigate(`/gais/Speaker/${id}`);
@@ -85,6 +90,7 @@ function AllAttendees() {
     <div
       ref={containerRef}
       className="bg-gradient-to-r from-[#963C96] via-[#F53232] to-[#FFBE5A] text-black"
+     
     >
       {/* Header Section */}
       <div className="bg-black grid gap-4 grid-cols-1 md:grid-cols-2 items-center">
@@ -114,7 +120,7 @@ function AllAttendees() {
         .map((person, index) => (
           <div
             key={index} 
-            onClick={() => handleCardClick(index)}
+            onClick={() => handleAttendeeClick(person.name)}
             className="attendee-card p-1 hue-rotate-30 hover:gradient-border hover:cursor-pointer group relative overflow-hidden rounded-xl"
           >
             {/* Gradient Border Container */}

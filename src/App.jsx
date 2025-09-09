@@ -40,6 +40,7 @@ import {
   FormB,
   GAISTracksPage,
   UnifiedTracks,
+  AttendeeDetails
   
  
 } from "./pages/index";
@@ -62,6 +63,7 @@ const router = createBrowserRouter(
       <Route path="/gais/meet" element={<Meet />} />
       <Route path="/gais/companies" element={<Company />} />
       <Route path="/gais/attendees" element={<AllAttendees />} />
+      <Route path="/gais/attendees/attendeedetails" element={<AttendeeDetails/>}/>
       <Route path="/gais/speakers" element={<Speakers />} />
       <Route path="/gais/speaker/:id" element={<SpeakerDetails />}/>
       <Route path="/gais/ticket" element={<Ticket />} />
