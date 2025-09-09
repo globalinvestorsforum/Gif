@@ -147,7 +147,7 @@ export const AttendeesData = [
   // },
   {
     id: 3,
-    name: "Cristian Pascul",
+    name: "Cristian Pascual",
     position: "CEO",
     company: "Mediktor",
     role: "Speaker",
@@ -183,7 +183,7 @@ export const AttendeesData = [
   },
   {
     id: 7,
-    name: "Geeta Sham",
+    name: "Geetha Sham",
     position: "Managing Director",
     company: "CamCom",
     role: "Speaker",
@@ -219,7 +219,7 @@ export const AttendeesData = [
   },
   {
     id: 11,
-    name: "Julio Pernia",
+    name: "Julio Pernía Aznar",
     position: "CEO",
     company: "Bdeo",
     role: "Speaker",
@@ -273,7 +273,7 @@ export const AttendeesData = [
   },
   {
     id: 17,
-    name: "Neuvo Buric",
+    name: "Nevio Buric",
     position: "Co-Founder",
     company: "Daidream",
     role: "Speaker",
