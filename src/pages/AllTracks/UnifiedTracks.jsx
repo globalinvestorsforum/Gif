@@ -1,6 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { Search, ChevronDown, ChevronRight, Brain, Bot, Zap, Settings, Eye, Users, MessageSquare, Database, Star, Target, Cpu, Shield, BookOpen, CheckCircle, Cloud, Lock, TestTube } from 'lucide-react';
+import { useEffect, useRef } from 'react'; // Add useEffect if not already imported
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 const GlassArrowButton = ({ isExpanded = false, onClick = () => {} }) => {
   return (
     <div
@@ -25,6 +29,7 @@ const GlassArrowButton = ({ isExpanded = false, onClick = () => {} }) => {
     </div>
   );
 };
+const containerRef = useRef(null);
 export default function UnifiedTracks() {
       const [searchTerm, setSearchTerm] = useState('');
        const [searchResults, setSearchResults] = useState([]);
@@ -43,6 +48,67 @@ export default function UnifiedTracks() {
       const roletrackRefs = useRef({});
       const socialtrackRefs = useRef({});
       const summittrackRefs=useRef({});
+      useEffect(() => {
+  const ctx = gsap.context(() => {
+    // Animate header content
+    gsap.fromTo(
+      ".header-content",
+      { opacity: 0, x: -100 },
+      {
+        opacity: 1,
+        x: 0,
+        delay: 0.3,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".header-content",
+          start: "top 80%",
+        },
+      }
+    );
+
+    // Animate track sections
+    gsap.utils.toArray(".track-section").forEach((section, index) => {
+      gsap.fromTo(
+        section,
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          delay: index * 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: section,
+            start: "top 90%",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    });
+
+    // Animate individual track cards
+    gsap.utils.toArray(".track-card").forEach((card, index) => {
+      gsap.fromTo(
+        card,
+        { opacity: 0, scale: 0.9 },
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 0.8,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: card,
+            start: "top 95%",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    });
+  }, containerRef);
+
+  return () => ctx.revert();
+}, []);
       const trans_tracks = [
     {
       id: 1,
@@ -961,9 +1027,9 @@ const handleSearch = () => {
     summit_tracks;
     return(
         <>
-        <div style={{margin: 0, padding: 0, backgroundColor: '#000000', minHeight: '100vh'}}>
+        <div ref={containerRef} style={{margin: 0, padding: 0, backgroundColor: '#000000', minHeight: '100vh'}}>
          <div className="min-h-screen bg-black text-green-400" style={{margin: 0, padding: 0}}>
-         <header className="px-8 py-12">
+         <header className=" header-content px-8 py-12">
       <h1 className="text-4xl font-bold text-white mb-4">AI CONFERENCE TRACKS</h1>
       <p className="text-white max-w-4xl leading-relaxed mb-8">
         Explore comprehensive AI tracks covering strategic transformations and technical innovations.
@@ -1021,7 +1087,7 @@ const handleSearch = () => {
     </header>             
    {/* AI Transformations Section */}
 
-      <header className="px-8 py-12">
+      <header className="header-content px-8 py-12">
   <h1 className="text-4xl font-bold text-white mb-4">AI REVOLUTION TRACKS</h1>
   <p className="text-white max-w-4xl leading-relaxed mb-8">
     Our transformation tracks focus on strategic AI implementation and business transformation. 
@@ -1029,7 +1095,7 @@ const handleSearch = () => {
     improve efficiency, and create new opportunities for growth and innovation.
   </p>
 </header>
-<main className="px-8 pb-12">
+<main className="track-section px-8 pb-12">
   <div className="border border-green-500 bg-black shadow-lg">
   {/* Main Dropdown Header */}
   
@@ -1070,7 +1136,7 @@ const handleSearch = () => {
           <div 
             key={track.id} 
             ref={el => transtrackRefs.current[track.id] = el}
-            className="border border-green-600/50 bg-gray-900/20 rounded-lg"
+            className="track-card border border-green-600/50 bg-gray-900/20 rounded-lg"
           >
             <div 
               className="px-4 py-3 border-b border-green-600/30 cursor-pointer hover:bg-gray-800/50 transition-colors rounded-t-lg"
@@ -1128,7 +1194,7 @@ const handleSearch = () => {
 
  {/* Technical Tracks Section */}
 
-      <header className="px-8 py-12">
+      <header className="header-content px-8 py-12">
   <h1 className="text-4xl font-bold text-white mb-4">TECHNICAL TRACKS</h1>
   <p className="text-white max-w-4xl leading-relaxed mb-8">
     Our technical tracks dive deep into the engineering and research aspects of AI. 
@@ -1137,7 +1203,7 @@ const handleSearch = () => {
     who want to understand the technical foundations of AI systems.
   </p>
 </header>
-<main className="px-8 pb-12">
+<main className="track-section px-8 pb-12">
   <div className="border border-green-500 bg-black shadow-lg">
 
 
@@ -1178,7 +1244,7 @@ const handleSearch = () => {
           <div 
             key={track.id} 
             ref={el => techtrackRefs.current[track.id] = el}
-            className="border border-green-600/50 bg-gray-900/20 rounded-lg"
+            className="track-card border border-green-600/50 bg-gray-900/20 rounded-lg"
           >
             <div 
               className="px-4 py-3 border-b border-green-600/30 cursor-pointer hover:bg-gray-800/50 transition-colors rounded-t-lg"
@@ -1234,7 +1300,7 @@ const handleSearch = () => {
 </div>
 </main>
 {/* Role Based Tracks */}
- <header className="px-8 py-12">
+ <header className="header-content px-8 py-12">
         <h1 className="text-4xl font-bold text-white mb-4">ROLE-BASED TRACKS</h1>
         <p className="text-white max-w-4xl leading-relaxed mb-8">
           Our role-based tracks are designed for specific job functions and professional roles. 
@@ -1244,7 +1310,7 @@ const handleSearch = () => {
       </header>
 
       {/* Main Content */}
-      <main className="px-8 pb-12">
+      <main className="track-section px-8 pb-12">
         {/* Main Dropdown Container */}
         <div className="border border-green-500 bg-black shadow-lg">
           {/* Main Dropdown Header */}
@@ -1281,7 +1347,7 @@ const handleSearch = () => {
                   <div 
                     key={track.id} 
                     ref={el => roletrackRefs.current[track.id] = el}
-                    className="border border-green-600/50 bg-gray-900/20 rounded-lg"
+                    className="track-card border border-green-600/50 bg-gray-900/20 rounded-lg"
                   >
                     <div 
                       className="px-4 py-3 border-b border-green-600/30 cursor-pointer hover:bg-gray-800/50 transition-colors rounded-t-lg"
@@ -1337,7 +1403,7 @@ const handleSearch = () => {
         </div>
       </main>
       {/* Social Tracks */}
-       <header className="px-8 py-12">
+       <header className="header-content px-8 py-12">
               <h1 className="text-4xl font-bold text-white mb-4">SOCIAL IMPACT TRACKS</h1>
               <p className="text-white max-w-4xl leading-relaxed mb-8">
                 Our social impact tracks address the broader implications of AI on society, the environment, 
@@ -1348,7 +1414,7 @@ const handleSearch = () => {
             </header>
       
             {/* Main Content */}
-            <main className="px-8 pb-12">
+            <main className="track-section px-8 pb-12">
               {/* Main Dropdown Container */}
               <div className="border border-green-500 bg-black shadow-lg">
                 {/* Main Dropdown Header */}
@@ -1385,7 +1451,7 @@ const handleSearch = () => {
                         <div 
                           key={track.id} 
                           ref={el => socialtrackRefs.current[track.id] = el}
-                          className="border border-green-600/50 bg-gray-900/20 rounded-lg"
+                          className="track-card border border-green-600/50 bg-gray-900/20 rounded-lg"
                         >
                           <div 
                             className="px-4 py-3 border-b border-green-600/30 cursor-pointer hover:bg-gray-800/50 transition-colors rounded-t-lg"
@@ -1441,7 +1507,7 @@ const handleSearch = () => {
               </div>
             </main>
             {/* Summit Tracks */}
-             <header className="px-8 py-12">
+             <header className="header-content px-8 py-12">
                     <h1 className="text-4xl font-bold text-white mb-4">SUMMIT TRACKS</h1>
                     <p className="text-white max-w-4xl leading-relaxed mb-8">
                       Our summit tracks bring together thought leaders, researchers, policymakers, investors, 
@@ -1452,7 +1518,7 @@ const handleSearch = () => {
                   </header>
             
                   {/* Main Content */}
-                  <main className="px-8 pb-12">
+                  <main className="track-section px-8 pb-12">
                     {/* Main Dropdown Container */}
                     <div className="border border-green-500 bg-black shadow-lg">
                       {/* Main Dropdown Header */}
@@ -1489,7 +1555,7 @@ const handleSearch = () => {
                               <div 
                                 key={track.id} 
                                 ref={el => summittrackRefs.current[track.id] = el}
-                                className="border border-green-600/50 bg-gray-900/20 rounded-lg"
+                                className="track-card border border-green-600/50 bg-gray-900/20 rounded-lg"
                               >
                                 <div 
                                   className="px-4 py-3 border-b border-green-600/30 cursor-pointer hover:bg-gray-800/50 transition-colors rounded-t-lg"
