@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Search, ChevronDown, ChevronRight, Brain, Bot, Zap, Settings, Eye, Users, MessageSquare, Database, Star, Target, Cpu, Shield, BookOpen, CheckCircle, Cloud, Lock, TestTube } from 'lucide-react';
-import { useEffect, useRef } from 'react'; // Add useEffect if not already imported
+import { useEffect} from 'react'; // Add useEffect if not already imported
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -29,8 +29,9 @@ const GlassArrowButton = ({ isExpanded = false, onClick = () => {} }) => {
     </div>
   );
 };
-const containerRef = useRef(null);
+
 export default function UnifiedTracks() {
+  const containerRef = useRef(null);
       const [searchTerm, setSearchTerm] = useState('');
        const [searchResults, setSearchResults] = useState([]);
      const [mainTransDropdownExpanded, setTransMainDropdownExpanded] = useState(false);
@@ -1029,7 +1030,7 @@ const handleSearch = () => {
         <>
         <div ref={containerRef} style={{margin: 0, padding: 0, backgroundColor: '#000000', minHeight: '100vh'}}>
          <div className="min-h-screen bg-black text-green-400" style={{margin: 0, padding: 0}}>
-         <header className=" header-content px-8 py-12">
+         <header className="header-content px-8 py-12">
       <h1 className="text-4xl font-bold text-white mb-4">AI CONFERENCE TRACKS</h1>
       <p className="text-white max-w-4xl leading-relaxed mb-8">
         Explore comprehensive AI tracks covering strategic transformations and technical innovations.
