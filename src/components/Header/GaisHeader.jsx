@@ -79,20 +79,36 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    {/* Hamburger menu on the right in mobile view */}
+                    {/* Hamburger menu on the right in mobile view
                     <div className="lg:hidden flex items-center ">
                         <button onClick={toggleNavbar}>
                             {mobileDrawerOpen ? <AiOutlineClose className="text-2xl absolute top-0 z-50 right-0 m-4" /> : <AiOutlineMenu className="text-2xl" />}
                         </button>
-                    </div>
+                    </div> */}
+                    {/* Hamburger menu on the right in mobile view */}
+<div className="lg:hidden flex items-center ">
+    <button onClick={toggleNavbar}>
+        <AiOutlineMenu className="text-2xl" />
+    </button>
+</div>
                 </div>
 
                 {/* Mobile drawer */}
 {mobileDrawerOpen && (
     <div className="fixed top-0 right-0 z-20 bg-neutral-900 w-full flex flex-col lg:hidden">
         {/* Gradient header area for logo */}
-        <div className="bg-gradient-to-r from-orange-400 via-purple-500 to-purple-600 h-16 w-full flex items-center justify-center">
+        <div className="bg-gradient-to-r from-orange-400 via-purple-500 to-purple-600 h-16 w-full flex items-center justify-between px-4">
             {/* Your logo component will go here */}
+            
+    <div></div>
+    
+    {/* Close button */}
+    <button 
+        onClick={toggleNavbar}
+        className="text-white hover:text-gray-200 transition-colors duration-200"
+    >
+        <AiOutlineMenu className="text-2xl" />
+    </button>
         </div>
         
         {/* Menu items area */}
