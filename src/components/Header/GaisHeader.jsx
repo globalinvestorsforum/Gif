@@ -97,63 +97,65 @@ const Navbar = () => {
         
         {/* Menu items area */}
         <div className="flex-1 p-10 flex flex-col justify-start items-center text-center">
-            <ul className="w-full">
+           <ul className="w-full">
                 {gaisNavItems.map((item, index) => (
-                    <li className="bg-neutral-900 py-1 text-base relative" key={index}>
+                    <li className="bg-neutral-900 py-3 text-base relative border-b border-neutral-800" key={index}>
                         {item.name==='Agendas' ? (
-                            <div className="flex flex-col items-center">
-                                <div className="flex items-center justify-center gap-2">
-                                    <button
-                                        onClick={() => setDropdownOpen(!dropdownOpen)}
-                                        className="font-bold text-white hover:text-blue-500"
-                                    >
-                                        {item.name}
-                                    </button>
-                                    {/* Glass circle arrow button */}
-                                    <button
-                                        onClick={() => setDropdownOpen(!dropdownOpen)}
-                                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-                                            dropdownOpen 
-                                                ? 'bg-gradient-to-r from-orange-400 to-purple-600' 
-                                                : 'bg-black/20 backdrop-blur border border-white/20'
+                            <div className="flex items-center justify-between w-full px-4">
+                                <button
+                                    onClick={() => setDropdownOpen(!dropdownOpen)}
+                                    className="font-bold text-white hover:text-blue-500 text-left"
+                                >
+                                    {item.name}
+                                </button>
+                                {/* Glass circle arrow button */}
+                                <button
+                                    onClick={() => setDropdownOpen(!dropdownOpen)}
+                                    className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+                                        dropdownOpen 
+                                            ? 'bg-gradient-to-r from-orange-400 to-purple-600' 
+                                            : 'bg-black/20 backdrop-blur border border-white/20'
+                                    }`}
+                                >
+                                    <svg 
+                                        className={`w-4 h-4 text-white transition-transform duration-300 ${
+                                            dropdownOpen ? 'rotate-180' : ''
                                         }`}
+                                        fill="currentColor" 
+                                        viewBox="0 0 20 20"
                                     >
-                                        <svg 
-                                            className={`w-4 h-4 text-white transition-transform duration-300 ${
-                                                dropdownOpen ? 'rotate-180' : ''
-                                            }`}
-                                            fill="currentColor" 
-                                            viewBox="0 0 20 20"
-                                        >
-                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                                        </svg>
-                                    </button>
-                                </div>
-                                {dropdownOpen && (
-                                    <div className="mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48 w-full max-w-xs">
-                                        <button 
-                                            className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
-                                            onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-                                        >
-                                            View All Tracks
-                                        </button>
-                                        <button 
-                                            className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
-                                            onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-                                        >
-                                            Industry Specific Tracks
-                                        </button>
-                                    </div>
-                                )}
+                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                    </svg>
+                                </button>
                             </div>
                         ):(
-                            <NavLink 
-                                className={({ isActive }) =>
-                                    ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
-                                }
-                                to={item.href}>
-                                {item.name}
-                            </NavLink>
+                            <div className="px-4">
+                                <NavLink 
+                                    className={({ isActive }) =>
+                                        ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                    }
+                                    to={item.href}>
+                                    {item.name}
+                                </NavLink>
+                            </div>
+                        )}
+                        
+                        {/* Dropdown content for Agendas */}
+                        {item.name === 'Agendas' && dropdownOpen && (
+                            <div className="mt-2 bg-neutral-800 border-t border-neutral-700">
+                                <button 
+                                    className="block w-full text-left px-8 py-3 text-white hover:bg-neutral-700 hover:text-orange-500 border-b border-neutral-700 last:border-b-0" 
+                                    onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+                                >
+                                    View All Tracks
+                                </button>
+                                <button 
+                                    className="block w-full text-left px-8 py-3 text-white hover:bg-neutral-700 hover:text-orange-500" 
+                                    onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+                                >
+                                    Industry Specific Tracks
+                                </button>
+                            </div>
                         )}
                     </li>
                 ))}
