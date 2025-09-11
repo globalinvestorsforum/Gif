@@ -94,88 +94,75 @@ const Navbar = () => {
         <div className="bg-gradient-to-r from-orange-400 via-purple-500 to-purple-600 h-16 w-full flex items-center justify-center">
             {/* Your logo component will go here */}
         </div>
-        {/* Hamburger menu on the right in mobile view */}
-<div className="lg:hidden flex items-center ">
-    <button onClick={toggleNavbar}>
-        <AiOutlineMenu className="text-2xl" />
-    </button>
-</div>
+        
         {/* Menu items area */}
         <div className="flex-1 p-10 flex flex-col justify-start items-center text-center">
-           <ul className="w-full">
+            <ul className="w-full">
                 {gaisNavItems.map((item, index) => (
-                    <li className="bg-neutral-900 py-3 text-base relative border-b border-neutral-800" key={index}>
+                    <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                         {item.name==='Agendas' ? (
-                            <div className="flex items-center justify-between w-full px-4">
-                                <button
-                                    onClick={() => setDropdownOpen(!dropdownOpen)}
-                                    className="font-bold text-white hover:text-blue-500 text-left"
-                                >
-                                    {item.name}
-                                </button>
-                                {/* Glass circle arrow button */}
-                                <button
-                                    onClick={() => setDropdownOpen(!dropdownOpen)}
-                                    className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-                                        dropdownOpen 
-                                            ? 'bg-gradient-to-r from-orange-400 to-purple-600' 
-                                            : 'bg-black/20 backdrop-blur border border-white/20'
-                                    }`}
-                                >
-                                    <svg 
-                                        className={`w-4 h-4 text-white transition-transform duration-300 ${
-                                            dropdownOpen ? 'rotate-180' : ''
-                                        }`}
-                                        fill="currentColor" 
-                                        viewBox="0 0 20 20"
+                            <div className="flex flex-col items-center">
+                                <div className="flex items-center justify-between w-full max-w-xs">
+                                    <button
+                                        onClick={() => setDropdownOpen(!dropdownOpen)}
+                                        className="font-bold text-white hover:text-blue-500"
                                     >
-                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                                    </svg>
-                                </button>
+                                        {item.name}
+                                    </button>
+                                    {/* Glass circle arrow button */}
+                                    <button
+                                        onClick={() => setDropdownOpen(!dropdownOpen)}
+                                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+                                            dropdownOpen 
+                                                ? 'bg-gradient-to-r from-orange-400 to-purple-600' 
+                                                : 'bg-black/20 backdrop-blur border border-white/20'
+                                        }`}
+                                    >
+                                        <svg 
+                                            className={`w-4 h-4 text-white transition-transform duration-300 ${
+                                                dropdownOpen ? 'rotate-180' : ''
+                                            }`}
+                                            fill="currentColor" 
+                                            viewBox="0 0 20 20"
+                                        >
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                {dropdownOpen && (
+                                    <div className="mt-2 bg-neutral-800 border border-neutral-700 rounded-md shadow-lg min-w-48 w-full max-w-xs">
+                                        <button 
+                                            className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
+                                            onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+                                        >
+                                            View All Tracks
+                                        </button>
+                                        <button 
+                                            className="block w-full text-left px-4 py-2 text-white hover:bg-neutral-700 hover:text-orange-500" 
+                                            onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
+                                        >
+                                            Industry Specific Tracks
+                                        </button>
+                                    </div>
+                                )}
                             </div>
                         ):(
-                            <div className="w-full px-4">
-                                <NavLink 
-                                    className={({ isActive }) =>
-                                        `font-bold text-left block ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
-                                    }
-                                    to={item.href}>
-                                    {item.name}
-                                </NavLink>
-                            </div>
-                        )}
-                        
-                       {/* Dropdown content for Agendas */}
-                        {item.name === 'Agendas' && dropdownOpen && (
-                            <div className="bg-neutral-900 pl-4 pr-4">
-                                <button 
-                                    className="block w-full text-left py-3 text-white hover:text-orange-500 border-b border-neutral-800" 
-                                    onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-                                >
-                                    View All Tracks
-                                </button>
-                                <button 
-                                    className="block w-full text-left py-3 text-white hover:text-orange-500" 
-                                    onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
-                                >
-                                    Industry Specific Tracks
-                                </button>
-                            </div>
+                            <NavLink 
+                                className={({ isActive }) =>
+                                    ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                }
+                                to={item.href}>
+                                {item.name}
+                            </NavLink>
                         )}
                     </li>
                 ))}
             </ul>
-            
-            {/* Full width Get Tickets button */}
-            <div className="px-4 mt-6">
-                <Link 
-                    to='/gais/ticket' 
-                    className="block w-full bg-gradient-to-r from-orange-700 to-purple-600 py-3 px-4 rounded-md text-center font-bold text-white"
-                >
+            <div className="flex space-x-6 m-5">
+                <Link to='/gais/ticket' className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
                     Get Tickets
                 </Link>
             </div>
-            
         </div>
     </div>
 )}
