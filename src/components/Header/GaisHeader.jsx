@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { gaisNavItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
-
+import React, { useState, useEffect } from 'react';
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -11,7 +11,22 @@ const Navbar = () => {
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
     };
+    useEffect(() => {
+    const handleScroll = () => {
+        if (mobileDrawerOpen) {
+            setMobileDrawerOpen(false);
+            setDropdownOpen(false);
+        }
+    };
 
+    if (mobileDrawerOpen) {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+    }
+
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, [mobileDrawerOpen]);
     return (
         <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700">
             <div className="container px-4 mx-auto relative text-sm">
@@ -77,11 +92,7 @@ const Navbar = () => {
     <div className="fixed top-0 right-0 z-20 bg-neutral-900 w-full flex flex-col lg:hidden">
         {/* Gradient header area for logo */}
         <div className="bg-gradient-to-r from-orange-400 via-purple-500 to-purple-600 h-16 w-full flex items-center justify-center">
-            {/* Add your company logo here */}
-            <div className="text-white font-bold text-lg">
-                {/* Your logo component will go here */}
-                LOGO
-            </div>
+            {/* Your logo component will go here */}
         </div>
         
         {/* Menu items area */}
@@ -91,17 +102,17 @@ const Navbar = () => {
                     <li className="bg-neutral-900 py-1 text-base relative" key={index}>
                         {item.name==='Agendas' ? (
                             <div className="flex flex-col items-center">
-                                <div className="flex items-center justify-between w-full max-w-xs">
+                                <div className="flex items-center justify-center gap-2">
                                     <button
                                         onClick={() => setDropdownOpen(!dropdownOpen)}
-                                        className="font-bold text-white hover:text-blue-500 flex-1 text-left"
+                                        className="font-bold text-white hover:text-blue-500"
                                     >
                                         {item.name}
                                     </button>
                                     {/* Glass circle arrow button */}
                                     <button
                                         onClick={() => setDropdownOpen(!dropdownOpen)}
-                                        className={`ml-2 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+                                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
                                             dropdownOpen 
                                                 ? 'bg-gradient-to-r from-orange-400 to-purple-600' 
                                                 : 'bg-black/20 backdrop-blur border border-white/20'
