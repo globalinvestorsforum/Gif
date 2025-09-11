@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { gaisNavItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
-import React, { useState, useEffect } from 'react';
+import {useEffect } from 'react';
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
