@@ -79,7 +79,12 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                  
+                    {/* Hamburger menu on the right in mobile view */}
+                    <div className="lg:hidden flex items-center ">
+                        <button onClick={toggleNavbar}>
+                            {mobileDrawerOpen ? <AiOutlineClose className="text-2xl absolute top-0 z-50 right-0 m-4" /> : <AiOutlineMenu className="text-2xl" />}
+                        </button>
+                    </div>
                 </div>
 
                 {/* Mobile drawer */}
@@ -140,7 +145,7 @@ const Navbar = () => {
                             </div>
                         )}
                         
-                        {/* Dropdown content for Agendas */}
+                       {/* Dropdown content for Agendas */}
                         {item.name === 'Agendas' && dropdownOpen && (
                             <div className="bg-neutral-900 pl-4 pr-4">
                                 <button 
