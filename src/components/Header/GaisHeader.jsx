@@ -129,10 +129,10 @@ const Navbar = () => {
                                 </button>
                             </div>
                         ):(
-                            <div className="px-4">
+                            <div className="w-full px-4">
                                 <NavLink 
                                     className={({ isActive }) =>
-                                        ` font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                        `font-bold text-left block ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
                                     }
                                     to={item.href}>
                                     {item.name}
@@ -160,11 +160,17 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <div className="flex space-x-6 m-5">
-                <Link to='/gais/ticket' className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
+            
+            {/* Full width Get Tickets button */}
+            <div className="px-4 mt-6">
+                <Link 
+                    to='/gais/ticket' 
+                    className="block w-full bg-gradient-to-r from-orange-700 to-purple-600 py-3 px-4 rounded-md text-center font-bold text-white"
+                >
                     Get Tickets
                 </Link>
             </div>
+            
         </div>
     </div>
 )}
