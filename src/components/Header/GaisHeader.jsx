@@ -79,12 +79,7 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    {/* Hamburger menu on the right in mobile view */}
-<div className="lg:hidden flex items-center ">
-    <button onClick={toggleNavbar}>
-        <AiOutlineMenu className="text-2xl" />
-    </button>
-</div>
+                  
                 </div>
 
                 {/* Mobile drawer */}
@@ -94,7 +89,12 @@ const Navbar = () => {
         <div className="bg-gradient-to-r from-orange-400 via-purple-500 to-purple-600 h-16 w-full flex items-center justify-center">
             {/* Your logo component will go here */}
         </div>
-        
+        {/* Hamburger menu on the right in mobile view */}
+<div className="lg:hidden flex items-center ">
+    <button onClick={toggleNavbar}>
+        <AiOutlineMenu className="text-2xl" />
+    </button>
+</div>
         {/* Menu items area */}
         <div className="flex-1 p-10 flex flex-col justify-start items-center text-center">
            <ul className="w-full">
