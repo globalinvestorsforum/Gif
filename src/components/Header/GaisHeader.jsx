@@ -80,11 +80,11 @@ const Navbar = () => {
                     </div>
 
                     {/* Hamburger menu on the right in mobile view */}
-                    <div className="lg:hidden flex items-center ">
-                        <button onClick={toggleNavbar}>
-                            {mobileDrawerOpen ? <AiOutlineClose className="text-2xl absolute top-0 z-50 right-0 m-4" /> : <AiOutlineMenu className="text-2xl" />}
-                        </button>
-                    </div>
+<div className="lg:hidden flex items-center ">
+    <button onClick={toggleNavbar}>
+        <AiOutlineMenu className="text-2xl" />
+    </button>
+</div>
                 </div>
 
                 {/* Mobile drawer */}
@@ -142,15 +142,15 @@ const Navbar = () => {
                         
                         {/* Dropdown content for Agendas */}
                         {item.name === 'Agendas' && dropdownOpen && (
-                            <div className="mt-2 bg-neutral-800 border-t border-neutral-700">
+                            <div className="bg-neutral-900 pl-4 pr-4">
                                 <button 
-                                    className="block w-full text-left px-8 py-3 text-white hover:bg-neutral-700 hover:text-orange-500 border-b border-neutral-700 last:border-b-0" 
+                                    className="block w-full text-left py-3 text-white hover:text-orange-500 border-b border-neutral-800" 
                                     onClick={()=>{navigate('/gais/UnifiedTracks'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
                                 >
                                     View All Tracks
                                 </button>
                                 <button 
-                                    className="block w-full text-left px-8 py-3 text-white hover:bg-neutral-700 hover:text-orange-500" 
+                                    className="block w-full text-left py-3 text-white hover:text-orange-500" 
                                     onClick={()=>{navigate('/gais/conference'); setMobileDrawerOpen(false); setDropdownOpen(false);}}
                                 >
                                     Industry Specific Tracks
