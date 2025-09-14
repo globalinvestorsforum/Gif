@@ -11,7 +11,8 @@ const Banner2 = () => {
       <div className=" absolute flex-col text-center flex-wrap  content-center rounded-xl w-full h-full   backdrop-blur-[3px] backdrop-brightness-50">
         <Reveal width="">
         <h3 className="  max-w-6xl mx-auto text-3xl md:text-5xl lg:text-6xl  tracking-wide ">
-GAIS INDUSTRY SPOTLIGHT SESSIONS        </h3>
+          GAIS INCORPORATED SUMMIT
+        </h3>
         </Reveal>
         <Reveal width="">
         <p className="mt-2  md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
