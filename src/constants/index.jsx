@@ -2659,7 +2659,31 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
-  }
+  },
+  {
+    title: "AI in Maritime & Supply Chain",
+    discription: "AI-Powered Transformation for Maritime Operations, Ports & Supply Chain Networks",
+    backImgURL:
+      "https://drive.google.com/file/d/1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_/view?usp=share_link",
+  },
+  {
+    title: "AI In Sports, Entertainment, & Gaming",
+    discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
+    backImgURL:
+      "https://drive.google.com/file/d/1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd/view?usp=share_link",
+  },
+  {
+    title: "AI In Autonomous Systems",
+    discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
+    backImgURL:
+      "https://drive.google.com/file/d/1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv/view?usp=sharing",
+  },
+   {
+    title: "AI in Healthcare Systems, Payors & Policy",
+    discription: "Reshaping Insurance, Payors, and Public Health Governance through AI",
+    backImgURL:
+      "https://drive.google.com/file/d/1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ/view?usp=share_link",
+  },
 
 ];
 
