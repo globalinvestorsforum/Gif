@@ -2676,13 +2676,13 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     title: "AI In Autonomous Systems",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
     backImgURL:
-      "https://drive.google.com/file/d/1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv/uc?export=view",
+      "https://drive.google.com/thumbnail?id=1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv=s800",
   },
    {
     title: "AI in Healthcare Systems, Payors & Policy",
     discription: "Reshaping Insurance, Payors, and Public Health Governance through AI",
     backImgURL:
-      "https://drive.google.com/file/d/1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ/uc?export=view",
+      "https://drive.google.com/thumbnail?id=1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ&sz=s800",
   },
 
 ];
