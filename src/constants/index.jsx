@@ -2664,13 +2664,13 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     title: "AI in Maritime & Supply Chain",
     discription: "AI-Powered Transformation for Maritime Operations, Ports & Supply Chain Networks",
     backImgURL:
-      "https://drive.google.com/thumbnail?id=1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y&sz=s800",
+      "https://drive.google.com/thumbnail?id=1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_&sz=s800",
   },
   {
     title: "AI In Sports, Entertainment, & Gaming",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
     backImgURL:
-      "https://drive.google.com/file/d/1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd/uc?export=view",
+      "https://drive.google.com/thumbnail?id=1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd&sz=s800",
   },
   {
     title: "AI In Autonomous Systems",
