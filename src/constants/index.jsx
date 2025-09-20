@@ -2664,25 +2664,25 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     title: "AI in Maritime & Supply Chain",
     discription: "AI-Powered Transformation for Maritime Operations, Ports & Supply Chain Networks",
     backImgURL:
-      "https://drive.google.com/file/d/1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_/view?usp=share_link",
+      "https://drive.google.com/file/d/1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_/uc?export=view",
   },
   {
     title: "AI In Sports, Entertainment, & Gaming",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
     backImgURL:
-      "https://drive.google.com/file/d/1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd/view?usp=share_link",
+      "https://drive.google.com/file/d/1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd/uc?export=view",
   },
   {
     title: "AI In Autonomous Systems",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
     backImgURL:
-      "https://drive.google.com/file/d/1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv/view?usp=sharing",
+      "https://drive.google.com/file/d/1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv/uc?export=view",
   },
    {
     title: "AI in Healthcare Systems, Payors & Policy",
     discription: "Reshaping Insurance, Payors, and Public Health Governance through AI",
     backImgURL:
-      "https://drive.google.com/file/d/1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ/view?usp=share_link",
+      "https://drive.google.com/file/d/1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ/uc?export=view",
   },
 
 ];
