@@ -2676,7 +2676,7 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     title: "AI In Autonomous Systems",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
     backImgURL:
-      "https://drive.google.com/thumbnail?id=1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv=s800",
+      "https://drive.google.com/thumbnail?id=1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv&sz=s800",
   },
    {
     title: "AI in Healthcare Systems, Payors & Policy",
