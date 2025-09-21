@@ -1,13 +1,14 @@
 import React,{ useEffect, useRef }  from 'react';
 import {useNavigate} from "react-router-dom"
-import {Finance1} from "../../../assets/IndustryTracksImage/finance1.png"
-import {Finance2} from "../../../assets/IndustryTracksImage/finance2.png"
-import {Finance3} from "../../../assets/IndustryTracksImage/finance3.png"
-import {Finance4} from "../../../assets/IndustryTracksImage/finance4.png"
-import {Finance5} from "../../../assets/IndustryTracksImage/finance5.png"
-import {Finance6} from "../../../assets/IndustryTracksImage/finance6.png"
-import {Finance7} from "../../../assets/IndustryTracksImage/finance7.png"
-import {Finance8} from "../../../assets/IndustryTracksImage/finance8.png"
+import FinanceBack from "../../../assets/IndustryTracksImage/finance_background.png"
+import Finance1 from "../../../assets/IndustryTracksImage/finance1.png"
+import Finance2 from "../../../assets/IndustryTracksImage/finance2.png"
+import Finance3 from "../../../assets/IndustryTracksImage/finance3.png"
+import Finance4 from "../../../assets/IndustryTracksImage/finance4.png"
+import Finance5 from "../../../assets/IndustryTracksImage/finance5.png"
+import Finance6 from "../../../assets/IndustryTracksImage/finance6.png"
+import Finance7 from "../../../assets/IndustryTracksImage/finance7.png"
+import Finance8 from "../../../assets/IndustryTracksImage/finance8.png"
 
 const FinanceTopicsPage = () => {
   const navigate=useNavigate()
@@ -44,7 +45,7 @@ const FinanceTopicsPage = () => {
       <div className="relative h-80 md:h-96 bg-gray-200 overflow-hidden">
         {/* Background Image - Replace with your image */}
         <img 
-          src="/finance_background.png" 
+          src={FinanceBack}
           alt="AI in Finance background" 
           className="absolute inset-0 w-full h-full object-cover"
         />
