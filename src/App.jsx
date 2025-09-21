@@ -66,7 +66,7 @@ const router = createBrowserRouter(
       <Route path="/gais/attendees" element={<AllAttendees />} />
       <Route path="/gais/attendees/attendeedetails" element={<AttendeeDetails/>}/>
       <Route path="/gais/speakers" element={<Speakers />} />
-      <Route path="/gais/speaker/:id" element={<SpeakerDetails />}/>
+      <Route path="/gais/speaker/:id" element={<SpeakerDetails />}/> 
       <Route path="/gais/ticket" element={<Ticket />} />
       <Route path="/gais/Inter" element={<GAISTracksPage/>}></Route>
       <Route path="/gais/UnifiedTracks" element={<UnifiedTracks/>}></Route>
