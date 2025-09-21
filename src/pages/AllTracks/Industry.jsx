@@ -34,7 +34,8 @@ export default function Industry(){
         <Autonomous/>
         <Gaming/>
         <HealthCare1/>
-        
+        <HealthCare2/>
+        <HealthCare3/>
         <Agriculture/>
         {/* <HealthCare1/>
         <HealthCare2/>
