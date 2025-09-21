@@ -2,7 +2,7 @@ import * as react from 'react';
 import Retail from './IndustryTracks/Retail.jsx';
 // import Finance from './IndustryTracks/Finance.jsx';
 import Education from './IndustryTracks/Education.jsx';
-// import Autotech from './IndustryTracks/Autotech.jsx';
+import Autotech from './IndustryTracks/Autotech.jsx';
 // import Agriculture from './IndustryTracks/Agriculture.jsx';
 // import Maritime from './IndustryTracks/Maritime.jsx';
 // import Robotics from './IndustryTracks/Robotics.jsx';
@@ -23,6 +23,7 @@ export default function Industry(){
         <Retail/>
         {/* <Finance/> */}
         <Education/>
+        <Autotech/>
         {/* <HealthCare1/>
         <HealthCare2/>
         <HealthCare3/>
@@ -37,7 +38,7 @@ export default function Industry(){
         <Autonomous/>
         <Gaming/>
         <Agriculture/> */}
-        <h1>Hello Industry</h1>
+        
         </div>
         </>
     )
