@@ -80,10 +80,10 @@ export default function AgendasPage() {
          </div>           
       {/* Opening Keynote */}
      <div className="mb-8 animate-on-scroll" data-animation="fade-in-up">
-  <h3 className="text-xl font-bold mb-2">Opening Keynote</h3>
-  <p className="mb-1"><span className="font-bold">Topic:</span> AI + Robotics: Powering the Next Industrial and Social Revolution</p>
-  <p className="mb-1"><span className="font-bold">Time:</span> 30 minutes</p>
-  <p className="mb-4"><span className="font-bold">Overview:</span> How artificial intelligence is transforming robotics across industries, from automation to human-robot collaboration.</p>
+  <h3 className="text-xl  text-black font-bold mb-2">Opening Keynote</h3>
+  <p className=" text-black mb-1"><span className="font-bold">Topic:</span> AI + Robotics: Powering the Next Industrial and Social Revolution</p>
+  <p className=" text-black mb-1"><span className="font-bold">Time:</span> 30 minutes</p>
+  <p className=" text-black mb-4"><span className="font-bold">Overview:</span> How artificial intelligence is transforming robotics across industries, from automation to human-robot collaboration.</p>
 </div>
 
       {/* Two Column Grid */}
