@@ -1,7 +1,6 @@
 import * as react from 'react';
 import Retail from './IndustryTracks/Retail.jsx';
-import Finance from './Finance.jsx';
-import RetailAgendaPage from './RetailAgendas.jsx';
+import Finance from './IndustryTracks/Finance.jsx';
 import Education from './IndustryTracks/Education.jsx';
 import Autotech from './IndustryTracks/Autotech.jsx';
 import Agriculture from './IndustryTracks/Agriculture.jsx';
@@ -21,6 +20,7 @@ export default function Industry(){
     return(
         <>
         <Retail/>
+        <Finance/>
         <Education/>
         <HealthCare1/>
         <HealthCare2/>
