@@ -11,7 +11,7 @@ const Card = () => {
               image={domain.backImgURL}
               title={domain.title}
               desc={domain.discription}
-              eventLink={domain.eventLink}
+              eventLink={domain.interLink}
             />
           </div>
         ))}

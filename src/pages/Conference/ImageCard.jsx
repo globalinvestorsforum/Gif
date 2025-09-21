@@ -2,12 +2,12 @@ import React from "react";
 import { Reveal } from "../../utils/Reveal";
 import { useNavigate } from "react-router-dom";
 
-const ImageCard = ({ image, title, desc, eventLink }) => {
+const ImageCard = ({ image, title, desc, interLink,eventLink }) => {
 
   const navigate = useNavigate();
 
   const handleClick = ()=>{
-    // eventLink ?  navigate(eventLink) : "" 
+    interLink ?  navigate(interLink) : "" 
   }
   
   return (
