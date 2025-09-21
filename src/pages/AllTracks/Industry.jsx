@@ -20,7 +20,6 @@ export default function Industry(){
     return(
         <>
         <Retail/>
-        <h1>Hello Industry</h1>
         {/* <Finance/> */}
         <Education/>
         {/* <HealthCare1/>
