@@ -37,7 +37,7 @@ useEffect(() => {
   setIsLoaded(true);
 }, []);
   return (
-    <div classname="bg-white">
+    <div classname="bg-white min-h-screen">
     <div  className="max-w-6xl mx-auto p-8 bg-white font-sans" id="Education">
       <div className="mb-16 animate-on-scroll" data-animation="fade-in-up">
                                        <div className="relative overflow-hidden rounded-3xl shadow-2xl">
@@ -203,7 +203,7 @@ useEffect(() => {
   <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference")}}>
     View All Tracks
   </button>
-  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform">
+  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" >
     More About Tracks
   </button>
 </div>

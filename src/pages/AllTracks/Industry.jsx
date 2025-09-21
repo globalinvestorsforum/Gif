@@ -19,6 +19,7 @@ import Education from './IndustryTracks/Education.jsx';
 export default function Industry(){
     return(
         <>
+        <div classname="bg-white min-h-screen">
         <Retail/>
         {/* <Finance/> */}
         <Education/>
@@ -37,7 +38,7 @@ export default function Industry(){
         <Gaming/>
         <Agriculture/> */}
         <h1>Hello Industry</h1>
-        
+        </div>
         </>
     )
 }
