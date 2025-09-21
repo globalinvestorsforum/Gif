@@ -4,7 +4,7 @@ import Retail from './IndustryTracks/Retail.jsx';
 import Education from './IndustryTracks/Education.jsx';
 import Autotech from './IndustryTracks/Autotech.jsx';
 import Agriculture from './IndustryTracks/Agriculture.jsx';
-// import Maritime from './IndustryTracks/Maritime.jsx';
+import Maritime from './IndustryTracks/Maritime.jsx';
 // import Robotics from './IndustryTracks/Robotics.jsx';
 // import Transportation from './IndustryTracks/Transportation.jsx';
 // import Manufacturing from './IndustryTracks/Manufacturing.jsx';
@@ -24,6 +24,7 @@ export default function Industry(){
         {/* <Finance/> */}
         <Education/>
         <Autotech/>
+        <Maritime/>
         <Agriculture/>
         {/* <HealthCare1/>
         <HealthCare2/>
