@@ -978,7 +978,7 @@ export const cards = [
     discription: "Unifying the world AI community",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6",
-  interLink:"/gais/conference/industry/industrytracks#Retail",
+  interLink:"/gais/conference/industry/industrytracks",
   eventLink: "/gais/conference/ai-Global-AI-Summit-summit",
   config: {
   bgImage: Global_Ai,
@@ -1417,7 +1417,7 @@ export const cards = [
   discription: "Money Meets Machine.",
   backImgURL:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
-  interLink:"/gais/confernce/industry/industrytracks#Retail",
+  interLink:"/gais/conference/industry/industrytracks#Finance",
   eventLink: "/gais/conference/ai-Finance-summit",
   config: {
     bgImage: finance,
@@ -2215,7 +2215,7 @@ demographics : [
     discription: "Accelerating Industry 4.O with AI.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
-        interLink:"gais/conference/industry/industry#Manufacturing",
+        interLink:"gais/conference/industry/industrytracks#Manufacturing",
         eventLink: "/gais/conference/AI-Manufaturing-Summit",
     config: {
       bgImage: Machine,
@@ -2644,63 +2644,63 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     title: "The Robotics Ai Fontier Conference",
     discription:
       "Exploring oring the intersection of AI and Robotics Industry.",
-    interLink:"/gais/industry/industrytracks#Robotics",
+    interLink:"/gais/conference/industry/industrytracks#Robotics",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Frobot.jpg?alt=media&token=588cc65e-414d-42c8-b748-e2d4a13670c1",
   },
   {
     title: "The AI Education Summit",
     discription: "Revolutionising the way we learn and teach with AI.",
-    interLink:"/gais/industry/industrytracks#Education",
+    interLink:"/gais/conference/industry/industrytracks#Education",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Feducation.jpg?alt=media&token=a67d4be0-54f7-48a7-8aab-d5542c952c6b",
   },
   {
     title: "The AI Media & Communication Conference",
     discription: "The World's Premier AI Media Summit.",
-    interLink:"/gais/industry/industrytracks#Massmedia",
+    interLink:"/gais/conference/industry/industrytracks#Massmedia",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FMedia%20and%20communication%20.jpg?alt=media&token=acc2ce18-6818-4e94-ad06-1ce39b1f7348",
   },
   {
     title: "The AI Space Exploration Summit",
     discription: "Unleashing the Power of Ai in the Cosmos",
-    interLink:"/gais/industry/industrytracks#Energy",
+    interLink:"/gais/conference/industry/industrytracks#Energy",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fspace1.jpeg?alt=media&token=821a47ed-ab1f-4bfb-b45e-c62583241d53",
   },
   {
     title: "The AI Cybersecurity Summit",
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
-    interLink:"/gais/industry/industrytracks#Cybersecurity",
+    interLink:"/gais/conference/industry/industrytracks#Cybersecurity",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
   },
   {
     title: "AI in Maritime & Supply Chain",
     discription: "AI-Powered Transformation for Maritime Operations, Ports & Supply Chain Networks",
-    interLink:"/gais/industry/industrytracks#Maritime",
+    interLink:"/gais/conference/industry/industrytracks#Maritime",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_&sz=s800",
   },
   {
     title: "AI In Sports, Entertainment, & Gaming",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
-    interLink:"/gais/industry/industrytracks#Gaming",
+    interLink:"/gais/conference/industry/industrytracks#Gaming",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1d7Z9NSYPk-zzckqNg4agoZeUIXqIjUgd&sz=s800",
   },
   {
     title: "AI In Autonomous Systems",
     discription: "Driving Cross-Industry Transformation with Autonomous AI Solutions",
-    interLink:"/gais/industry/industrytracks#Autonomous",
+    interLink:"/gais/conference/industry/industrytracks#Autonomous",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv&sz=s800",
   },
    {
     title: "AI in Healthcare Systems, Payors & Policy",
     discription: "Reshaping Insurance, Payors, and Public Health Governance through AI",
-    interLink:"/gais/industry/industrytracks#HealthCare3",
+    interLink:"/gais/conference/industry/industrytracks#HealthCare3",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ&sz=s800",
   },

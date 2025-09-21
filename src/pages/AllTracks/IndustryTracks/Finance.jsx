@@ -39,7 +39,7 @@ const FinanceTopicsPage = () => {
         };
       }, []);
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white" id="Finance">
       {/* Hero Section with Background Image */}
       <div className="relative h-80 md:h-96 bg-gray-200 overflow-hidden">
         {/* Background Image - Replace with your image */}
