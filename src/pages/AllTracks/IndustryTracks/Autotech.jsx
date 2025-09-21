@@ -80,7 +80,7 @@ export default function AutomotiveAIAgenda() {
         <h3 className="text-lg font-bold text-gray-800 mb-2">Opening Keynote</h3>
         <div className="mb-1  text-gray-800"><span className="font-bold  text-gray-800">Topic:</span> Driving the Future – AI & IoT in Automotive</div>
         <div className="mb-1  text-gray-800"><span className="font-bold  text-gray-800">Time:</span> 30 minutes</div>
-        <div><span className="font-bold  text-gray-800">Overview:</span> Discover how AI and IoT are transforming vehicles into intelligent, connected, and autonomous machines. This session will highlight breakthroughs in safety, efficiency, and user experience, preparing participants to navigate and lead in the next era of mobility.</div>
+        <div className="text-gray-800"><span className="font-bold  text-gray-800">Overview:</span> Discover how AI and IoT are transforming vehicles into intelligent, connected, and autonomous machines. This session will highlight breakthroughs in safety, efficiency, and user experience, preparing participants to navigate and lead in the next era of mobility.</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
