@@ -81,67 +81,67 @@ export default function MediaJournalismAIAgenda() {
 
       <div className="mb-8 animate-on-scroll" data-animation="fade-in-up">
         <h3 className="text-lg font-bold text-gray-800 mb-2">Opening Keynote</h3>
-        <div className="mb-1"><span className="font-bold">Topic:</span> AI in Media & Journalism: Redefining Storytelling, Trust, and Public Engagement</div>
-        <div className="mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
-        <div><span className="font-bold">Overview:</span> Exploring how AI is shaping the creation, distribution, and consumption of news, entertainment, and digital media.</div>
+        <div className="text-gray-800 mb-1"><span className="font-bold">Topic:</span> AI in Media & Journalism: Redefining Storytelling, Trust, and Public Engagement</div>
+        <div className="text-gray-800 mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
+        <div className="text-gray-800"><span className="font-bold">Overview:</span> Exploring how AI is shaping the creation, distribution, and consumption of news, entertainment, and digital media.</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-left">
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI-Powered Newsrooms</h3>
-            <div><span className="font-bold">Overview:</span> Automating reporting, real-time fact-checking, and personalized news delivery.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Automating reporting, real-time fact-checking, and personalized news delivery.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Generative AI in Content Creation</h3>
-            <div><span className="font-bold">Overview:</span> From automated video editing to AI-generated articles, graphics, and broadcasting scripts.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> From automated video editing to AI-generated articles, graphics, and broadcasting scripts.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Hyper-Personalization of Media Consumption</h3>
             
-            <div><span className="font-bold">Overview:</span> Recommendation engines and adaptive content delivery powered by AI.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Recommendation engines and adaptive content delivery powered by AI.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Ethics & Responsibility in AI Journalism</h3>
-            <div><span className="font-bold">Overview:</span> Navigating deepfakes, misinformation, and ethical boundaries of AI-generated content.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Navigating deepfakes, misinformation, and ethical boundaries of AI-generated content.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI in Multilingual Communication</h3>
-            <div><span className="font-bold">Overview:</span> Real-time language translation, cross-cultural engagement, and AI for global media outreach.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Real-time language translation, cross-cultural engagement, and AI for global media outreach.</div>
           </div>
         </div>
 
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-right">
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Can AI Help Restore Trust in Journalism?</h3>
-            <div><span className="font-bold">Overview:</span> Leveraging AI for transparency, bias detection, and combating fake news.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Leveraging AI for transparency, bias detection, and combating fake news.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI in Broadcasting & Live Media</h3>
-            <div><span className="font-bold">Overview:</span> Enhancing sports broadcasting, real-time translation, and immersive viewing experiences.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Enhancing sports broadcasting, real-time translation, and immersive viewing experiences.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI for Public Engagement & Audience Insights</h3>
            
-            <div><span className="font-bold">Overview:</span> Using AI to analyze sentiment, predict audience trends, and improve communication strategies. </div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Using AI to analyze sentiment, predict audience trends, and improve communication strategies. </div>
             
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI in Advertising & Brand Communication</h3>
-            <div><span className="font-bold">Overview:</span> Smart targeting, programmatic advertising, and AI-driven brand storytelling.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Smart targeting, programmatic advertising, and AI-driven brand storytelling.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Future Outlook: Human Creativity + AI Collaboration</h3>
             
-            <div><span className="font-bold">Overview:</span> Exploring how AI can complement, not replace, human creativity in storytelling and communication.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Exploring how AI can complement, not replace, human creativity in storytelling and communication.</div>
             
           </div>
         </div>

@@ -78,67 +78,67 @@ export default function MediaJournalismAIAgenda() {
 
       <div className="mb-8 animate-on-scroll" data-animation="fade-in-up">
         <h3 className="text-lg font-bold text-gray-800 mb-2">Opening Keynote</h3>
-        <div className="mb-1"><span className="font-bold">Topic:</span> AI as the Next Frontier in Cybersecurity</div>
-        <div className="mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
-        <div><span className="font-bold">Overview:</span> An exploration of how artificial intelligence is transforming cybersecurity practices, from threat intelligence to automated response systems, and why AI is becoming indispensable in safeguarding the digital economy.</div>
+        <div className="text-gray-800 mb-1"><span className="font-bold">Topic:</span> AI as the Next Frontier in Cybersecurity</div>
+        <div className="text-gray-800 mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
+        <div className="text-gray-800"><span className="font-bold">Overview:</span> An exploration of how artificial intelligence is transforming cybersecurity practices, from threat intelligence to automated response systems, and why AI is becoming indispensable in safeguarding the digital economy.</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-left">
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI-Driven Threat Intelligence</h3>
-            <div><span className="font-bold">Overview:</span> How AI analyzes global threats, detects anomalies, and enables proactive defense across networks and endpoints</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> How AI analyzes global threats, detects anomalies, and enables proactive defense across networks and endpoints</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Smart Attack Detection & Mitigation</h3>
-            <div><span className="font-bold">Overview:</span> Innovations in rapid identification of malware, phishing, and intrusion attempts using deep learning and automation.</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Innovations in rapid identification of malware, phishing, and intrusion attempts using deep learning and automation.</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Use of AI in Attacks</h3>
             
-            <div><span className="font-bold">Overview:</span> Understanding adversarial AI techniques used by attackers and practical approaches for robust countermeasures</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Understanding adversarial AI techniques used by attackers and practical approaches for robust countermeasures</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Automated Security Operations </h3>
-            <div><span className="font-bold">Overview:</span> Applying AI for continuous monitoring, automatic patch management, and streamlining incident response</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Applying AI for continuous monitoring, automatic patch management, and streamlining incident response</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Cyber Resilience & Disaster Recovery</h3>
-            <div><span className="font-bold">Overview:</span> Strategies for maintaining operations and quickly recovering services amidst cyber incidents</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Strategies for maintaining operations and quickly recovering services amidst cyber incidents</div>
           </div>
         </div>
 
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-right">
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Zero Trust & Identity Management</h3>
-            <div><span className="font-bold">Overview:</span> Next-generation authentication, multi-factor systems, and protecting digital identities across distributed environments</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Next-generation authentication, multi-factor systems, and protecting digital identities across distributed environments</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">AI in Broadcasting & Live Media</h3>
-            <div><span className="font-bold">Overview:</span> Enhancing sports broadcasting, real-time translation, and immersive viewing experiences</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Enhancing sports broadcasting, real-time translation, and immersive viewing experiences</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Privacy and Security Controls for AI</h3>
             
-            <div><span className="font-bold">Overview:</span> Addressing data privacy, compliance, and responsible AI deployment within security frameworks</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Addressing data privacy, compliance, and responsible AI deployment within security frameworks</div>
             
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Fraud Prevention & Security Convergence</h3>
-            <div><span className="font-bold">Overview:</span> Integrating cybersecurity with fraud reduction strategies to combat evolving digital threats</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Integrating cybersecurity with fraud reduction strategies to combat evolving digital threats</div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Regulatory Outlook & Global Compliance</h3>
             
-            <div><span className="font-bold">Overview:</span> Navigating emerging cybersecurity certification frameworks and international regulations for AI and security</div>
+            <div className="text-gray-800"><span className="font-bold">Overview:</span> Navigating emerging cybersecurity certification frameworks and international regulations for AI and security</div>
             
           </div>
         </div>
