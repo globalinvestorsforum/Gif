@@ -1,5 +1,5 @@
 import * as react from 'react';
-// import Retail from './IndustryTracks/Retail.jsx';
+import Retail from './IndustryTracks/Retail.jsx';
 // import Finance from './IndustryTracks/Finance.jsx';
 // import Education from './IndustryTracks/Education.jsx';
 // import Autotech from './IndustryTracks/Autotech.jsx';
@@ -19,7 +19,7 @@ import * as react from 'react';
 export default function Industry(){
     return(
         <>
-        {/* <Retail/> */}
+        <Retail/>
         <h1>Hello Industry</h1>
         {/* <Finance/>
         <Education/>
