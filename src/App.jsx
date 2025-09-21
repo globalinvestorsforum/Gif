@@ -41,7 +41,7 @@ import {
   GAISTracksPage,
   UnifiedTracks,
   AttendeeDetails,
-  Industry
+  Industry,
   
  
 } from "./pages/index";
@@ -74,7 +74,7 @@ const router = createBrowserRouter(
       {/* <Route path="/gais/carrier" element={<Carrier />} /> */}
       <Route path="/gais/Registration" element={<Registration />} />
       <Route path="/gais/conference" element={<Conference />} />
-      <Route path="/gais/conference/industry/tracks" element={<Industry />} />
+      <Route path="/gais/IndustryTracks" element={<Industry />} />
       {/* <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} /> */}
       <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
       {/* <Route path="/gais/conference/ai-agriculture-summit" element={<AgricultureSummit />} /> */}
