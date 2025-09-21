@@ -1948,7 +1948,7 @@ demographics : [
       "Exploring the Future of AI and IOT in the Automobile Industry",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FAutotech.jpg?alt=media&token=c2c86eed-773e-4bdb-891b-e898ea6ef0db",
-        interLink:"gais/Industry#Autotech",
+        interLink:"/gais/Industry#Autotech",
         eventLink: "/gais/conference/ai-Next-Gen-Autotech-Conference",
     config: {
       bgImage: car,
@@ -2215,7 +2215,7 @@ demographics : [
     discription: "Accelerating Industry 4.O with AI.",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
-        interLink:"gais/Industry#Manufacturing",
+        interLink:"/gais/Industry#Manufacturing",
         eventLink: "/gais/conference/AI-Manufaturing-Summit",
     config: {
       bgImage: Machine,
