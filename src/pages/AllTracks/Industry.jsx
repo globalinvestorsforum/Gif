@@ -21,9 +21,9 @@ export default function Industry(){
         <>
         <Retail/>
         <h1>Hello Industry</h1>
-        <Finance/>
+        {/* <Finance/> */}
         <Education/>
-        <HealthCare1/>
+        {/* <HealthCare1/>
         <HealthCare2/>
         <HealthCare3/>
         <Robotics/>
@@ -36,7 +36,7 @@ export default function Industry(){
         <Massmedia/>
         <Autonomous/>
         <Gaming/>
-        <Agriculture/>
+        <Agriculture/> */}
         <h1>Hello Industry</h1>
         
         </>
