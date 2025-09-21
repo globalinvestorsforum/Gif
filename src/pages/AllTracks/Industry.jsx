@@ -1,6 +1,6 @@
 import * as react from 'react';
 import Retail from './IndustryTracks/Retail.jsx';
-// import Finance from './IndustryTracks/Finance.jsx';
+import Finance from './IndustryTracks/Finance.jsx';
 import Education from './IndustryTracks/Education.jsx';
 import Autotech from './IndustryTracks/Autotech.jsx';
 import Agriculture from './IndustryTracks/Agriculture.jsx';
@@ -21,7 +21,7 @@ export default function Industry(){
         <>
         <div classname="bg-white min-h-screen">
         <Retail/>
-        {/* <Finance/> */}
+        <Finance/>
         <Education/>
         <Autotech/>
         <Maritime/>
