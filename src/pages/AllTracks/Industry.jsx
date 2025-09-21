@@ -20,7 +20,7 @@ export default function Industry(){
     return(
         <>
         <Retail/>
-        <Finance/>
+        {/* <Finance/>
         <Education/>
         <HealthCare1/>
         <HealthCare2/>
@@ -35,7 +35,7 @@ export default function Industry(){
         <Massmedia/>
         <Autonomous/>
         <Gaming/>
-        <Agriculture/>
+        <Agriculture/> */}
         
         
         </>
