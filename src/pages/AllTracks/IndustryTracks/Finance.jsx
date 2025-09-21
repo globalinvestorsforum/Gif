@@ -42,7 +42,7 @@ const FinanceTopicsPage = () => {
   return (
     <div className="min-h-screen bg-white" id="Finance">
       {/* Hero Section with Background Image */}
-      <div className="relative h-80 md:h-96 bg-gray-200 overflow-hidden">
+      <div className="max-w-6xl relative h-80 md:h-96 bg-gray-200 overflow-hidden">
         {/* Background Image - Replace with your image */}
         <img 
           src={FinanceBack}
@@ -73,24 +73,17 @@ const FinanceTopicsPage = () => {
       <div className="max-w-6xl mx-auto px-6 md:px-8 py-12">
         
         {/* Main Header */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-900 mb-12 leading-tight max-w-4xl">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-12 leading-tight max-w-4xl">
           FEW MOST COMMON ENGAGING TOPICS OR AREA OF DISCUSSION DURING THE SUMMIT.
         </h2>
-        <div className="flex flex-col sm:flex-row gap-4 mb-12">
-  <button className="bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold text-base hover:bg-blue-800 transition-colors duration-300 shadow-lg" onClick={()=>{navigate("/gais/ticket")}}>
-    View All Tracks
-  </button>
-  <button className="border-2 border-blue-900 text-blue-900 bg-transparent px-8 py-3 rounded-lg font-semibold text-base hover:bg-blue-900 hover:text-white transition-all duration-300 shadow-lg">
-    Know More
-  </button>
-</div>
+        
         {/* Topics List */}
         <div className="space-y-12">
           
           {/* 1. Intelligent Automation */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 1. INTELLIGENT AUTOMATION IN FINANCIAL SERVICES
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -124,7 +117,7 @@ const FinanceTopicsPage = () => {
           {/* 2. AI-Driven Investment */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 2. AI-DRIVEN INVESTMENT STRATEGIES:
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -158,7 +151,7 @@ const FinanceTopicsPage = () => {
           {/* 3. Personalized Financial Services */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 3. PERSONALIZED FINANCIAL SERVICES
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -192,7 +185,7 @@ const FinanceTopicsPage = () => {
           {/* 4. Risk Management */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 4. RISK MANAGEMENT AND COMPLIANCE
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -226,7 +219,7 @@ const FinanceTopicsPage = () => {
           {/* 5. Data Analytics */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 5. DATA ANALYTICS AND INSIGHTS:
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -260,7 +253,7 @@ const FinanceTopicsPage = () => {
           {/* 6. Future of Fintech */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 6. FUTURE OF FINTECH AND AI
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -294,7 +287,7 @@ const FinanceTopicsPage = () => {
           {/* 7. AI in Insurance */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 7. AI IN INSURANCE INDUSTRY
               </h3>
               <ul className="space-y-2 text-gray-700">
@@ -328,7 +321,7 @@ const FinanceTopicsPage = () => {
           {/* 8. Responsible AI */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">
+              <h3 className="text-xl font-bold text-black mb-4">
                 8. RESPONSIBLE AI AND ETHICAL CONSIDERATIONS
               </h3>
               <ul className="space-y-2 text-gray-700">
