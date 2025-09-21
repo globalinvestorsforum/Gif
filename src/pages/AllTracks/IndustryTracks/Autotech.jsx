@@ -78,8 +78,8 @@ export default function AutomotiveAIAgenda() {
 
       <div className="mb-8 animate-on-scroll" data-animation="fade-in-up">
         <h3 className="text-lg font-bold text-gray-800 mb-2">Opening Keynote</h3>
-        <div className="mb-1"><span className="font-bold">Topic:</span> Driving the Future – AI & IoT in Automotive</div>
-        <div className="mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
+        <div className="mb-1  text-gray-800"><span className="font-bold  text-gray-800">Topic:</span> Driving the Future – AI & IoT in Automotive</div>
+        <div className="mb-1  text-gray-800"><span className="font-bold  text-gray-800">Time:</span> 30 minutes</div>
         <div><span className="font-bold">Overview:</span> Discover how AI and IoT are transforming vehicles into intelligent, connected, and autonomous machines. This session will highlight breakthroughs in safety, efficiency, and user experience, preparing participants to navigate and lead in the next era of mobility.</div>
       </div>
 
@@ -87,44 +87,44 @@ export default function AutomotiveAIAgenda() {
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-left">
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: Autonomous Vehicles – The Next Era of Mobility</div>
-            <div><span className="font-bold">Overview:</span> How AI is transforming self-driving technology, enabling real-time perception, decision-making, navigation, and safety systems. Includes exploration of regulatory challenges, ethics, and the roadmap for widespread adoption.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> How AI is transforming self-driving technology, enabling real-time perception, decision-making, navigation, and safety systems. Includes exploration of regulatory challenges, ethics, and the roadmap for widespread adoption.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: Intelligent Transportation Systems & Connected Infrastructure</div>
-            <div><span className="font-bold">Overview:</span> How AI and IoT work together for smarter traffic management, integrated infrastructure, and enhanced safety through vehicle connectivity.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> How AI and IoT work together for smarter traffic management, integrated infrastructure, and enhanced safety through vehicle connectivity.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: AI & Sustainability in Automotive Innovation</div>
-            <div><span className="font-bold">Overview:</span> Leveraging AI for electric and hybrid vehicle development, sustainable manufacturing, and energy-efficient design to meet environmental goals.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> Leveraging AI for electric and hybrid vehicle development, sustainable manufacturing, and energy-efficient design to meet environmental goals.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: Data Analytics & Machine Learning in Automotive Design and Testing</div>
-            <div><span className="font-bold">Overview:</span> Using AI-driven simulations, big data analytics, and machine learning to optimize design, improve testing, and boost performance.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> Using AI-driven simulations, big data analytics, and machine learning to optimize design, improve testing, and boost performance.</div>
           </div>
         </div>
 
         <div className="space-y-6 animate-on-scroll" data-animation="slide-in-right">
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: AI-Powered Manufacturing & Supply Chain Optimization</div>
-            <div><span className="font-bold">Overview:</span> The role of AI in streamlining automotive production, enhancing quality control, optimizing logistics, and enabling predictive maintenance to minimize downtime.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> The role of AI in streamlining automotive production, enhancing quality control, optimizing logistics, and enabling predictive maintenance to minimize downtime.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: Enhancing Customer Experience with AI</div>
-            <div><span className="font-bold">Overview:</span> AI-powered personalization in vehicles, including virtual assistants, adaptive infotainment systems, and AR-based driver interfaces.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> AI-powered personalization in vehicles, including virtual assistants, adaptive infotainment systems, and AR-based driver interfaces.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: Cybersecurity for Connected and Autonomous Vehicles</div>
-            <div><span className="font-bold">Overview:</span> How AI detects and mitigates cyber threats, protecting both passenger safety and data privacy in connected vehicles.</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> How AI detects and mitigates cyber threats, protecting both passenger safety and data privacy in connected vehicles.</div>
           </div>
 
           <div>
             <div className="font-bold text-gray-800 mb-2">Topic: V2X Communication and AI for Smart Mobility (Optional)</div>
-            <div><span className="font-bold">Overview:</span> How AI enables Vehicle-to-Everything communication, improving traffic coordination, reducing congestion, and integrating vehicles into smart cities</div>
+            <div><span className="font-bold  text-gray-800">Overview:</span> How AI enables Vehicle-to-Everything communication, improving traffic coordination, reducing congestion, and integrating vehicles into smart cities</div>
           </div>
         </div>
       </div>
