@@ -40,7 +40,8 @@ import {
   FormB,
   GAISTracksPage,
   UnifiedTracks,
-  AttendeeDetails
+  AttendeeDetails,
+  Industry
   
  
 } from "./pages/index";
@@ -73,7 +74,7 @@ const router = createBrowserRouter(
       {/* <Route path="/gais/carrier" element={<Carrier />} /> */}
       <Route path="/gais/Registration" element={<Registration />} />
       <Route path="/gais/conference" element={<Conference />} />
-      
+      <Route path="/gais/conference/industry/industrytracks" element={<Industry />} />
       {/* <Route path="/gais/conference/ai-healthcare-summit" element={<HealthcareSummit />} /> */}
       <Route path="/gais/conference/ai-healthcare-summit/all-agendas" element={<AllAgendas/>} />
       {/* <Route path="/gais/conference/ai-agriculture-summit" element={<AgricultureSummit />} /> */}
@@ -93,7 +94,7 @@ const router = createBrowserRouter(
       <Route path="/terms" element={<Terms/>} />
       <Route path="/privacy" element={<Privacy/>} />
       <Route path="/Careers" element={<Careers />} />
-     
+      
       <Route path="*" element={<NotFound />} />
           
           {/* Samole test */}
