@@ -76,9 +76,9 @@ export default function ManufacturingAIAgenda() {
 
       <div className="mb-8">
         <h3 className="text-lg font-bold text-gray-800 mb-2 animate-on-scroll" data-animation="fade-in-up">Opening Keynote</h3>
-        <div className="mb-1"><span className="font-bold">Topic:</span> The Future of AI in Manufacturing: From Smart Factories to Autonomous Production</div>
-        <div className="mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
-        <div><span className="font-bold">Overview:</span> A visionary look at how AI, IoT, and robotics are shaping Industry 4.0 and paving the way for fully autonomous manufacturing systems.</div>
+        <div className=" text-gray-800  mb-1"><span className="font-bold">Topic:</span> The Future of AI in Manufacturing: From Smart Factories to Autonomous Production</div>
+        <div className=" text-gray-800  mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
+        <div className=" text-gray-800 "><span className="font-bold">Overview:</span> A visionary look at how AI, IoT, and robotics are shaping Industry 4.0 and paving the way for fully autonomous manufacturing systems.</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -86,16 +86,16 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4">AI-Driven Production Optimization</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-left">
             <li>
-              <div className="font-bold">Predictive Maintenance: Reducing Downtime & Maximizing Output</div>
-              <div className="text-gray-700">– How AI-powered predictive models save costs and extend machinery life.</div>
+              <div className=" text-gray-800  font-bold">Predictive Maintenance: Reducing Downtime & Maximizing Output</div>
+              <div className="text-gray-700">How AI-powered predictive models save costs and extend machinery life.</div>
             </li>
             <li>
-              <div className="font-bold">Process Automation: Achieving 24/7 Efficiency</div>
-              <div className="text-gray-700">– Implementing computer vision, robotics, and real-time analytics for streamlined operations.</div>
+              <div className="  text-gray-800 font-bold">Process Automation: Achieving 24/7 Efficiency</div>
+              <div className="text-gray-700">Implementing computer vision, robotics, and real-time analytics for streamlined operations.</div>
             </li>
             <li>
-              <div className="font-bold">Digital Twins for Production Excellence</div>
-              <div className="text-gray-700">– Creating virtual replicas of machines, processes, and factories for real-time optimization.</div>
+              <div className=" text-gray-800 font-bold">Digital Twins for Production Excellence</div>
+              <div className="text-gray-700">Creating virtual replicas of machines, processes, and factories for real-time optimization.</div>
             </li>
           </ul>
         </div>
@@ -104,16 +104,16 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4">AI for Supply Chain & Logistics</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-right">
             <li>
-              <div className="font-bold">Smart Supply Chains: Demand Forecasting & Inventory Management</div>
-              <div className="text-gray-700">– Using AI to forecast demand shifts and automate stock replenishment.</div>
+              <div className=" text-gray-800 font-bold">Smart Supply Chains: Demand Forecasting & Inventory Management</div>
+              <div className="text-gray-700">Using AI to forecast demand shifts and automate stock replenishment.</div>
             </li>
             <li>
-              <div className="font-bold">Autonomous Logistics & Fleet Management</div>
-              <div className="text-gray-700">– Optimizing routes, reducing fuel use, and improving delivery timelines with AI.</div>
+              <div className=" text-gray-800 font-bold">Autonomous Logistics & Fleet Management</div>
+              <div className="text-gray-700">Optimizing routes, reducing fuel use, and improving delivery timelines with AI.</div>
             </li>
             <li>
-              <div className="font-bold">Resilient Supply Chains with AI Risk Management</div>
-              <div className="text-gray-700">– Using AI for real-time disruption detection and supplier risk assessment.</div>
+              <div className=" text-gray-800 font-bold">Resilient Supply Chains with AI Risk Management</div>
+              <div className="text-gray-700">Using AI for real-time disruption detection and supplier risk assessment.</div>
             </li>
           </ul>
         </div>
@@ -122,16 +122,16 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4">Sustainable Manufacturing with AI</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-left">
             <li>
-              <div className="font-bold">Energy Efficiency through AI Optimization</div>
-              <div className="text-gray-700">– Reducing energy costs and carbon footprint in production.</div>
+              <div className=" text-gray-800 font-bold">Energy Efficiency through AI Optimization</div>
+              <div className="text-gray-700">Reducing energy costs and carbon footprint in production.</div>
             </li>
             <li>
-              <div className="font-bold">Circular Economy & Waste Reduction</div>
-              <div className="text-gray-700">– Leveraging AI for sustainable material usage and waste management.</div>
+              <div className=" text-gray-800 font-bold">Circular Economy & Waste Reduction</div>
+              <div className="text-gray-700">Leveraging AI for sustainable material usage and waste management.</div>
             </li>
             <li>
-              <div className="font-bold">AI for Carbon Footprint Tracking & ESG Reporting</div>
-              <div className="text-gray-700">– Automating sustainability compliance and real-time environmental monitoring.</div>
+              <div className=" text-gray-800 font-bold">AI for Carbon Footprint Tracking & ESG Reporting</div>
+              <div className="text-gray-700">Automating sustainability compliance and real-time environmental monitoring.</div>
             </li>
           </ul>
         </div>
@@ -140,16 +140,16 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4">Quality Control & Product Innovation</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-right">
             <li>
-              <div className="font-bold">AI-Powered Quality Assurance</div>
-              <div className="text-gray-700">– Real-time defect detection and visual inspection using machine learning.</div>
+              <div className=" text-gray-800 font-bold">AI-Powered Quality Assurance</div>
+              <div className="text-gray-700">Real-time defect detection and visual inspection using machine learning.</div>
             </li>
             <li>
-              <div className="font-bold">AI-Accelerated R&D in Manufacturing</div>
-              <div className="text-gray-700">– How generative AI and digital twins are speeding up prototyping and innovation.</div>
+              <div className=" text-gray-800 font-bold">AI-Accelerated R&D in Manufacturing</div>
+              <div className="text-gray-700">How generative AI and digital twins are speeding up prototyping and innovation.</div>
             </li>
             <li>
-              <div className="font-bold">Mass Customization with AI</div>
-              <div className="text-gray-700">– Leveraging AI to create personalized products at industrial scale.</div>
+              <div className=" text-gray-800 font-bold">Mass Customization with AI</div>
+              <div className="text-gray-700">Leveraging AI to create personalized products at industrial scale.</div>
             </li>
           </ul>
         </div>
@@ -158,12 +158,12 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4" >Human + AI Collaboration</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-left">
             <li>
-              <div className="font-bold">AI-Augmented Workforce</div>
-              <div className="text-gray-700">– How AI-powered tools enhance human productivity and safety on the shop floor.</div>
+              <div className=" text-gray-800 font-bold">AI-Augmented Workforce</div>
+              <div className="text-gray-700">How AI-powered tools enhance human productivity and safety on the shop floor.</div>
             </li>
             <li>
-              <div className="font-bold">Reskilling for the AI Era</div>
-              <div className="text-gray-700">– Strategies for upskilling manufacturing teams to work alongside AI systems.</div>
+              <div className=" text-gray-800 font-bold">Reskilling for the AI Era</div>
+              <div className="text-gray-700">Strategies for upskilling manufacturing teams to work alongside AI systems.</div>
             </li>
           </ul>
         </div>
@@ -172,12 +172,12 @@ export default function ManufacturingAIAgenda() {
           <h3 className="text-xl font-bold text-gray-800 mb-4">Cybersecurity & Data Governance in Manufacturing</h3>
           <ul className="space-y-4 animate-on-scroll" data-animation="slide-in-right">
             <li>
-              <div className="font-bold">Protecting Industrial AI Systems from Cyber Threats</div>
-              <div className="text-gray-700">– Securing OT, IoT, and AI models in connected factories.</div>
+              <div className=" text-gray-800 font-bold">Protecting Industrial AI Systems from Cyber Threats</div>
+              <div className="text-gray-700">Securing OT, IoT, and AI models in connected factories.</div>
             </li>
             <li>
-              <div className="font-bold">Data Strategy for AI Success</div>
-              <div className="text-gray-700">– Managing manufacturing data pipelines for accuracy, security, and compliance.</div>
+              <div className=" text-gray-800 font-bold">Data Strategy for AI Success</div>
+              <div className="text-gray-700">Managing manufacturing data pipelines for accuracy, security, and compliance.</div>
             </li>
           </ul>
         </div>
@@ -185,7 +185,7 @@ export default function ManufacturingAIAgenda() {
 
       <div>
         <h3 className="text-xl font-bold text-gray-800 mb-4 animate-on-scroll" data-animation="fade-in-up">Panel Discussion</h3>
-        <ul className="space-y-2">
+        <ul className=" text-gray-800  space-y-2">
           <li>• Scaling AI in Manufacturing: Challenges, ROI, and Workforce Transformation</li>
           <li>• From Pilot to Plant-wide AI Deployment: Lessons from Industry Leaders</li>
         </ul>

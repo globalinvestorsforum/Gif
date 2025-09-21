@@ -77,9 +77,9 @@ export default function EnergyAIAgenda() {
 
         <div className="mb-8">
           <h3 className="text-lg font-bold text-gray-800 mb-2 animate-on-scroll" data-animation="fade-in-up">Opening Keynote</h3>
-          <div className="mb-1"><span className="font-bold">Topic:</span> Cultivating the Future: How AI is Transforming Agriculture from Farm to Fork.</div>
-          <div className="mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
-          <div><span className="font-bold">Overview:</span> An exploration of how artificial intelligence is revolutionizing farming practices, boosting yields, enabling climate-smart agriculture, and shaping the global food ecosystem.</div>
+          <div className=" text-gray-800  mb-1"><span className="font-bold">Topic:</span> Cultivating the Future: How AI is Transforming Agriculture from Farm to Fork.</div>
+          <div className=" text-gray-800  mb-1"><span className="font-bold">Time:</span> 30 minutes</div>
+          <div className=" text-gray-800 "><span className="font-bold">Overview:</span> An exploration of how artificial intelligence is revolutionizing farming practices, boosting yields, enabling climate-smart agriculture, and shaping the global food ecosystem.</div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">

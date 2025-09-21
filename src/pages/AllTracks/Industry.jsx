@@ -9,8 +9,8 @@ import Robotics from './IndustryTracks/Robotics.jsx';
 import Transportation from './IndustryTracks/Transportation.jsx';
 import Manufacturing from './IndustryTracks/Manufacturing.jsx';
 import Energy from './IndustryTracks/Energy.jsx';
-// import Cybersecurity from './IndustryTracks/Cybersecurity.jsx';
-// import Massmedia from './IndustryTracks/Massmedia.jsx';
+import Cybersecurity from './IndustryTracks/Cybersecurity.jsx';
+import Massmedia from './IndustryTracks/Massmedia.jsx';
 // import Autonomous from './IndustryTracks/Autonomous.jsx';
 // import Gaming from './IndustryTracks/Gaming.jsx';
 // import HealthCare1 from './IndustryTracks/HealthCare1.jsx'
@@ -29,6 +29,8 @@ export default function Industry(){
         <Transportation/>
         <Manufacturing/>
         <Energy/>
+        <Cybersecurity/>
+        <Massmedia/>
         <Agriculture/>
         {/* <HealthCare1/>
         <HealthCare2/>
