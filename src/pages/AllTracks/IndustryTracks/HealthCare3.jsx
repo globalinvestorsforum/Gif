@@ -1,5 +1,4 @@
 import React from 'react';
-import './Retail.css';
 import Healthcare3 from '../../../assets/IndustryTracksImage/HealthCare3.png'
 import {useRef, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
