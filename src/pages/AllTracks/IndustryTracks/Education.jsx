@@ -37,6 +37,7 @@ useEffect(() => {
   setIsLoaded(true);
 }, []);
   return (
+    <div classname="bg-white">
     <div  className="max-w-6xl mx-auto p-8 bg-white font-sans" id="Education">
       <div className="mb-16 animate-on-scroll" data-animation="fade-in-up">
                                        <div className="relative overflow-hidden rounded-3xl shadow-2xl">
@@ -206,6 +207,7 @@ useEffect(() => {
     More About Tracks
   </button>
 </div>
+    </div>
     </div>
   );
 };
