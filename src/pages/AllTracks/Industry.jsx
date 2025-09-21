@@ -19,7 +19,8 @@ import HealthCare3 from './IndustryTracks/HealthCare3.jsx'
 export default function Industry(){
     return(
         <>
-        <Retail/>
+        {/* <Retail/> */}
+        <h1>Hello Industry</h1>
         {/* <Finance/>
         <Education/>
         <HealthCare1/>
