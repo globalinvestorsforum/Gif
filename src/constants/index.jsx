@@ -1417,7 +1417,7 @@ export const cards = [
   discription: "Money Meets Machine.",
   backImgURL:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
-  interLink:"/gais/conference/industry/industrytracks#Retail",
+  interLink:"/gais/Industry#Retail",
   eventLink: "/gais/conference/ai-Finance-summit",
   config: {
     bgImage: finance,
