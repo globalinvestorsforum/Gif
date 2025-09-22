@@ -76,7 +76,7 @@ export default function AgendasPage() {
         reshaping industries and society.
       </p>
      <div className="mb-8">
-      <h2 className="text-3xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Arial, sans-serif'}}>SESSIONS:</h2>
+      <h2 className="text-3xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left">SESSIONS:</h2>
          </div>           
       {/* Opening Keynote */}
      <div className="mb-8 animate-on-scroll" data-animation="fade-in-up">

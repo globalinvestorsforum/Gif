@@ -81,7 +81,7 @@ const AgendaPage = () => {
 
         {/* Sessions Header */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Arial, sans-serif'}}>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 animate-on-scroll" data-animation="slide-in-left">
             SESSIONS:
           </h2>
           
