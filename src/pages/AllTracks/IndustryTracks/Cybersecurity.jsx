@@ -50,7 +50,7 @@ export default function MediaJournalismAIAgenda() {
                                            {/* Content */}
                                            <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-12">
                                              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 sm:mb-4 leading-tight">
-                                               AI in Cybersecurity
+                                               AI IN CYBERSECURITY
                                  
                                              </h1>
                                              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl">
@@ -63,7 +63,7 @@ export default function MediaJournalismAIAgenda() {
                                          </div>
                                        </div>
                                      </div>
-      <h1 className="text-5xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
       
       <p className="text-gray-700 mb-8 leading-relaxed animate-on-scroll" data-animation="fade-in-up">
         This track will explore how AI is revolutionizing the cybersecurity landscape—detecting threats faster, 

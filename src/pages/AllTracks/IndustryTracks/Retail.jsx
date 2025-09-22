@@ -50,8 +50,8 @@ const AgendaPage = () => {
               {/* Content */}
               <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-12">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 sm:mb-4 leading-tight">
-                  AI in Retail &<br />
-                  E-commerce
+                  AI IN RETAIL &<br />
+                  E-COMMERCE
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl">
                   AI-Powered Innovation for the Future of Retail and Online Commerce
@@ -65,7 +65,7 @@ const AgendaPage = () => {
         </div>
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-5xl font-bold text-black mb-6 tracking-wide animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>
+          <h1 className="text-3xl sm:text-5xl font-bold text-black mb-6 tracking-wide animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>
             AGENDAS
           </h1>
           
@@ -349,7 +349,7 @@ const AgendaPage = () => {
   <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference")}}>
     View All Tracks
   </button>
-  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference/ai-Powered-Retail-E-commerce-Conclave-summit")}}>
+  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform">
     More About Tracks
   </button>
 </div>

@@ -973,153 +973,153 @@ const gifURL = "https://www.global-investors-forum.com";
 // ];
 
 export const cards = [
-  {
-    title: "Global AI Summit",
-    discription: "Unifying the world AI community",
-    backImgURL:
-      "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6",
-  interLink:"/gais/Industry",
-  eventLink: "/gais/conference/ai-Global-AI-Summit-summit",
-  config: {
-  bgImage: Global_Ai,
-  title: "The Global AI Summit",
-  showIntroduction: true,
-  introductionText:
-    "Accelerating Innovation Across Industries: Join Global Leaders, Innovators, and AI Experts at the Forefront of Artificial Intelligence",
-  introdunctionCard1title: "Global AI Market",
-  introdunctionCard1subTitle: "USD 196.63B → USD 1,811.8B",
-  introdunctionCard1Range: "2024 → 2030",
-  introdunctionCard1Percent: "45.4% CAGR",
-  introdunctionCard2title:
-    "The global AI market is expected to skyrocket to USD 1.81 trillion by 2030, growing at a compound annual growth rate of 45.4% from 2024's USD 196.63 billion. The Global AI Summit offers a timely platform to explore this exponential growth and the technologies powering it.",
-  introdunctionCard2SubTitle:
-    "Source: MarketsandMarkets (Artificial Intelligence Market Analysis & Forecast).",
-  introductionParagraph1:
-    "The Global AI Summit is a landmark event uniting the world’s top minds in artificial intelligence. It brings together industry leaders, researchers, technologists, and policymakers to explore AI's transformative impact across all sectors—from finance and education to transportation, energy, and entertainment.",
-  introductionParagraph2:
-    "Through visionary keynotes, technical workshops, and cross-industry panels, the summit provides a comprehensive view of how AI is being applied to real-world challenges. Attendees will discover cutting-edge innovations, share insights, and shape the ethical and strategic future of AI.",
-  introductionParagraph3:
-    "Be part of this global gathering to connect, collaborate, and contribute to the future of artificial intelligence. Whether you're driving innovation or navigating AI disruption, this summit is your gateway to the next wave of intelligent transformation.",
-  showWhyJoin: true,
-  reasons: [
-    {
-      number: 1,
-      title: "Explore AI Innovations Across Industries",
-      description:
-        "Discover how AI is revolutionizing sectors like finance, logistics, healthcare, retail, agriculture, and more through automation, analytics, and intelligent systems.",
-      gradientClass: "from-blue-600 to-cyan-600",
-      imgSrc: Discover,
-      iconColor: "#3B82F6",
-      icon: Brain,
-    },
-    {
-      number: 2,
-      title: "Network with Global AI Leaders & Innovators",
-      description:
-        "Connect with AI pioneers, corporate executives, government officials, and researchers to form collaborations, partnerships, and alliances that drive AI forward.",
-      gradientClass: "from-purple-600 to-blue-600",
-      iconColor: "#8B5CF6",
-      icon: Users,
-      imgSrc: Networking,
-    },
-    {
-      number: 3,
-      title: "Learn from Industry Visionaries & Tech Trailblazers",
-      description:
-        "Gain unique perspectives from global AI leaders on topics like generative AI, robotics, smart cities, and ethical governance through immersive talks and panels.",
-      gradientClass: "from-violet-600 to-purple-600",
-      imgSrc: Insight,
-      iconColor: "#EC4899",
-      icon: Lightbulb,
-    },
-    {
-      number: 4,
-      title: "Unlock Global Investment & Innovation Opportunities",
-      description:
-        "Meet VCs, accelerators, and corporate investors looking to fund the next generation of AI ventures. Discover startup pitches, product showcases, and R&D collaborations.",
-      gradientClass: "from-indigo-600 to-violet-600",
-      imgSrc: Opportunity,
-      iconColor: "#6366F1",
-      icon: Coins,
-    },
-  ],
-  showAudience: true,
-  demographics: [
-    {
-      id: 1,
-      title: "Industry Professionals",
-      description: "Executives, managers, and digital transformation leaders",
-      bgColor: "from-blue-500 to-blue-600",
-      icon: <Users className="w-6 h-6 text-white" />,
-      reason:
-        "To explore AI-driven efficiencies and strategies across their sectors.",
-    },
-    {
-      id: 2,
-      title: "AI & Tech Innovators",
-      description: "Engineers, data scientists, and machine learning experts",
-      bgColor: "from-purple-500 to-purple-600",
-      icon: <Database className="w-6 h-6 text-white" />,
-      reason:
-        "To showcase algorithms, platforms, and architectures driving global AI advancements.",
-    },
-    {
-      id: 3,
-      title: "Startups & Entrepreneurs",
-      description: "Founders and tech disruptors across AI-driven industries",
-      bgColor: "from-green-500 to-green-600",
-      icon: <Rocket className="w-6 h-6 text-white" />,
-      reason:
-        "To pitch innovations, gain visibility, and build strategic relationships.",
-    },
-    {
-      id: 4,
-      title: "Investors & VCs",
-      description: "Angel investors, VC firms, and global capital partners",
-      bgColor: "from-amber-500 to-amber-600",
-      icon: <Landmark className="w-6 h-6 text-white" />,
-      reason:
-        "To discover and invest in scalable AI startups and frontier technologies.",
-    },
-    {
-      id: 5,
-      title: "Governments & Policymakers",
-      description: "Regulators, tech policy experts, and civic leaders",
-      bgColor: "from-cyan-500 to-cyan-600",
-      icon: <Users className="w-6 h-6 text-white" />,
-      reason:
-        "To explore AI’s impact on governance, policy frameworks, and societal implications.",
-    },
-    {
-      id: 6,
-      title: "Academics & Students",
-      description: "Researchers, scholars, and aspiring AI professionals",
-      bgColor: "from-indigo-500 to-indigo-600",
-      icon: <GraduationCap className="w-6 h-6 text-white" />,
-      reason:
-        "To gain exposure to leading-edge research and future career paths in AI.",
-    },
-    {
-      id: 7,
-      title: "Media & Influencers",
-      description: "Tech journalists, analysts, and AI thought leaders",
-      bgColor: "from-red-500 to-red-600",
-      icon: <Lightbulb className="w-6 h-6 text-white" />,
-      reason:
-        "To report on AI trends, spotlight innovation, and shape public discourse.",
-    },
-  ],
-  showAwardAgenda: true,
-  showRegister: true,
-  registerButtonCSS:
-    "bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
-  scheduleButtonCSS:
-    "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
-  agendaLink: '/gais/conference/global-ai-summit/all-agendas',
-  registerLink: '/gais/ticket'
-}
+//   {
+//     title: "Global AI Summit",
+//     discription: "Unifying the world AI community",
+//     backImgURL:
+//       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6",
+//   interLink:"/gais/Industry",
+//   eventLink: "/gais/conference/ai-Global-AI-Summit-summit",
+//   config: {
+//   bgImage: Global_Ai,
+//   title: "The Global AI Summit",
+//   showIntroduction: true,
+//   introductionText:
+//     "Accelerating Innovation Across Industries: Join Global Leaders, Innovators, and AI Experts at the Forefront of Artificial Intelligence",
+//   introdunctionCard1title: "Global AI Market",
+//   introdunctionCard1subTitle: "USD 196.63B → USD 1,811.8B",
+//   introdunctionCard1Range: "2024 → 2030",
+//   introdunctionCard1Percent: "45.4% CAGR",
+//   introdunctionCard2title:
+//     "The global AI market is expected to skyrocket to USD 1.81 trillion by 2030, growing at a compound annual growth rate of 45.4% from 2024's USD 196.63 billion. The Global AI Summit offers a timely platform to explore this exponential growth and the technologies powering it.",
+//   introdunctionCard2SubTitle:
+//     "Source: MarketsandMarkets (Artificial Intelligence Market Analysis & Forecast).",
+//   introductionParagraph1:
+//     "The Global AI Summit is a landmark event uniting the world’s top minds in artificial intelligence. It brings together industry leaders, researchers, technologists, and policymakers to explore AI's transformative impact across all sectors—from finance and education to transportation, energy, and entertainment.",
+//   introductionParagraph2:
+//     "Through visionary keynotes, technical workshops, and cross-industry panels, the summit provides a comprehensive view of how AI is being applied to real-world challenges. Attendees will discover cutting-edge innovations, share insights, and shape the ethical and strategic future of AI.",
+//   introductionParagraph3:
+//     "Be part of this global gathering to connect, collaborate, and contribute to the future of artificial intelligence. Whether you're driving innovation or navigating AI disruption, this summit is your gateway to the next wave of intelligent transformation.",
+//   showWhyJoin: true,
+//   reasons: [
+//     {
+//       number: 1,
+//       title: "Explore AI Innovations Across Industries",
+//       description:
+//         "Discover how AI is revolutionizing sectors like finance, logistics, healthcare, retail, agriculture, and more through automation, analytics, and intelligent systems.",
+//       gradientClass: "from-blue-600 to-cyan-600",
+//       imgSrc: Discover,
+//       iconColor: "#3B82F6",
+//       icon: Brain,
+//     },
+//     {
+//       number: 2,
+//       title: "Network with Global AI Leaders & Innovators",
+//       description:
+//         "Connect with AI pioneers, corporate executives, government officials, and researchers to form collaborations, partnerships, and alliances that drive AI forward.",
+//       gradientClass: "from-purple-600 to-blue-600",
+//       iconColor: "#8B5CF6",
+//       icon: Users,
+//       imgSrc: Networking,
+//     },
+//     {
+//       number: 3,
+//       title: "Learn from Industry Visionaries & Tech Trailblazers",
+//       description:
+//         "Gain unique perspectives from global AI leaders on topics like generative AI, robotics, smart cities, and ethical governance through immersive talks and panels.",
+//       gradientClass: "from-violet-600 to-purple-600",
+//       imgSrc: Insight,
+//       iconColor: "#EC4899",
+//       icon: Lightbulb,
+//     },
+//     {
+//       number: 4,
+//       title: "Unlock Global Investment & Innovation Opportunities",
+//       description:
+//         "Meet VCs, accelerators, and corporate investors looking to fund the next generation of AI ventures. Discover startup pitches, product showcases, and R&D collaborations.",
+//       gradientClass: "from-indigo-600 to-violet-600",
+//       imgSrc: Opportunity,
+//       iconColor: "#6366F1",
+//       icon: Coins,
+//     },
+//   ],
+//   showAudience: true,
+//   demographics: [
+//     {
+//       id: 1,
+//       title: "Industry Professionals",
+//       description: "Executives, managers, and digital transformation leaders",
+//       bgColor: "from-blue-500 to-blue-600",
+//       icon: <Users className="w-6 h-6 text-white" />,
+//       reason:
+//         "To explore AI-driven efficiencies and strategies across their sectors.",
+//     },
+//     {
+//       id: 2,
+//       title: "AI & Tech Innovators",
+//       description: "Engineers, data scientists, and machine learning experts",
+//       bgColor: "from-purple-500 to-purple-600",
+//       icon: <Database className="w-6 h-6 text-white" />,
+//       reason:
+//         "To showcase algorithms, platforms, and architectures driving global AI advancements.",
+//     },
+//     {
+//       id: 3,
+//       title: "Startups & Entrepreneurs",
+//       description: "Founders and tech disruptors across AI-driven industries",
+//       bgColor: "from-green-500 to-green-600",
+//       icon: <Rocket className="w-6 h-6 text-white" />,
+//       reason:
+//         "To pitch innovations, gain visibility, and build strategic relationships.",
+//     },
+//     {
+//       id: 4,
+//       title: "Investors & VCs",
+//       description: "Angel investors, VC firms, and global capital partners",
+//       bgColor: "from-amber-500 to-amber-600",
+//       icon: <Landmark className="w-6 h-6 text-white" />,
+//       reason:
+//         "To discover and invest in scalable AI startups and frontier technologies.",
+//     },
+//     {
+//       id: 5,
+//       title: "Governments & Policymakers",
+//       description: "Regulators, tech policy experts, and civic leaders",
+//       bgColor: "from-cyan-500 to-cyan-600",
+//       icon: <Users className="w-6 h-6 text-white" />,
+//       reason:
+//         "To explore AI’s impact on governance, policy frameworks, and societal implications.",
+//     },
+//     {
+//       id: 6,
+//       title: "Academics & Students",
+//       description: "Researchers, scholars, and aspiring AI professionals",
+//       bgColor: "from-indigo-500 to-indigo-600",
+//       icon: <GraduationCap className="w-6 h-6 text-white" />,
+//       reason:
+//         "To gain exposure to leading-edge research and future career paths in AI.",
+//     },
+//     {
+//       id: 7,
+//       title: "Media & Influencers",
+//       description: "Tech journalists, analysts, and AI thought leaders",
+//       bgColor: "from-red-500 to-red-600",
+//       icon: <Lightbulb className="w-6 h-6 text-white" />,
+//       reason:
+//         "To report on AI trends, spotlight innovation, and shape public discourse.",
+//     },
+//   ],
+//   showAwardAgenda: true,
+//   showRegister: true,
+//   registerButtonCSS:
+//     "bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+//   scheduleButtonCSS:
+//     "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+//   agendaLink: '/gais/conference/global-ai-summit/all-agendas',
+//   registerLink: '/gais/ticket'
+// }
 
-    },
+//     },
   {
     title: "The AI HealthCare Summit",
     discription:
@@ -1417,7 +1417,7 @@ export const cards = [
   discription: "Money Meets Machine.",
   backImgURL:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
-  interLink:"/gais/conference/industry/industrytracks#Finance",
+  interLink:"/gais/conference/industry/industrytracks#Retail",
   eventLink: "/gais/conference/ai-Finance-summit",
   config: {
     bgImage: finance,
