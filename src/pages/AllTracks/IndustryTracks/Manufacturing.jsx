@@ -49,7 +49,7 @@ export default function ManufacturingAIAgenda() {
                             {/* Content */}
                             <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-12">
                               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 sm:mb-4 leading-tight">
-                                AI in Manufacturing
+                                AI IN MANUFACTURING
                               </h1>
                               <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl">
                                 Accelerating Industry 4.O with AI.
@@ -61,7 +61,7 @@ export default function ManufacturingAIAgenda() {
                           </div>
                         </div>
                       </div>
-      <h1 className="text-5xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold text-black mb-6 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
       
       <p className="text-gray-700 mb-8 leading-relaxed">
         This track will explore how artificial intelligence is driving the next wave of innovation in manufacturing, ushering 
@@ -194,7 +194,7 @@ export default function ManufacturingAIAgenda() {
   <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference")}}>
     View All Tracks
   </button>
-  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference/AI-Manufaturing-Summit")}}>
+  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300 hover:scale-105 hover:shadow-xl transform">
     More About Tracks
   </button>
 </div>

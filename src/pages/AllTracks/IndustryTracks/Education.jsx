@@ -54,13 +54,13 @@ useEffect(() => {
                                            {/* Content */}
                                            <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-12">
                                              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 sm:mb-4 leading-tight">
-                                               AI In Education
+                                               AI IN EDUCATION
                                               
                                              </h1>
                                              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl">
                                               Revolutionising the way we learn and teach with AI
                                              </p>
-                                             <button className="bg-white text-gray-900 px-4 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base lg:text-lg hover:bg-gray-100 transition-all duration-300 w-fit hover:scale-105 hover:shadow-lg transform" onClick={()=>{navigate("gais/ticket")}}>
+                                             <button className="bg-white text-gray-900 px-4 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base lg:text-lg hover:bg-gray-100 transition-all duration-300 w-fit hover:scale-105 hover:shadow-lg transform" onClick={()=>{navigate("/gais/ticket")}}>
                                                Book Pass
                                              </button>
                                            </div>
@@ -68,7 +68,7 @@ useEffect(() => {
                                        </div>
                                      </div>
       {/* Header */}
-      <h1 className="text-5xl font-bold text-black mb-8 tracking-wide animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}} >AGENDAS</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold text-black mb-8 tracking-wide animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}} >AGENDAS</h1>
       
       {/* Introduction Paragraph */}
       <p className="text-gray-800 leading-relaxed mb-8 text-base animate-on-scroll" data-animation="fade-in-up">

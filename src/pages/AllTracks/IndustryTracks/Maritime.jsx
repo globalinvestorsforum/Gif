@@ -48,8 +48,8 @@ export default function MaritimeAgendasPage() {
                     {/* Content */}
                     <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-12">
                       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 sm:mb-4 leading-tight">
-                        AI in Maritime &<br />
-                        Supply Chain
+                        AI IN MARITIME &<br />
+                        SUPPLY CHAIN
                       </h1>
                       <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 opacity-90 max-w-2xl">
                         AI-Powered Transformation for Maritime Operations, Ports & Supply Chain Networks
@@ -61,7 +61,7 @@ export default function MaritimeAgendasPage() {
                   </div>
                 </div>
               </div>
-      <h1 className="text-5xl font-bold text-black mb-8 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold text-black mb-8 animate-on-scroll" data-animation="slide-in-left" style={{fontFamily: 'Antonio, sans-serif'}}>AGENDAS</h1>
       
       <p className="text-gray-800 leading-relaxed mb-8 animate-on-scroll" data-animation="fade-in-up" style={{fontFamily: 'Arial, sans-serif'}}>
         This track will highlight how AI is redefining the maritime and supply chain industries—driving smarter 
@@ -161,7 +161,7 @@ export default function MaritimeAgendasPage() {
         </div>
       </div>
       <div className="mt-8 flex gap-4 animate-on-scroll" data-animation="fade-in-up">
-  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("gais/conference")}}>
+  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform" onClick={()=>{navigate("/gais/conference")}}>
     View All Tracks
   </button>
   <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-xl transform">
