@@ -160,7 +160,7 @@ const HealthcareAgenda = () => {
   <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300" onClick={()=>{navigate("/gais/conference")}}>
     View All Tracks
   </button>
-  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300" onClick={()=>{navigate("/gais/conference/ai-healthcare-summit")}}>
+  <button className="bg-black text-white px-8 py-3 rounded-md font-semibold text-base hover:bg-gray-800 transition-colors duration-300">
     More About Tracks
   </button>
 </div>
