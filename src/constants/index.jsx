@@ -2647,20 +2647,427 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     // interLink:"/gais/Industry#Robotics",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Frobot.jpg?alt=media&token=588cc65e-414d-42c8-b748-e2d4a13670c1",
+    eventLink: "/gais/conference/global-education-ai",
+  config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "The Global Foodtech AI Conference",
+    showIntroduction: true,
+    introductionText:
+      "Revolutionizing the Food Ecosystem with Artificial Intelligence: Join Leaders Across Agriculture, Processing, Retail, and Supply Chain.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Artificial intelligence is reshaping the landscape of education, driving a new era of personalized learning, intelligent administration, and data-driven decision-making. As academic institutions, educators, and policymakers navigate the challenges of modern learning—ranging from accessibility and engagement to skill development and lifelong learning—AI emerges as a transformative force that enhances both teaching and learning experiences.",
+    introductionParagraph2:
+      "By applying technologies such as machine learning, natural language processing, and adaptive systems, AI empowers educators to tailor instruction to individual needs, automate administrative tasks, and unlock new insights into student performance and behavior.",
+    introductionParagraph3:
+      "More than a technological advancement, AI in education represents a collaborative effort to foster innovation, inclusivity, and equitable access to quality learning for all. Through collective exploration and responsible integration, we can shape an educational future where intelligence meets inspiration, and technology amplifies human potential.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Explore Real-World Applications",
+        description:
+          "Gain firsthand insights into how AI is transforming classrooms, learning analytics, and administration through live case studies and demonstrations from leading educators and tech innovators.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Connect with Industry Leaders",
+        description:
+          "Network with educators, researchers, edtech pioneers, and policymakers who are shaping the future of AI in education, opening doors to collaboration and professional growth.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Stay Ahead of Emerging Trends",
+        description:
+          "Discover the latest advancements in adaptive learning systems, generative AI tools, and data-driven education strategies that are redefining teaching and learning practices globally.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Shape the Future of Learning",
+        description:
+          "Contribute to meaningful dialogue on ethical, equitable, and sustainable use of AI in education, helping design solutions that enhance learning outcomes and accessibility for all.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Educators and Academic Leaders",
+        description:
+          "Teachers, professors, school administrators, and university deans attend to explore how AI can improve teaching, student assessment, and institutional outcomes.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "They want to empower themselves with tools and methods to enhance student engagement and academic success while streamlining educational processes.",
+      },
+      {
+        id: 2,
+        title: "Researchers and Data Scientists",
+        description: " Academic and industry researchers, including data scientists and AI specialists, participate to share cutting-edge findings, discuss methodologies, and foster interdisciplinary collaboration.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "They aim to push the boundaries of AI’s impact on education and translate research into practical applications.",
+      },
+      {
+        id: 3,
+        title: "EdTech Industry Professionals",
+        description:
+          "Product managers, startup founders, and technology solution providers from the education technology sector attend to showcase innovation, build partnerships, and align offerings with educational needs.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "They want to understand market requirements and demonstrate how their AI solutions can transform learning experiences.",
+      },
+      {
+        id: 4,
+        title: "Policy Makers and Government Officials",
+        description: "Representatives from education departments, ministries, and policy think tanks join to discuss AI strategies, regulatory frameworks, and equitable technology adoption for large-scale impact",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "They focus on crafting policies that balance innovation with accessibility, ethics, and effectiveness.",
+      },
+      {
+        id: 5,
+        title: "Students and Lifelong Learners",
+        description: "Graduate and undergraduate students, PhDs, and adult learners engage to gain exposure to advancements, connect with mentors, and contribute through research or poster sessions",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "They attend to learn about emerging AI tools that can enhance their education and career prospects.",
+      },
+      {
+        id: 6,
+        title: "Nonprofit Organizations and International Agencies",
+        description:
+          "NGOs and global organizations like UNESCO participate to promote inclusive, accessible, and ethical use of AI in educational projects, both regionally and worldwide.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "They aim to ensure AI contributes to closing educational gaps and advancing global learning equity.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
-    title: "The AI Education Summit",
+    title: "AI in Education",
     discription: "Revolutionising the way we learn and teach with AI.",
     // interLink:"/gais/Industry#Education",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Feducation.jpg?alt=media&token=a67d4be0-54f7-48a7-8aab-d5542c952c6b",
+   
+  // interLink:"/gais/Industry#Energy",
+  eventLink: "/gais/conference/global-education-ai",
+  config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "The Global Foodtech AI Conference",
+    showIntroduction: true,
+    introductionText:
+      "Revolutionizing the Food Ecosystem with Artificial Intelligence: Join Leaders Across Agriculture, Processing, Retail, and Supply Chain.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Artificial intelligence is reshaping the landscape of education, driving a new era of personalized learning, intelligent administration, and data-driven decision-making. As academic institutions, educators, and policymakers navigate the challenges of modern learning—ranging from accessibility and engagement to skill development and lifelong learning—AI emerges as a transformative force that enhances both teaching and learning experiences.",
+    introductionParagraph2:
+      "By applying technologies such as machine learning, natural language processing, and adaptive systems, AI empowers educators to tailor instruction to individual needs, automate administrative tasks, and unlock new insights into student performance and behavior.",
+    introductionParagraph3:
+      "More than a technological advancement, AI in education represents a collaborative effort to foster innovation, inclusivity, and equitable access to quality learning for all. Through collective exploration and responsible integration, we can shape an educational future where intelligence meets inspiration, and technology amplifies human potential.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Explore Real-World Applications",
+        description:
+          "Gain firsthand insights into how AI is transforming classrooms, learning analytics, and administration through live case studies and demonstrations from leading educators and tech innovators.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Connect with Industry Leaders",
+        description:
+          "Network with educators, researchers, edtech pioneers, and policymakers who are shaping the future of AI in education, opening doors to collaboration and professional growth.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Stay Ahead of Emerging Trends",
+        description:
+          "Discover the latest advancements in adaptive learning systems, generative AI tools, and data-driven education strategies that are redefining teaching and learning practices globally.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Shape the Future of Learning",
+        description:
+          "Contribute to meaningful dialogue on ethical, equitable, and sustainable use of AI in education, helping design solutions that enhance learning outcomes and accessibility for all.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Educators and Academic Leaders",
+        description:
+          "Teachers, professors, school administrators, and university deans attend to explore how AI can improve teaching, student assessment, and institutional outcomes.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "They want to empower themselves with tools and methods to enhance student engagement and academic success while streamlining educational processes.",
+      },
+      {
+        id: 2,
+        title: "Researchers and Data Scientists",
+        description: " Academic and industry researchers, including data scientists and AI specialists, participate to share cutting-edge findings, discuss methodologies, and foster interdisciplinary collaboration.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "They aim to push the boundaries of AI’s impact on education and translate research into practical applications.",
+      },
+      {
+        id: 3,
+        title: "EdTech Industry Professionals",
+        description:
+          "Product managers, startup founders, and technology solution providers from the education technology sector attend to showcase innovation, build partnerships, and align offerings with educational needs.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "They want to understand market requirements and demonstrate how their AI solutions can transform learning experiences.",
+      },
+      {
+        id: 4,
+        title: "Policy Makers and Government Officials",
+        description: "Representatives from education departments, ministries, and policy think tanks join to discuss AI strategies, regulatory frameworks, and equitable technology adoption for large-scale impact",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "They focus on crafting policies that balance innovation with accessibility, ethics, and effectiveness.",
+      },
+      {
+        id: 5,
+        title: "Students and Lifelong Learners",
+        description: "Graduate and undergraduate students, PhDs, and adult learners engage to gain exposure to advancements, connect with mentors, and contribute through research or poster sessions",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "They attend to learn about emerging AI tools that can enhance their education and career prospects.",
+      },
+      {
+        id: 6,
+        title: "Nonprofit Organizations and International Agencies",
+        description:
+          "NGOs and global organizations like UNESCO participate to promote inclusive, accessible, and ethical use of AI in educational projects, both regionally and worldwide.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "They aim to ensure AI contributes to closing educational gaps and advancing global learning equity.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
-    title: "The AI Media & Communication Conference",
-    discription: "The World's Premier AI Media Summit.",
+    title: "AI in Media, Journalism & Communication",
+    discription: "Shaping the Future of Content, Broadcasting & Public Engagement Through AI",
     // interLink:"/gais/Industry#Massmedia",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FMedia%20and%20communication%20.jpg?alt=media&token=acc2ce18-6818-4e94-ad06-1ce39b1f7348",
+    eventLink: "/gais/conference/global-education-ai",
+  config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "The Global Foodtech AI Conference",
+    showIntroduction: true,
+    introductionText:
+      "Revolutionizing the Food Ecosystem with Artificial Intelligence: Join Leaders Across Agriculture, Processing, Retail, and Supply Chain.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Artificial intelligence is reshaping the landscape of education, driving a new era of personalized learning, intelligent administration, and data-driven decision-making. As academic institutions, educators, and policymakers navigate the challenges of modern learning—ranging from accessibility and engagement to skill development and lifelong learning—AI emerges as a transformative force that enhances both teaching and learning experiences.",
+    introductionParagraph2:
+      "By applying technologies such as machine learning, natural language processing, and adaptive systems, AI empowers educators to tailor instruction to individual needs, automate administrative tasks, and unlock new insights into student performance and behavior.",
+    introductionParagraph3:
+      "More than a technological advancement, AI in education represents a collaborative effort to foster innovation, inclusivity, and equitable access to quality learning for all. Through collective exploration and responsible integration, we can shape an educational future where intelligence meets inspiration, and technology amplifies human potential.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Stay Updated with Innovations",
+        description:
+          "AI media events showcase the latest advancements in AI-driven content creation, audience analytics, and automated workflows, helping attendees stay ahead in a rapidly evolving industry.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Expand Professional Networks",
+        description:
+          "These events provide valuable opportunities to connect with industry leaders, tech innovators, marketers, and media professionals for collaborations and partnerships.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Learn from Experts",
+        description:
+          "Keynotes, panels, and workshops led by AI and media experts deliver practical insights, strategic knowledge, and real-world case studies for immediate application.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Discover New Tools and Solutions",
+        description:
+          "Exhibitions provide access to cutting-edge AI-powered tools for media production, communication strategies, marketing optimization, and reputation management.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Media Professionals and Journalists",
+        description:
+          "Reporters, editors, producers, and content creators who craft news and multimedia content.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To learn about AI tools that optimize content creation, improve storytelling, and boost audience engagement, helping maintain competitive advantage and efficiency.",
+      },
+      {
+        id: 2,
+        title: "Communication Strategists and Corporate Communicators",
+        description: "Communication directors, public relations managers, and internal communication specialists responsible for messaging and brand reputation.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "To explore AI-driven strategies that personalize communications, strengthen stakeholder relationships, and optimize corporate message delivery.",
+      },
+      {
+        id: 3,
+        title: "AI and Technology Experts",
+        description:
+          "Description: Developers, data scientists, and solution providers creating AI applications for media and communication sectors.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase innovations, collaborate with industry professionals, and customize AI solutions addressing specific media challenges.",
+      },
+      {
+        id: 4,
+        title: "Marketing and Advertising Professionals",
+        description: "Brand managers, marketers, and advertising executives focusing on targeted campaigns and customer insights.",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To discover AI techniques that enhance precision advertising, improve customer segmentation, and maximize campaign performance",
+      },
+      {
+        id: 5,
+        title: "Academics and Researchers",
+        description: "Scholars studying media trends, audience behavior, and AI’s influence on communication.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          " To contribute to research dissemination, engage in interdisciplinary dialogue, and inform practical AI applications.",
+      },
+      {
+        id: 6,
+        title: "Students and Early Career Professionals",
+        description:
+          "Media, communication, and technology students, plus those beginning careers",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To gain industry insights, develop AI skills, expand networks, and explore career pathways in a rapidly evolving domain.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
     title: "The AI Space Exploration Summit",
@@ -2668,13 +3075,274 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     // interLink:"/gais/Industry#Energy",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fspace1.jpeg?alt=media&token=821a47ed-ab1f-4bfb-b45e-c62583241d53",
+      eventLink: "/gais/conference/global-education-ai",
+  config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "The Global Foodtech AI Conference",
+    showIntroduction: true,
+    introductionText:
+      "Revolutionizing the Food Ecosystem with Artificial Intelligence: Join Leaders Across Agriculture, Processing, Retail, and Supply Chain.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Space exploration events offer a unique platform to engage with the latest advancements, innovative research, and strategic discussions shaping the future of outer space discovery and utilization.",
+    introductionParagraph2:
+      "These events bring together space agencies, industry leaders, scientists, educators, and policy makers to collaborate on overcoming current challenges and exploring new frontiers. Participating provides insights into cutting-edge technologies, international cooperation, and emerging commercial opportunities, fueling the drive toward human presence beyond Earth.",
+    introductionParagraph3:
+      "Whether one is a space enthusiast, professional, or academic, these events inspire, educate, and empower attendees to contribute to the expanding universe of space exploration.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Breakthrough Innovations",
+        description:
+          "Gain early access to the latest space technologies, mission updates, and scientific discoveries.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Connect with Experts",
+        description:
+          "Network with astronauts, scientists, engineers, entrepreneurs, and policy makers shaping space’s future.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Learn Career Pathways",
+        description:
+          "Explore educational and professional opportunities in the expanding space industry.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Engage in Policy Discussion",
+        description:
+          "Understand regulatory and international cooperation frameworks essential for sustainable space activities.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Space Scientists and Researchers",
+        description:
+          "Physicists, astronomers, astrobiologists, and engineers advancing space science and exploration.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To share and gain knowledge of cutting-edge research, collaborate on projects, and stay updated on global space initiatives.",
+      },
+      {
+        id: 2,
+        title: "Researchers and Data Scientists",
+        description: " Academic and industry researchers, including data scientists and AI specialists, participate to share cutting-edge findings, discuss methodologies, and foster interdisciplinary collaboration.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "They aim to push the boundaries of AI’s impact on education and translate research into practical applications.",
+      },
+      {
+        id: 3,
+        title: "Space Industry Professionals",
+        description:
+          "Representatives from aerospace companies, startups, and space agencies developing technology and missions.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase innovations, build partnerships, and explore new commercial space opportunities.",
+      },
+      {
+        id: 4,
+        title: "Policy Makers and Regulators",
+        description: "Government officials and international regulators shaping space policy and legal frameworks.",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          " To discuss governance, safety, and ethical considerations for responsible space exploration.",
+      },
+      {
+        id: 5,
+        title: "Educators and Students",
+        description: " Teachers, academic program leaders, and students interested in space science and STEM careers.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To learn about space curriculum development, scholarship opportunities, and career pathways.",
+      },
+      {
+        id: 6,
+        title: "Entrepreneurs and Innovators",
+        description:
+          "Startup founders and investors focused on emerging space technologies and markets.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To gain market insights, connect with industry leaders, and identify investment opportunities.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
-    title: "The AI Cybersecurity Summit",
+    title: "AI in Cybersecurityt",
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
     // interLink:"/gais/Industry#Cybersecurity",
     backImgURL:
       "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9",
+      config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "AI in Cybersecurity",
+    showIntroduction: true,
+    introductionText:
+      "Exploring AI's Role in Fortifying Cybersecurity.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Cybersecurity events are essential gatherings for professionals, organizations, and stakeholders committed to protecting digital assets, data, and infrastructure. These events provide a platform to discover the latest threats, learn about cutting-edge technologies, and share innovative defense strategies. ",
+    introductionParagraph2:
+      "Attending empowers individuals to enhance their skills, stay informed on regulatory changes, and build vital networks across industries.",
+    introductionParagraph3:
+      "Whether from corporate, government, or academic sectors, participants gain the knowledge and connections required to navigate the complex cybersecurity landscape effectively.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Stay Informed on Emerging Threats",
+        description:
+          "Keep up with evolving attack techniques and defense strategies directly from experts.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Gain Practical Skills",
+        description:
+          "Hands-on workshops offer training on ethical hacking, network security, and incident response.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Network with Industry Leaders",
+        description:
+          "Build relationships with peers, vendors, and policymakers to collaborate on security solutions.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Explore Latest Technologies",
+        description:
+          "Access demonstrations of cutting-edge cybersecurity tools and services.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "IT and Security Professionals",
+        description:
+          "Network security engineers, analysts, and system administrators protecting organizational infrastructure.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To gain advanced knowledge of threat detection, mitigation techniques, and latest industry tools.",
+      },
+      {
+        id: 2,
+        title: "Business Leaders and Executives",
+        description: "CEOs, CIOs, CISOs, and decision-makers responsible for cybersecurity investment and strategy.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "To understand cyber risks, align security with business goals, and make informed technology decisions.",
+      },
+      {
+        id: 3,
+        title: "Policy Makers and Regulators",
+        description:
+          "Government officials and legal experts developing cybersecurity frameworks and compliance rules.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To stay updated on industry challenges and contribute to effective, harmonized regulations.",
+      },
+     
+      {
+        id: 5,
+        title: "Cybersecurity Vendors and Innovators",
+        description: "Companies developing security software, hardware, and services.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase products, gain feedback, and establish partnerships.",
+      },
+      {
+        id: 6,
+        title: "Researchers and Academics",
+        description:
+          "Scholars studying cyber threats, defenses, and technologies.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          " To share findings, learn new approaches, and inspire innovation.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
     title: "AI in Maritime & Supply Chain",
@@ -2682,6 +3350,140 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     // interLink:"/gais/Industry#Maritime",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1rYWJ1g1ivDchj915jP6WadiLcNn7v1Y_&sz=s800",
+      config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "AI in Maritime & Supply Chain",
+    showIntroduction: true,
+    introductionText:
+      "Exploring AI's Role in Fortifying Cybersecurity.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Maritime and supply chain events are vital platforms for professionals, companies, and stakeholders involved in shipping, logistics, offshore energy, and related industries. These events showcase the latest innovations, environmental strategies, and regulatory developments shaping the future of maritime transport and supply chain management.  ",
+    introductionParagraph2:
+      "Joining these gatherings provides unique opportunities to network with industry leaders, discover emerging technologies, and gain insights to optimize operations and sustainability.",
+    introductionParagraph3:
+      "Whether involved in engineering, logistics, policy, or environmental stewardship, attendees are empowered to drive innovation and resilience in the global maritime ecosystem.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Innovations",
+        description:
+          "Explore advancements in marine engineering, sustainable shipping, and smart supply chain solutions.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Gain Practical Skills",
+        description:
+          "Understand emerging trends, regulatory impacts, and economic prospects.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Network with Industry Leaders",
+        description:
+          "uild strong relationships with shipbuilders, operators, regulators, and suppliers.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Promote Sustainability",
+        description:
+          " Participate in discussions focused on reducing carbon footprints and protecting marine environments.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Ship Designers and Marine Engineers",
+        description:
+          "Professionals involved in designing vessels and offshore structures",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To stay current on innovations in shipbuilding, propulsion systems, and sustainable design practices.",
+      },
+      {
+        id: 2,
+        title: "Ship Operators and Fleet Managers",
+        description: "Operators responsible for vessel logistics, maintenance, and fleet optimization.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "To learn about operational efficiency tools, safety standards, and new maritime technologies.",
+      },
+      {
+        id: 3,
+        title: "Supply Chain and Logistics Managers",
+        description:
+          "Experts managing goods flow, warehouse operations, and shipment tracking.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To discover strategies for optimizing supply chains and reducing costs",
+      },
+      {
+        id: 4,
+        title: "Government Agencies and Regulators",
+        description: "Officials overseeing maritime safety, environmental compliance, and trade regulations.",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To engage with stakeholders on policy development and enforce regulatory standards.",
+      },
+      {
+        id: 5,
+        title: "Researchers and Scientists",
+        description: "Academics studying marine technology, oceanography, and logistics innovation.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To present research, collaborate, and drive knowledge sharing.",
+      },
+      {
+        id: 6,
+        title: "Service Providers and Suppliers",
+        description:
+          "Companies offering equipment, technology, and services to maritime and supply chain sectors.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase products, understand market needs, and forge business partnerships.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
   {
     title: "AI In Sports, Entertainment, & Gaming",
@@ -2696,6 +3498,140 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     // interLink:"/gais/Industry#Autonomous",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1zBhwuWtvlxjgG04RGzj4F1GGW9mke8jv&sz=s800",
+       config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "AI in Maritime & Supply Chain",
+    showIntroduction: true,
+    introductionText:
+      "Exploring AI's Role in Fortifying Cybersecurity.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Maritime and supply chain events are vital platforms for professionals, companies, and stakeholders involved in shipping, logistics, offshore energy, and related industries. These events showcase the latest innovations, environmental strategies, and regulatory developments shaping the future of maritime transport and supply chain management.  ",
+    introductionParagraph2:
+      "Joining these gatherings provides unique opportunities to network with industry leaders, discover emerging technologies, and gain insights to optimize operations and sustainability.",
+    introductionParagraph3:
+      "Whether involved in engineering, logistics, policy, or environmental stewardship, attendees are empowered to drive innovation and resilience in the global maritime ecosystem.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Discover Innovations",
+        description:
+          "Explore advancements in marine engineering, sustainable shipping, and smart supply chain solutions.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Gain Practical Skills",
+        description:
+          "Understand emerging trends, regulatory impacts, and economic prospects.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Network with Industry Leaders",
+        description:
+          "Build strong relationships with shipbuilders, operators, regulators, and suppliers.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Promote Sustainability",
+        description:
+          " Participate in discussions focused on reducing carbon footprints and protecting marine environments.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Ship Designers and Marine Engineers",
+        description:
+          "Professionals involved in designing vessels and offshore structures",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To stay current on innovations in shipbuilding, propulsion systems, and sustainable design practices.",
+      },
+      {
+        id: 2,
+        title: "Ship Operators and Fleet Managers",
+        description: "Operators responsible for vessel logistics, maintenance, and fleet optimization.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:
+          "To learn about operational efficiency tools, safety standards, and new maritime technologies.",
+      },
+      {
+        id: 3,
+        title: "Supply Chain and Logistics Managers",
+        description:
+          "Experts managing goods flow, warehouse operations, and shipment tracking.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To discover strategies for optimizing supply chains and reducing costs",
+      },
+      {
+        id: 4,
+        title: "Government Agencies and Regulators",
+        description: "Officials overseeing maritime safety, environmental compliance, and trade regulations.",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To engage with stakeholders on policy development and enforce regulatory standards.",
+      },
+      {
+        id: 5,
+        title: "Researchers and Scientists",
+        description: "Academics studying marine technology, oceanography, and logistics innovation.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To present research, collaborate, and drive knowledge sharing.",
+      },
+      {
+        id: 6,
+        title: "Service Providers and Suppliers",
+        description:
+          "Companies offering equipment, technology, and services to maritime and supply chain sectors.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          "To showcase products, understand market needs, and forge business partnerships.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
    {
     title: "AI in Healthcare Systems, Payors & Policy",
@@ -2703,6 +3639,138 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     // interLink:"/gais/Industry#HealthCare3",
     backImgURL:
       "https://drive.google.com/thumbnail?id=1Ol1IlO8K7Uo1h3r81aDJgktMBOOp7gzZ&sz=s800",
+       config: {
+    bgImage:  "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
+  // eplace with your actual image import or reference
+    title: "AI in Maritime & Supply Chain",
+    showIntroduction: true,
+    introductionText:
+      "Exploring AI's Role in Fortifying Cybersecurity.",
+    introdunctionCard1title: "AI in Education",
+    introdunctionCard1subTitle: "USD 6.52B → USD 35.42B",
+    introdunctionCard1Range: "2024 → 2030",
+    introdunctionCard1Percent: "27.8% CAGR",
+    introdunctionCard2title:
+      "The AI in Foodtech market is projected to grow significantly, reaching USD 35.42 billion by 2030 from USD 6.52 billion in 2024. This summit offers a platform to connect with the future of food systems powered by AI.",
+    introdunctionCard2SubTitle:
+      "Source: MarketsandMarkets (Foodtech AI Industry Report).",
+    introductionParagraph1:
+      "Autonomous systems events unite industry pioneers, researchers, developers, and end-users focused on robotics, automated vehicles, and intelligent systems transforming multiple sectors.",
+    introductionParagraph2:
+      "These gatherings offer a cutting-edge look at advancements in AI, sensor fusion, control systems, and safety protocols that enable autonomous operation in real-world conditions. Attending opens doors to networking with thought leaders, exploring new technologies, and discussing regulatory and ethical considerations.",
+    introductionParagraph3:
+      "Whether focused on automotive, aerospace, defense, or industrial automation, participants gain insight and partnerships that propel innovation and practical deployment of autonomous systems.",
+
+    showWhyJoin: true,
+    reasons: [
+      {
+        number: 1,
+        title: "Explore Advanced Technologies",
+        description:
+          "Discover latest developments in robotics, AI, and embedded systems powering autonomy.",
+        gradientClass: "from-green-600 to-lime-600",
+        imgSrc: Discover, // Replace with your image reference
+        iconColor: "#10B981",
+        icon: Brain,
+      },
+      {
+        number: 2,
+        title: "Gain Practical Skills",
+        description:
+          "Learn about standards, certification, and ethical use of autonomous technologies.",
+        gradientClass: "from-yellow-600 to-green-600",
+        iconColor: "#FBBF24",
+        icon: Users,
+        imgSrc: Networking,
+      },
+      {
+        number: 3,
+        title: "Showcase Innovations:",
+        description:
+          "Present products, pilot projects, and research outcomes to global audiences.",
+        gradientClass: "from-orange-600 to-yellow-500",
+        imgSrc: Insight,
+        iconColor: "#F97316",
+        icon: Lightbulb,
+      },
+      {
+        number: 4,
+        title: "Collaborate on Challenges",
+        description:
+          "Engage in workshops and panels addressing integration and operational complexities.",
+        gradientClass: "from-emerald-600 to-teal-500",
+        imgSrc: Opportunity,
+        iconColor: "#14B8A6",
+        icon: Coins,
+      },
+    ],
+    showAudience: true,
+    demographics: [
+      {
+        id: 1,
+        title: "Robotics and AI Engineers",
+        description:
+          "Developers designing algorithms, perception systems, and control architectures for autonomous platforms.",
+        bgColor: "from-green-500 to-green-600",
+        icon: <Leaf className="w-6 h-6 text-white" />,
+        reason:
+          "To share findings, participate in interdisciplinary collaboration, and influence future innovations.",
+      },
+      {
+        id: 2,
+        title: "Research Scientists and Academics",
+        description: "Scholars researching autonomous systems theories, applications, and safety protocols.",
+        bgColor: "from-yellow-500 to-yellow-600",
+        icon: <FlaskConical className="w-6 h-6 text-white" />,
+        reason:"To share findings, participate in interdisciplinary collaboration, and influence future innovations."},
+      {
+        id: 3,
+        title: "Industry Executives and Product Managers",
+        description:
+          "Decision-makers steering product development, market strategies, and commercialization of autonomous solutions.",
+        bgColor: "from-orange-500 to-orange-600",
+        icon: <Truck className="w-6 h-6 text-white" />,
+        reason:
+          "To identify trends, evaluate technologies, and build partnerships that accelerate growth.",
+      },
+      {
+        id: 4,
+        title: "System Integrators and Operators",
+        description: "Professionals responsible for deploying, maintaining, and operating autonomous systems in real environments.",
+        bgColor: "from-amber-500 to-amber-600",
+        icon: <Rocket className="w-6 h-6 text-white" />,
+        reason:
+          "To acquire practical knowledge, troubleshoot challenges, and optimize system performance.",
+      },
+      {
+        id: 5,
+        title: "Policy Makers and Regulatory Authorities",
+        description: "Officials developing frameworks, safety standards, and ethical guidelines for autonomous technology deployment.",
+        bgColor: "from-lime-500 to-lime-600",
+        icon: <Landmark className="w-6 h-6 text-white" />,
+        reason:
+          "To ensure safe, legal, and responsible integration of autonomous systems in society.",
+      },
+      {
+        id: 6,
+        title: "Technology Vendors and Innovators",
+        description:
+          "Companies creating hardware, software, and components essential for autonomy.",
+        bgColor: "from-indigo-500 to-indigo-600",
+        icon: <GraduationCap className="w-6 h-6 text-white" />,
+        reason:
+          " To showcase products, gain market insights, and secure customers and collaborators.",
+      },
+    ],
+    showAwardAgenda: true,
+    showRegister: true,
+    registerButtonCSS:
+      "bg-gradient-to-r from-lime-600 to-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+    scheduleButtonCSS:
+      "bg-white text-lime-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-lime-600 hover:to-green-600 hover:text-white",
+    agendaLink: "/gais/conference/global-education-ai/all-agendas",
+    registerLink: "/gais/ticket",
+  },
   },
 
 ];
