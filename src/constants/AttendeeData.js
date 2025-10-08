@@ -596,7 +596,7 @@ export const AttendeesData = [
   position: "Head of Growth",
   company: "TextCortex",
   role: "Participant",
-  personImage: BarisSen,
+  personImage: BarisSen,   
   companyImage: TextCortex,
 },
 // {
