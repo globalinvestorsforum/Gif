@@ -25,7 +25,7 @@ function Hero() {
             </p>
             <hr className="h1  mt-4 divide-x font-bold  md:w-1/3 w-2/3  mx-3" />
             <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-1  ">
-              World's largest AI summit in true sense.
+              World's leading AI Summit.
             </p>
           </div>
          </Reveal>
