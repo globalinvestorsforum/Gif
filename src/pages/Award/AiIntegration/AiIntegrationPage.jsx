@@ -293,7 +293,7 @@ const AiIntegrationPage = () => {
       {
         imgSrc: PaidNominationOpen,
         event: "Paid Nomination Open",
-        date: "1st November, 2025",
+        date: "15th December, 2025",
       },
       {
         imgSrc: NominationDeadline,
