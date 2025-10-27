@@ -14,7 +14,7 @@ export default function Timelines() {
     {
       id: 2,
       title: "Paid Nomination Open",
-      date: "1st November, 2025",
+      date: "15th December, 2025",
       icon: DollarSign,
       status: "upcoming",
       description: "Premium nomination period begins"
