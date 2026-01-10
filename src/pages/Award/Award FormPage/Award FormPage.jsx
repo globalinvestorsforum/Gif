@@ -420,7 +420,7 @@ const AwardFormPage = () => {
                       value={formData.website}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                      placeholder="https://www.example.com"
+                      placeholder="https://www.global-investors-forum.com"
                       required
                     />
                   </div>

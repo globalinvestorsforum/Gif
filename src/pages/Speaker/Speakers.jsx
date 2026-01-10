@@ -5,10 +5,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { AttendeesData } from "../../constants/AttendeeData";
 import { useNavigate } from "react-router-dom";
 import FeaturedSpeakers from "../../assets/AllAttendees/FeaturedSpeakers.jpg";
+import SEO from "../../components/SEO";
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Speakers() {
+  // SEO for speakers page
+  // note: dynamic meta per-speaker is added on the details page
   const [attendees, setAttendees] = useState(AttendeesData);
 
   const containerRef = useRef(null);
@@ -83,6 +86,11 @@ function Speakers() {
       ref={containerRef}
       className="speakers-page min-h-screen bg-[#020617] text-white py-16 px-4"
     >
+      <SEO
+        title="Speakers — Global AI Summit"
+        description="Discover the speaker lineup for the Global AI Summit — world-class founders, researchers, and practitioners." 
+        url="https://www.global-investors-forum.com/gais/speakers"
+      />
       <div className="max-w-6xl mx-auto">
         {/* Hero / Header */}
         <div className="header-section grid gap-10 lg:grid-cols-2 items-center mb-16">

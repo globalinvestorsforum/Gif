@@ -21,10 +21,14 @@ import AwardCategories from "./AwardCategories";
 import Timelines from "./Timelines";
 import AllAwardCategories from "./AllAwardCategories/AllAwardCategories";
 import GAIEA from "./GAIEA_Intro.jsx"
+import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger);
 
 const Award = () => {
   const containerRef = useRef(null);
+  
+  // page SEO
+  const defaultUrl = typeof window !== 'undefined' ? window.location.href : 'https://www.global-investors-forum.com';
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -238,12 +242,19 @@ const Award = () => {
     "from-orange-500 to-red-500",
   ];
 
+
   const { title, summitDetails, reasonsToApply, awards } = aiSummitData;
 
   const navigate = useNavigate();
   return (
 
-    <div ref={containerRef} className="text-black">
+    <>
+      <SEO
+        title="GAIEA — Global AI Excellence Awards"
+        description="GAIEA celebrates excellence in AI across industries. Learn about categories, timelines, and how to nominate." 
+        url="https://www.global-investors-forum.com/gais/award"
+      />
+      <div ref={containerRef} className="text-black">
       <GAIEA/>
       <section className="lg:px-12 bg-white flex flex-col md:flex-col">
         <div
@@ -458,6 +469,7 @@ const Award = () => {
       <Faq/>
 
     </div>
+    </>
   );
 };
 
