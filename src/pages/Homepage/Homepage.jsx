@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../../components/SEO";
 import Hero from "./Hero";
 import HeroCard from "./HeroCard";
 import Numbers from "./Numbers";
@@ -12,6 +13,7 @@ import OddCard from "./OddCard";
 const Homepage = () => {
   return (
     <>
+      
       <Hero />
       <HeroCard />
       <Numbers />

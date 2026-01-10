@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { AttendeesData } from '../../constants/AttendeeData';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SEO from '../../components/SEO'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,7 +60,14 @@ const AttendeeDetails = () => {
 
 
   return (
-    <div className='h-screen flex flex-col lg:flex-row gap-56 lg:gap-40 items-center bg-white'>
+    <>
+      <SEO
+        title={`${attendee.name} — ${attendee.company} | GAIS`}
+        description={`${attendee.position} at ${attendee.company}. Learn more about ${attendee.name} at GAIS.`}
+        url={typeof window !== 'undefined' ? window.location.href : 'https://www.global-investors-forum.com'}
+        image={attendee.personImage}
+      />
+      <div className='h-screen flex flex-col lg:flex-row gap-56 lg:gap-40 items-center bg-white'>
       <div className='h-1/3 lg:h-full relative w-full lg:w-1/3 flex justify-center'>
         <div className="h-screen overflow-hidden">
           {/* Video Background */}
@@ -121,6 +129,7 @@ const AttendeeDetails = () => {
       </div>
       
     </div>
+    </>
   );
 };
 

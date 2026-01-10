@@ -11,10 +11,16 @@ import Summit from "./Summit";
 import Threecards from "./Threecards";
 import Partners from "./Partners";
 import Banner from "./Banner";
+import SEO from "../../components/SEO";
 
 const Gais = () => {
   return (
     <>
+    <SEO
+        title="Global AI Summit — Home"
+        description="Global AI Summit (GAIS): conferences, speakers, and attendees shaping the future of AI. Join us in Berlin."
+        url="https://www.global-investors-forum.com/"
+      />
       <Hero />
       <Numbers />
       <About />

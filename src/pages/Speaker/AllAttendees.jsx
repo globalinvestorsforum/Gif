@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { AttendeesData } from "../../constants/AttendeeData";
 import { useNavigate } from "react-router-dom";
 import AllAttendeesImg from '../../assets/AllAttendees/AllAttendees.jpg'
+import SEO from '../../components/SEO'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -92,6 +93,11 @@ function AllAttendees() {
       className="bg-gradient-to-r from-[#963C96] via-[#F53232] to-[#FFBE5A] text-black"
      
     >
+      <SEO
+        title="Attendees — Global AI Summit"
+        description="Meet the global attendees for GAIS: founders, researchers, investors and industry leaders attending the summit."
+        url="https://www.global-investors-forum.com/gais/attendees"
+      />
       {/* Header Section */}
       <div className="bg-black grid gap-4 grid-cols-1 md:grid-cols-2 items-center">
         <div className="header-content mx-6 md:pl-12 py-6 ">
