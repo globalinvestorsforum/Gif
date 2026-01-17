@@ -30,7 +30,7 @@ export default function Timelines() {
     {
       id: 4,
       title: "Shortlist Announced",
-      date: "12th May, 2026",
+      date: "15th April, 2026",
       icon: Bell,
       status: "upcoming",
       description: "Finalists revealed to the public"
@@ -38,7 +38,7 @@ export default function Timelines() {
     {
       id: 5,
       title: "Winners Announcement",
-      date: "13th May, 2026",
+      date: "12th May, 2026",
       icon: Award,
       status: "upcoming",
       description: "Award ceremony and winners revealed"
