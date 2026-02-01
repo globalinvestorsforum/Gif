@@ -9,10 +9,10 @@ const TicketSection = () => {
   const tickets = [
     {
       title: "Standard Pass",
-      price: "€1460 + VAT",
+      price: "€1499 + VAT",
       originalPrice: "€3650",
-      discount: "Save €2190 off the late price, with 60% Discount.",
-      link: "https://rzp.io/rzp/EFNCyG2",
+      discount: "Save €2151 off the late price, with 59% Discount.",
+      link: "https://pages.razorpay.com/pl_SAtqAybiANRsep/view",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
       includes: [
