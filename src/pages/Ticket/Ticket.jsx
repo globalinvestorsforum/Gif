@@ -48,10 +48,10 @@ const TicketSection = () => {
       ],
     },
     {
-      title: "Guest Visitor Startup Pass",
-      price: "€1899 + VAT",
-      originalPrice: "€3899",
-      discount: "Save €2000 off the late price, with a 51% Discount.",
+      title: "Exhibitior Fees ",
+      price: "€5000 + VAT",
+      originalPrice: "€7550",
+      discount: "Save €2550 off the late price, with a 34% Discount.",
       // link:"https://rzp.io/rzp/ee1lOiRlh",
       buttonText: "Book Now",
       detailsText: "What's Included ↓",
@@ -82,7 +82,7 @@ const TicketSection = () => {
   ];
 
   const timelineEvents = [
-    { label: "Early Bird", date: "2025-08-15" },
+    { label: "Early Bird", date: "2026-03-15" },
     { label: "Regular", date: "" },
     { label: "Late Price", date: "" },
   ];
@@ -229,7 +229,7 @@ const TicketSection = () => {
                   }`}
                 >
                   {/* {event.date} */}
-                  15th August
+                  15th March
                 </p>
               ) : (
                 ""
