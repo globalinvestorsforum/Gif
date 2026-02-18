@@ -55,9 +55,9 @@ const TicketRegistration = () => {
 
   const ticketTypes = [
     "Track Pass: €1140" ,
-    "Standard Ticket: €1460",
+    "Standard Ticket: €1499",
     "VIP Pass: €2999" ,
-    "Guest Visitor Startup: €1899",
+    "Exhibitior Fees: €5000",
   ];
 
   const handleSubmit = async (e) => {
