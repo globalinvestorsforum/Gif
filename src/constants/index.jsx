@@ -765,7 +765,7 @@ export const gaisLogos = [
   },
   {
     logo: <MdEmojiTransportation />,
-    text: "Transporatation",
+    text: "Transportation",
   },
   {
     logo: <AiFillCar />,
@@ -797,7 +797,7 @@ export const gaisLogos = [
   },
   {
     logo: <GiDeliveryDrone />,
-    text: "Agerospace & Defence",
+    text: "Aerospace & Defence",
   },
   {
     logo: <SlBookOpen />,
@@ -813,7 +813,7 @@ export const gaisLogos = [
   },
   {
     logo: <RiAdvertisementFill />,
-    text: "Marketing & Adevertising",
+    text: "Marketing & Advertising",
   },
 ];
 
