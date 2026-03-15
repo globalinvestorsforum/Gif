@@ -76,7 +76,7 @@ const GAIEA = () => {
 
             {/* Main Title */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white tracking-wide drop-shadow-lg transition-all duration-700 hover:text-yellow-400 hover:tracking-wider animate-slide-in-right cursor-default">
-              GAIEA 2025-26
+              GAIEA 2026
             </h1>
 
             {/* Feature Grid */}

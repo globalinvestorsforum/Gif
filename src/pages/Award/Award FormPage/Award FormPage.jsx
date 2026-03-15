@@ -328,7 +328,7 @@ const AwardFormPage = () => {
           <div className="relative z-10 text-center max-w-4xl mx-auto">
             
             <h1 className="text-4xl font-bold uppercase text-white mb-6 tracking-tight">
-              Global AI Excellence Awards 2025
+              Global AI Excellence Awards 2026
             </h1>
             <p className="text-gray-100 text-xl max-w-3xl mx-auto leading-relaxed">
               Recognize outstanding achievements in artificial intelligence
