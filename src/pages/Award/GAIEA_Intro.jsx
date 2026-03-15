@@ -57,7 +57,7 @@ const GAIEA = () => {
               <div className="relative group">
                 <img 
                   src="/GAIEA_NEW_logo.png" 
-                  alt="The Global AI Excellence Award 2025-26" 
+                  alt="The Global AI Excellence Award 2026" 
                   className="w-auto h-40 sm:h-45 md:h-50 lg:h-55 xl:h-60 max-w-none object-contain transition-all duration-300 group-hover:brightness-110 drop-shadow-2xl"
                   style={{
                     filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))'
