@@ -27,7 +27,7 @@ const Gais = () => {
       <Join/>
       <Summit/>
       <Threecards/>
-      <Partners/>
+      {/* <Partners/> */}
       <Banner />
       
     </>

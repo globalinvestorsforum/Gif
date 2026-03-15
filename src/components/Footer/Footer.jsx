@@ -8,6 +8,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="w-full pt-16 border-t border-neutral-800">
       <div className=" max-w-[1240px] mx-auto py-15 px-4 grid lg:grid-cols-3 gap-8  ">
@@ -37,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" text-center md:flex flex-wrap justify-around py-10 font-medium mx-2  text-neutral-400">
-       <p className="text-sm md:text-[15px]"> Global Investors Forum &copy; 2025 All Rights Reserved </p>
+       <p className="text-sm md:text-[15px]"> Global Investors Forum &copy; {currentYear} All Rights Reserved </p>
        <Link className="text-sm md:text-[15px]"><span><Link to={"/privacy"} className="hover:text-orange-600">Privacy Policy </Link></span>| <span><Link to={"/terms"} className="hover:text-orange-600">General Terms and Conditions</Link></span></Link> 
       </div>
     </div>
