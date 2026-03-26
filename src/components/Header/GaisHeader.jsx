@@ -34,13 +34,30 @@ const Navbar = () => {
           {/* Logo on the left */}
 
           <div className="flex items-center justify-start flex-shrink-0">
-            <Link to="/">
+            {/* <Link to="/">
               <img
                 className="h-10 w-44 border-neutral-900 border-2 "
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2Fgaislogo.png?alt=media&token=eea47d8e-d244-42f6-8274-66a8733e42ce"
                 alt=""
               />
-            </Link>
+            </Link> */}
+            <Link to="/">
+  <div className="flex items-center gap-2 font-bold tracking-widest text-lg">
+    
+    <span className="text-red-400">
+      GLOBAL
+    </span>
+
+    <span className="bg-black text-white px-2 py-1 rounded">
+      AI
+    </span>
+
+    <span className="text-purple-500">
+      SUMMIT
+    </span>
+
+  </div>
+</Link>
           </div>
 
           {/* Navigation links on the right */}
