@@ -8,7 +8,7 @@ const GaisCard = () => {
     <section
       className="h-[550px] bg-cover bg-center flex-wrap "
       style={{
-        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2FImg7.jpg?alt=media&token=c1eb8567-fd6c-4c0f-9d2b-d82d703648d9)`,
+        backgroundImage: `url(https://lh3.googleusercontent.com/d/1Hmx73Yx5mqBIEIbpEv_X000Nko6WsMq0)`,
       }}
     >
       <div className="px-10 md:px-20 pt-28">

@@ -9,7 +9,7 @@ const ContactCard = () => {
       <div
         className="w-full md:w-1/2 bg-cover"
         style={{
-          backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg5.jpg?alt=media&token=23e1b830-6d68-4e5d-8902-b05987aab1e9)`,
+          backgroundImage: `url(https://lh3.googleusercontent.com/d/1HggqyS9wpPzZCATtgL0Y-U2FmBONaOsD)`,
         }}
       >
         <div className=""> </div>

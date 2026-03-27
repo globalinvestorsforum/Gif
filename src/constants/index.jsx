@@ -172,7 +172,7 @@ export const whatweproduce = {
   summitcards: [
     {
       heading: "GLOBAL ARTIFICIAL INTELLIGENCE SUMMIT",
-      img: "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FWhatWeProduce%2Fgais.jpg?alt=media&token=8499f2c8-4cf4-40af-bfab-f4e671c3081c",
+      img: "https://lh3.googleusercontent.com/d/1kxOBp4OSRN7OJQgIi3aJYyLDVRRDBDBe",
       intro:
         "Global Artificial Intelligence Summit (GAIS) is the world's largest iconic platform that brings together the all leading AI businesses, Innovators, Consultancies, most desirable startups, several government agencies, investors, decision makers, technologists, academia, thought leaders and several associations - to stimulate the industry growth, change the investment landscape and share the practically proven innovative ideas. GAIS will have participants from 55+ countries that represents a wide range of industries includes food and agriculture, energy and manufacturing, financial services, healthcare, and transportation and logistics that offers an exclusive opportunity to directly hear from the senior leaders and C-suite speakers about industry leading solutions and interact with them in person.",
       objectivelist: [
@@ -213,7 +213,7 @@ export const whatweproduce = {
 
     {
       heading: "GLOBAL FINTECH SUMMIT",
-      img: "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FWhatWeProduce%2Ffintech.jpg?alt=media&token=5dedeb15-d2ab-49dc-af4a-4682a3fe7a59",
+      img: "https://lh3.googleusercontent.com/d/1mXvu_pKwIXolIuHBDsIWGKT-9D3P3Q1h",
       intro:
         "Whether you're a seasoned fintech giant or a rising startup, the Global Fintech Summit is your platform to connect, ignite, and propel your success in the evolving world of finance. This powerhouse event brings together the brightest minds and boldest players in the fintech revolution. From trailblazing startups to established financial giants, all gather to share insights, forge partnerships, and redefine the very essence of financial services. The Global Fintech Summit is more than just an event – it's a catalyst. We ignite the passion, fuel the ideas, and provide the platform for you to leave your mark on the financial world.",
       objectivelist: [
@@ -258,7 +258,7 @@ export const whatweproduce = {
     },
     {
       heading: "WORLD TECH SUMMIT",
-      img: "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FWhatWeProduce%2Fworldai.jpg?alt=media&token=b600ff1d-fbbd-487e-853e-6e5920b478b0",
+      img: "https://lh3.googleusercontent.com/d/1lWPNaY7sGYyhq6y-lpMDXJnY4xxHF75T",
       intro:
         "Whether you're a seasoned fintech giant or a rising startup, the Global Fintech Summit is your platform to connect, ignite, and propel your success in the evolving world of finance. This powerhouse event brings together the brightest minds and boldest players in the fintech revolution. From trailblazing startups to established financial giants, all gather to share insights, forge partnerships, and redefine the very essence of financial services. The Global Fintech Summit is more than just an event – it's a catalyst. We ignite the passion, fuel the ideas, and provide the platform for you to leave your mark on the financial world.",
       objectivelist: [
@@ -305,7 +305,7 @@ export const whatweproduce = {
     },
     {
       heading: "GLOBAL INVESTMENT FORUM",
-      img: "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FWhatWeProduce%2Finvestment%20forum.jpg?alt=media&token=0af7f22a-4afa-45a4-87f2-d7fc58ab7a40",
+      img: "https://lh3.googleusercontent.com/d/1mR3FNv81PK3sckOtN7ZOEk9d519pjgSh",
       intro:
         "The Global Investment Forum is an “Ideal Deal Making & Practical knowledge Exchange Platform” bringing together the global business community and a broad coalition of investment stakeholders at the highest level who can influence the global investment landscape – On the one side, Policymakers, Including Head of state, Ministers and other Government responsible for investment, Head of Sovereign Wealth Funds, International Investment Community including Treaty negotiators & location experts, While on the other, Family offices, Innovators, thought leaders, Business Honchos & Entrepreneurs from across 95+ countries. It acts as a networking forum to accelerate cross-border investments or stimulate investment into new concepts and provides an essential window among the diverse community of investment stakeholders & global industry leaders who are looking to either raise capital or find a new partner to expand their business.",
       objectivelist: [
@@ -348,7 +348,7 @@ export const whatweproduce = {
     },
     {
       heading: "GLOBAL RESIDENCY AND CITIZENSHIP SUMMIT",
-      img: "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FWhatWeProduce%2Fglobal%20residency.jpg?alt=media&token=d2cd7dd4-8263-41af-88a6-3fb5e11ad527",
+      img: "https://lh3.googleusercontent.com/d/1lGLFHEMcg9Za1QqdlSpQk7cWXY4NpPos",
       intro:
         "Global Residency and citizenship Summit is a forum which brings together developers, investors, real estate agents investment institutions, government agencies, immigration agencies and other organizations who are on this industry chain to provide them a deal making platform for achieving investment goals through personal negotiations. It offers a wide range of opportunity in terms of residence investment, getting citizenship in desired nations, profitable investment proposition and other investments solutions to investors. The summit attracts participants from 40+ countries including Residence investment offering developers from India & Abroad, US based EB5 firms, Citizenship program and investment offering companies from Europe, Dubai, Canada, Australia, Caribbean Islands, and South East Asia.",
       objectivelist: [
@@ -395,13 +395,19 @@ export const homepage = {
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg1_home.png?alt=media&token=c8768038-0f1e-40be-b354-26c595480657",
   mission:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fmissionimg.png?alt=media&token=d3edbfb8-dd4e-40d6-9341-ed9515b7abf0",
-  card1:
-    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2FGIF%20Website%20Framework%20.png?alt=media&token=1d6137bc-85b3-44e4-b3ed-b0396fb13fc8",
-  card2:
-    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg2.png?alt=media&token=7675f60c-8e1a-47ba-a0fd-47416ae0c67a",
-  card3:
-    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg3.png?alt=media&token=38bcb9fc-f4ed-4207-a6ce-f7a76696aede",
-  lastImage:
+  
+    // card1:
+    // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2FGIF%20Website%20Framework%20.png?alt=media&token=1d6137bc-85b3-44e4-b3ed-b0396fb13fc8",
+  card1: "https://lh3.googleusercontent.com/d/1HnFMw8fQ_QJ0idQvYJM_G16HX7XMzRim",
+    // card2:
+    // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg2.png?alt=media&token=7675f60c-8e1a-47ba-a0fd-47416ae0c67a",
+  card2:  "https://lh3.googleusercontent.com/d/1HfvpYOuBfkO_BU9927lAx28_ayovDL3s",
+    // card3:
+    // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg3.png?alt=media&token=38bcb9fc-f4ed-4207-a6ce-f7a76696aede",
+  card3: "https://lh3.googleusercontent.com/d/1keK6OUCyWWoJcxzYGw4XeZQtzeKLny5f",
+  
+  
+    lastImage:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg4.png?alt=media&token=d9b4970a-7cd9-472d-9c7f-e317543550cc",
   card1list: [
     {
