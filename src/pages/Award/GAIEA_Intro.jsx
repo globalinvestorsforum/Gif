@@ -50,15 +50,15 @@ const GAIEA = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen">
           
           {/* Left Content */}
-          <div className="text-white space-y-6 lg:space-y-8 animate-fade-in-up">
+          <div className="text-white space-y-6 lg:space-y-8 animate-fade-in-up ">
             
             {/* Logo Image - Fixed to preserve original shape */}
             <div className="inline-block transform transition-all duration-500 hover:scale-105 hover:rotate-1">
               <div className="relative group">
                 <img 
-                  src="/GAIEA_NEW_logo.png" 
+                  src="/GAIEA_NEW_logo2.png" 
                   alt="The Global AI Excellence Award 2026" 
-                  className="w-auto h-40 sm:h-45 md:h-50 lg:h-55 xl:h-60 max-w-none object-contain transition-all duration-300 group-hover:brightness-110 drop-shadow-2xl"
+                  className="w-full h-40 sm:h-45 md:h-50 lg:h-55 xl:h-60 max-w-none object-contain transition-all duration-300 group-hover:brightness-110 drop-shadow-2xl"
                   style={{
                     filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))'
                   }}
