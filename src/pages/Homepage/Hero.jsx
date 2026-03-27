@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       className="h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg1_home.png?alt=media&token=c8768038-0f1e-40be-b354-26c595480657)`,
+        backgroundImage: `url(https://lh3.googleusercontent.com/d/1wnziHW8p8wqNESRjiZzCpanjg4lNP93O)`,
       }}
     >
       <Reveal>
