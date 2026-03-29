@@ -6,7 +6,9 @@ const Hero = () => {
     <section
       className="h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url(https://lh3.googleusercontent.com/d/1wnziHW8p8wqNESRjiZzCpanjg4lNP93O)`,
+        backgroundImage: `url(https://lh3.googleusercontent.com/d/1a6b48eOPrQvTPDUZzDv8yUL3Fi_Eo9h3)`,
+                // backgroundImage: `url(/woman_background.png)`,
+
       }}
     >
       <Reveal>

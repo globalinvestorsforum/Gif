@@ -8,7 +8,7 @@ const Banner = () => {
     <div
       className="relative border-b  border-neutral-800 min-h-[800px] bg-cover bg-center"
       style={{
-        backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fconcpic.png?alt=media&token=6498945a-8816-462d-90db-4f8bf93c0e07')`,
+        backgroundImage: `url('https://lh3.googleusercontent.com/d/1kNpcIbUFcnKhJbxPBDGzRDC_hGSQo1pU')`,
       }}
     >
       <div className="absolute flex  flex-col justify-center items-start  lg:px-44 md:px-20 px-5 w-full h-full text-start  backdrop-blur-[1px] backdrop-brightness-90">

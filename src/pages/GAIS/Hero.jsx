@@ -7,7 +7,7 @@ function Hero() {
     <div
       className="w-full h-screen bg-no-repeat bg-cover md:bg-top bg-center  border-b border-neutral-800  "
       style={{
-        backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
+        backgroundImage: `url('https://lh3.googleusercontent.com/d/1HfvpYOuBfkO_BU9927lAx28_ayovDL3s')`,
       }}
     >
       <div className="absolute w-full h-full ">

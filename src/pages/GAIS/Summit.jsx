@@ -135,7 +135,7 @@ const Summit = () => {
             <Reveal>
               <img
                 className="w-[100%] "
-                src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Faward_pic.png?alt=media&token=5d82b0a4-977c-45fe-8589-8dbda6fc0da7"
+                src="https://lh3.googleusercontent.com/d/1keK6OUCyWWoJcxzYGw4XeZQtzeKLny5f"
                 alt=""
               />
             </Reveal>
@@ -145,7 +145,7 @@ const Summit = () => {
 
       <div className=" min-h-[300px] bg-gradient-to-r from-purple-600 to-orange-700 ">
         <div className="flex-wrap  md:flex">
-          <div className="md:w-2/3 ">
+          <div className="md:w-2/3">
             <RevealLeft>
               <h1 className="md:p-10 pt-10  text-3xl md:text-4xl lg:text-4xl px-5 font-bold ">
                 GLOBAL INVESTORS MEET
@@ -173,7 +173,7 @@ const Summit = () => {
             <Reveal width="100%">
               <img
                 className="w-[100%] h-[100%]"
-                src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_pic.png?alt=media&token=bd653498-f8c7-4bd2-b6c8-2a6ab5bdcb07"
+                src="https://lh3.googleusercontent.com/d/1kUthDFdO-zAzU2io_Tt7vdjTdARaMPFF"
                 alt=""
               />
             </Reveal>

@@ -28,7 +28,7 @@ const Threecards = () => {
                 <div className=" flex justify-center pt-3">
                   <img
                     className="lg:w-[85%] md:w-[95%] w-[100%]"
-                    src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
+                    src="https://lh3.googleusercontent.com/d/1jRPQ467EPte508jbq4665FE1Vkh2K7WY"
                     alt=""
                   />
                 </div>
@@ -40,7 +40,7 @@ const Threecards = () => {
               <Reveal>
                 <img
                   className=""
-                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FStartup-img.jpg?alt=media&token=0911cd41-c005-4487-86ee-9f9b8488d835"
+                  src="https://lh3.googleusercontent.com/d/1jIz9d7ZeVTzG-2IGCKl3FhWz2S3bqoC7"
                   alt=""
                 />
               </Reveal>
@@ -87,7 +87,7 @@ const Threecards = () => {
               <div className=" p-0 flex lg:justify-end justify-center bottom-0  lg:order-none order-1">
                 <img
                   className="w-[60%]"
-                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082807.png?alt=media&token=98209504-f5ba-459a-808a-01597fa9c0f1"
+                  src="https://lh3.googleusercontent.com/d/1DlFLosQhLvrRSqD4EJ_K8t65AznH4Fkp"
                   alt=""
                 />
               </div>
