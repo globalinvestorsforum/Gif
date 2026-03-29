@@ -11,7 +11,7 @@ const Join = () => {
       <div
         className="min-h-[500px]  bg-cover md:bg-top bg-center "
         style={{
-          backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fwhyjoinback.jpg?alt=media&token=983994a9-1d19-4119-b7dc-0aa7e397471d')`,
+          backgroundImage: `url('https://lh3.googleusercontent.com/d/1mwRjEYRR-Z09d05HGhKge7w7cKTS8C0U')`,
         }}
       >
         <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">

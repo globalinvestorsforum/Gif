@@ -112,7 +112,8 @@ function AllAttendees() {
         </div>
         <img
           className="header-image h-full object-cover"
-          src={AllAttendeesImg}
+          src= 'https://lh3.googleusercontent.com/d/1jjcwJ0Av2uQq_F4bwuKBbqswIvzBlMjI'
+          // {AllAttendeesImg}
           alt=""
         />
       </div>

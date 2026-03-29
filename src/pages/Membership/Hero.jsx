@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="md:w-2/5">
           <img
             className="md:h-[500px]"
-            src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FMemership%2Fpexels-christina-morillo-1181406.jpg?alt=media&token=433d1fec-b37b-448b-8604-0ccdbbe4683e"
+            src="https://lh3.googleusercontent.com/d/1WDNnMRnkPSP9GKU85Bg5Uv3WE65nT5IY"
             alt=""
           />
         </div>
