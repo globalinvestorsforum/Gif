@@ -5,8 +5,10 @@ import Global_Ai from "../assets/Global_Ai.png"
 import car from "../assets/car.png";
 import Pharma1 from "../assets/Pharma1.jpg";
 import Machine from "../assets/Machine.png"
-import Retail from "../assets/Retail.png"
-import finance from "../assets/finance.png"
+import Retail from "../assets/Retail1.png"
+import finance from "../assets/finance1.png"
+import Healthcare from "../assets/Healthcare.png"
+import Robot from "../assets/Robot.jpg"
 import globe from "../assets/globe.png"
 import Discover from "../assets/HealthcareSummit/Discover.png";
 import Networking from "../assets/HealthcareSummit/Networking.jpg";
@@ -1127,10 +1129,11 @@ export const cards = [
 
 //     },
   {
-    title: "The AI HealthCare Summit",
+    title: "AI in Healthcare",
     discription:
       " Harnessing AI for Improved Health Services and disrupting the Status Quo",
-    backImgURL:'https://www.anolytics.ai/upload/1714562261_AI-robotics-in-healthcare-1.png',
+    // backImgURL:'https://www.anolytics.ai/upload/1714562261_AI-robotics-in-healthcare-1.png',
+    backImgURL:Healthcare,
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FHealthcare%201.jpg?alt=media&token=cb9a8087-1265-4917-b0eb-da969738dc88",
     // interLink:"/gais/Industry#HealthCare1",
     eventLink: "/gais/conference/ai-healthcare-summit",
@@ -1273,7 +1276,7 @@ export const cards = [
     }
   },
  {
-  title: "The AI Pharmaceutical Summit",
+  title: "AI in Pharmaceutical",
   discription:
     "Creating Synergies between Artificial Intelligence, Biotechnology, & Medicine.",
   backImgURL:'https://www.coherentsolutions.com/hubfs/Hero_image_3960x1400_6_01267a6736.png',
@@ -1419,9 +1422,10 @@ export const cards = [
 },
 
   {
-  title: "The AI Finance Summit",
+  title: "AI in Finance",
   discription: "Money Meets Machine.",
-  backImgURL:'https://cdn.britannica.com/56/237656-050-7E3371DC/Chart-Types-composite-image-line-chart-bar-chart-candle-chart.jpg?w=385',
+  // backImgURL:'https://cdn.britannica.com/56/237656-050-7E3371DC/Chart-Types-composite-image-line-chart-bar-chart-candle-chart.jpg?w=385',
+  backImgURL:finance,
     // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741",
   // interLink:"/gais/Industry#Retail",
   eventLink: "/gais/conference/ai-Finance-summit",
@@ -1550,9 +1554,10 @@ export const cards = [
 },
 
   {
-    title: "The AI Powered Retail & E- commerce Conclave",
+    title: "AI in Retail & E-commerce",
     discription: "Driving growth with AI and enhancing customer experience.",
-    backImgURL:'https://www.algolia.com/files/live/sites/algolia-assets/files/blogs/bannerimages/10-ways-ai-is-transforming-ecommerce.webp',
+    // backImgURL:'https://www.algolia.com/files/live/sites/algolia-assets/files/blogs/bannerimages/10-ways-ai-is-transforming-ecommerce.webp',
+    backImgURL:Retail,
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail3.jpg?alt=media&token=64ea594f-127b-430b-ac7f-0c308e682c4b",
       //  interLink:"/gais/Industry#Retail",
        eventLink: "/gais/conference/ai-Powered-Retail-E-commerce-Conclave-summit",
@@ -1673,141 +1678,141 @@ demographics : [
 
     }
   },
-  {
-  title: "The Generative AI Summit",
-  description: "The Frontier is Now",
-  backImgURL:'https://amazingarchitecture.com/storage/2825/ai_generated_future_cities_manas_bhatia.jpg',
-    // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05",
-  // interLink:"/gais/conference/industry/industrytracks#Energy",
-  eventLink: "/gais/conference/ai-Generartive-summit",
-  config: {
-    bgImage: Machine,
-    title: "The Generative AI Summit",
-    introductionText:
-      "Redefining Creativity Through Generative AI: Join Top Innovators, Researchers, and AI Experts",
-    showIntroduction: true,
-    introdunctionCard1title: "Generative AI Market Growth",
-    introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
-    introdunctionCard1Range: "2023 → 2030",
-    Percent: "25.5% CAGR",
-    introdunctionCard2title:
-      "The global generative AI market is expected to grow from USD 1.7 billion in 2023 to USD 11.2 billion by 2030, as industries increasingly adopt generative models to automate creativity and content production.",
-    introdunctionCard2SubTitle:
-      "Source: Grand View Research (Generative AI Market Insights).",
-    introductionParagraph1:
-      "Generative AI is revolutionizing the way we create, communicate, and compute—unlocking a new era where machines generate content, ideas, and innovations at unprecedented scale. The Generative AI Summit is a premier global gathering of visionaries, researchers, creators, and industry leaders driving this extraordinary transformation.",
-       introductionParagraph2:
-      "This summit brings together pioneers in artificial intelligence, digital media, enterprise tech, academia, and the creative industries to explore how generative models are reshaping everything from business and design to healthcare, education, and entertainment.",
+//   {
+//   title: "The Generative AI Summit",
+//   description: "The Frontier is Now",
+//   backImgURL:'https://amazingarchitecture.com/storage/2825/ai_generated_future_cities_manas_bhatia.jpg',
+//     // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05",
+//   // interLink:"/gais/conference/industry/industrytracks#Energy",
+//   eventLink: "/gais/conference/ai-Generartive-summit",
+//   config: {
+//     bgImage: Machine,
+//     title: "The Generative AI Summit",
+//     introductionText:
+//       "Redefining Creativity Through Generative AI: Join Top Innovators, Researchers, and AI Experts",
+//     showIntroduction: true,
+//     introdunctionCard1title: "Generative AI Market Growth",
+//     introdunctionCard1subTitle: "USD 1.7B → USD 11.2B",
+//     introdunctionCard1Range: "2023 → 2030",
+//     Percent: "25.5% CAGR",
+//     introdunctionCard2title:
+//       "The global generative AI market is expected to grow from USD 1.7 billion in 2023 to USD 11.2 billion by 2030, as industries increasingly adopt generative models to automate creativity and content production.",
+//     introdunctionCard2SubTitle:
+//       "Source: Grand View Research (Generative AI Market Insights).",
+//     introductionParagraph1:
+//       "Generative AI is revolutionizing the way we create, communicate, and compute—unlocking a new era where machines generate content, ideas, and innovations at unprecedented scale. The Generative AI Summit is a premier global gathering of visionaries, researchers, creators, and industry leaders driving this extraordinary transformation.",
+//        introductionParagraph2:
+//       "This summit brings together pioneers in artificial intelligence, digital media, enterprise tech, academia, and the creative industries to explore how generative models are reshaping everything from business and design to healthcare, education, and entertainment.",
 
-    introductionParagraph3:
-      "It features thought-provoking keynotes, high-impact panel discussions, live demonstrations, and showcases of breakthrough generative AI applications, offering attendees a front-row seat to the technologies redefining creativity and productivity. ",
-      showWhyJoin: true,
-    reasons: [
-      {
-        number: 1,
-        title: "Discover Breakthroughs in Generative AI",
-        description:
-          "Explore the latest innovations in generative AI, from large language models to synthetic media, and learn how these technologies are reshaping industries through creativity, automation, and intelligence.",
-        gradientClass: "from-blue-600 to-cyan-600",
-        imgSrc: Discover,
-        iconColor: "#3B82F6",
-        icon: Brain,
-      },
-      {
-        number: 2,
-        title: "Network with Global AI Pioneers & Industry Leaders",
-        description:
-          "Connect with top researchers, developers, founders, and enterprise leaders advancing generative AI in domains like content creation, product design, software development, and more.",
-        gradientClass: "from-purple-600 to-blue-600",
-        iconColor: "#8B5CF6",
-        icon: Users,
-        imgSrc: Networking,
-      },
-      {
-        number: 3,
-        title: "Gain Exclusive Insights from Generative AI Visionaries",
-        description:
-          "Attend talks, panels, and hands-on sessions to gain deep insights into prompt engineering, foundation models, ethical concerns, and practical use cases transforming creative and technical workflows.",
-        gradientClass: "from-violet-600 to-purple-600",
-        imgSrc: Insight,
-        iconColor: "#EC4899",
-        icon: Lightbulb,
-      },
-      {
-        number: 4,
-        title: "Unlock Innovation & Business Opportunities",
-        description:
-          "Meet investors, innovators, and platform builders exploring monetization, scalability, and strategic partnerships with startups and enterprises at the forefront of generative AI innovation.",
-        gradientClass: "from-indigo-600 to-violet-600",
-        imgSrc: Opportunity,
-        iconColor: "#6366F1",
-        icon: Coins,
-      },
-    ],
-    showAudience: true,
-    demographics: [
-      {
-        id: 1,
-        title: "AI Researchers & ML Engineers",
-        description:
-          "Experts in generative models, deep learning, and foundation models",
-        bgColor: "from-indigo-600 to-indigo-700",
-        icon: <Brain className="w-6 h-6 text-white" />,
-        reason:
-          "To explore the latest advancements in generative AI, including LLMs, diffusion models, and multimodal systems.",
-      },
-      {
-        id: 2,
-        title: "Creative Professionals & Designers",
-        description: "Artists, content creators, and digital media producers",
-        bgColor: "from-pink-600 to-pink-700",
-        icon: <Palette className="w-6 h-6 text-white" />,
-        reason:
-          "To learn how generative AI is transforming visual art, music, video production, and storytelling.",
-      },
-      {
-        id: 3,
-        title: "Product Leaders & Startup Founders",
-        description:
-          "Innovators building generative AI tools, apps, and platforms",
-        bgColor: "from-blue-500 to-blue-600",
-        icon: <Rocket className="w-6 h-6 text-white" />,
-        reason:
-          "To showcase breakthrough products, discover go-to-market strategies, and raise funding.",
-      },
-      {
-        id: 4,
-        title: "Enterprise Innovation & IT Leaders",
-        description:
-          "Heads of digital transformation, R&D, and corporate innovation",
-        bgColor: "from-yellow-500 to-yellow-600",
-        icon: <Briefcase className="w-6 h-6 text-white" />,
-        reason:
-          "To integrate generative AI into business workflows, customer engagement, and knowledge management.",
-      },
-      {
-        id: 5,
-        title: "Policy Makers & Ethicists",
-        description: "Experts in AI governance, safety, and responsible innovation",
-        bgColor: "from-red-600 to-red-700",
-        icon: <ShieldAlert className="w-6 h-6 text-white" />,
-        reason:
-          "To address concerns around misinformation, deepfakes, copyright, and bias in generative models.",
-      },
-    ],
-    showAwardAgenda: false,
-    showRegister: false,
-    registerButtonCSS:
-      "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
-    scheduleButtonCSS:
-      "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
-    agendaLink: "/gais/conference/ai-Generartive-summit/all-agendas",
-    registerLink: "/gais/ticket",
-  },
-}
-,
+//     introductionParagraph3:
+//       "It features thought-provoking keynotes, high-impact panel discussions, live demonstrations, and showcases of breakthrough generative AI applications, offering attendees a front-row seat to the technologies redefining creativity and productivity. ",
+//       showWhyJoin: true,
+//     reasons: [
+//       {
+//         number: 1,
+//         title: "Discover Breakthroughs in Generative AI",
+//         description:
+//           "Explore the latest innovations in generative AI, from large language models to synthetic media, and learn how these technologies are reshaping industries through creativity, automation, and intelligence.",
+//         gradientClass: "from-blue-600 to-cyan-600",
+//         imgSrc: Discover,
+//         iconColor: "#3B82F6",
+//         icon: Brain,
+//       },
+//       {
+//         number: 2,
+//         title: "Network with Global AI Pioneers & Industry Leaders",
+//         description:
+//           "Connect with top researchers, developers, founders, and enterprise leaders advancing generative AI in domains like content creation, product design, software development, and more.",
+//         gradientClass: "from-purple-600 to-blue-600",
+//         iconColor: "#8B5CF6",
+//         icon: Users,
+//         imgSrc: Networking,
+//       },
+//       {
+//         number: 3,
+//         title: "Gain Exclusive Insights from Generative AI Visionaries",
+//         description:
+//           "Attend talks, panels, and hands-on sessions to gain deep insights into prompt engineering, foundation models, ethical concerns, and practical use cases transforming creative and technical workflows.",
+//         gradientClass: "from-violet-600 to-purple-600",
+//         imgSrc: Insight,
+//         iconColor: "#EC4899",
+//         icon: Lightbulb,
+//       },
+//       {
+//         number: 4,
+//         title: "Unlock Innovation & Business Opportunities",
+//         description:
+//           "Meet investors, innovators, and platform builders exploring monetization, scalability, and strategic partnerships with startups and enterprises at the forefront of generative AI innovation.",
+//         gradientClass: "from-indigo-600 to-violet-600",
+//         imgSrc: Opportunity,
+//         iconColor: "#6366F1",
+//         icon: Coins,
+//       },
+//     ],
+//     showAudience: true,
+//     demographics: [
+//       {
+//         id: 1,
+//         title: "AI Researchers & ML Engineers",
+//         description:
+//           "Experts in generative models, deep learning, and foundation models",
+//         bgColor: "from-indigo-600 to-indigo-700",
+//         icon: <Brain className="w-6 h-6 text-white" />,
+//         reason:
+//           "To explore the latest advancements in generative AI, including LLMs, diffusion models, and multimodal systems.",
+//       },
+//       {
+//         id: 2,
+//         title: "Creative Professionals & Designers",
+//         description: "Artists, content creators, and digital media producers",
+//         bgColor: "from-pink-600 to-pink-700",
+//         icon: <Palette className="w-6 h-6 text-white" />,
+//         reason:
+//           "To learn how generative AI is transforming visual art, music, video production, and storytelling.",
+//       },
+//       {
+//         id: 3,
+//         title: "Product Leaders & Startup Founders",
+//         description:
+//           "Innovators building generative AI tools, apps, and platforms",
+//         bgColor: "from-blue-500 to-blue-600",
+//         icon: <Rocket className="w-6 h-6 text-white" />,
+//         reason:
+//           "To showcase breakthrough products, discover go-to-market strategies, and raise funding.",
+//       },
+//       {
+//         id: 4,
+//         title: "Enterprise Innovation & IT Leaders",
+//         description:
+//           "Heads of digital transformation, R&D, and corporate innovation",
+//         bgColor: "from-yellow-500 to-yellow-600",
+//         icon: <Briefcase className="w-6 h-6 text-white" />,
+//         reason:
+//           "To integrate generative AI into business workflows, customer engagement, and knowledge management.",
+//       },
+//       {
+//         id: 5,
+//         title: "Policy Makers & Ethicists",
+//         description: "Experts in AI governance, safety, and responsible innovation",
+//         bgColor: "from-red-600 to-red-700",
+//         icon: <ShieldAlert className="w-6 h-6 text-white" />,
+//         reason:
+//           "To address concerns around misinformation, deepfakes, copyright, and bias in generative models.",
+//       },
+//     ],
+//     showAwardAgenda: false,
+//     showRegister: false,
+//     registerButtonCSS:
+//       "bg-gradient-to-r from-lime-600 to-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:scale-110",
+//     scheduleButtonCSS:
+//       "bg-white  text-teal-600 px-4 py-2 rounded-lg font-semibold transition-all duration-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 hover:text-white",
+//     agendaLink: "/gais/conference/ai-Generartive-summit/all-agendas",
+//     registerLink: "/gais/ticket",
+//   },
+// }
+// ,
   {
-    title: "The Energy & Ai Integration Forum",
+    title: "AI in Energy",
     discription:
       "Transforming the Energy Industry through AI and Machine Learning",
     backImgURL:'https://media.licdn.com/dms/image/v2/D4D12AQGPyrhuc0kstg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721176518999?e=2147483647&t=KHdvTd7MIfRpgiu0eM00YSrhAMOYu3KjNPGJ24i5Bxg&v=beta',
@@ -2092,7 +2097,7 @@ demographics : [
     }
   },
   {
-    title: "The AI-Driven Transporatation Summit",
+    title: "The AI-Driven Transporatation",
     discription: "Navigating a new eara of Smart Mobility.",
     backImgURL:'https://media.licdn.com/dms/image/v2/D5612AQEk8-QF5N_RTg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1706803152344?e=2147483647&t=Lxp44-bAWsoB3iOWIxOvIwsQUoezXDil5QG2Aao5mwc&v=beta',
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Ftransportation1.jpg?alt=media&token=f89b121c-049d-4a18-9bed-cac3c4231e71",
@@ -2217,7 +2222,7 @@ demographics : [
     }
   },
   {
-    title: "The AI Manufaturing Summit",
+    title: "AI in Manufacturing",
     discription: "Accelerating Industry 4.O with AI.",
     backImgURL:'https://www.supplychainbrain.com/ext/resources/2024/05/08/iStock-1465056863.webp?t=1715227314&width=1080&height=720&crop=1',
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
@@ -2360,7 +2365,7 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
     }
   },
   {
-    title: "The AI Agriculture Summit",
+    title: "AI in Agriculture",
     discription:
       "Reaping the Benefits of Artifical Intelligence in Agricuture.",
     backImgURL:'https://d12aarmt01l54a.cloudfront.net/cms/images/UserMedia-20240831114042/808-440.png',
@@ -2502,10 +2507,12 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
 
     }
   },
+  
   {
-  title: "The Global Foodtech AI Conference",
-  description: "Integrating AI From Farm to Fork.",
-     backImgURL:'https://cdn.prod.website-files.com/64ca677d499adc03617e519a/67ab7235eb223b745cdc5bd7_ai-1.jpg',
+  title: "AI in Foodtech",
+  description:
+      "Revolutionizing the Plate: From Smart Farming to Automated Dining",
+  backImgURL:'https://cdn.prod.website-files.com/64ca677d499adc03617e519a/67ab7235eb223b745cdc5bd7_ai-1.jpg',
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490",
   // interLink:"/gais/Industry#Energy",
   eventLink: "/gais/conference/global-foodtech-ai-conference",
@@ -2647,11 +2654,12 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
 
  ,
   {
-    title: "The Robotics Ai Fontier Conference",
+    title: "AI in Robotics",
     discription:
       "Exploring oring the intersection of AI and Robotics Industry.",
     // interLink:"/gais/Industry#Robotics",
-    backImgURL:'https://erepublic.brightspotcdn.com/dims4/default/a7ea80e/2147483647/strip/true/crop/8081x4214%2B0%2B0/resize/840x438%21/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2F44%2F0c%2Fbf3043cf4952945a5b3281fcfa16%2Fadobestock-955269760.jpeg',
+    // backImgURL:'https://erepublic.brightspotcdn.com/dims4/default/a7ea80e/2147483647/strip/true/crop/8081x4214%2B0%2B0/resize/840x438%21/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2F44%2F0c%2Fbf3043cf4952945a5b3281fcfa16%2Fadobestock-955269760.jpeg',
+    backImgURL:Robot,
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Frobot.jpg?alt=media&token=588cc65e-414d-42c8-b748-e2d4a13670c1",
     eventLink: "/gais/conference/global-education-ai",
   config: {
@@ -3076,7 +3084,7 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
   },
   },
   {
-    title: "The AI Space Exploration Summit",
+    title: "AI in Space Exploration",
     discription: "Unleashing the Power of Ai in the Cosmos",
     // interLink:"/gais/Industry#Energy",
     backImgURL:'https://cdn.mos.cms.futurecdn.net/VyqAjjmmmNd3qoChZfWcGG.jpg',
@@ -3218,7 +3226,7 @@ introductionParagraph3: "Through insightful keynotes, interactive panels, and ne
   },
   },
   {
-    title: "AI in Cybersecurityt",
+    title: "AI in Cybersecurity",
     discription: "Exploring AI's Role in Fortifying Cybersecurity.",
     // interLink:"/gais/Industry#Cybersecurity",
     backImgURL:'https://png.pngtree.com/thumb_back/fw800/background/20230429/pngtree-a-digital-padlock-for-cyber-security-technology-network-data-protection-generative-image_2561994.jpg',

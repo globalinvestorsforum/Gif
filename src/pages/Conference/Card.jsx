@@ -10,7 +10,7 @@ const Card = () => {
             <ImageCard
               image={domain.backImgURL}
               title={domain.title}
-              desc={domain.discription}
+              desc={domain.discription ?? domain.description}
               interLink={domain.interLink}
             />
           </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { navItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
@@ -10,8 +10,25 @@ const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
     const navigate = useNavigate();
     const toggleNavbar = () => {
-        setMobileDrawerOpen(!mobileDrawerOpen);
+        setMobileDrawerOpen((isOpen) => !isOpen);
     };
+
+    const closeMobileDrawer = () => {
+        setMobileDrawerOpen(false);
+    };
+
+    useEffect(() => {
+        if (!mobileDrawerOpen) {
+            return undefined;
+        }
+
+        const originalOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+
+        return () => {
+            document.body.style.overflow = originalOverflow;
+        };
+    }, [mobileDrawerOpen]);
 
     return (
         <nav className="sticky top-0  z-50 bg-neutral-900 border-b border-neutral-700">
@@ -68,28 +85,53 @@ const Navbar = () => {
 
                     {/* Hamburger menu on the right in mobile view */}
                     <div className="lg:hidden flex items-center ">
-                        <button onClick={toggleNavbar}>
-                            {mobileDrawerOpen ? <AiOutlineClose className="text-2xl absolute top-0 z-50 right-0 m-4" /> : <AiOutlineMenu className="text-2xl" />}
+                        <button
+                            type="button"
+                            onClick={toggleNavbar}
+                            aria-label={mobileDrawerOpen ? "Close menu" : "Open menu"}
+                            aria-expanded={mobileDrawerOpen}
+                            aria-controls="main-mobile-menu"
+                            className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white hover:bg-white/10"
+                        >
+                            {mobileDrawerOpen ? <AiOutlineClose className="text-2xl" /> : <AiOutlineMenu className="text-2xl" />}
                         </button>
                     </div>
                 </div>
 
                 {/* Mobile drawer */}
                 {mobileDrawerOpen && (
-                    <div className="fixed top-0 right-0 z-20 bg-neutral-900 w-full p-10 flex flex-col justify-center items-center text-center lg:hidden">
-                        <ul>
+                    <div id="main-mobile-menu" className="fixed inset-0 z-50 bg-neutral-900 w-full flex flex-col lg:hidden">
+                        <div className="h-16 flex items-center justify-between border-b border-neutral-700 px-4">
+                            <Link to="/" onClick={closeMobileDrawer}>
+                                <img className="h-12 w-28 object-contain" src={giflogo} alt="" />
+                            </Link>
+
+                            <button
+                                type="button"
+                                onClick={toggleNavbar}
+                                aria-label="Close menu"
+                                className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white hover:bg-white/10"
+                            >
+                                <AiOutlineClose className="text-2xl" />
+                            </button>
+                        </div>
+
+                        <div className="flex-1 overflow-y-auto p-10 flex flex-col justify-start items-center text-center">
+                        <ul className="w-full">
                             {navItems.map((item, index) => (
-                                <li className="bg-neutral-900 py-1 text-base" key={index}>
+                                <li className="bg-neutral-900 py-3 text-base border-b border-neutral-800" key={index}>
                                     <NavLink 
                                     className={({ isActive }) =>
-                                       `font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                       `font-bold block w-full text-left uppercase ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
                                      }
-                                     to={item.href}>
+                                     to={item.href}
+                                     onClick={closeMobileDrawer}>
                                         {item.name}
                                     </NavLink>
                                 </li>
                             ))}
                         </ul>
+                        </div>
 
                     </div>
                 )}

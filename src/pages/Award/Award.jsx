@@ -10,6 +10,7 @@ import BannerLayout2 from "../../assets/AwardPage/BannerLayout2.jpg";
 import RecognitionPointer from "../../assets/AwardPage/RecognitionPointer.png";
 import InnovationPointer from "../../assets/AwardPage/InnovationPointer.png";
 import EthicalPointer from "../../assets/AwardPage/EthicalPointer.png";
+import AwardReasonCelebrate from "../../assets/AwardPage/AwardReasonCelebrate.webp";
 import CollaborationPointer from "../../assets/AwardPage/CollaborationPointer.png";
 import AwardLogo from "../../assets/AwardPage/Award.png";
 import industry from "../../assets/AwardPage/industry.jpg";
@@ -154,7 +155,7 @@ const Award = () => {
     },
     reasonsToApply: [
       {
-        imgSrc: "https://kuber.ventures/wp-content/uploads/2024/09/1.jpg",
+        imgSrc: AwardReasonCelebrate,
         title: "Celebrate and Acknowledge Team Effort",
         description:
           "Show appreciation for the relentless efforts of your team, recognizing their hard work to innovate with AI.",
