@@ -82,7 +82,7 @@ const TicketSection = () => {
   ];
 
   const timelineEvents = [
-    { label: "Early Bird", date: "2026-07-15" },
+    { label: "Early Bird", date: "2027-07-15" },
     { label: "Regular", date: "" },
     { label: "Late Price", date: "" },
   ];
