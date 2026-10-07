@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {useNavigate} from 'react-router-dom';
+import GAIEA_logo_2027 from '../../assets/AwardPage/GAIEA_logo_2027.png'; // Ensure this path is correct
 const GAIEA = () => {
   const navigate=useNavigate();
   const [isMobile, setIsMobile] = useState(false);
@@ -56,8 +57,8 @@ const GAIEA = () => {
             <div className="inline-block transform transition-all duration-500 hover:scale-105 hover:rotate-1">
               <div className="relative group">
                 <img 
-                  src="/GAIEA_NEW_logo2.png" 
-                  alt="The Global AI Excellence Award 2026" 
+                  src={GAIEA_logo_2027}
+                  alt="The Global AI Excellence Award 2027" 
                   className="w-full h-40 sm:h-45 md:h-50 lg:h-55 xl:h-60 max-w-none object-contain transition-all duration-300 group-hover:brightness-110 drop-shadow-2xl"
                   style={{
                     filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))'
@@ -76,7 +77,7 @@ const GAIEA = () => {
 
             {/* Main Title */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white tracking-wide drop-shadow-lg transition-all duration-700 hover:text-yellow-400 hover:tracking-wider animate-slide-in-right cursor-default">
-              GAIEA 2026
+              GAIEA 2027
             </h1>
 
             {/* Feature Grid */}

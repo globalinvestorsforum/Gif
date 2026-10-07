@@ -60,7 +60,7 @@ const FAQPage = () => {
         "The complete list of nominees will be announced according to the dates specified for each award.",
     },
     {
-      question: "What are the categories for the AI Awards 2025?",
+      question: "What are the categories for the AI Awards 2027?",
       answer:
         "Our AI Award program features a diverse array of categories spanning various industries and AI specializations. Explore the full list of categories on the dedicated page for the award that interests you.",
     },

@@ -6,7 +6,7 @@ export default function Timelines() {
     {
       id: 1,
       title: "Zero Cost Nomination Open",
-      date: "5th April 2026",
+      date: "15th October 2026",
       icon: Calendar,
       status: "upcoming",
       description: "Free nomination window opens"
@@ -14,7 +14,7 @@ export default function Timelines() {
     {
       id: 2,
       title: "Paid Nomination Open",
-      date: "5th August 2026",
+      date: "15th January 2027",
       icon: DollarSign,
       status: "upcoming",
       description: "Premium nomination period begins"
@@ -22,7 +22,7 @@ export default function Timelines() {
     {
       id: 3,
       title: "Nomination Deadline",
-      date: "1st September 2026",
+      date: "15th March 2027",
       icon: Clock,
       status: "upcoming",
       description: "Final date for all submissions"
@@ -30,7 +30,7 @@ export default function Timelines() {
     {
       id: 4,
       title: "Shortlist Announced",
-      date: "15th September 2026",
+      date: "15th April 2027",
       icon: Bell,
       status: "upcoming",
       description: "Finalists revealed to the public"
@@ -38,7 +38,7 @@ export default function Timelines() {
     {
       id: 5,
       title: "Winners Announcement",
-      date: "7th October 2026",
+      date: "12th May 2027",
       icon: Award,
       status: "upcoming",
       description: "Award ceremony and winners revealed"
