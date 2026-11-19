@@ -6,8 +6,10 @@ import { RevealLeft } from "../../utils/RevealLeft";
 import { RevealRight } from "../../utils/RevealRight";
 import { summitList } from "../../constants";
 import { Reveal } from "../../utils/Reveal";
+import SUMMIT_DEMOGRAPHY from "../../assets/SUMMIT_DEMOGRAPHY.jpeg";
 
 const Summit = () => {
+  // const subCardImg = "https://drive.google.com/uc?export=view&id=157ls0aPVRTd7MXjJRpuHuRAMfn_HpTcx";
   return (
     <section className="border-t border-neutral-500">
       <div className=" bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
@@ -19,7 +21,7 @@ const Summit = () => {
           <div className="md:w-1/2 flex justify-center">
           <Reveal width="100%" >
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
+                src={SUMMIT_DEMOGRAPHY}
                 alt=""
                 className="w-[100%]"
               />

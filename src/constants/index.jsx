@@ -2224,7 +2224,7 @@ demographics : [
   {
     title: "AI in Manufacturing",
     discription: "Accelerating Industry 4.O with AI.",
-    backImgURL:'https://www.supplychainbrain.com/ext/resources/2024/05/08/iStock-1465056863.webp?t=1715227314&width=1080&height=720&crop=1',
+    backImgURL:'https://thumbs.dreamstime.com/b/automated-production-line-robotic-arms-assembling-parts-precision-efficiency-key-modern-manufacturing-tech-innovation-351129386.jpg',
       // "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmanufaturing.jpg?alt=media&token=8da239bd-78c8-4e27-a36e-ab96347c2b34",
         interLink:"/gais/Industry#Manufacturing",
         eventLink: "/gais/conference/AI-Manufaturing-Summit",
