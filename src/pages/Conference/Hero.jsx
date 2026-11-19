@@ -31,7 +31,7 @@ const Hero = () => {
 
   {/* <div className="relative z-10 max-w-7xl mx-auto h-full px-8"> */}
 <div className="absolute left-10 md:left-20 bottom-24 md:bottom-32 z-10 max-w-2xl">
-
+<Reveal>
       <p className="text-white text-xl mb-4">
         2027 Agendas
       </p>
@@ -48,7 +48,7 @@ const Hero = () => {
         We go beyond agendas. We define direction. Our themes are not
         sessions — they are signals of where the world is heading.
       </p>
-
+</Reveal>
     </div>
   {/* </div> */}
 </div>
