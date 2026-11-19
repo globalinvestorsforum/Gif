@@ -334,6 +334,15 @@ const AwardFormPage = () => {
               Recognize outstanding achievements in artificial intelligence
               innovation, implementation, and impact across industries
             </p>
+
+            {/* Enable this button when you want to link the presentation from the awards page.
+            <a
+              href="/gais/award-presentation"
+              className="inline-flex mt-7 rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10"
+            >
+              View the awards presentation
+            </a>
+            */}
             
           </div>
         </div>

@@ -48,9 +48,11 @@ import {
 
 import { NotFound } from "./components/index";
 import Layout from "./components/Layout";
+import CanvaPresentationPage from "./pages/Presentation/CanvaPresentationPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    <>
     <Route path="/" element={<Layout />}>
       
       <Route path="/" element={<Gais />} />
@@ -99,6 +101,17 @@ const router = createBrowserRouter(
           
           {/* Samole test */}
     </Route>
+    {/* Standalone temporary presentation page: accessible by direct URL only. */}
+    <Route path="/gais/award-presentation" element={<CanvaPresentationPage />} />
+    {/* Enable this button when you want to link the presentation from where you want to add it.
+            <a
+              href="/gais/award-presentation"
+              className="inline-flex mt-7 rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10"
+            >
+              View the awards presentation
+            </a>
+            */}
+    </>
   )
 );
 
