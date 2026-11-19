@@ -9,8 +9,8 @@ This document outlines the complete SEO implementation strategy for the Global A
 
 ### Entry Point: `index.html`
 ```html
-<title>Global AI Summit 2026 | Berlin</title>
-<meta name="description" content="Global AI Summit 2026 (GAIS) in Berlin — bringing together global AI leaders, investors, and innovators for talks, networking, and collaboration." />
+<title>Global AI Summit 2027 | Berlin</title>
+<meta name="description" content="Global AI Summit 2027 (GAIS) in Berlin — bringing together global AI leaders, investors, and innovators for talks, networking, and collaboration." />
 <link rel="canonical" href="https://www.global-investors-forum.com/" />
 <meta name="robots" content="index, follow" />
 ```

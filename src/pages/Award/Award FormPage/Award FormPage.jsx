@@ -328,12 +328,21 @@ const AwardFormPage = () => {
           <div className="relative z-10 text-center max-w-4xl mx-auto">
             
             <h1 className="text-4xl font-bold uppercase text-white mb-6 tracking-tight">
-              Global AI Excellence Awards 2026
+              Global AI Excellence Awards
             </h1>
             <p className="text-gray-100 text-xl max-w-3xl mx-auto leading-relaxed">
               Recognize outstanding achievements in artificial intelligence
               innovation, implementation, and impact across industries
             </p>
+
+            {/* Enable this button when you want to link the presentation from the awards page.
+            <a
+              href="/gais/award-presentation"
+              className="inline-flex mt-7 rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10"
+            >
+              View the awards presentation
+            </a>
+            */}
             
           </div>
         </div>
